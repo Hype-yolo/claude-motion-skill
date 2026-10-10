@@ -1,0 +1,19 @@
+{
+  "name": "@hype-yolo/claude-motion",
+  "version": "0.1.0-beta.1",
+  "private": true,
+  "type": "module",
+  "description": "Source-assisted animation Skill: route, adapt and export editable films.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "playwright install chromium",
+    "render": "node scripts/render.mjs",
+    "check": "node scripts/check-package.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

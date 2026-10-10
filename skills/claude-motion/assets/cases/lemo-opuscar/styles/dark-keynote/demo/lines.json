@@ -1,0 +1,8 @@
+[
+  {"id": "l1", "text": "Your desktop.", "voice": "af_kore", "speed": 0.95},
+  {"id": "l2", "text": "Your photos.", "voice": "af_kore", "speed": 0.95},
+  {"id": "l3", "text": "Your inbox.", "voice": "af_kore", "speed": 0.95},
+  {"id": "l4", "text": "Meet Tidy.", "voice": "af_kore", "speed": 0.95},
+  {"id": "l5", "text": "One press, and everything finds its place.", "voice": "af_kore", "speed": 0.95},
+  {"id": "l6", "text": "Room to think.", "voice": "af_kore", "speed": 0.95, "onscreen": true}
+]

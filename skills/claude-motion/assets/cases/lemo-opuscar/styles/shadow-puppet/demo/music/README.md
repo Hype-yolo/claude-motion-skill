@@ -1,0 +1,3 @@
+- 乐器（core/audio/sampler 名）：锣鼓 gong2(big/small/scrape)、sus_cymbal(stick)、crash、woodblock(a)、frame_drum(large)、bass_drum、log_drum(hi)；板胡感 = erhu + 高架/鼻音共振峰/饱和 + 可变速重采样滑音揉弦；唢呐感 = oboe + 1.2–3 kHz 共振峰 + tanh 饱和 + 颤音；垫底 cellos、contrabass（全部 CC0，署名见 credits.txt）。
+- 运行（仓库根目录）：`.venv/bin/python styles/shadow-puppet/demo/music/score.py` → `score.wav`（48k 立体声 float，54.4 s，峰值 −1 dBFS）+ `stems/{luogu,banhu,suona,bass}.wav` + `score.json`，同时打印分段 RMS / 高频占比 / 静场自检。
+- score.json 字段：`dur`、`bpm`、`beat`、`key`（调式说明）、`hits`（片名落定、灯亮、10.8 重音、亮相、放箭、中日、34.8 硬停、36.9 轻锣、转场锣刮、醒木留空区间、收板大锣）、`cues`（C0–C11 的 name/t0/t1）、`stems`。

@@ -1,0 +1,67 @@
+1
+00:00:02,250 --> 00:00:03,450
+Meet Clawd.
+
+2
+00:00:03,450 --> 00:00:05,580
+It used to live in your terminal.
+
+3
+00:00:06,150 --> 00:00:08,830
+Now it lives right inside the Claude app.
+
+4
+00:00:10,850 --> 00:00:13,390
+Just say what you want, in plain words.
+
+5
+00:00:13,450 --> 00:00:15,600
+Point at a file with the @ sign,
+
+6
+00:00:16,050 --> 00:00:19,400
+and Claude reads your project before it touches a thing.
+
+7
+00:00:20,250 --> 00:00:22,810
+Not sure yet? Switch to Plan mode.
+
+8
+00:00:22,850 --> 00:00:26,910
+You get a clear plan, and nothing changes until you say go.
+
+9
+00:00:28,050 --> 00:00:30,250
+Every edit shows up as a diff.
+
+10
+00:00:30,450 --> 00:00:32,420
+Click any line, leave a note,
+
+11
+00:00:32,750 --> 00:00:34,480
+and Claude revises it.
+
+12
+00:00:36,450 --> 00:00:38,150
+Then it checks its own work.
+
+13
+00:00:38,150 --> 00:00:42,670
+It runs your app in the preview, and clicks through it, just like you would.
+
+14
+00:00:42,950 --> 00:00:45,620
+Got more to do? Start another session.
+
+15
+00:00:45,750 --> 00:00:47,610
+They work side by side.
+
+16
+00:00:50,750 --> 00:00:52,030
+Claude Code.
+
+17
+00:00:52,370 --> 00:00:54,660
+Say it. Plan it. Review it. Ship it.

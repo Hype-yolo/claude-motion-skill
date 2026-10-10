@@ -1,0 +1,19 @@
+The Island That Grew — music credits
+====================================
+
+All music is original and every sound was synthesized from scratch in numpy/scipy by score.py.
+No samples, loops, sample libraries or third-party recordings were used.
+(core/audio/INSTRUMENTS.md does not exist, so the shared sampler was not used.)
+
+Instruments (all synthesized):
+- Kalimba: modal synthesis, inharmonic partials 1 / 5.4 / 12.6 with fast upper decay, soft click
+- Marimba: modal synthesis, partials 1 / 3.9 / 9.2 (+ weak tube octave), soft mallet thump
+- Woodblock: short pitched wooden modes 1 / 2.61 / 4.3 / 6.9 + band-passed click
+- Buoy bell / ship bell: bell partials 0.56 0.92 1.19 1.71 2 2.74 3 3.76 4.07, slow beating, long decay
+- Glass tink / shimmer: modes 1 / 2.76 / 5.4
+- Ambient pad: detuned PolyBLEP saws with slow chorus LFO, 4th-order low-pass, dark/bright crossfade
+- Shaker: band-passed noise with envelope; kick: soft ~55 Hz sine sweep
+- Reverb: convolution with a synthesized, stereo, exponentially decaying noise IR (RT60 about 1.8 s)
+
+Composition, melody and arrangement: generated from the film's build events (events.json);
+"building = composing". License: same as the project, no third-party rights involved.

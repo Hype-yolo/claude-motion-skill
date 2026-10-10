@@ -1,0 +1,31 @@
+1
+00:00:00,750 --> 00:00:03,762
+Every rocket starts with one brick.
+
+2
+00:00:05,950 --> 00:00:08,365
+Then another. And another.
+
+3
+00:00:22,550 --> 00:00:25,276
+The first one fell apart.
+
+4
+00:00:25,550 --> 00:00:28,797
+That's okay. Now we have spare parts.
+
+5
+00:00:33,250 --> 00:00:34,250
+Three…
+
+6
+00:00:34,250 --> 00:00:35,250
+Three…  Two…
+
+7
+00:00:35,250 --> 00:00:36,500
+Three…  Two…  One…
+
+8
+00:00:45,150 --> 00:00:48,843
+And every moon base… starts with one brick.

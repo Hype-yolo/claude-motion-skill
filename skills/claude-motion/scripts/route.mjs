@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+/** Catalog-only retrieval. Never imports or scans the source corpus. */
+import { readFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const skillRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const catalog=JSON.parse(await readFile(path.join(skillRoot,'references/case-catalog.json'),'utf8'));
+const args=process.argv.slice(2),value=k=>args[args.indexOf(k)+1];
+const flag=args.includes('--list')?'--list':args.includes('--case')?'--case':args.includes('--query')?'--query':null;
+const normalize=s=>s.normalize('NFKC').toLowerCase();
+function contains(h,n){h=normalize(h);n=normalize(n);return /[\u3400-\u9fff]/.test(n)?h.includes(n):new RegExp('(^|[^a-z0-9])'+n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'($|[^a-z0-9])','i').test(h);}
+const aliases=[[/鲸鱼|海豚|whale|dolphin/i,['海洋','游泳']], [/大海|海底|ocean|underwater/i,['海洋']], [/游动|游泳|swim/i,['游泳']], [/木版|雕版|woodblock/i,['木刻']], [/手绘|hand.drawn/i,['水彩','蜡笔','墨线']], [/纸艺|paper.craft/i,['纸片','剪纸']], [/短视频|short.video/i,['叙事']], [/产品发布|product.launch/i,['产品发布']], [/数据图|图表|charts?/i,['图表']]];
+function rank(query){const inferred=aliases.filter(([p])=>p.test(query)).flatMap(([,t])=>t);const weights={material:6,action:5,scene:4,format:3,topic:2};return catalog.cases.map(c=>{const matches=[],reasonGroups=new Set();let score=0;
+for(const [group,tags]of Object.entries(c.tags)){for(const tag of tags){const direct=contains(query,tag);const expanded=!direct&&inferred.some(t=>normalize(t)===normalize(tag));if(direct||expanded){const points=weights[group]*(expanded?.45:1);score+=points;reasonGroups.add(group);matches.push({dimension:group,tag,kind:direct?'explicit-term':'related-term inference',weight:points});}}}
+for(const label of [c.style.slug,c.style.zh,c.style.en])if(contains(query,label)){score+=12;matches.push({dimension:'style',tag:label,kind:'explicit-style',weight:12});}
+if(reasonGroups.size>=2)score+=2;
+return {id:c.id,title:c.title,style:c.style,score:Math.round(score*100)/100,relevance:matches.some(m=>m.dimension==='style')?'explicit-style-match':reasonGroups.size>=2?'multiple-tag-match':'limited-tag-match',reasons:matches,preview:{...c.preview,...(c.preview.localPath?{resolvedLocalPath:path.join(skillRoot,c.preview.localPath)}:{})},paths:Object.fromEntries(Object.entries(c.paths).map(([k,v])=>[k,path.join(skillRoot,v)])),source:c.source,retain:c.retain,adapt:c.adapt,runtime:c.runtime};}).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||a.id.localeCompare(b.id));}
+try{if(!flag)throw Error('Usage: node route.mjs --query TEXT [--limit N] | --list | --case ID');
+if(flag==='--list')console.log(JSON.stringify({caseCount:catalog.cases.length,cases:catalog.cases.map(c=>({id:c.id,title:c.title,style:c.style,previewStatus:c.preview.status}))},null,2));
+else if(flag==='--case'){const c=catalog.cases.find(c=>c.id===value('--case'));if(!c)throw Error('Unknown case ID');console.log(JSON.stringify({...c,preview:{...c.preview,...(c.preview.localPath?{resolvedLocalPath:path.join(skillRoot,c.preview.localPath)}:{})},resolvedPaths:Object.fromEntries(Object.entries(c.paths).map(([k,v])=>[k,path.join(skillRoot,v)]))},null,2));}
+else{const q=value('--query');if(!q||q.startsWith('--'))throw Error('--query requires text');const limit=args.includes('--limit')?Number(value('--limit')):5;if(!Number.isInteger(limit)||limit<1||limit>catalog.cases.length)throw Error('--limit must be an integer from 1 to '+catalog.cases.length);const results=rank(q);console.log(JSON.stringify({query:q,indexedCases:catalog.cases.length,totalMatches:results.length,method:'Weighted bilingual tag retrieval: material > action > scene > format > topic. Scores rank candidates, not confidence or quality.',boundary:'Author-claimed Claude/Opus sources, not API verified. Related-term inference is marked; no exact subject match is implied. Read preview caveats and inspect relevant source functions before adaptation.',results:results.slice(0,limit)},null,2));}
+}catch(e){console.error(e.message);process.exitCode=1;}

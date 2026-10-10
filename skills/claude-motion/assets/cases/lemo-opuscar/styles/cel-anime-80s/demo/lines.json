@@ -1,0 +1,10 @@
+[
+ {"id": "d1", "text": "Nightbird, come in. The launch is at dawn.", "voice": "am_michael", "speed": 1.0},
+ {"id": "d2", "text": "The pilot won't fly without his tape.", "voice": "am_michael", "speed": 1.0},
+ {"id": "g1", "text": "Copy. I'll beat the sun.", "voice": "af_bella", "speed": 1.0},
+ {"id": "d3", "text": "The drawbridge is going up! Turn back!", "voice": "am_michael", "speed": 1.12},
+ {"id": "g2", "text": "No time to go around.", "voice": "af_bella", "speed": 1.05},
+ {"id": "g3", "text": "Special delivery.", "voice": "af_bella", "speed": 0.95},
+ {"id": "d4", "text": "Tape's aboard. He's playing it now.", "voice": "am_michael", "speed": 1.0},
+ {"id": "g4", "text": "Told you I'd beat the sun.", "voice": "af_bella", "speed": 0.92}
+]

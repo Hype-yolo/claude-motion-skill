@@ -1,0 +1,41 @@
+{
+  "_doc": "《The Last Save Point》唯一时间线（秒）。画面 story.js、配乐 music/score.py、混音 mix.py 都读这份。改时间只改这里。",
+  "dur": 54.5,
+  "vo": {
+    "vo1": {"t": 5.0, "expr": "wistful"},
+    "vo2": {"t": 11.5, "expr": "smile"},
+    "vo4": {"t": 32.2, "expr": "sad"},
+    "vo5": {"t": 42.4, "expr": "wistful"},
+    "vo6": {"t": 46.1, "expr": "determined"}
+  },
+  "sections": [
+    {"id": "A_savepoint", "t0": 0.0, "t1": 11.0, "bpm": 80, "meter": "4/4", "downbeats": [2.0, 5.0, 8.0], "key": "F major",
+     "fidelity": "present: faded/muffled (lowpass ~2.2 kHz), 12.5% pulse lead + triangle bass + music-box arp, long SNES echo",
+     "mood": "lonely, tender", "hits": {"chime": 0.0, "title": 2.0, "vo1": 5.0, "menu": 8.0, "cursor": [8.75, 9.5], "select": 10.25},
+     "note": "phrase of motif M ends UNRESOLVED on the dominant around 10.25-11.0"},
+    {"id": "B_village", "t0": 11.0, "t1": 18.0, "bpm": 102.857, "meter": "4/4", "downbeats": [11.0, 13.333, 15.667], "key": "F major",
+     "fidelity": "4-color memory: 2 pulse + wave + noise, MONO, 4-bit volume steps, 11 kHz sample-and-hold (aliasing on purpose)",
+     "mood": "innocent, setting out", "hits": {"hilltop": 15.667, "point": 16.25, "transition": 17.6}},
+    {"id": "C_campfire", "t0": 18.0, "t1": 25.4, "bpm_dotted_quarter": 81.08, "meter": "6/8", "bar": 1.48, "downbeats": [18.0, 19.48, 20.96, 22.44, 23.92], "key": "Bb major",
+     "fidelity": "8-bit memory: 25% pulse lead + triangle bass + arpeggiated chords, MONO, NES-like",
+     "mood": "warm, intimate lullaby", "hits": {"wren_text": 19.48, "scarf_wrap": 22.44, "shooting_star": 24.0}},
+    {"id": "encounter", "t0": 25.4, "t1": 26.2, "note": "stinger: harsh descending sweep + noise, lands at 26.2"},
+    {"id": "D_battle", "t0": 26.2, "t1": 29.2, "bpm": 160, "meter": "4/4", "downbeats": [26.2, 27.7], "key": "D minor",
+     "fidelity": "16-bit: slap bass ostinato, brassy pulse stabs, snare noise, STEREO + echo; motif M in minor",
+     "mood": "urgent", "hits": {"ward_msg": 26.95, "ward": 27.325, "charge": 27.7}, "hard_cut": 29.2,
+     "note": "music must be DEAD SILENT from 29.2 (cut the echo tail too)"},
+    {"id": "KO_silence", "t0": 29.2, "t1": 30.1, "note": "true silence"},
+    {"id": "E_lament_drain", "t0": 30.1, "t1": 35.5, "bpm": 66.667, "meter": "free, beat 0.9", "key": "F major -> hollow",
+     "note": "Motif M slow, soft. Fidelity DROPS one level on each palette step: before 31.0 = full (melody + harmony pad + bass, stereo echo); 31.0 harmony leaves; 31.9 echo/stereo gone, mono melody + bass; 32.8 melody becomes thin 8-bit pulse, bass gone; 33.7 only ONE long square tone; 34.6 SILENCE (one beat, 34.6-35.5)",
+     "steps": [31.0, 31.9, 32.8, 33.7, 34.6]},
+    {"id": "F_present", "t0": 35.5, "t1": 45.5, "note": "near-silence: thin high pad (muffled), crystal hum is SFX. At 40.3 SAVE COMPLETE jingle = first 3 notes of M in major, bright, echo. 42.1-44.9 low sustained tone under the door tilt. 44.7 one soft heartbeat-like low thump.",
+     "hits": {"save_complete": 40.3, "tilt": 42.1}},
+    {"id": "G_lastdoor", "t0": 45.5, "t1": 49.5, "bpm": 120, "meter": "4/4", "downbeats": [45.5, 47.5], "key": "D minor",
+     "fidelity": "45.5 bar1: minor bass 8ths + timpani-like noise hits, still muffled-ish; 47.5 bar2: FULL band enters (pulse brass in octaves play M, drums, echo, stereo wide) — this is when color floods back",
+     "mood": "resolve", "hits": {"push": 46.0, "flood": 47.5, "white_flash": 49.5}, "hard_cut_after_hit": 49.5,
+     "note": "big hit ON 49.5 then cut, let only echo ring ~0.8s"},
+    {"id": "H_coda", "t0": 50.4, "t1": 54.5, "bpm": 80, "key": "F major",
+     "fidelity": "full 16-bit, music box / bell lead + soft pad, echo",
+     "note": "the phrase of M that was left unresolved at 10.25 now RESOLVES to the tonic; last chord rings to 54.5 with fade in the last 0.6s"}
+  ]
+}

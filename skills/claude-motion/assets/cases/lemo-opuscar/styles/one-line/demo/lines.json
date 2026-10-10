@@ -1,0 +1,38 @@
+[
+ {
+  "id": "L1",
+  "text": "Everyone begins by holding on.",
+  "voice": "am_liam",
+  "speed": 0.84
+ },
+ {
+  "id": "L2",
+  "text": "Then someone teaches you to let go.",
+  "voice": "am_liam",
+  "speed": 0.84
+ },
+ {
+  "id": "L3",
+  "text": "For a while, one line was enough for two.",
+  "voice": "am_liam",
+  "speed": 0.84
+ },
+ {
+  "id": "L4a",
+  "text": "Sometimes the line stops.",
+  "voice": "am_liam",
+  "speed": 0.84
+ },
+ {
+  "id": "L4b",
+  "text": "And then it goes on.",
+  "voice": "am_liam",
+  "speed": 0.84
+ },
+ {
+  "id": "L5",
+  "text": "Your turn now.",
+  "voice": "am_liam",
+  "speed": 0.84
+ }
+]

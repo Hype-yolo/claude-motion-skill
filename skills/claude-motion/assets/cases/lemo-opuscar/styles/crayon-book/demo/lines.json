@@ -1,0 +1,9 @@
+[
+ {"id": "n1", "text": "The moon could not sleep.", "voice": "af_heart", "speed": 0.86},
+ {"id": "n2", "text": "It tossed, and it turned, and it counted sheep.", "voice": "af_heart", "speed": 0.9},
+ {"id": "n3", "text": "Down below, someone else was awake, too.", "voice": "af_heart", "speed": 0.89},
+ {"id": "n4", "text": "So she climbed up, up, up, onto the roof,", "voice": "af_heart", "speed": 0.9},
+ {"id": "n5", "text": "and sang, the softest song she knew.", "asr": "and sang the softest song she knew.", "voice": "af_heart", "speed": 0.86},
+ {"id": "n6", "text": "And at last, the moon fell asleep.", "voice": "af_heart", "speed": 0.88},
+ {"id": "n7", "text": "Night, night.", "voice": "af_heart", "speed": 0.8}
+]

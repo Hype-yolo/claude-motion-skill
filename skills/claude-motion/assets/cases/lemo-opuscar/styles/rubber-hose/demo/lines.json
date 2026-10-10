@@ -1,0 +1,46 @@
+[
+ {
+  "id": "v1a",
+  "text": "Seven a.m., folks!",
+  "asr": "7 a.m. Folks",
+  "voice": "bm_lewis",
+  "speed": 1.0
+ },
+ {
+  "id": "v1b",
+  "text": "And boy, is this coffee bitter!",
+  "voice": "bm_lewis",
+  "speed": 1.0
+ },
+ {
+  "id": "v2",
+  "text": "And they're off!",
+  "asr": "And they are off",
+  "voice": "bm_lewis",
+  "speed": 1.0
+ },
+ {
+  "id": "v3",
+  "text": "Up the china cabinet... what a climber!",
+  "voice": "bm_lewis",
+  "speed": 1.0
+ },
+ {
+  "id": "v4",
+  "text": "Look out, folks... the drain!",
+  "voice": "bm_lewis",
+  "speed": 1.0
+ },
+ {
+  "id": "v5",
+  "text": "Well, I'll be... sweet as pie!",
+  "voice": "bm_lewis",
+  "speed": 1.0
+ },
+ {
+  "id": "v6",
+  "text": "Good night, folks!",
+  "voice": "bm_lewis",
+  "speed": 1.0
+ }
+]

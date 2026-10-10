@@ -1,0 +1,122 @@
+{
+ "dur": 59.82680527520344,
+ "keys": {
+  "G1_cmd": 0.0,
+  "G1_pump1": 1.0,
+  "G1_pump2": 1.5,
+  "G1_pump3": 2.0,
+  "G1_pump4": 2.5,
+  "G1_float": 3.0,
+  "G1_ok": 3.5,
+  "S1_in": 4.0,
+  "S1_title_run": 4.25,
+  "S1_click_gap": 7.5,
+  "G2_cmd": 8.0,
+  "G2_dust": 8.5,
+  "G2_ah1": 9.5,
+  "G2_ah2": 10.0,
+  "G2_silence": [
+   10.0,
+   10.5
+  ],
+  "G2_achoo": 10.5,
+  "G2_fail": 11.0,
+  "S2_click_gap": 13.5,
+  "G3_cmd": 14.0,
+  "G3_belt1": 15.0,
+  "G3_belt2": 15.5,
+  "G3_belt3": 16.0,
+  "G3_buckle": 16.5,
+  "G3_secured": 17.0,
+  "G3_ok": 17.5,
+  "S3_click_gap": 19.5,
+  "G4_cmd": 20.0,
+  "G4_catch": 22.5,
+  "G4_chomp_gap": 23.0,
+  "G4_ok": 23.5,
+  "S4_button": 25.5,
+  "SPEED_reel1": 26.4898,
+  "SPEED_reel2": 26.9604,
+  "SPEED_reel3": 27.4132,
+  "G5_cmd": 27.8496,
+  "G5_over1": 28.707,
+  "G5_over2": 29.35,
+  "G5_over3": 29.993,
+  "G5_ok": 30.2,
+  "S5_click_gap": 31.07,
+  "G6_cmd": 31.2781,
+  "G6_zip1": 32.35,
+  "G6_zip2": 32.56,
+  "G6_zip3": 32.78,
+  "G6_zip4": 32.99,
+  "G6_zip5": 33.21,
+  "G6_zip6": 33.42,
+  "G6_stamp": 33.64,
+  "S6_click_gap": 34.5,
+  "G7_cmd": 34.7067,
+  "G7_swing": 35.564,
+  "G7_bonk": 35.993,
+  "G7_bounce1": 36.21,
+  "G7_bounce2": 36.42,
+  "G7_replay": [
+   36.421,
+   37.278
+  ],
+  "G7_resume": 37.278,
+  "G7_fail": 37.707,
+  "S7_lightsoff": 38.1353,
+  "S7_silence": [
+   38.2,
+   39.8496
+  ],
+  "BOSS_land": 41.4518,
+  "BOSS_cloud1": 42.9518,
+  "BOSS_cloud2": 43.3268,
+  "BOSS_cloud3": 43.7018,
+  "BOSS_cloud4": 44.0768,
+  "BOSS_pull": 44.4518,
+  "BOSS_chute": 44.83,
+  "BOSS_err": 45.2,
+  "BOSS_silence": [
+   45.952,
+   47.452
+  ],
+  "BOSS_dust": 46.0,
+  "BOSS_ah1": 46.7,
+  "BOSS_ah2": 47.08,
+  "BOSS_achoo": 47.4518,
+  "BOSS_canopy1": 47.4518,
+  "BOSS_canopy2": 47.8268,
+  "BOSS_canopy3": 48.2018,
+  "BOSS_canopy4": 48.5768,
+  "BOSS_theme": 48.9518,
+  "BOSS_splash": 51.9518,
+  "BOSS_clear": 52.7,
+  "BOSS_pause": [
+   53.2,
+   53.452
+  ],
+  "RESULT_in": 53.4518,
+  "RESULT_salute": 56.0768,
+  "RESULT_ding": 56.45,
+  "END_chord": 57.2018,
+  "END_button": 59.4
+ },
+ "silences": [
+  [
+   10.0,
+   10.5,
+   "G2"
+  ],
+  [
+   38.2,
+   39.849577978704346,
+   "S7"
+  ],
+  [
+   45.952,
+   47.452,
+   "B4"
+  ]
+ ]
+}

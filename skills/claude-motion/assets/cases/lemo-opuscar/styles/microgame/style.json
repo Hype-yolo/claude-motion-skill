@@ -1,0 +1,18 @@
+{
+ "slug": "microgame",
+ "num": "32",
+ "en": "Microgame Frenzy",
+ "cn": "微游戏快闪（瓦里奥制造式）",
+ "category_en": "Games",
+ "category_cn": "游戏",
+ "film": "Five-Second Astronaut",
+ "line": "A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.",
+ "line_cn": "见习宇航员闯五秒训练营，越来越快，Boss 关亲手降落回地球。",
+ "uses": [
+  "Game trailers",
+  "Onboarding",
+  "Social shorts"
+ ],
+ "frame_sec": 23.92,
+ "dur": 59.8
+}

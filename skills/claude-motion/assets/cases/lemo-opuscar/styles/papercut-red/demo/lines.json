@@ -1,0 +1,7 @@
+[
+ {"id":"L1","text":"Every New Year's Eve, the monster Nian came down from the mountains.","asr":"Every New Year's Eve, the monster Nion came down from the mountains.","voice":"af_sarah","speed":0.9},
+ {"id":"L2","text":"One by one, the village put out its lights.","voice":"af_sarah","speed":0.9},
+ {"id":"L3","text":"But Nian fears three things: the color red, bright light, and loud noise.","asr":"But Nyan fears three things, the color red, bright light, and loud noise.","voice":"af_sarah","speed":0.9},
+ {"id":"L4","text":"Crackle, bang! And away ran Nian.","asr":"crackle bang, and away ran Nyan.","voice":"af_sarah","speed":0.9},
+ {"id":"L5","text":"That is why, every New Year, we still paste red paper on our windows.","voice":"af_sarah","speed":0.9}
+]

@@ -1,0 +1,26 @@
+{
+ "dur": 58.5,
+ "grid": [
+  {"id":"A","t0":0,"t1":3.0,"bpm":null,"note":"free, no music"},
+  {"id":"B","t0":3.0,"t1":23.0,"bpm":60},
+  {"id":"C","t0":23.0,"t1":32.3333,"bpm":90,"note":"music cuts dead at 28.3333; silence to 32.3333"},
+  {"id":"D","t0":32.3333,"t1":36.3333,"bpm":60},
+  {"id":"E","t0":36.3333,"t1":44.3333,"bpm":90,"note":"fade out 43.0-44.3333"},
+  {"id":"F","t0":44.3333,"t1":47.3333,"bpm":null,"note":"DIGITAL SILENCE"},
+  {"id":"G","t0":47.3333,"t1":48.3333,"bpm":null,"note":"bell alone (foley)"},
+  {"id":"H","t0":48.3333,"t1":58.5,"bpm":60,"note":"strings in the bell decay, D major"}
+ ],
+ "keys": {
+  "knife_first": 1.0, "line_end": 2.8,
+  "carve_ridge": 3.0, "carve_village": 4.0, "carve_fine": 5.0, "carve_title": 6.0,
+  "ink_roll": 7.0, "paper_lay": 7.6667, "rub": 8.0, "peel": 8.5, "print_land": 9.0,
+  "L1": 11.1, "fire_jcut": 14.5, "cut_hands": 15.0, "rasp1": 15.6, "rasp2": 17.6,
+  "gift_pot": 19.0, "L2": 19.2, "gift_candle": 20.0, "gift_keys": 21.0, "gift_ring": 21.5, "gift_spoon": 22.0, "gift_bracelet": 22.25, "clutch": 22.5,
+  "furnace": 23.0, "glow": 24.3333, "tongs": 25.0, "pour1": 25.6667,
+  "smash": 27.0, "reveal1": 27.6667, "clunk": 28.3333, "crack_end": 29.6, "silence1": 29.6667,
+  "click": 32.3333, "L3": 32.6, "compass_drop": 35.5,
+  "bellows2": 36.3333, "lift": 37.6667, "pour2": 39.0, "rays2": 39.3333, "reveal2": 41.6667, "pull2": 43.0,
+  "silence2": 44.3333, "bell": 47.3333, "echo1": 48.0, "echo2": 48.9, "strings": 48.3333,
+  "L4": 51.8, "vanish": 52.5, "endcard": 55.0, "end": 58.5
+ }
+}

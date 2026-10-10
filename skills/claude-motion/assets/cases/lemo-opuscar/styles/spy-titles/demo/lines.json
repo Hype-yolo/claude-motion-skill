@@ -1,0 +1,44 @@
+[
+ {
+  "id": "l1",
+  "t": 0.12,
+  "text": "Your target carries a key.",
+  "voice": "bm_george",
+  "speed": 0.97
+ },
+ {
+  "id": "l2",
+  "t": 3.35,
+  "text": "Nobody knows what it opens.",
+  "voice": "bm_george",
+  "speed": 0.92
+ },
+ {
+  "id": "l3",
+  "t": 11.75,
+  "text": "He travels light.",
+  "voice": "bm_george",
+  "speed": 0.9
+ },
+ {
+  "id": "l4",
+  "t": 17.45,
+  "text": "He never looks back.",
+  "voice": "bm_george",
+  "speed": 0.92
+ },
+ {
+  "id": "l5",
+  "t": 26.15,
+  "text": "Tonight, he runs out of roof.",
+  "voice": "bm_george",
+  "speed": 0.92
+ },
+ {
+  "id": "l6",
+  "t": 37.95,
+  "text": "Now you know what it opens.",
+  "voice": "bm_george",
+  "speed": 0.9
+ }
+]

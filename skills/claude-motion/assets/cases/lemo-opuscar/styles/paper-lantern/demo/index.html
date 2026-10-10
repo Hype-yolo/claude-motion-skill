@@ -1,0 +1,17 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>一个月饼的相思</title>
+<style>
+@font-face { font-family: MaShanZheng; src: url(fonts/MaShanZheng.ttf); }
+@font-face { font-family: ZhiMangXing; src: url(fonts/ZhiMangXing.ttf); }
+@font-face { font-family: LongCang; src: url(fonts/LongCang.ttf); }
+@font-face { font-family: NotoSerifSC; src: url(fonts/NotoSerifSC.ttf); font-weight: 200 900; }
+html, body { margin: 0; background: #000; overflow: hidden; }
+#c { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+#sub { position: absolute; left: 0; right: 0; bottom: 74px; text-align: center; white-space: pre-line; line-height: 1.45; font-family: NotoSerifSC; font-weight: 500; font-size: 40px; letter-spacing: .06em;
+  color: #fbf3e4; text-shadow: 0 0 2px rgba(0,0,0,.9), 0 2px 10px rgba(0,0,0,.75), 0 0 28px rgba(0,0,0,.45); opacity: 0; }
+#credit { position: absolute; left: 0; right: 0; bottom: 40px; text-align: center; font-family: NotoSerifSC; font-weight: 400; font-size: 19px; line-height: 1.7; color: rgba(245,232,210,.85); text-shadow: 0 1px 6px rgba(0,0,0,.8); opacity: 0; white-space: pre-line; }
+</style>
+<script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }</script>
+</head><body><canvas id="c"></canvas><div id="sub"></div><div id="credit"></div>
+<script type="module" src="src/main.js"></script>
+</body></html>

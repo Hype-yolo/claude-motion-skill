@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-10",
+  "release": "v0.1.0-beta.1",
+  "os": "Darwin 26.6.2",
+  "arch": "arm64",
+  "node": "v26.0.0",
+  "playwright": "1.63.0",
+  "isolation": "Fresh copied package outside original checkout; fresh npm ci; separate downloaded Chromium directory; MOTION_PLAYWRIGHT_MODULE and NODE_PATH unset; existing system Node and FFmpeg reused. Not a clean OS or container.",
+  "sourceIntegrity": {
+    "cases": 47,
+    "previews": 36,
+    "upstreamFiles": 1362,
+    "status": "passed"
+  },
+  "skillStructure": "quick_validate.py passed",
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "duration": 18,
+    "fps": 24,
+    "frames": 432,
+    "audio": false,
+    "decode": "passed",
+    "seekRepeat": "identical",
+    "errors": [],
+    "blocked": []
+  },
+  "distributionScan": "No symlinks, dependency directories, detected local user paths or credential markers in staged Skill files. Pattern checks do not constitute a security audit.",
+  "originalExampleSha256": "5706770a7499769a1a6d935d16595f6a59aacc1291b1439832bdaa940c163fd2",
+  "packagedExampleSha256": "5706770a7499769a1a6d935d16595f6a59aacc1291b1439832bdaa940c163fd2",
+  "platformBoundary": "macOS only; 47-case full-film playback and Windows/Linux unverified."
+}

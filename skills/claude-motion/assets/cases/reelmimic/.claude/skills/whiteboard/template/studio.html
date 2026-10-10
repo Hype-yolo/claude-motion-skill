@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>whiteboard studio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=LXGW+WenKai+TC:wght@400;700&display=block">
+<style>
+  html, body { margin: 0; background: #1b1820; color: #eee; font: 13px system-ui, sans-serif; }
+  main { padding: 12px; display: grid; gap: 8px; }
+  #out { width: min(100%, 1280px); aspect-ratio: 16 / 9; height: auto; background: #fff; }
+  .bar { display: flex; gap: 10px; align-items: center; max-width: 1280px; }
+  #scrub { flex: 1; } #tt { font-variant-numeric: tabular-nums; min-width: 190px; }
+</style>
+</head>
+<body>
+<main>
+  <canvas id="out" width="1920" height="1080"></canvas>
+  <div class="bar"><input id="scrub" type="range" min="0" max="10" step="0.0417" value="0"><span id="tt">loading…</span></div>
+</main>
+<!-- engine: config, shared kit, this engine's drawing library -->
+<script src="src/config.js"></script>
+<script src="src/kit.js"></script>
+<script src="src/whiteboard.js"></script>
+<script src="src/cast.js"></script>
+<!-- model sheets (standalone loops: node render.mjs --loop=cast ...) -->
+<script src="src/sheets.js"></script>
+<!-- your video: one script per scene file, in order -->
+<script src="src/scenes/demo.js"></script>
+</body>
+</html>

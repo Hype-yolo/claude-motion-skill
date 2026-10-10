@@ -1,0 +1,46 @@
+[
+ {
+  "id": "v1",
+  "voice": "bm_daniel",
+  "speed": 0.9,
+  "lang": "en-gb",
+  "text": "Figure one. An apparatus for catching clouds.",
+  "asr": "Figure 1. An apparatus for catching clouds."
+ },
+ {
+  "id": "v2",
+  "voice": "bm_daniel",
+  "speed": 0.9,
+  "lang": "en-gb",
+  "text": "Figure two. Thirteen parts, one bellows, and a rather optimistic net.",
+  "asr": "Figure two. 13 parts, one bellows, and a rather optimistic net."
+ },
+ {
+  "id": "v3",
+  "voice": "bm_daniel",
+  "speed": 0.9,
+  "lang": "en-gb",
+  "text": "It works beautifully. Except, there are no clouds on this sheet."
+ },
+ {
+  "id": "v4",
+  "voice": "bm_daniel",
+  "speed": 0.9,
+  "lang": "en-gb",
+  "text": "So, I issued a revision."
+ },
+ {
+  "id": "v5",
+  "voice": "bm_daniel",
+  "speed": 0.9,
+  "lang": "en-gb",
+  "text": "It rained on the drawing. I'm told drawings don't do that."
+ },
+ {
+  "id": "v6",
+  "voice": "bm_daniel",
+  "speed": 0.9,
+  "lang": "en-gb",
+  "text": "Status: works. Slightly damp."
+ }
+]

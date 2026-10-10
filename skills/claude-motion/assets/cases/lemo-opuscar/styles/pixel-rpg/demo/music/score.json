@@ -1,0 +1,142 @@
+{
+ "A_unresolved_G4": 10.25,
+ "B_point_accent": 16.250007291676795,
+ "C_star": 24.0,
+ "E_steps": [
+  31.0,
+  31.9,
+  32.8,
+  33.7,
+  34.6
+ ],
+ "save_complete": {
+  "t": [
+   40.3,
+   40.419999999999995,
+   40.54
+  ],
+  "notes": [
+   "A5",
+   "C6",
+   "F6"
+  ]
+ },
+ "G_flood": 47.5,
+ "G_hit": 49.5,
+ "H_resolve_F4": 53.4,
+ "motif_M": {
+  "key": "F major",
+  "notes": [
+   "A4",
+   "C5",
+   "F5",
+   "E5",
+   "D5"
+  ],
+  "degrees": "3-5-1'-7-6",
+  "A_phrase": "A4 C5 F5 | E5 D5 | C5 A#4 A4 G4 (ends on dominant, unresolved)",
+  "H_resolution": "D5 C5 A#4 G4 A4 F4 (tonic)"
+ },
+ "sections": {
+  "A_savepoint": [
+   0.0,
+   11.0
+  ],
+  "B_village": [
+   11.0,
+   18.0
+  ],
+  "C_campfire": [
+   18.0,
+   25.4
+  ],
+  "encounter": [
+   25.4,
+   26.2
+  ],
+  "D_battle": [
+   26.2,
+   29.2
+  ],
+  "KO_silence": [
+   29.2,
+   30.1
+  ],
+  "E_lament_drain": [
+   30.1,
+   35.5
+  ],
+  "F_present": [
+   35.5,
+   45.5
+  ],
+  "G_lastdoor": [
+   45.5,
+   49.5
+  ],
+  "H_coda": [
+   50.4,
+   54.5
+  ]
+ },
+ "encounter_stinger_in_score": [
+  25.4,
+  26.2
+ ],
+ "selfcheck": {
+  "A_savepoint": {
+   "rms_db": -27.4,
+   "peak_db": -12.1,
+   "hf_8_20k_rel_db": -48.3
+  },
+  "B_village": {
+   "rms_db": -22.6,
+   "peak_db": -10.5,
+   "hf_8_20k_rel_db": -28.2
+  },
+  "C_campfire": {
+   "rms_db": -25.1,
+   "peak_db": -13.3,
+   "hf_8_20k_rel_db": -26.7
+  },
+  "encounter": {
+   "rms_db": -22.6,
+   "peak_db": -13.1,
+   "hf_8_20k_rel_db": -18.5
+  },
+  "D_battle": {
+   "rms_db": -18.6,
+   "peak_db": -3.7,
+   "hf_8_20k_rel_db": -21.2
+  },
+  "KO_silence": {
+   "rms_db": -200.0,
+   "peak_db": -240.0,
+   "hf_8_20k_rel_db": null
+  },
+  "E_lament_drain": {
+   "rms_db": -27.4,
+   "peak_db": -15.1,
+   "hf_8_20k_rel_db": -26.8
+  },
+  "F_present": {
+   "rms_db": -32.6,
+   "peak_db": -16.5,
+   "hf_8_20k_rel_db": -35.0
+  },
+  "G_lastdoor": {
+   "rms_db": -19.6,
+   "peak_db": -1.5,
+   "hf_8_20k_rel_db": -26.2
+  },
+  "H_coda": {
+   "rms_db": -25.1,
+   "peak_db": -12.7,
+   "hf_8_20k_rel_db": -31.4
+  },
+  "silence_29.2-30.1_peak_db": -240.0,
+  "silence_34.6-35.5_peak_db": -240.0,
+  "master_peak_db": -1.5,
+  "clipped_samples": 0
+ }
+}

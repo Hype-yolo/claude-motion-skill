@@ -1,0 +1,10 @@
+[
+ {"id": "l1", "t": 4.4, "text": "Rule one. Build a grid.", "asr": "Rule 1, build a grid.", "voice": "af_sarah", "speed": 1.0},
+ {"id": "l2", "t": 8.4, "text": "Rule two. Use one typeface.", "asr": "Rule 2, use one type face.", "voice": "af_sarah", "speed": 1.0},
+ {"id": "l3", "t": 12.4, "text": "Rule three. Leave space.", "asr": "Rule 3, leave space.", "voice": "af_sarah", "speed": 1.0},
+ {"id": "l4", "t": 16.4, "text": "Rule four. Align everything.", "asr": "Rule 4, align everything.", "voice": "af_sarah", "speed": 1.0},
+ {"id": "l4b", "t": 20.1, "text": "Perfect. And a little dull.", "voice": "af_sarah", "speed": 1.0},
+ {"id": "l5", "t": 22.15, "text": "Rule five. Break one rule.", "asr": "Rule 5, break one rule.", "voice": "af_sarah", "speed": 1.0},
+ {"id": "l5b", "t": 24.6, "text": "Only one.", "voice": "af_sarah", "speed": 1.0},
+ {"id": "l6", "t": 36.5, "text": "Same five rules. A different song every time.", "voice": "af_sarah", "speed": 1.0}
+]

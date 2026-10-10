@@ -1,0 +1,18 @@
+{
+ "slug": "game-show",
+ "num": "33",
+ "en": "Game Show Flat",
+ "cn": "综艺节奏扁平",
+ "category_en": "Games",
+ "category_cn": "游戏",
+ "film": "Rhythm of AI, 1997 → 2026",
+ "line": "The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.",
+ "line_cn": "把 AI 发展史做成一局节奏游戏，模型踩着拍登场，最后发成绩单。",
+ "uses": [
+  "Tech timelines",
+  "Year in review",
+  "Variety shows"
+ ],
+ "frame_sec": 74.4,
+ "dur": 148.8
+}

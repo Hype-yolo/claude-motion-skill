@@ -1,0 +1,19 @@
+1
+00:00:05,620 --> 00:00:10,683
+Each dot is one summer: the whole planet's average temperature.
+
+2
+00:00:11,950 --> 00:00:15,808
+For fifty years, her summers barely moved.
+
+3
+00:00:21,450 --> 00:00:26,068
+Then the dots began to climb, and they never came back down.
+
+4
+00:00:32,450 --> 00:00:37,220
+This summer, she turned one hundred. It was the warmest ever measured.
+
+5
+00:00:43,550 --> 00:00:46,929
+The next summer hasn't been drawn yet.

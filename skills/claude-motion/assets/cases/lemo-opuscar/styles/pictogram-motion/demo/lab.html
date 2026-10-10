@@ -1,0 +1,74 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: "Inter Tight"; src: url(fonts/InterTightwght.ttf); font-weight: 100 900; }
+@font-face { font-family: "Noto Sans SC"; src: url(fonts/NotoSansSCwght.ttf); font-weight: 100 900; }
+@font-face { font-family: "Noto Sans JP"; src: url(fonts/NotoSansJPwght.ttf); font-weight: 100 900; }
+@font-face { font-family: "DM Mono"; src: url(fonts/DMMono-Medium.ttf); font-weight: 500; }
+html,body { margin:0; background:#111; }
+canvas { display:block; }
+</style></head>
+<body>
+<canvas id="c"></canvas>
+<script src="engine.js"></script>
+<script src="poses/base.js"></script>
+<script src="poses/ath.js"></script>
+<script src="poses/aqua.js" onerror="0"></script>
+<script src="poses/ball.js" onerror="0"></script>
+<script src="poses/combat.js" onerror="0"></script>
+<script src="poses/power.js" onerror="0"></script>
+<script src="poses/nature.js" onerror="0"></script>
+<script src="poses/asia.js" onerror="0"></script>
+<script>
+// 姿势检查表：lab.html?p=sprint,hurdles&pal=red&n=8&beats=4
+// 每行一个姿势，横向是时间（0 → beats 拍，均分 n 格）
+const q = new URLSearchParams(location.search);
+const names = (q.get('p') || Object.keys(POSES).join(',')).split(',').filter(Boolean);
+const n = +(q.get('n') || 8), beats = +(q.get('beats') || 4);
+const cw = 240, ch = 240, lab = 170;
+const cv = document.getElementById('c');
+cv.width = lab + cw * n; cv.height = ch * names.length;
+const ctx = cv.getContext('2d');
+function colors(pk) {
+  const P = G.PAL[pk];
+  return { fg: P.fg, far: G.mix(P.fg, P.t[2], 0.42), far2: G.mix(P.fg, P.t[2], 0.62), acc: P.key === 'gold' || P.key === 'ochre' ? P.deep : P.t[4], bg: P.t[2], line: G.mix(P.fg, P.t[2], 0.55) };
+}
+window.drawFig = function (ctx, def, u, C) {
+  const pz = def.pose ? def.pose(u) : G.keyPose(def.keys, u, def.loop);
+  const J = G.joints(pz);
+  ctx.save();
+  if (def.fig) { ctx.translate(def.fig.x || 0, def.fig.y || 0); if (def.fig.s) ctx.scale(def.fig.s, def.fig.s); }
+  if (def.back) def.back(ctx, J, u, C);
+  if (def.second) {
+    const p2 = def.second(u); const J2 = G.joints(p2);
+    ctx.save(); const o = def.secondX || [0, 0]; ctx.translate(o[0], o[1]); if (def.secondFace === -1) ctx.scale(-1, 1);
+    G.drawFigure(ctx, J2, C.far2, G.mix(C.far2, C.bg, 0.35)); ctx.restore();
+  }
+  G.drawFigure(ctx, J, C.fg, C.far);
+  if (def.front) def.front(ctx, J, u, C);
+  ctx.restore();
+  return J;
+};
+document.fonts.load('600 20px "DM Mono"').then(() => {
+  names.forEach((nm, r) => {
+    const pk = q.get('pal') || ['red', 'purple', 'gold', 'ochre', 'green', 'ink'][r % 6];
+    const C = colors(pk);
+    ctx.fillStyle = '#222'; ctx.fillRect(0, r * ch, lab, ch);
+    ctx.fillStyle = '#eee'; ctx.font = '500 18px "DM Mono"'; ctx.fillText(nm, 12, r * ch + 30);
+    for (let i = 0; i < n; i++) {
+      const u = beats * i / n;
+      const x = lab + i * cw, y = r * ch;
+      ctx.save(); ctx.beginPath(); ctx.rect(x, y, cw, ch); ctx.clip();
+      ctx.fillStyle = C.bg; ctx.fillRect(x, y, cw, ch);
+      ctx.strokeStyle = 'rgba(0,0,0,.25)'; ctx.strokeRect(x + .5, y + .5, cw - 1, ch - 1);
+      ctx.translate(x + cw / 2, y + ch * 0.52); ctx.scale(ch * 0.62, ch * 0.62);
+      const def = POSES[nm];
+      if (def) drawFig(ctx, def, u, C);
+      ctx.restore();
+      ctx.fillStyle = 'rgba(0,0,0,.5)'; ctx.font = '500 14px "DM Mono"'; ctx.fillText('u=' + u.toFixed(2), x + 6, y + ch - 8);
+    }
+  });
+  window.READY = true;
+});
+</script>
+</body></html>

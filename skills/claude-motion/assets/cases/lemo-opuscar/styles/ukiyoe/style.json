@@ -1,0 +1,18 @@
+{
+ "slug": "ukiyoe",
+ "num": "08",
+ "en": "Ukiyo-e",
+ "cn": "浮世绘",
+ "category_en": "East Asian Traditions",
+ "category_cn": "东方传统",
+ "film": "A Journey Toward the Mountain",
+ "line": "A traveller walks toward a distant mountain; every shot is a woodblock print, ending in a great wave.",
+ "line_cn": "旅人走向远山，每个镜头都是一幅版画，最后迎来一道巨浪。",
+ "uses": [
+  "Travel",
+  "Japanese culture",
+  "Poetry"
+ ],
+ "frame_sec": 26.4,
+ "dur": 44.0
+}

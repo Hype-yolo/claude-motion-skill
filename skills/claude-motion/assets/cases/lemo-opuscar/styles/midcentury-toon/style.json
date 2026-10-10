@@ -1,0 +1,18 @@
+{
+ "slug": "midcentury-toon",
+ "num": "48",
+ "en": "Mid-century Cartoon",
+ "cn": "50s 扁平卡通",
+ "category_en": "Cartoon & Anime",
+ "category_cn": "卡通与动画",
+ "film": "Meet Pip",
+ "line": "A robot vacuum set up in three steps, told like a 1950s classroom film: place the dock, connect the app, press start.",
+ "line_cn": "用 50 年代教育片的口吻，三步教你装好一台扫地机：放充电座、连 app、按开始。",
+ "uses": [
+  "Product set-up guides",
+  "Help-centre explainers",
+  "How-to steps"
+ ],
+ "frame_sec": 3.2,
+ "dur": 40.0
+}

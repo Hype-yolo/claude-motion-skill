@@ -1,0 +1,18 @@
+{
+ "slug": "pictogram-motion",
+ "num": "21",
+ "en": "Pictogram Motion",
+ "cn": "象形运动图形",
+ "category_en": "Graphic & Type",
+ "category_cn": "图形与排版",
+ "film": "Aichi-Nagoya 2026 — All 43 Sports",
+ "line": "All 43 sports of the 2026 Asian Games as beat-locked geometric pictograms.",
+ "line_cn": "2026 亚运会 43 个大项，几何象形人卡着节拍快闪。",
+ "uses": [
+  "Sports events",
+  "Visual identity",
+  "Event openers"
+ ],
+ "frame_sec": 65.44,
+ "dur": 163.6
+}

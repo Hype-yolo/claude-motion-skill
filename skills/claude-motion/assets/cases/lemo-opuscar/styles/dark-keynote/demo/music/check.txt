@@ -1,0 +1,32 @@
+length 42.000000 s  sr 48000  channels 2  peak -1.00 dBFS  nan/inf 0
+silence1       15.000-16.000  max|x| 0.000e+00  nonzero samples 0
+silence2       33.000-34.000  max|x| 0.000e+00  nonzero samples 0
+pre-music 0-4   0.000- 4.000  max|x| 9.614e-04  nonzero samples 384
+33-37          33.000-37.000  max|x| 0.000e+00  nonzero samples 0
+tail           41.940-42.000  max|x| 0.000e+00  nonzero samples 0
+last nonzero before 15.0 at 14.999958 s; first nonzero after 15.0 at 16.000000 s
+chord onset @ 16: measured 16.00000 s  error +0.00 ms
+voice1 k=0 t=4.000 (-20 dB threshold on marimba stem, no previous note): measured 3.99998  error -0.02 ms
+voice1 k=  0 t=4.000 m=57  librosa backtracked onset 4.0013  error +1.33 ms
+voice1 k= 22 t=6.750 m=74  librosa backtracked onset 6.7467  error -3.33 ms
+voice1 k= 44 t=9.500 m=71  librosa backtracked onset 9.5013  error +1.33 ms
+voice1 k= 66 t=12.250 m=57  librosa backtracked onset 12.2527  error +2.67 ms
+voice1 k= 87 t=14.875 m=64  librosa backtracked onset 14.8733  error -1.67 ms
+librosa onset (backtrack) vs all 88 voice1 t: median +0.67 ms, |err|<5ms 87/88, max |err| 6.67 ms
+
+section            RMS dBFS   centroid Hz   300-3k share   300-3k dBFS   <300 share   >3k share   >3k dBFS   notes/s
+desktop v1            -37.9          396           0.80         -38.7         0.20        0.00      -81.6       8.0
+album +v2+pad         -29.0          529           0.63         -31.6         0.37        0.00      -53.8      16.0
+inbox phase+pulse     -25.3          342           0.32         -30.5         0.68        0.00      -50.4      20.5
+all +glock+shk        -24.3          521           0.35         -28.8         0.63        0.02      -41.7      23.0
+insert (anxious)      -22.0          600           0.39         -25.9         0.57        0.04      -36.5      27.0
+rise                  -16.9          465           0.33         -22.1         0.64        0.02      -33.3      28.0
+  (gather first 250 ms RMS -15.9 dBFS; rise last 250 ms -14.4 dBFS)
+gather chord          -22.5          406           0.62         -24.0         0.38        0.00      -35.3       7.0
+sort                  -24.4          699           0.87         -25.2         0.13        0.00      -66.4       8.0
+reveal (VO)           -29.7          752           0.81         -30.7         0.19        0.00      -63.9      12.0
+big number            -25.9          710           0.61         -27.7         0.38        0.01      -48.9       4.3
+breathe               -30.7          313           0.43         -32.7         0.57        0.00      -77.8       5.1
+echo chord            -32.2          668           0.86         -33.1         0.14        0.00      -75.7       1.8
+
+stems sum vs score: max |diff| 5.96e-07

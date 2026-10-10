@@ -1,0 +1,39 @@
+[
+ {
+  "id": "l1",
+  "t": 12.3,
+  "text": "Log resumed. Forty years since the last entry.",
+  "voice": "am_echo",
+  "speed": 0.8,
+  "asr": "Log resumed. 40 years since the last entry."
+ },
+ {
+  "id": "l2",
+  "t": 21.8,
+  "text": "A message from Earth. I should show them I am here.",
+  "voice": "am_echo",
+  "speed": 0.8
+ },
+ {
+  "id": "l3",
+  "t": 26.0,
+  "text": "I have no camera. Only words.",
+  "voice": "am_echo",
+  "speed": 0.8
+ },
+ {
+  "id": "l4",
+  "t": 39.2,
+  "text": "Forty years of logs. Every one of them says: no signal.",
+  "voice": "am_echo",
+  "speed": 0.8,
+  "asr": "40 years of logs. Every one of them says: no signal."
+ },
+ {
+  "id": "l5",
+  "t": 48.2,
+  "text": "New entry. Signal received.",
+  "voice": "am_echo",
+  "speed": 0.8
+ }
+]

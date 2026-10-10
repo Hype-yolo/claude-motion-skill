@@ -1,0 +1,18 @@
+{
+ "slug": "halftone-dossier",
+ "num": "13",
+ "en": "Halftone Dossier",
+ "cn": "复古半调案卷",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷与版画",
+ "film": "Case File: Chubby",
+ "line": "A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.",
+ "line_cn": "橘猫胖橘被立案审查：测试重力、凌晨跑酷，最后无罪释放。",
+ "uses": [
+  "Humour",
+  "Pet content",
+  "Social shorts"
+ ],
+ "frame_sec": 9.0,
+ "dur": 30.0
+}

@@ -1,0 +1,18 @@
+{
+ "slug": "risograph",
+ "num": "12",
+ "en": "Risograph Print",
+ "cn": "Risograph 丝网印刷",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷与版画",
+ "film": "Sunday Ride",
+ "line": "A Sunday-morning bike ride through the city — bakery, park, riverside — in two misregistered inks.",
+ "line_cn": "周日早晨骑车穿过城市：面包店、公园、河边。",
+ "uses": [
+  "Indie brands",
+  "Zines",
+  "Lifestyle"
+ ],
+ "frame_sec": 28.8,
+ "dur": 40.0
+}

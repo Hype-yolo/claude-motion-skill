@@ -1,0 +1,10 @@
+[
+ {"id": "v1", "text": "Every rocket starts with one brick.", "voice": "bm_george", "speed": 0.9, "lang": "en-gb"},
+ {"id": "v2", "text": "Then another. And another.", "voice": "bm_george", "speed": 0.95, "lang": "en-gb"},
+ {"id": "v3", "text": "The first one fell apart.", "voice": "bm_george", "speed": 0.85, "lang": "en-gb"},
+ {"id": "v4", "text": "That's okay. Now we have spare parts.", "voice": "bm_george", "speed": 0.9, "lang": "en-gb"},
+ {"id": "c3", "text": "Three.", "voice": "am_adam", "speed": 0.95},
+ {"id": "c2", "text": "Two.", "voice": "am_adam", "speed": 0.95},
+ {"id": "c1", "text": "One.", "voice": "am_adam", "speed": 0.95},
+ {"id": "v5", "text": "And every moon base... starts with one brick.", "voice": "bm_george", "speed": 0.88, "lang": "en-gb"}
+]

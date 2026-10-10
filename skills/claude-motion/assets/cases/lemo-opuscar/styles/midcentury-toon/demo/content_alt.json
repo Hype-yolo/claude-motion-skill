@@ -1,0 +1,140 @@
+{
+  "product": "Mo",
+  "kind": "robot lawn mower",
+  "title": "Your New Robot Mower",
+  "subtitle": "Set Up in 4 Steps",
+  "hook": {
+    "kicker": "Meet Mo.",
+    "line": "Meet Mo, your new robot mower."
+  },
+  "steps": [
+    {
+      "title": "Set the base station",
+      "detail": "Level ground, 1 m clear in front",
+      "icon": "dock",
+      "action": "place",
+      "measure": "1 m",
+      "line": "Step one. Set the base station on level ground."
+    },
+    {
+      "title": "Peg the boundary wire",
+      "detail": "30 cm in from the lawn edge",
+      "icon": "cable",
+      "action": "show",
+      "line": "Step two. Peg the wire around the lawn."
+    },
+    {
+      "title": "Pair the app",
+      "detail": "Home Wi-Fi, 2.4 GHz",
+      "icon": "phone",
+      "action": "tap",
+      "line": "Step three. Pair Mo with the app."
+    },
+    {
+      "title": "Press go",
+      "detail": "Hold for two seconds",
+      "icon": "start",
+      "action": "press",
+      "line": "Step four. Press go."
+    }
+  ],
+  "payoff": {
+    "caption": "Mo learns the lawn on the first run",
+    "plan": {
+      "y0": 235,
+      "y1": 990,
+      "dock": [
+        330,
+        990
+      ],
+      "zones": [
+        {
+          "name": "Front lawn",
+          "x0": 170,
+          "x1": 900,
+          "color": "#A7AE5B",
+          "checks": true
+        },
+        {
+          "name": "Path",
+          "x0": 900,
+          "x1": 1100,
+          "color": "#E6D8BC"
+        },
+        {
+          "name": "Back lawn",
+          "x0": 1100,
+          "x1": 1750,
+          "color": "#CBD08E",
+          "checks": true
+        }
+      ],
+      "items": [
+        {
+          "shape": "plant",
+          "x": 430,
+          "y": 430,
+          "s": 70,
+          "color": "#4F7A3A"
+        },
+        {
+          "shape": "bed",
+          "x": 640,
+          "y": 760,
+          "s": 110,
+          "color": "#F0B4A8",
+          "accent": "#E8B43A"
+        },
+        {
+          "shape": "kidney",
+          "x": 1400,
+          "y": 470,
+          "s": 150,
+          "color": "#7F9CC0",
+          "accent": "#FBF6EA"
+        },
+        {
+          "shape": "plant",
+          "x": 1560,
+          "y": 820,
+          "s": 64,
+          "color": "#4F7A3A"
+        }
+      ]
+    }
+  },
+  "tip": {
+    "label": "Tip",
+    "text": "Clear toys off the lawn first.",
+    "icon": "leaf",
+    "line": "Tip: clear toys off the lawn first."
+  },
+  "outro": {
+    "line": "Four steps. That's it.",
+    "cta": "Full guide: scan the code under the lid"
+  },
+  "palette": {
+    "paper": "#F2EBD9",
+    "ink": "#2B2420",
+    "product": "#E4613F",
+    "productDark": "#B8452B",
+    "accent": "#3FA7A0",
+    "hook": "#7F9CC0",
+    "steps": [
+      "#A7AE5B",
+      "#E8B43A",
+      "#F0B4A8",
+      "#B5C8DE"
+    ],
+    "tip": "#E8B43A"
+  },
+  "voice": {
+    "id": "am_michael",
+    "speed": 0.94
+  },
+  "film": {
+    "name": "Meet Mo",
+    "style": "Mid-century Cartoon",
+    "credits": "Fonts: Oleo Script, Alfa Slab One, Jost (SIL OFL). Voice: Kokoro-82M (Apache-2.0). Music & sound: original."
+  }
+}

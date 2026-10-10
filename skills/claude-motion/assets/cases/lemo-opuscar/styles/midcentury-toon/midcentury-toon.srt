@@ -1,0 +1,23 @@
+1
+00:00:01,978 --> 00:00:05,645
+Meet Pip, your new robot vacuum.
+
+2
+00:00:07,045 --> 00:00:11,212
+Step one. Set the dock against a wall.
+
+3
+00:00:12,500 --> 00:00:16,417
+Step two. Open the app and add Pip.
+
+4
+00:00:17,955 --> 00:00:20,955
+Step three. Press start.
+
+5
+00:00:27,353 --> 00:00:31,019
+Tip: pick up loose cables first.
+
+6
+00:00:31,444 --> 00:00:34,360
+Three steps. That's it.

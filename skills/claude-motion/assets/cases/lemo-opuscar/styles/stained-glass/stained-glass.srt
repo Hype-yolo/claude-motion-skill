@@ -1,0 +1,31 @@
+1
+00:00:01,000 --> 00:00:05,081
+This window only tells its story where the sun falls.
+
+2
+00:00:10,000 --> 00:00:14,390
+At dawn, a knight was sent to slay the dragon that ate the sun.
+
+3
+00:00:17,800 --> 00:00:21,747
+He crossed the hills and rivers in the white noon light.
+
+4
+00:00:24,400 --> 00:00:28,185
+All afternoon they fought, and the shadows grew longer.
+
+5
+00:00:33,800 --> 00:00:38,000
+Then, in the red of evening, he saw what the dragon was guarding.
+
+6
+00:00:38,300 --> 00:00:42,266
+The last ember of the sun, kept warm until morning.
+
+7
+00:00:45,000 --> 00:00:47,817
+So the knight laid down his sword.
+
+8
+00:00:49,200 --> 00:00:53,493
+And every night since, one pane of glass keeps its own light.

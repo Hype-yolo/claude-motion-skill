@@ -1,0 +1,122 @@
+{
+ "bpm": 132,
+ "beat": 0.45454545454545453,
+ "bar": 1.8181818181818181,
+ "duration": 40.0,
+ "silences": [
+  [
+   0,
+   1.364
+  ],
+  [
+   20.909,
+   21.818
+  ],
+  [
+   30.2,
+   30.909
+  ]
+ ],
+ "hits": [
+  {
+   "t": 1.3636,
+   "label": "hookB: vib gliss up + sus cymbal swell"
+  },
+  {
+   "t": 1.8182,
+   "label": "TA-DA full band F6/9"
+  },
+  {
+   "t": 2.7273,
+   "label": "woodblock"
+  },
+  {
+   "t": 3.6364,
+   "label": "brush swipe accent"
+  },
+  {
+   "t": 7.2727,
+   "label": "STEP 1 chord vib F6"
+  },
+  {
+   "t": 12.7273,
+   "label": "STEP 2 chord vib Bbmaj7"
+  },
+  {
+   "t": 15.4545,
+   "label": "celesta wifi C6"
+  },
+  {
+   "t": 15.9091,
+   "label": "celesta wifi E6"
+  },
+  {
+   "t": 16.3636,
+   "label": "celesta wifi G6"
+  },
+  {
+   "t": 18.1818,
+   "label": "STEP 3 chord vib C9"
+  },
+  {
+   "t": 20.4545,
+   "label": "key press: light vib single F#5"
+  },
+  {
+   "t": 21.8182,
+   "label": "CLIMAX full band G6/9 (key up a tone, double-time)"
+  },
+  {
+   "t": 23.6364,
+   "label": "arp1 living room"
+  },
+  {
+   "t": 24.5455,
+   "label": "arp2 hallway"
+  },
+  {
+   "t": 25.4545,
+   "label": "arp3 kitchen"
+  },
+  {
+   "t": 26.8182,
+   "label": "accent chord D13 + celesta ding (dock)"
+  },
+  {
+   "t": 27.0755,
+   "label": "vib gliss tail (L-cut into tips)"
+  },
+  {
+   "t": 27.2727,
+   "label": "TIPS half-time: flute solo + bass + woodblock"
+  },
+  {
+   "t": 30.9091,
+   "label": "recap step 1 G6"
+  },
+  {
+   "t": 31.3636,
+   "label": "recap step 2 Cmaj7"
+  },
+  {
+   "t": 31.8182,
+   "label": "recap step 3 D9"
+  },
+  {
+   "t": 32.2727,
+   "label": "full band closing phrase (G)"
+  },
+  {
+   "t": 34.5455,
+   "label": "final chord G6/9 (vib tremolo)"
+  },
+  {
+   "t": 36.3636,
+   "label": "BUTTON bass + celesta ding"
+  },
+  {
+   "t": 39.5,
+   "label": "fade to silence 39.5–40.0"
+  }
+ ]
+}

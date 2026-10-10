@@ -1,0 +1,8 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>The Last Save Point</title>
+<style>html,body{margin:0;background:#000}canvas{display:block;image-rendering:pixelated}</style>
+</head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+const q = new URLSearchParams(location.search);
+if (q.has('sheet')) import('./sheet.js'); else import('./main.js');
+</script></body></html>

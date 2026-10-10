@@ -1,0 +1,235 @@
+{
+ "bpm": 120,
+ "key": "A dorian",
+ "cols": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F#",
+  "G"
+ ],
+ "midi": [
+  57,
+  59,
+  60,
+  62,
+  64,
+  66,
+  67
+ ],
+ "note": "Poster grid = score. 7 columns = the 7 notes of A dorian (low to high, left to right). 16 rows = 16 eighth notes (2 bars), read top to bottom. A bar's top edge = onset, its length = duration. Picture (film.js) and music (music/score.py) both read this file.",
+ "stiff": {
+  "lead": [
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    1
+   ],
+   [
+    2,
+    2,
+    1
+   ],
+   [
+    3,
+    3,
+    1
+   ],
+   [
+    0,
+    4,
+    1
+   ],
+   [
+    1,
+    5,
+    1
+   ],
+   [
+    2,
+    6,
+    1
+   ],
+   [
+    3,
+    7,
+    1
+   ],
+   [
+    0,
+    8,
+    1
+   ],
+   [
+    1,
+    9,
+    1
+   ],
+   [
+    2,
+    10,
+    1
+   ],
+   [
+    3,
+    11,
+    1
+   ],
+   [
+    0,
+    12,
+    1
+   ],
+   [
+    1,
+    13,
+    1
+   ],
+   [
+    2,
+    14,
+    1
+   ],
+   [
+    3,
+    15,
+    1
+   ]
+  ],
+  "bass": [
+   [
+    0,
+    0,
+    16
+   ]
+  ],
+  "circle": [
+   5,
+   0
+  ]
+ },
+ "final": {
+  "lead": [
+   [
+    0,
+    0,
+    4
+   ],
+   [
+    1,
+    4,
+    1
+   ],
+   [
+    2,
+    5,
+    1
+   ],
+   [
+    3,
+    6,
+    4
+   ],
+   [
+    4,
+    10,
+    1
+   ],
+   [
+    5,
+    11,
+    1
+   ],
+   [
+    6,
+    12,
+    4
+   ]
+  ],
+  "bass": [
+   [
+    0,
+    0,
+    8
+   ],
+   [
+    2,
+    8,
+    4
+   ],
+   [
+    3,
+    12,
+    4
+   ]
+  ],
+  "circle": [
+   -1.148,
+   12.5
+  ],
+  "bleed": {
+   "0": "top",
+   "6": "right"
+  }
+ },
+ "circleDiameterCols": {
+  "stiff": 2,
+  "final": 4
+ },
+ "circlePitch": {
+  "stiff": "G5 (midi 79)",
+  "final": "A5 (midi 81), syncopated: onset row 12.5 = a sixteenth after the beat"
+ },
+ "timeline": {
+  "stiffRun16ths": [
+   18.0,
+   19.875
+  ],
+  "stiffLoop": [
+   20.0,
+   24.0
+  ],
+  "circleIn": 20.0,
+  "hesitate": 23.5,
+  "drumsOut": [
+   24.0,
+   26.0
+  ],
+  "circleFlight": [
+   [
+    24.5,
+    25.0
+   ],
+   [
+    25.25,
+    26.0
+   ]
+  ],
+  "land": 26.0,
+  "finalPhrase": [
+   26.0,
+   30.0
+  ],
+  "breath": [
+   30.0,
+   32.0
+  ],
+  "sweep": [
+   32.0,
+   36.0
+  ],
+  "wallPhrase": [
+   36.0,
+   40.0
+  ],
+  "endHit": 40.0,
+  "dur": 44.0
+ }
+}

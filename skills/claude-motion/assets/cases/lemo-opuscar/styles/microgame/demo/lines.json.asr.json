@@ -1,0 +1,198 @@
+[
+ {
+  "id": "c_pump",
+  "t": 0.02,
+  "who": "tick",
+  "cmd": true,
+  "text": "Pump, now!",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "trim": "Pump",
+  "asr": "Pump"
+ },
+ {
+  "id": "l1",
+  "t": 5.0,
+  "who": "tick",
+  "text": "Welcome to Five-Second Camp!",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "asr": "Welcome to 5 second camp"
+ },
+ {
+  "id": "c_sneeze",
+  "t": 8.02,
+  "who": "tick",
+  "cmd": true,
+  "text": "Don't sneeze!",
+  "voice": "am_fenrir",
+  "speed": 1.1
+ },
+ {
+  "id": "d_ah",
+  "t": 9.45,
+  "who": "dot",
+  "fx": true,
+  "text": "Ah... ah...",
+  "asr": "Ah ah",
+  "voice": "af_bella",
+  "speed": 0.9
+ },
+ {
+  "id": "fx_choo1",
+  "t": 10.5,
+  "who": "dot",
+  "fx": true,
+  "text": "Choo!",
+  "asr": "Choo",
+  "voice": "af_bella",
+  "speed": 1.1
+ },
+ {
+  "id": "l2",
+  "t": 12.35,
+  "who": "tick",
+  "text": "Bless you. Next!",
+  "voice": "am_fenrir",
+  "speed": 1.08
+ },
+ {
+  "id": "c_strap",
+  "t": 14.02,
+  "who": "tick",
+  "cmd": true,
+  "text": "Strap in!",
+  "voice": "am_fenrir",
+  "speed": 1.08
+ },
+ {
+  "id": "c_catch",
+  "t": 20.02,
+  "who": "tick",
+  "cmd": true,
+  "text": "Catch, now!",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "trim": "Catch",
+  "asr": "Catch"
+ },
+ {
+  "id": "l3",
+  "t": 24.2,
+  "who": "tick",
+  "text": "Too easy?",
+  "voice": "am_fenrir",
+  "speed": 0.95
+ },
+ {
+  "id": "l4",
+  "t": 26.49,
+  "who": "tick",
+  "cmd": true,
+  "text": "Speed up!",
+  "voice": "am_fenrir",
+  "speed": 1.1
+ },
+ {
+  "id": "c_dodge",
+  "t": 27.87,
+  "who": "tick",
+  "cmd": true,
+  "text": "Dodge.",
+  "voice": "am_fenrir",
+  "speed": 1.0
+ },
+ {
+  "id": "c_zip",
+  "t": 31.3,
+  "who": "tick",
+  "cmd": true,
+  "text": "Zip, now!",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "trim": "Zip",
+  "asr": "Zip"
+ },
+ {
+  "id": "c_salute",
+  "t": 34.73,
+  "who": "tick",
+  "cmd": true,
+  "text": "Salute!",
+  "voice": "am_fenrir",
+  "speed": 1.15
+ },
+ {
+  "id": "l5",
+  "t": 38.43,
+  "who": "tick",
+  "text": "One life left, cadet.",
+  "voice": "am_fenrir",
+  "speed": 0.95
+ },
+ {
+  "id": "l6",
+  "t": 40.5,
+  "who": "tick",
+  "cmd": true,
+  "text": "Boss stage!",
+  "voice": "am_fenrir",
+  "speed": 1.1
+ },
+ {
+  "id": "c_land",
+  "t": 41.47,
+  "who": "tick",
+  "cmd": true,
+  "text": "Land it!",
+  "voice": "am_fenrir",
+  "speed": 1.15
+ },
+ {
+  "id": "c_pull",
+  "t": 44.47,
+  "who": "tick",
+  "cmd": true,
+  "text": "Pull, now!",
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "trim": "Pull",
+  "asr": "Pull"
+ },
+ {
+  "id": "d_ohno",
+  "t": 45.62,
+  "who": "dot",
+  "text": "Oh no.",
+  "voice": "af_bella",
+  "speed": 1.0
+ },
+ {
+  "id": "d_ah2",
+  "t": 46.62,
+  "who": "dot",
+  "fx": true,
+  "text": "Ah... ah...",
+  "asr": "Ah ah",
+  "voice": "af_bella",
+  "speed": 1.0
+ },
+ {
+  "id": "fx_choo2",
+  "t": 47.452,
+  "who": "dot",
+  "fx": true,
+  "text": "Choo!",
+  "asr": "Choo",
+  "voice": "af_bella",
+  "speed": 1.0
+ },
+ {
+  "id": "l7",
+  "t": 53.85,
+  "who": "tick",
+  "text": "You made it, cadet. Salute!",
+  "voice": "am_fenrir",
+  "speed": 1.05
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "id": "L1",
+  "t": 2.55,
+  "text": "How far did your coffee travel?",
+  "voice": "bf_alice",
+  "speed": 1.0
+ },
+ {
+  "id": "L2",
+  "t": 8.4,
+  "text": "It began as a cherry on a hillside, with two seeds inside.",
+  "voice": "bf_alice",
+  "speed": 0.97
+ },
+ {
+  "id": "L3",
+  "t": 12.9,
+  "text": "Dried in the sun, then packed with four hundred thousand others.",
+  "voice": "bf_alice",
+  "speed": 1.0,
+  "asr": "Dried in the sun, then packed with 400,000 others."
+ },
+ {
+  "id": "L4",
+  "t": 23.4,
+  "text": "Eighteen days at sea.",
+  "voice": "bf_alice",
+  "speed": 0.92,
+  "asr": "18 days at sea."
+ },
+ {
+  "id": "L5",
+  "t": 30.9,
+  "text": "Somewhere in here is yours.",
+  "voice": "bf_alice",
+  "speed": 0.9
+ },
+ {
+  "id": "L6",
+  "t": 49.9,
+  "text": "Eleven thousand kilometres, from one pair of hands to yours.",
+  "voice": "bf_alice",
+  "speed": 0.92,
+  "asr": "11,000 kilometers from one pair of hands to yours."
+ }
+]

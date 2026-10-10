@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#2a2a34}canvas{image-rendering:pixelated;display:block}</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+</head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import { atlas, WREN, KEEP, drawWren, drawKeeper, FW, FH } from '../../chars.js';
+const c = document.getElementById('c'), g = c.getContext('2d'); g.imageSmoothingEnabled = false;
+g.fillStyle = '#3a3a48'; g.fillRect(0, 0, 1920, 1080);
+const a = atlas(WREN, drawWren), b = atlas(KEEP, drawKeeper), S = 5;
+let x = 10, y = 10;
+a.names.forEach((n, i) => { if (x + FW * S > 1910) { x = 10; y += FH * S + 24; } g.drawImage(a.canvas, i * FW, 0, FW, FH, x, y, FW * S, FH * S); g.fillStyle = '#ccc'; g.font = '14px sans-serif'; g.fillText(n, x, y + FH * S + 16); x += FW * S + 8; });
+x = 10; y += FH * S + 24;
+b.names.forEach((n, i) => { if (x + FW * S > 1910) { x = 10; y += FH * S + 24; } g.drawImage(b.canvas, i * FW, 0, FW, FH, x, y, FW * S, FH * S); g.fillStyle = '#ccc'; g.fillText(n, x, y + FH * S + 16); x += FW * S + 8; });
+window.render = () => {}; window.READY = true;
+</script></body></html>

@@ -1,0 +1,139 @@
+[
+ {
+  "t": 1.875,
+  "what": "pickup 1: harpsichord A4",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 2.1875,
+  "what": "pickup 2: harpsichord C#5",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 2.5,
+  "what": "bar 2 downbeat: print pulled (tutti D accent)",
+  "stem": "pizz"
+ },
+ {
+  "t": 5.0,
+  "what": "bar 3: 2nd violin 16th pizz hatching enters",
+  "stem": "pizz"
+ },
+ {
+  "t": 6.25,
+  "what": "harpsichord flourish starts (title engraved)",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 7.5,
+  "what": "bar 4: flourish lands, full texture",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 9.375,
+  "what": "texture thins: cello A pedal + high harpsichord figure",
+  "stem": "pizz",
+  "band": "low"
+ },
+ {
+  "t": 10.425,
+  "what": "ring ting #1 (violin pizz A6 + harpsichord A5)",
+  "stem": "pizz",
+  "band": "high"
+ },
+ {
+  "t": 11.275,
+  "what": "rising line #1 starts",
+  "stem": "pizz"
+ },
+ {
+  "t": 12.5875,
+  "what": "rising line #1 top note",
+  "stem": "pizz"
+ },
+ {
+  "t": 12.775,
+  "what": "landing #1: low cello + bass pizz D",
+  "stem": "pizz",
+  "band": "low"
+ },
+ {
+  "t": 15.0,
+  "what": "bar 7: second detail begins (Em7 downbeat)",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 15.5,
+  "what": "ring ting #2 (violin pizz B6)",
+  "stem": "pizz",
+  "band": "high"
+ },
+ {
+  "t": 15.8,
+  "what": "rising line #2 starts",
+  "stem": "pizz"
+ },
+ {
+  "t": 16.8,
+  "what": "landing #2: low cello + bass pizz D",
+  "stem": "pizz",
+  "band": "low"
+ },
+ {
+  "t": 19.375,
+  "what": "third detail: thins to cello A pedal (+ harpsichord A2 / E5 figure)",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 19.875,
+  "what": "ring ting #3 (violin pizz A6)",
+  "stem": "pizz",
+  "band": "high"
+ },
+ {
+  "t": 20.0,
+  "what": "1st violin pizz melody begins",
+  "stem": "pizz"
+ },
+ {
+  "t": 21.475,
+  "what": "landing #3: low cello + bass pizz G",
+  "stem": "pizz",
+  "band": "low"
+ },
+ {
+  "t": 22.1875,
+  "what": "gentle lift (swell into bar 10)",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 23.75,
+  "what": "harpsichord descending run starts",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 24.8438,
+  "what": "run last note A4 (short) -> dead stop by 25.0",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 26.25,
+  "what": "FIRST BOWED NOTE: strings enter pp on D (cellos/violas/violins)",
+  "stem": "bowed"
+ },
+ {
+  "t": 31.25,
+  "what": "perfect cadence V-I: tonic D lands (harpsichord roll + bass pizz + bowed D)",
+  "stem": "harpsichord"
+ },
+ {
+  "t": 33.75,
+  "what": "wink: soft violin pizz D6",
+  "stem": "pizz"
+ },
+ {
+  "t": 35.625,
+  "what": "end card: soft harpsichord tonic, fade begins",
+  "stem": "harpsichord"
+ }
+]

@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../fonts/fonts.css"></head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+// reading-time check: from the moment each text starts, how long does it stay fully inside the frame? need ≥ chars/12 + 1 s
+import { makeFilm } from '../../film.js';
+const q = new URLSearchParams(location.search), C = await (await fetch('../../' + (q.get('content') || 'content.json'))).json();
+let dur = {}; try { const r = await fetch('../../voices/dur.json'); if (r.ok) dur = await r.json(); } catch {}
+await document.fonts.load('400 40px "Pinyon Script"');
+const f = makeFilm(C, dur), W = 1920, H = 1080;
+const inView = (cam, x0, y0, x1, y1) => { const s = (x, y) => [(x - cam.cx) * cam.z + W / 2, (y - cam.cy) * cam.z + H / 2]; const a = s(x0, y0), b = s(x1, y1); return a[0] >= 0 && a[1] >= 0 && b[0] <= W && b[1] <= H; };
+const items = [];
+items.push({ what: 'title', t: f.T.title, n: C.title.length + 1, box: [700, 80, 1220, 140] }, { what: 'latin', t: f.T.title + 0.45, n: C.latin.length, box: [760, 148, 1160, 178] });
+for (const d of f.dets) { const lx = d.slot[0], ly = d.slot[1] + 120;
+  items.push({ what: 'fig ' + (d.i + 1) + ' name', t: d.a.name, n: d.lab.name.length, box: [lx - 180, ly + 18, lx + 180, ly + 42] });
+  items.push({ what: 'fig ' + (d.i + 1) + ' latin', t: d.a.latin, n: d.lab.latin.length, box: [lx - 120, ly + 46, lx + 120, ly + 70] });
+  items.push({ what: 'fig ' + (d.i + 1) + ' note', t: d.a.note, n: d.lab.note.length, box: [lx - 200, ly + 76, lx + 200, ly + 142] }); }
+items.push({ what: 'caption', t: f.T.landing[0] + 0.05, n: C.caption.length, box: [640, 966, 1280, 996] });
+const out = items.map(it => { let t = it.t; while (t < f.DUR && (t >= f.T.end[0] ? false : inView(f.cam(t), ...it.box))) t += 0.02; const need = it.n / 12 + 1, got = t - it.t; return `${got >= need ? 'OK ' : 'BAD'} ${it.what.padEnd(16)} ${it.n} chars  need ${need.toFixed(2)} s  got ${got.toFixed(2)} s`; });
+out.forEach(l => console.warn(l));
+window.render = () => {}; window.DUR = 1; window.READY = true;
+</script></body></html>

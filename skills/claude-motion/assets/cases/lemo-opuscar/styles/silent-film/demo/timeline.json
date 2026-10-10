@@ -1,0 +1,171 @@
+{
+ "DUR": 54.2159,
+ "SEC": {
+  "PRE": {
+   "name": "PRE",
+   "bpm": 96,
+   "beats": 2.5,
+   "beat": 0.625,
+   "t0": 0,
+   "t1": 1.5625,
+   "dur": 1.5625,
+   "mood": "projector starts, curtains part (no music)"
+  },
+  "TITLE": {
+   "name": "TITLE",
+   "bpm": 96,
+   "beats": 6,
+   "beat": 0.625,
+   "t0": 1.5625,
+   "t1": 5.3125,
+   "dur": 3.75,
+   "mood": "Maestoso (main title)"
+  },
+  "BAKERY": {
+   "name": "BAKERY",
+   "bpm": 96,
+   "beats": 10,
+   "beat": 0.625,
+   "t0": 5.3125,
+   "t1": 11.5625,
+   "dur": 6.25,
+   "mood": "Andante (the Loaf theme, proud)"
+  },
+  "CARD1": {
+   "name": "CARD1",
+   "bpm": 96,
+   "beats": 4.5,
+   "beat": 0.625,
+   "t0": 11.5625,
+   "t1": 14.375,
+   "dur": 2.8125,
+   "mood": "comic \"uh-oh\" + accelerando pickup"
+  },
+  "CHASE": {
+   "name": "CHASE",
+   "bpm": 144,
+   "beats": 12,
+   "beat": 0.4166666666666667,
+   "t0": 14.375,
+   "t1": 19.375,
+   "dur": 5,
+   "mood": "Hurry (octave runs)"
+  },
+  "MARKET": {
+   "name": "MARKET",
+   "bpm": 144,
+   "beats": 16,
+   "beat": 0.4166666666666667,
+   "t0": 19.375,
+   "t1": 26.041666666666668,
+   "dur": 6.666666666666667,
+   "mood": "Hurry, stop-time for the chain gag"
+  },
+  "CARD2": {
+   "name": "CARD2",
+   "bpm": 144,
+   "beats": 6,
+   "beat": 0.4166666666666667,
+   "t0": 26.041666666666668,
+   "t1": 28.541666666666668,
+   "dur": 2.5,
+   "mood": "tremolo shout"
+  },
+  "ROLL": {
+   "name": "ROLL",
+   "bpm": 88,
+   "beats": 6,
+   "beat": 0.6818181818181818,
+   "t0": 28.541666666666668,
+   "t1": 32.63257575757576,
+   "dur": 4.090909090909091,
+   "mood": "ritardando (the last roll)"
+  },
+  "SIL": {
+   "name": "SIL",
+   "bpm": 60,
+   "beats": 2,
+   "beat": 1,
+   "t0": 32.63257575757576,
+   "t1": 34.63257575757576,
+   "dur": 2,
+   "mood": "SILENCE (projector only)"
+  },
+  "CARD3": {
+   "name": "CARD3",
+   "bpm": 72,
+   "beats": 3.5,
+   "beat": 0.8333333333333334,
+   "t0": 34.63257575757576,
+   "t1": 37.54924242424242,
+   "dur": 2.916666666666667,
+   "mood": "reed organ enters pp"
+  },
+  "TENDER": {
+   "name": "TENDER",
+   "bpm": 72,
+   "beats": 10,
+   "beat": 0.8333333333333334,
+   "t0": 37.54924242424242,
+   "t1": 45.88257575757576,
+   "dur": 8.333333333333334,
+   "mood": "Tenderly (the Loaf theme, slow)"
+  },
+  "IRIS": {
+   "name": "IRIS",
+   "bpm": 72,
+   "beats": 4,
+   "beat": 0.8333333333333334,
+   "t0": 45.88257575757576,
+   "t1": 49.21590909090909,
+   "dur": 3.3333333333333335,
+   "mood": "iris closes; the wink"
+  },
+  "END": {
+   "name": "END",
+   "bpm": 72,
+   "beats": 6,
+   "beat": 0.8333333333333334,
+   "t0": 49.21590909090909,
+   "t1": 54.21590909090909,
+   "dur": 5,
+   "mood": "finale chord + runout, curtains close"
+  }
+ },
+ "HIT": {
+  "curtain": 0.3125,
+  "title": 1.5625,
+  "irisOpen": 5.3125,
+  "lift": 5.9375,
+  "sill": 8.4375,
+  "pat": 9.0625,
+  "wobble": 9.6875,
+  "fall": 10.3125,
+  "bounce": 10.625,
+  "take": 10.9375,
+  "card1": 11.5625,
+  "chase": 14.375,
+  "grab": 16.875,
+  "miss": 17.291666666666668,
+  "market": 19.375,
+  "plank": 21.458333333333332,
+  "copIn": 22.708333333333332,
+  "copLook": 23.541666666666668,
+  "melonDown": 24.375,
+  "card2": 26.041666666666668,
+  "roll": 28.541666666666668,
+  "stop": 31.950757575757578,
+  "silence": 32.63257575757576,
+  "card3": 34.63257575757576,
+  "tender": 37.54924242424242,
+  "kneel": 40.04924242424242,
+  "crack": 41.715909090909086,
+  "give": 42.54924242424242,
+  "herLift": 43.38257575757576,
+  "hisLift": 44.215909090909086,
+  "irisClose": 45.88257575757576,
+  "wink": 47.96590909090909,
+  "end": 49.21590909090909,
+  "curtainOut": 52.71590909090909
+ }
+}

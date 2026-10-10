@@ -1,0 +1,44 @@
+[
+ {
+  "id": "hook",
+  "text": "Meet Pip, your new robot vacuum.",
+  "asr": "Meet Pip, your new robot vacuum.",
+  "voice": "am_michael",
+  "speed": 0.94
+ },
+ {
+  "id": "step0",
+  "text": "Step one. Set the dock against a wall.",
+  "asr": "Step 1. Set the dock against a wall.",
+  "voice": "am_michael",
+  "speed": 0.94
+ },
+ {
+  "id": "step1",
+  "text": "Step two. Open the app and add Pip.",
+  "asr": "Step 2. Open the app and add Pip.",
+  "voice": "am_michael",
+  "speed": 0.94
+ },
+ {
+  "id": "step2",
+  "text": "Step three. Press start.",
+  "asr": "Step 3. Press start.",
+  "voice": "am_michael",
+  "speed": 0.94
+ },
+ {
+  "id": "tip",
+  "text": "Tip: pick up loose cables first.",
+  "asr": "Tip: pick up loose cables first.",
+  "voice": "am_michael",
+  "speed": 0.94
+ },
+ {
+  "id": "outro",
+  "text": "Three steps. That's it.",
+  "asr": "Three steps. That's it.",
+  "voice": "am_michael",
+  "speed": 0.94
+ }
+]

@@ -1,0 +1,2 @@
+Samples (CC0): Karoryfer Samples / sfzinstruments, VS Chamber Orchestra: Community Edition (Versilian Studios), Versilian Community Sample Library (Versilian Studios)
+Pipa: physical-model plucked string (core/audio/pluck.py), original synthesis.

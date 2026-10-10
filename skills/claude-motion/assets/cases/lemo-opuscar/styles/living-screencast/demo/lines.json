@@ -1,0 +1,122 @@
+[
+ {
+  "id": "v01",
+  "text": "Meet Clawd.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us",
+  "asr": "Meet Claude."
+ },
+ {
+  "id": "v02",
+  "text": "It used to live in your terminal.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v03",
+  "text": "Now it lives right inside the Claude app.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v04",
+  "text": "Just say what you want, in plain words.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v05",
+  "text": "Point at a file with the at sign,",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v06",
+  "text": "and Claude reads your project before it touches a thing.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v07",
+  "text": "Not sure yet? Switch to Plan mode.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v08",
+  "text": "You get a clear plan, and nothing changes until you say go.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v09",
+  "text": "Every edit shows up as a diff.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v10",
+  "text": "Click any line, leave a note,",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v11",
+  "text": "and Claude revises it.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v12",
+  "text": "Then it checks its own work.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v13",
+  "text": "It runs your app in the preview, and clicks through it, just like you would.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v14",
+  "text": "Got more to do? Start another session.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v15",
+  "text": "They work side by side.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v16",
+  "text": "Claude Code.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ },
+ {
+  "id": "v17",
+  "text": "Say it. Plan it. Review it. Ship it.",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "lang": "en-us"
+ }
+]

@@ -1,0 +1,147 @@
+{
+  "product": "Pip",
+  "kind": "robot vacuum",
+  "title": "Your New Robot Vacuum",
+  "subtitle": "Set Up in 3 Steps",
+  "hook": {
+    "kicker": "Meet Pip.",
+    "line": "Meet Pip, your new robot vacuum."
+  },
+  "steps": [
+    {
+      "title": "Place the dock",
+      "detail": "50 cm clear on each side",
+      "icon": "dock",
+      "action": "place",
+      "line": "Step one. Set the dock against a wall.",
+      "measure": "50 cm"
+    },
+    {
+      "title": "Connect the app",
+      "detail": "Home Wi-Fi, 2.4 GHz",
+      "icon": "phone",
+      "action": "tap",
+      "line": "Step two. Open the app and add Pip."
+    },
+    {
+      "title": "Press start",
+      "detail": "Hold for one second",
+      "icon": "start",
+      "action": "press",
+      "line": "Step three. Press start."
+    }
+  ],
+  "payoff": {
+    "caption": "Pip maps the room as it goes",
+    "plan": {
+      "y0": 235,
+      "y1": 990,
+      "dock": [
+        330,
+        990
+      ],
+      "zones": [
+        {
+          "name": "Living room",
+          "x0": 170,
+          "x1": 1060,
+          "color": "#F0B4A8"
+        },
+        {
+          "name": "Hall",
+          "x0": 1060,
+          "x1": 1280,
+          "color": "#F4EAD5"
+        },
+        {
+          "name": "Kitchen",
+          "x0": 1280,
+          "x1": 1750,
+          "color": "#CBD08E",
+          "checks": true
+        }
+      ],
+      "rug": {
+        "x": 700,
+        "y": 700,
+        "rx": 280,
+        "ry": 170,
+        "color": "#B5C8DE"
+      },
+      "items": [
+        {
+          "shape": "sofa",
+          "x": 440,
+          "y": 440,
+          "s": 140,
+          "color": "#FBF6EA",
+          "accent": "#6E4A6B"
+        },
+        {
+          "shape": "boomerang",
+          "x": 760,
+          "y": 760,
+          "s": 100,
+          "rot": 0.15,
+          "color": "#A8704A"
+        },
+        {
+          "shape": "plant",
+          "x": 930,
+          "y": 330,
+          "s": 48,
+          "color": "#7E8538"
+        },
+        {
+          "shape": "table",
+          "x": 1515,
+          "y": 610,
+          "s": 74,
+          "color": "#FBF6EA",
+          "accent": "#E8B43A"
+        }
+      ]
+    }
+  },
+  "tip": {
+    "label": "Tip",
+    "text": "Pick up loose cables first.",
+    "icon": "cable",
+    "line": "Tip: pick up loose cables first."
+  },
+  "outro": {
+    "line": "Three steps. That's it.",
+    "cta": "Full manual: scan the code inside the lid"
+  },
+  "palette": {
+    "paper": "#F4EAD5",
+    "ink": "#2B2420",
+    "product": "#3FA7A0",
+    "productDark": "#257A74",
+    "accent": "#E4613F",
+    "hook": "#E8B43A",
+    "steps": [
+      "#7F9CC0",
+      "#E8B43A",
+      "#A7AE5B",
+      "#F0B4A8",
+      "#6E4A6B"
+    ],
+    "tip": "#F0B4A8",
+    "plan": [
+      "#F0B4A8",
+      "#E8B43A",
+      "#A7AE5B",
+      "#7F9CC0"
+    ]
+  },
+  "voice": {
+    "id": "am_michael",
+    "speed": 0.94
+  },
+  "film": {
+    "name": "Meet Pip",
+    "style": "Mid-century Cartoon",
+    "credits": "Fonts: Oleo Script, Alfa Slab One, Jost (SIL OFL). Voice: Kokoro-82M (Apache-2.0). Music & sound: original, synthesized in code."
+  }
+}

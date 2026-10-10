@@ -1,0 +1,99 @@
+1
+00:00:00,850 --> 00:00:04,790
+Right now, your phone knows where you are, to within a few metres.
+
+2
+00:00:05,650 --> 00:00:07,670
+It works it out by listening
+
+3
+00:00:07,950 --> 00:00:09,430
+to ticking clocks.
+
+4
+00:00:14,150 --> 00:00:18,970
+About thirty satellites circle twenty thousand kilometres above us.
+
+5
+00:00:19,050 --> 00:00:20,950
+Each one carries an atomic clock,
+
+6
+00:00:20,990 --> 00:00:24,090
+and broadcasts the time, over and over.
+
+7
+00:00:24,550 --> 00:00:27,010
+The signal travels at the speed of light,
+
+8
+00:00:27,050 --> 00:00:29,290
+but it still arrives a little late.
+
+9
+00:00:30,250 --> 00:00:32,530
+And that delay is a distance.
+
+10
+00:00:34,850 --> 00:00:37,810
+One satellite puts you somewhere on a circle.
+
+11
+00:00:38,050 --> 00:00:39,970
+Two, at one of two points.
+
+12
+00:00:40,250 --> 00:00:41,590
+Three.
+
+13
+00:00:41,630 --> 00:00:43,030
+Right here.
+
+14
+00:00:44,350 --> 00:00:45,910
+But, there's a catch.
+
+15
+00:00:46,550 --> 00:00:49,990
+Up there, time itself runs at a different speed.
+
+16
+00:00:56,250 --> 00:00:58,610
+Moving fast slows the orbiting clock,
+
+17
+00:00:58,650 --> 00:01:01,410
+by seven microseconds a day.
+
+18
+00:01:01,650 --> 00:01:04,810
+Weaker gravity speeds it up, by forty-five.
+
+19
+00:01:05,250 --> 00:01:09,670
+Together, thirty-eight microseconds fast. Every single day.
+
+20
+00:01:09,950 --> 00:01:13,620
+Sounds tiny. But in thirty-eight microseconds,
+
+21
+00:01:13,660 --> 00:01:15,930
+light travels over eleven kilometres.
+
+22
+00:01:16,450 --> 00:01:20,470
+Left alone, your map pin would drift that far, every day.
+
+23
+00:01:20,850 --> 00:01:23,750
+By next week, you'd be somewhere out at sea.
+
+24
+00:01:28,850 --> 00:01:34,050
+So before launch, engineers tune the satellite clocks to tick slightly slow.
+
+25
+00:01:35,950 --> 00:01:39,910
+Einstein's relativity, quietly at work in your pocket.

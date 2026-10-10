@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:02,000
+CHUBBY · 胖橘 · 一份来自铲屎官的起诉书
+CHUBBY · an indictment filed by the cat's own human
+
+2
+00:00:02,000 --> 00:00:04,000
+为什么这只橘猫是个【惯犯】—— 第 2026-CAT-001 号起诉书
+Why is this orange cat a REPEAT OFFENDER? — Indictment No. 2026-CAT-001
+
+3
+00:00:04,450 --> 00:00:07,000
+嫌疑人档案：Pang Ju · 橘色 · 6.2 kg · 特长：装无辜 · 前科 99+ 次，均未悔改 · 罪名：可爱过度
+Suspect profile: Pang Ju · orange · 6.2 kg · skill: looking innocent · 99+ priors, no remorse · charge: excessive cuteness
+
+4
+00:00:07,000 --> 00:00:07,900
+喵。
+Meow.
+
+5
+00:00:08,050 --> 00:00:09,200
+罪状 01 · 测试重力
+Count 01 · Testing gravity
+
+6
+00:00:09,200 --> 00:00:12,000
+每天测试 17 次重力，结论永远一样。
+Tests gravity 17 times a day. Same result every time.
+
+7
+00:00:12,050 --> 00:00:12,700
+罪状 02 · 凌晨四点跑酷
+Count 02 · Parkour at 4 a.m.
+
+8
+00:00:12,700 --> 00:00:16,000
+每晚 4:00 准时开跑，从不迟到。
+Starts running at 4:00 every night. Never late.
+
+9
+00:00:16,050 --> 00:00:18,100
+罪状 03 · 代写周报
+Count 03 · Ghost-writing the weekly report
+
+10
+00:00:18,100 --> 00:00:20,000
+你的周报，它来写。
+Your weekly report? The cat will write it.
+
+11
+00:00:20,000 --> 00:00:21,000
+综上所述
+In summary
+
+12
+00:00:21,000 --> 00:00:22,000
+罪名成立？
+Guilty as charged?
+
+13
+00:00:22,300 --> 00:00:24,000
+结论：无罪释放
+Verdict: NOT GUILTY
+
+14
+00:00:24,050 --> 00:00:26,000
+理由：太可爱了
+Reason: too cute
+
+15
+00:00:26,800 --> 00:00:27,300
+结案
+CASE CLOSED
+
+16
+00:00:27,300 --> 00:00:30,000
+本片由 Claude 用代码一帧一帧画完。胖橘表示：全程没有配合。
+Drawn frame by frame in code by Claude. Chubby states: no cooperation whatsoever.

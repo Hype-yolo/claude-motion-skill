@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: "Inter Tight"; src: url(fonts/InterTightwght.ttf); font-weight: 100 900; }
+@font-face { font-family: "Noto Sans SC"; src: url(fonts/NotoSansSCwght.ttf); font-weight: 100 900; }
+@font-face { font-family: "Noto Sans JP"; src: url(fonts/NotoSansJPwght.ttf); font-weight: 100 900; }
+@font-face { font-family: "DM Mono"; src: url(fonts/DMMono-Medium.ttf); font-weight: 500; }
+html,body { margin:0; background:#000; overflow:hidden; }
+canvas { display:block; width:1920px; height:1080px; }
+</style></head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="edl.js"></script>
+<script src="engine.js"></script>
+<script src="poses/base.js"></script>
+<script src="poses/ath.js"></script>
+<script src="poses/aqua.js" onerror="0"></script>
+<script src="poses/ball.js" onerror="0"></script>
+<script src="poses/combat.js" onerror="0"></script>
+<script src="poses/power.js" onerror="0"></script>
+<script src="poses/nature.js" onerror="0"></script>
+<script src="poses/asia.js" onerror="0"></script>
+<script src="scenes.js"></script>
+<script>
+const ctx = document.getElementById('c').getContext('2d');
+window.DUR = EDL.DUR;
+window.render = (t) => G.renderFrame(ctx, t);
+Promise.all([
+  '900 40px "Inter Tight"', '800 40px "Inter Tight"', '500 40px "Noto Sans SC"', '900 40px "Noto Sans SC"', '700 40px "Noto Sans SC"',
+  '500 40px "Noto Sans JP"', '700 40px "Noto Sans JP"', '500 20px "DM Mono"',
+].map((f) => document.fonts.load(f, 'Aa第届亚洲运动会競技ここで'))).then(() => { render(0); window.READY = true; });
+</script>
+</body></html>

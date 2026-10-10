@@ -1,0 +1,12 @@
+1
+00:00:01,550 --> 00:00:04,600
+Sun. 3:40 pm — windy
+
+2
+00:00:28,200 --> 00:00:30,100
+Where the wind went.
+
+3
+00:00:30,100 --> 00:00:32,400
+Urban Sketch · Pen & Wash — a Lemo-Opuscar style
+LemoLab × Claude Opus 5.5

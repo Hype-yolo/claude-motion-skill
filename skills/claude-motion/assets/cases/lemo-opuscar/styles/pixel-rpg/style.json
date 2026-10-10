@@ -1,0 +1,18 @@
+{
+ "slug": "pixel-rpg",
+ "num": "29",
+ "en": "16-bit Pixel RPG",
+ "cn": "16-bit 像素 RPG",
+ "category_en": "Games",
+ "category_cn": "游戏",
+ "film": "The Last Save Point",
+ "line": "At the final boss door a hero saves the game, and the save screen replays the whole journey.",
+ "line_cn": "勇士在最终 Boss 门前存档，存档画面闪回一路冒险。",
+ "uses": [
+  "Game trailers",
+  "Recaps",
+  "Nostalgia"
+ ],
+ "frame_sec": 27.25,
+ "dur": 54.5
+}

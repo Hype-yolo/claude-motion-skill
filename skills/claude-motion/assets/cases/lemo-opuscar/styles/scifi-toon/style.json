@@ -1,0 +1,18 @@
+{
+ "slug": "scifi-toon",
+ "num": "28",
+ "en": "Sci-Fi Sitcom Toon",
+ "cn": "科幻情景喜剧卡通",
+ "category_en": "Cartoon & Anime",
+ "category_cn": "卡通与动画",
+ "film": "Coffee Run",
+ "line": "A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.",
+ "line_cn": "厌世天才开传送门只想买杯咖啡，却穿过越来越离谱的平行宇宙。",
+ "uses": [
+  "Comedy",
+  "Tech brands",
+  "Social shorts"
+ ],
+ "frame_sec": 11.5,
+ "dur": 57.5
+}

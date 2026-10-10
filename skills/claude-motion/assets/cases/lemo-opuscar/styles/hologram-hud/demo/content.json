@@ -1,0 +1,63 @@
+{
+  "product": "VOLT",
+  "model_code": "CE-01",
+  "category": "City e-bike",
+  "tagline": "Stripped to what matters.",
+  "model": "models/volt.json",
+  "hue": 188,
+  "accent": 38,
+  "voice": {
+    "id": "af_heart",
+    "speed": 1.0
+  },
+  "intro_vo": "This is Volt. A city e-bike, stripped to what matters.",
+  "callouts": [
+    {
+      "part": "battery",
+      "label": "Battery range",
+      "value": "80",
+      "unit": "km",
+      "detail": "540 Wh · hidden in the down tube",
+      "vo": "The battery hides inside the down tube. Eighty kilometres on one charge.",
+      "vo_asr": "The battery hides inside the down tube, 80 kilometers on one charge."
+    },
+    {
+      "part": "motor",
+      "label": "Rear hub motor",
+      "value": "250",
+      "unit": "W",
+      "detail": "45 Nm · sealed, silent",
+      "vo": "A two hundred and fifty watt hub motor. Silent, and sealed.",
+      "vo_asr": "A 250-watt hub motor, silent and sealed."
+    },
+    {
+      "part": "brakes",
+      "label": "Hydraulic disc",
+      "value": "160",
+      "unit": "mm",
+      "detail": "Two-piston · all-weather",
+      "vo": "Hydraulic disc brakes. Sure stops, even in the rain."
+    }
+  ],
+  "footer": {
+    "weight": {
+      "label": "Weight",
+      "value": "17.4",
+      "unit": "kg"
+    },
+    "price": {
+      "label": "From",
+      "value": "1,990",
+      "unit": "EUR"
+    },
+    "cta": "Reserve now · ships spring 2027"
+  },
+  "outro_vo": "Seventeen point four kilos. Ready when you are.",
+  "film_title": "Volt · Spec Scan",
+  "credits": [
+    "Voice: Kokoro-82M (Apache-2.0)",
+    "Fonts: Rajdhani, Share Tech Mono (SIL OFL 1.1)",
+    "Product, model and score: original, made in code"
+  ],
+  "outro_vo_asr": "17.4 kilos, ready when you are."
+}

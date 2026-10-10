@@ -1,0 +1,18 @@
+{
+ "slug": "shadow-puppet",
+ "num": "07",
+ "en": "Shadow Puppetry",
+ "cn": "皮影戏",
+ "category_en": "East Asian Traditions",
+ "category_cn": "东方传统",
+ "film": "Hou Yi Shoots the Suns",
+ "line": "Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.",
+ "line_cn": "十日炙烤大地，后羿张弓射日。",
+ "uses": [
+  "Myths & folklore",
+  "Heritage",
+  "Festivals"
+ ],
+ "frame_sec": 21.76,
+ "dur": 54.4
+}

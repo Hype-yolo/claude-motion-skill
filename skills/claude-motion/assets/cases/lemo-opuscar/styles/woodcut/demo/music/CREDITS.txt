@@ -1,0 +1,4 @@
+The Bell Founder - original score (woodcut demo)
+
+Samples (CC0): VS Chamber Orchestra: Community Edition (Versilian Studios), Versilian Community Sample Library (Versilian Studios)
+Anvil: original numpy modal synthesis (styles/woodcut/demo/music/score.py), no samples.

@@ -1,0 +1,140 @@
+[
+ {
+  "id": "p1",
+  "who": "GARY",
+  "text": "So, um... the machine's buh, buh-broken, and the cafe's closed, and the, uh, the",
+  "sub": "So, um— the machine's b-b-broken, and the café's closed, and the, uh—",
+  "voice": "am_eric",
+  "speed": 1.12,
+  "cut": 2.9,
+  "asr": "So, um, the machine's bub-bub broken and the cafe's closed and"
+ },
+ {
+  "id": "v1",
+  "who": "VASK",
+  "text": "Gary.",
+  "voice": "am_onyx",
+  "speed": 0.9
+ },
+ {
+  "id": "v2",
+  "who": "VASK",
+  "text": "Get your shoes.",
+  "voice": "am_onyx",
+  "speed": 0.88
+ },
+ {
+  "id": "v3",
+  "who": "VASK",
+  "text": "One coffee. Black.",
+  "voice": "am_onyx",
+  "speed": 0.9,
+  "asr": "1 coffee black"
+ },
+ {
+  "id": "v4",
+  "who": "VASK",
+  "text": "Nope.",
+  "sub": "...Nope.",
+  "voice": "am_onyx",
+  "speed": 0.85
+ },
+ {
+  "id": "p2",
+  "who": "GARY",
+  "text": "Nope!",
+  "voice": "am_eric",
+  "speed": 1.1
+ },
+ {
+  "id": "p3",
+  "who": "GARY",
+  "text": "Wh, wh, why is the mug drinking a guy?!",
+  "sub": "Wh-wh-why is the mug drinking a GUY?!",
+  "voice": "am_eric",
+  "speed": 1.15,
+  "asr": "W-H-W-H why is the mug drinking a guy"
+ },
+ {
+  "id": "v5",
+  "who": "VASK",
+  "text": "Nope.",
+  "voice": "am_onyx",
+  "speed": 0.95
+ },
+ {
+  "id": "v6a",
+  "who": "VASK",
+  "text": "Nope.",
+  "voice": "am_onyx",
+  "speed": 1.0
+ },
+ {
+  "id": "v6b",
+  "who": "VASK",
+  "text": "Nope?",
+  "voice": "am_onyx",
+  "speed": 0.95
+ },
+ {
+  "id": "v6c",
+  "who": "VASK",
+  "text": "Nope.",
+  "voice": "am_onyx",
+  "speed": 0.98
+ },
+ {
+  "id": "p4",
+  "who": "GARY",
+  "text": "Oh, thank god. It's... normal.",
+  "voice": "am_eric",
+  "speed": 1.0
+ },
+ {
+  "id": "v7",
+  "who": "VASK",
+  "text": "Mmm. Finally.",
+  "voice": "am_onyx",
+  "speed": 0.82
+ },
+ {
+  "id": "c1",
+  "who": "COFFEE",
+  "text": "Hi!",
+  "voice": "af_sky",
+  "speed": 1.0,
+  "pitch": 7
+ },
+ {
+  "id": "p5",
+  "who": "GARY",
+  "text": "It's alive! It has a face!",
+  "voice": "am_eric",
+  "speed": 1.15
+ },
+ {
+  "id": "v8",
+  "who": "VASK",
+  "text": "Are you dee-caf?",
+  "sub": "...Are you decaf?",
+  "voice": "am_onyx",
+  "speed": 0.85,
+  "asr": "Are you decaf"
+ },
+ {
+  "id": "c2",
+  "who": "COFFEE",
+  "text": "Yep!",
+  "voice": "af_sky",
+  "speed": 1.0,
+  "pitch": 7,
+  "asr": "Yup"
+ },
+ {
+  "id": "v9",
+  "who": "VASK",
+  "text": "Gary. Get your shoes.",
+  "voice": "am_onyx",
+  "speed": 0.88
+ }
+]

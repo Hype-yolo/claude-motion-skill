@@ -1,0 +1,3 @@
+interface:
+  display_name: "Claude Motion"
+  short_description: "案例辅助代码动效：路由原作源码、保留视觉实现、改编新故事并导出视频"

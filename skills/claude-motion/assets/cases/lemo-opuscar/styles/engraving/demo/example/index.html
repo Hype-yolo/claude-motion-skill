@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Engraving engine example</title>
+<link rel="stylesheet" href="../fonts/fonts.css">
+<style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+// STYLE.md §10: any shape + a light direction, engraved in cutting order, with one hand-coloured element.
+import { B, engraveShape, Wash, drawSheet, engraveText } from '../engine/index.js';
+const ctx = document.getElementById('c').getContext('2d');
+await document.fonts.load('600 40px "Bodoni Moda"');
+// a four-pointed spark in Claude orange, with a short cursor tail
+const { ink, shape: spark } = engraveShape('M0 -120 C12 -40 40 -12 120 0 C40 12 12 40 0 120 C-12 40 -40 12 -120 0 C-40 -12 -12 -40 0 -120 Z',
+  { at: B.xf(860, 560, 1.9), light: [-0.6, -0.7], spacing: 4.2, style: 'contour', wMax: 2.1 });
+const tail = engraveShape('M0 0 H150 V26 H0 Z', { at: B.xf(1140, 740, 1), light: [-0.6, -0.7], spacing: 3.6, ink, g: 't' });
+ink.schedule(['ol', 'tol'], 0, 1.1, { conc: 2 }); ink.schedule(['h1', 'th1'], 0.8, 2.2, { conc: 40 }); ink.schedule(['h2', 'th2'], 1.6, 2.7, { conc: 40 }); ink.schedule(['h3', 'th3'], 2.2, 3.0, { conc: 40 }); ink.build();
+const w = new Wash({ scale: 1.5 });
+w.add({ path: spark.path, polys: spark.polys, color: '#D97757', origin: [860, 560], t0: 3.0, dur: 1.2, alpha: 0.85 });
+window.render = t => {
+  ctx.setTransform(1, 0, 0, 1, 0, 0); drawSheet(ctx);
+  w.draw(ctx, t); ink.draw(ctx, t);
+  engraveText(ctx, 'THE SPARK.', 960, 170, { size: 50, weight: 600, track: 0.16, p: (t - 1.5) / 1 });
+  engraveText(ctx, 'engraveShape() · contour hatching · one hand-coloured element', 960, 960, { size: 20, italic: true, p: (t - 2) / 1 });
+};
+window.DUR = 5; window.READY = true;
+</script></body></html>

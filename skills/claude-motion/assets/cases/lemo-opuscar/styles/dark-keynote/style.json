@@ -1,0 +1,18 @@
+{
+ "slug": "dark-keynote",
+ "num": "25",
+ "en": "Dark Tech Keynote",
+ "cn": "暗色科技发布",
+ "category_en": "Information & Keynote",
+ "category_cn": "信息与发布",
+ "film": "Room to Think",
+ "line": "Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.",
+ "line_cn": "虚构 app Tidy 的发布片：被埋掉的光标一键把几百个窗口归位。",
+ "uses": [
+  "Product launches",
+  "SaaS",
+  "Keynotes"
+ ],
+ "frame_sec": 8.4,
+ "dur": 42.0
+}

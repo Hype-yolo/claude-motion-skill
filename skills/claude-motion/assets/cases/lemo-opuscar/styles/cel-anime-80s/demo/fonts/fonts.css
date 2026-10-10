@@ -1,0 +1,7 @@
+@font-face { font-family: 'Dela Gothic One'; src: url(DelaGothicOne-Regular.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Kanit'; font-style: italic; font-weight: 900; src: url(Kanit-BlackItalic.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Kanit'; font-style: italic; font-weight: 800; src: url(Kanit-ExtraBoldItalic.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Kanit'; font-style: italic; font-weight: 600; src: url(Kanit-SemiBoldItalic.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Barlow SC'; font-weight: 500; src: url(BarlowSemiCondensed-Medium.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Barlow SC'; font-weight: 600; src: url(BarlowSemiCondensed-SemiBold.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Barlow SC'; font-weight: 700; src: url(BarlowSemiCondensed-Bold.ttf) format('truetype'); font-display: block; }

@@ -1,0 +1,74 @@
+{
+  "plate_no": "Pl. XII",
+  "series": "Shore Gallery · Shells of the Atlantic Coast",
+  "title": "The Great Scallop",
+  "latin": "Pecten maximus",
+  "subject": "scallop",
+  "details": [
+    {
+      "name": "Hinge",
+      "latin": "umbo",
+      "note": "The oldest part of the shell, where its growth began.",
+      "focus": "umbo"
+    },
+    {
+      "name": "Growth Lines",
+      "latin": "lineae incrementi",
+      "note": "One ring for every season of slow growth.",
+      "focus": "growth"
+    }
+  ],
+  "colors": [
+    {
+      "region": "shell",
+      "color": "#d98a5c"
+    },
+    {
+      "region": "bands",
+      "color": "#a8423a"
+    },
+    {
+      "region": "ears",
+      "color": "#e0b27a"
+    }
+  ],
+  "caption": "Hold a real shell at the Discovery Table",
+  "nat_size_label": "Natural size",
+  "signature": {
+    "left": "Lemo del.",
+    "right": "Opus sculp."
+  },
+  "voice": {
+    "voice": "bm_fable",
+    "speed": 0.92,
+    "lines": [
+      {
+        "id": "title",
+        "text": "Plate twelve. The great scallop.",
+        "asr": "Plate 12 the great scallop"
+      },
+      {
+        "id": "d1",
+        "text": "Every shell begins here, at the hinge, and grows outward from it."
+      },
+      {
+        "id": "d2",
+        "text": "Each fine ring marks a season, so a shell keeps its own diary."
+      },
+      {
+        "id": "close",
+        "text": "Some live for more than twenty years, and the rings count them all.",
+        "asr": "Some live for more than 20 years and the rings count them all"
+      }
+    ]
+  },
+  "end": {
+    "film_title": "The Great Scallop, Plate XII",
+    "style_name": "Copperplate Engraving",
+    "credits": [
+      "Voice · Kokoro TTS (Apache-2.0)",
+      "Type · Bodoni Moda · Pinyon Script",
+      "Score & sound · written in code"
+    ]
+  }
+}

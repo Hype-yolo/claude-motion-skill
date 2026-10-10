@@ -1,0 +1,44 @@
+{
+ "C1_incipit": 0.5,
+ "title": 5.4,
+ "C2_dawn": 9.6,
+ "sword": 11.1,
+ "T1_glass_rise": 15.6,
+ "C3_noon": 17.2,
+ "C4_battle": 22.6,
+ "clashes": [
+  24.75,
+  26.25,
+  27.75,
+  29.25
+ ],
+ "roll": [
+  30.0,
+  31.8
+ ],
+ "hard_stop": 31.8,
+ "silence": [
+  31.8,
+  33.8
+ ],
+ "C5_ember": 33.8,
+ "welds": [
+  41.75,
+  42.5,
+  43.25,
+  44.0
+ ],
+ "bell": 44.6,
+ "bell_only": [
+  44.6,
+  47.2
+ ],
+ "C7_nocturne": 47.2,
+ "endcard_fifth": 52.9,
+ "dawn_glass": 55.2,
+ "fade": [
+  55.6,
+  56.5
+ ],
+ "norm_gain": 1.0
+}

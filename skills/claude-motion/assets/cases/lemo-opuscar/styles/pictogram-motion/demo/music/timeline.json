@@ -1,0 +1,640 @@
+{
+ "bpm": 150,
+ "beat": 0.4,
+ "total_beats": 404,
+ "duration": 161.60000000000002,
+ "shots": [
+  {
+   "kind": "intro",
+   "id": "intro",
+   "chap": "intro",
+   "t0": 0,
+   "b0": 0,
+   "beats": 48
+  },
+  {
+   "kind": "chapter",
+   "id": "ath",
+   "chap": "ath",
+   "t0": 19.2,
+   "b0": 48,
+   "beats": 8
+  },
+  {
+   "kind": "card",
+   "id": "sprint",
+   "chap": "ath",
+   "t0": 22.4,
+   "b0": 56,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "hurdles",
+   "chap": "ath",
+   "t0": 24,
+   "b0": 60,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "relay",
+   "chap": "ath",
+   "t0": 25.6,
+   "b0": 64,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "distance",
+   "chap": "ath",
+   "t0": 27.2,
+   "b0": 68,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "steeple",
+   "chap": "ath",
+   "t0": 28.8,
+   "b0": 72,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "marathon",
+   "chap": "ath",
+   "t0": 30.4,
+   "b0": 76,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "walk",
+   "chap": "ath",
+   "t0": 32,
+   "b0": 80,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "highjump",
+   "chap": "ath",
+   "t0": 33.6,
+   "b0": 84,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "polevault",
+   "chap": "ath",
+   "t0": 35.2,
+   "b0": 88,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "longjump",
+   "chap": "ath",
+   "t0": 36.8,
+   "b0": 92,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "shot",
+   "chap": "ath",
+   "t0": 38.4,
+   "b0": 96,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "discus",
+   "chap": "ath",
+   "t0": 40,
+   "b0": 100,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "hammer",
+   "chap": "ath",
+   "t0": 41.6,
+   "b0": 104,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "javelin",
+   "chap": "ath",
+   "t0": 43.2,
+   "b0": 108,
+   "beats": 4
+  },
+  {
+   "kind": "chapter",
+   "id": "aqua",
+   "chap": "aqua",
+   "t0": 44.8,
+   "b0": 112,
+   "beats": 8
+  },
+  {
+   "kind": "card",
+   "id": "free",
+   "chap": "aqua",
+   "t0": 48,
+   "b0": 120,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "breast",
+   "chap": "aqua",
+   "t0": 48.8,
+   "b0": 122,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "back",
+   "chap": "aqua",
+   "t0": 49.6,
+   "b0": 124,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "fly",
+   "chap": "aqua",
+   "t0": 50.4,
+   "b0": 126,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "diving",
+   "chap": "aqua",
+   "t0": 51.2,
+   "b0": 128,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "artistic",
+   "chap": "aqua",
+   "t0": 52.8,
+   "b0": 132,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "waterpolo",
+   "chap": "aqua",
+   "t0": 54.4,
+   "b0": 136,
+   "beats": 4
+  },
+  {
+   "kind": "chapter",
+   "id": "ball",
+   "chap": "ball",
+   "t0": 56,
+   "b0": 140,
+   "beats": 8
+  },
+  {
+   "kind": "card",
+   "id": "football",
+   "chap": "ball",
+   "t0": 59.2,
+   "b0": 148,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "basketball",
+   "chap": "ball",
+   "t0": 60.8,
+   "b0": 152,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "volleyball",
+   "chap": "ball",
+   "t0": 62.4,
+   "b0": 156,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "handball",
+   "chap": "ball",
+   "t0": 64,
+   "b0": 160,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "hockey",
+   "chap": "ball",
+   "t0": 65.6,
+   "b0": 164,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "rugby",
+   "chap": "ball",
+   "t0": 67.2,
+   "b0": 168,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "baseball",
+   "chap": "ball",
+   "t0": 68.8,
+   "b0": 172,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "cricket",
+   "chap": "ball",
+   "t0": 70.4,
+   "b0": 176,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "golf",
+   "chap": "ball",
+   "t0": 72,
+   "b0": 180,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "badminton",
+   "chap": "ball",
+   "t0": 73.6,
+   "b0": 184,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "tabletennis",
+   "chap": "ball",
+   "t0": 74.4,
+   "b0": 186,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "tennis",
+   "chap": "ball",
+   "t0": 75.2,
+   "b0": 188,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "softtennis",
+   "chap": "ball",
+   "t0": 76,
+   "b0": 190,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "squash",
+   "chap": "ball",
+   "t0": 76.8,
+   "b0": 192,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "padel",
+   "chap": "ball",
+   "t0": 77.6,
+   "b0": 194,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "teqball",
+   "chap": "ball",
+   "t0": 78.4,
+   "b0": 196,
+   "beats": 4
+  },
+  {
+   "kind": "chapter",
+   "id": "combat",
+   "chap": "combat",
+   "t0": 80,
+   "b0": 200,
+   "beats": 8
+  },
+  {
+   "kind": "card",
+   "id": "judo",
+   "chap": "combat",
+   "t0": 83.2,
+   "b0": 208,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "karate",
+   "chap": "combat",
+   "t0": 84.8,
+   "b0": 212,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "taekwondo",
+   "chap": "combat",
+   "t0": 86.4,
+   "b0": 216,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "boxing",
+   "chap": "combat",
+   "t0": 88,
+   "b0": 220,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "wrestling",
+   "chap": "combat",
+   "t0": 89.6,
+   "b0": 224,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "fencing",
+   "chap": "combat",
+   "t0": 91.2,
+   "b0": 228,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "jujitsu",
+   "chap": "combat",
+   "t0": 92.8,
+   "b0": 232,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "kurash",
+   "chap": "combat",
+   "t0": 94.4,
+   "b0": 236,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "mma",
+   "chap": "combat",
+   "t0": 96,
+   "b0": 240,
+   "beats": 4
+  },
+  {
+   "kind": "chapter",
+   "id": "power",
+   "chap": "power",
+   "t0": 97.6,
+   "b0": 244,
+   "beats": 8
+  },
+  {
+   "kind": "card",
+   "id": "weightlifting",
+   "chap": "power",
+   "t0": 100.8,
+   "b0": 252,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "shooting",
+   "chap": "power",
+   "t0": 102.4,
+   "b0": 256,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "archery",
+   "chap": "power",
+   "t0": 104,
+   "b0": 260,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "gym_art",
+   "chap": "power",
+   "t0": 105.6,
+   "b0": 264,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "gym_rhythm",
+   "chap": "power",
+   "t0": 107.2,
+   "b0": 268,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "gym_tramp",
+   "chap": "power",
+   "t0": 108.8,
+   "b0": 272,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "pentathlon",
+   "chap": "power",
+   "t0": 110.4,
+   "b0": 276,
+   "beats": 4
+  },
+  {
+   "kind": "chapter",
+   "id": "nature",
+   "chap": "nature",
+   "t0": 112,
+   "b0": 280,
+   "beats": 8
+  },
+  {
+   "kind": "card",
+   "id": "rowing",
+   "chap": "nature",
+   "t0": 115.2,
+   "b0": 288,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "canoe",
+   "chap": "nature",
+   "t0": 116.8,
+   "b0": 292,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "sailing",
+   "chap": "nature",
+   "t0": 118.4,
+   "b0": 296,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "surfing",
+   "chap": "nature",
+   "t0": 120,
+   "b0": 300,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "triathlon",
+   "chap": "nature",
+   "t0": 121.6,
+   "b0": 304,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "cyc_road",
+   "chap": "nature",
+   "t0": 123.2,
+   "b0": 308,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "cyc_track",
+   "chap": "nature",
+   "t0": 124,
+   "b0": 310,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "cyc_bmx",
+   "chap": "nature",
+   "t0": 124.8,
+   "b0": 312,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "cyc_mtb",
+   "chap": "nature",
+   "t0": 125.6,
+   "b0": 314,
+   "beats": 2
+  },
+  {
+   "kind": "card",
+   "id": "equestrian",
+   "chap": "nature",
+   "t0": 126.4,
+   "b0": 316,
+   "beats": 4
+  },
+  {
+   "kind": "chapter",
+   "id": "asia",
+   "chap": "asia",
+   "t0": 128,
+   "b0": 320,
+   "beats": 8
+  },
+  {
+   "kind": "card",
+   "id": "kabaddi",
+   "chap": "asia",
+   "t0": 131.2,
+   "b0": 328,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "takraw",
+   "chap": "asia",
+   "t0": 132.8,
+   "b0": 332,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "wushu",
+   "chap": "asia",
+   "t0": 134.4,
+   "b0": 336,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "skate",
+   "chap": "asia",
+   "t0": 136,
+   "b0": 340,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "climbing",
+   "chap": "asia",
+   "t0": 137.6,
+   "b0": 344,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "breaking",
+   "chap": "asia",
+   "t0": 139.2,
+   "b0": 348,
+   "beats": 4
+  },
+  {
+   "kind": "card",
+   "id": "esports",
+   "chap": "asia",
+   "t0": 140.8,
+   "b0": 352,
+   "beats": 4
+  },
+  {
+   "kind": "finale",
+   "id": "finale",
+   "chap": "finale",
+   "t0": 142.4,
+   "b0": 356,
+   "beats": 48
+  }
+ ]
+}

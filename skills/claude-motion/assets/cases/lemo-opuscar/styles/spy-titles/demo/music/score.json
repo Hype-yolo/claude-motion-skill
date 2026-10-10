@@ -1,0 +1,164 @@
+{
+ "bongo_pickup": [
+  1.5909,
+  1.8182
+ ],
+ "hits": [
+  {
+   "name": "split",
+   "t": 2.2727,
+   "chord": "Em7",
+   "measured": 2.2742,
+   "dev_ms": 1.5
+  },
+  {
+   "name": "snatch",
+   "t": 5.9091,
+   "chord": "C7s11",
+   "measured": 5.9089,
+   "dev_ms": -0.2
+  },
+  {
+   "name": "hide",
+   "t": 11.3636,
+   "chord": "Em7",
+   "measured": 11.3648,
+   "dev_ms": 1.2
+  },
+  {
+   "name": "train",
+   "t": 16.8182,
+   "chord": "Em7",
+   "measured": 16.8167,
+   "dev_ms": -1.5
+  },
+  {
+   "name": "freeze",
+   "t": 20.4545,
+   "chord": "B7s9",
+   "measured": 20.4562,
+   "dev_ms": 1.8
+  },
+  {
+   "name": "resume",
+   "t": 21.3636,
+   "chord": "Em7",
+   "measured": 21.3672,
+   "dev_ms": 3.6
+  },
+  {
+   "name": "roulette",
+   "t": 22.2727,
+   "chord": "Em6",
+   "measured": 22.2723,
+   "dev_ms": -0.4
+  },
+  {
+   "name": "pupil",
+   "t": 25.0,
+   "chord": "Fm6",
+   "measured": 24.9991,
+   "dev_ms": -0.9
+  },
+  {
+   "name": "moon",
+   "t": 25.9091,
+   "chord": "Em7",
+   "measured": 25.906,
+   "dev_ms": -3.1
+  },
+  {
+   "name": "edge",
+   "t": 28.6364,
+   "chord": "C7s11",
+   "measured": 28.6457,
+   "dev_ms": 9.3
+  },
+  {
+   "name": "cornered",
+   "t": 29.0909,
+   "chord": "B7s9",
+   "measured": 29.0907,
+   "dev_ms": -0.2
+  },
+  {
+   "name": "title",
+   "t": 33.1818,
+   "chord": "Em69",
+   "measured": 33.1848,
+   "dev_ms": 3.0
+  },
+  {
+   "name": "button_pickup",
+   "t": 36.5909,
+   "chord": "Em69",
+   "measured": 36.5949,
+   "dev_ms": 4.0
+  },
+  {
+   "name": "button",
+   "t": 36.8182,
+   "chord": "Em69",
+   "measured": 36.8176,
+   "dev_ms": -0.6
+  }
+ ],
+ "fill_airport": 16.3636,
+ "jumps": [
+  18.6364,
+  19.5455
+ ],
+ "stop_time": [
+  20.6,
+  21.3636
+ ],
+ "keyBet": 23.1818,
+ "catch": 30.4545,
+ "silence_end": [
+  37.1,
+  37.7273
+ ],
+ "bongo_end": 37.7273,
+ "end_guitar": 40.9091,
+ "bpm": 132,
+ "off": 0.45454545454545453,
+ "dur_wav": 45.5,
+ "zones": {
+  "stop_time": {
+   "from": 20.6,
+   "to": 21.3636,
+   "max_abs": 0.0
+  },
+  "final_silence": {
+   "from": 37.1,
+   "to": 37.7273,
+   "max_abs": 0.0
+  },
+  "cold_open_pre_bongo": {
+   "from": 0,
+   "to": 1.5799,
+   "max_abs": 0.0
+  }
+ },
+ "bands_db_rel": {
+  "<200": -3.8280627727508545,
+  "200-2k": -3.4133152961730957,
+  "2k-8k": -9.831354141235352,
+  "8k-20k": -18.955595016479492
+ },
+ "rms_dbfs": {
+  "cold_open": -38.7,
+  "grid+velvet": -23.3,
+  "agent_intro": -24.4,
+  "airport": -26.1,
+  "train": -24.5,
+  "casino+pupil": -23.4,
+  "rooftop": -23.4,
+  "buildup+shatter": -24.7,
+  "title": -21.1,
+  "hold": -27.2,
+  "vo_window": -180.0,
+  "end_card": -28.5
+ },
+ "peak_dbfs": -1.2
+}

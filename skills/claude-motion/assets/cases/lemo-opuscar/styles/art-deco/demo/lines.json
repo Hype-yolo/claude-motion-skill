@@ -1,0 +1,50 @@
+[
+ {
+  "id": "L1",
+  "text": "Good evening, America! Live from the Starlight Hotel, it's five minutes to midnight.",
+  "voice": "bm_fable",
+  "speed": 1.0,
+  "asr": "Good evening, America! Live from the Starlight Hotel, it's 5 minutes to midnight."
+ },
+ {
+  "id": "L2",
+  "text": "The band is ready, folks. All they need now is the song.",
+  "voice": "bm_fable",
+  "speed": 1.0
+ },
+ {
+  "id": "B1",
+  "text": "Out... of order?",
+  "voice": "am_puck",
+  "speed": 0.86,
+  "pitch": 4,
+  "sub": "Out of order?!",
+  "asr": "Out of order"
+ },
+ {
+  "id": "L3",
+  "text": "Word is, the elevator's out. Somebody's taking the stairs!",
+  "voice": "bm_fable",
+  "speed": 1.02
+ },
+ {
+  "id": "L4",
+  "text": "Thirty seconds to midnight!",
+  "voice": "bm_fable",
+  "speed": 1.0,
+  "asr": "30 seconds to midnight!"
+ },
+ {
+  "id": "B2",
+  "text": "Special delivery!",
+  "voice": "am_puck",
+  "speed": 0.86,
+  "pitch": 4
+ },
+ {
+  "id": "L5",
+  "text": "Right on time. Happy New Year, from the Starlight Hotel.",
+  "voice": "bm_fable",
+  "speed": 0.96
+ }
+]

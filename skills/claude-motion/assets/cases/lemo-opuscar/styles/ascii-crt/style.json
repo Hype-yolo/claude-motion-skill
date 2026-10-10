@@ -1,0 +1,18 @@
+{
+ "slug": "ascii-crt",
+ "num": "22",
+ "en": "ASCII / CRT Terminal",
+ "cn": "ASCII / CRT 终端",
+ "category_en": "Graphic & Type",
+ "category_cn": "图形与排版",
+ "film": "Tranquility.log",
+ "line": "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.",
+ "line_cn": "月球基地的 AI 沉睡 40 年后被唤醒，用字符画出“家”来回复。",
+ "uses": [
+  "Developer tools",
+  "Sci-fi",
+  "Tech brands"
+ ],
+ "frame_sec": 50.23,
+ "dur": 59.8
+}

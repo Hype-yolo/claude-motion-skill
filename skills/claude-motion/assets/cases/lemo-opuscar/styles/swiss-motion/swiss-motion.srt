@@ -1,0 +1,31 @@
+1
+00:00:04,400 --> 00:00:07,800
+Rule one. Build a grid.
+
+2
+00:00:08,400 --> 00:00:11,800
+Rule two. Use one typeface.
+
+3
+00:00:12,400 --> 00:00:15,800
+Rule three. Leave space.
+
+4
+00:00:16,400 --> 00:00:19,850
+Rule four. Align everything.
+
+5
+00:00:20,100 --> 00:00:22,150
+Perfect. And a little dull.
+
+6
+00:00:22,150 --> 00:00:24,500
+Rule five. Break one rule.
+
+7
+00:00:24,600 --> 00:00:27,400
+Only one.
+
+8
+00:00:36,500 --> 00:00:39,950
+Same five rules. A different song every time.

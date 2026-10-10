@@ -1,0 +1,156 @@
+[
+ {
+  "id": "v01",
+  "text": "Right now, your phone knows where you are, to within a few metres.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb",
+  "asr": "Right now, your phone knows where you are, to within a few meters."
+ },
+ {
+  "id": "v02a",
+  "text": "It works it out by listening",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v02b",
+  "text": "to ticking clocks.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v03",
+  "text": "About thirty satellites circle twenty thousand kilometres above us.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb",
+  "asr": "About 30 satellites circle 20000 kilometers above us."
+ },
+ {
+  "id": "v04",
+  "text": "Each one carries an atomic clock, and broadcasts the time, over and over.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v05",
+  "text": "The signal travels at the speed of light, but it still arrives a little late.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v06",
+  "text": "And that delay is a distance.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v07",
+  "text": "One satellite puts you somewhere on a circle.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v08",
+  "text": "Two, at one of two points.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v09a",
+  "text": "Three.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb",
+  "asr": "3"
+ },
+ {
+  "id": "v09b",
+  "text": "Right here.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v10",
+  "text": "But, there's a catch.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v11",
+  "text": "Up there, time itself runs at a different speed.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v12",
+  "text": "Moving fast slows the orbiting clock, by seven microseconds a day.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb",
+  "asr": "Moving fast slows the orbiting clock, by 7 microseconds a day."
+ },
+ {
+  "id": "v13",
+  "text": "Weaker gravity speeds it up, by forty-five.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb",
+  "asr": "Weaker gravity speeds it up, by 45."
+ },
+ {
+  "id": "v14",
+  "text": "Together, thirty-eight microseconds fast. Every single day.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb",
+  "asr": "Together, 38 microseconds fast. Every single day."
+ },
+ {
+  "id": "v15",
+  "text": "Sounds tiny. But in thirty-eight microseconds, light travels over eleven kilometres.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb",
+  "asr": "Sounds tiny. But in 38 microseconds, light travels over 11 kilometers."
+ },
+ {
+  "id": "v16",
+  "text": "Left alone, your map pin would drift that far, every day.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v17",
+  "text": "By next week, you'd be somewhere out at sea.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v18",
+  "text": "So before launch, engineers tune the satellite clocks to tick slightly slow.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ },
+ {
+  "id": "v19",
+  "text": "Einstein's relativity, quietly at work in your pocket.",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "lang": "en-gb"
+ }
+]

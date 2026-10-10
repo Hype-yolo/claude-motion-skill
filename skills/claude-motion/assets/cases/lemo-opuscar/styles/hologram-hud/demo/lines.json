@@ -1,0 +1,35 @@
+[
+ {
+  "id": "intro",
+  "text": "This is Volt. A city e-bike, stripped to what matters.",
+  "voice": "af_heart",
+  "speed": 1
+ },
+ {
+  "id": "c0",
+  "text": "The battery hides inside the down tube. Eighty kilometres on one charge.",
+  "asr": "The battery hides inside the down tube, 80 kilometers on one charge.",
+  "voice": "af_heart",
+  "speed": 1
+ },
+ {
+  "id": "c1",
+  "text": "A two hundred and fifty watt hub motor. Silent, and sealed.",
+  "asr": "A 250-watt hub motor, silent and sealed.",
+  "voice": "af_heart",
+  "speed": 1
+ },
+ {
+  "id": "c2",
+  "text": "Hydraulic disc brakes. Sure stops, even in the rain.",
+  "voice": "af_heart",
+  "speed": 1
+ },
+ {
+  "id": "outro",
+  "text": "Seventeen point four kilos. Ready when you are.",
+  "asr": "17.4 kilos, ready when you are.",
+  "voice": "af_heart",
+  "speed": 1
+ }
+]

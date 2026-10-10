@@ -1,0 +1,71 @@
+{
+  "product": "KITE",
+  "model_code": "M2",
+  "category": "Folding camera drone",
+  "tagline": "Folds into a jacket pocket.",
+  "model": "models/kite.json",
+  "hue": 204,
+  "accent": 18,
+  "voice": {
+    "id": "af_heart",
+    "speed": 1.0
+  },
+  "intro_vo": "This is Kite. A camera drone that folds into your pocket.",
+  "callouts": [
+    {
+      "part": "battery",
+      "label": "Flight time",
+      "value": "34",
+      "unit": "min",
+      "detail": "Swappable pack · slides out the back",
+      "vo": "The battery slides out the back. Thirty four minutes in the air.",
+      "vo_asr": "The battery slides out the back, 34 minutes in the air."
+    },
+    {
+      "part": "camera",
+      "label": "Gimbal camera",
+      "value": "48",
+      "unit": "MP",
+      "detail": "3-axis · 4K at 60 fps",
+      "vo": "A three axis gimbal, with a forty eight megapixel camera.",
+      "vo_asr": "A three-axis gimbal with a 48-megapixel camera."
+    },
+    {
+      "part": "arms",
+      "label": "Wind resistance",
+      "value": "12",
+      "unit": "m/s",
+      "detail": "Four brushless motors · folding arms",
+      "vo": "Four brushless motors hold steady in strong wind."
+    },
+    {
+      "part": "sensors",
+      "label": "Obstacle sensing",
+      "value": "360",
+      "unit": "°",
+      "detail": "Six vision sensors",
+      "vo": "And it sees in every direction."
+    }
+  ],
+  "footer": {
+    "weight": {
+      "label": "Weight",
+      "value": "249",
+      "unit": "g"
+    },
+    "price": {
+      "label": "From",
+      "value": "799",
+      "unit": "USD"
+    },
+    "cta": "Order now · ships in 48 h"
+  },
+  "outro_vo": "Two hundred and forty nine grams. Go fly.",
+  "film_title": "Kite · Spec Scan",
+  "credits": [
+    "Voice: Kokoro-82M (Apache-2.0)",
+    "Fonts: Rajdhani, Share Tech Mono (SIL OFL 1.1)",
+    "Product, model and score: original, made in code"
+  ],
+  "outro_vo_asr": "249 grams, go fly."
+}

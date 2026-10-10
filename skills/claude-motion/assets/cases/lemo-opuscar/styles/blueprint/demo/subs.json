@@ -1,0 +1,44 @@
+[
+ {
+  "id": "v1",
+  "n": 1,
+  "t0": 5.2,
+  "t1": 9.007,
+  "text": "Figure one. An apparatus for catching clouds."
+ },
+ {
+  "id": "v2",
+  "n": 2,
+  "t0": 12.2,
+  "t1": 17.461000000000002,
+  "text": "Figure two. Thirteen parts, one bellows, and a rather optimistic net."
+ },
+ {
+  "id": "v3",
+  "n": 3,
+  "t0": 21.9,
+  "t1": 26,
+  "text": "It works beautifully. Except, there are no clouds on this sheet."
+ },
+ {
+  "id": "v4",
+  "n": 4,
+  "t0": 26.1,
+  "t1": 28.788888888888888,
+  "text": "So, I issued a revision."
+ },
+ {
+  "id": "v5",
+  "n": 5,
+  "t0": 35,
+  "t1": 38.95,
+  "text": "It rained on the drawing. I'm told drawings don't do that."
+ },
+ {
+  "id": "v6",
+  "n": 6,
+  "t0": 40.7,
+  "t1": 43.513000000000005,
+  "text": "Status: works. Slightly damp."
+ }
+]

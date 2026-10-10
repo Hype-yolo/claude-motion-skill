@@ -1,0 +1,2536 @@
+{
+ "sr": 48000,
+ "dur": 53.0,
+ "bpm": 96,
+ "beat": 0.625,
+ "bar": 2.5,
+ "groove_bar0": 6.25,
+ "key": "D major",
+ "chords_given": [
+  "D",
+  "Bm",
+  "G",
+  "A",
+  "D",
+  "Bm",
+  "G",
+  "D",
+  "D",
+  "Bm",
+  "D",
+  "A",
+  "D",
+  "Bm",
+  "G",
+  "D",
+  "D",
+  "D"
+ ],
+ "harmony_used": [
+  {
+   "t0": 0.5,
+   "t1": 8.75,
+   "chord": "D"
+  },
+  {
+   "t0": 8.75,
+   "t1": 11.25,
+   "chord": "Bm"
+  },
+  {
+   "t0": 11.25,
+   "t1": 13.75,
+   "chord": "G"
+  },
+  {
+   "t0": 13.75,
+   "t1": 16.25,
+   "chord": "A"
+  },
+  {
+   "t0": 16.25,
+   "t1": 18.75,
+   "chord": "D"
+  },
+  {
+   "t0": 18.75,
+   "t1": 21.25,
+   "chord": "Bm"
+  },
+  {
+   "t0": 21.25,
+   "t1": 22.5,
+   "chord": "D"
+  },
+  {
+   "t0": 22.5,
+   "t1": 23.75,
+   "chord": "G"
+  },
+  {
+   "t0": 23.75,
+   "t1": 25.0,
+   "chord": "D"
+  },
+  {
+   "t0": 25.0,
+   "t1": 26.25,
+   "chord": "A"
+  },
+  {
+   "t0": 26.25,
+   "t1": 28.75,
+   "chord": "D"
+  },
+  {
+   "t0": 28.75,
+   "t1": 31.25,
+   "chord": "Bm"
+  },
+  {
+   "t0": 31.25,
+   "t1": 33.75,
+   "chord": "D"
+  },
+  {
+   "t0": 33.75,
+   "t1": 36.0,
+   "chord": "Asus4"
+  },
+  {
+   "t0": 36.25,
+   "t1": 38.75,
+   "chord": "D"
+  },
+  {
+   "t0": 38.75,
+   "t1": 41.25,
+   "chord": "Bm"
+  },
+  {
+   "t0": 41.25,
+   "t1": 43.75,
+   "chord": "G"
+  },
+  {
+   "t0": 43.75,
+   "t1": 53.0,
+   "chord": "D"
+  }
+ ],
+ "harmony_note": "bar 6 (21.25) played D|G and bar 7 (23.75) D|A so the island-complete chord hit is D major; bar 11 pre-ignite is Asus4",
+ "silence": {
+  "fade_out": [
+   36.0,
+   36.03
+  ],
+  "zero": [
+   36.03,
+   36.25
+  ]
+ },
+ "sections": {
+  "sea": [
+   0,
+   6.25
+  ],
+  "tiles": [
+   6.25,
+   13.75
+  ],
+  "details": [
+   13.75,
+   21.25
+  ],
+  "day": [
+   21.25,
+   26.25
+  ],
+  "dusk": [
+   26.25,
+   28.75
+  ],
+  "dusk_night": [
+   28.75,
+   31.25
+  ],
+  "night": [
+   31.25,
+   33.75
+  ],
+  "lighthouse": [
+   33.75,
+   36.0
+  ],
+  "silence": [
+   36.0,
+   36.25
+  ],
+  "climax": [
+   36.25,
+   41.25
+  ],
+  "home": [
+   41.25,
+   46.25
+  ],
+  "far": [
+   46.25,
+   53.0
+  ]
+ },
+ "narration_mid_dip": [
+  [
+   3.9,
+   6.1
+  ],
+  [
+   7.0,
+   8.9
+  ],
+  [
+   26.5,
+   28.9
+  ],
+  [
+   31.6,
+   33.6
+  ],
+  [
+   44.0,
+   46.6
+  ]
+ ],
+ "final_chord": 48.75,
+ "end_fade": [
+  50.8,
+  53.0
+ ],
+ "normalization_gain": 0.2836808686147194,
+ "notes": [
+  {
+   "t": 0.25,
+   "type": "bell",
+   "midi": 74,
+   "instrument": "buoy bell",
+   "src": "event"
+  },
+  {
+   "t": 0.3,
+   "type": "shimmer",
+   "midi": 86,
+   "instrument": "high sine shimmer (D6/F#6/A6)",
+   "src": "backing"
+  },
+  {
+   "t": 0.5,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (0.50-8.75)",
+   "src": "backing"
+  },
+  {
+   "t": 0.5,
+   "type": "pad",
+   "midi": 50,
+   "instrument": "pad drone D (D2/D3/A3)",
+   "src": "backing"
+  },
+  {
+   "t": 2.9,
+   "type": "bell",
+   "midi": 74,
+   "instrument": "buoy bell",
+   "src": "event"
+  },
+  {
+   "t": 6.25,
+   "type": "rise",
+   "midi": 50,
+   "instrument": "marimba + sub sine (oct below) + bloom",
+   "src": "event"
+  },
+  {
+   "t": 6.25,
+   "type": "bell",
+   "midi": 74,
+   "instrument": "buoy bell",
+   "src": "event"
+  },
+  {
+   "t": 7.5,
+   "type": "rise",
+   "midi": 66,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 8.75,
+   "type": "rise",
+   "midi": 62,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 8.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord Bm (8.75-11.25)",
+   "src": "backing"
+  },
+  {
+   "t": 9.375,
+   "type": "rise",
+   "midi": 71,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 10.0,
+   "type": "rise",
+   "midi": 66,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 10.625,
+   "type": "rise",
+   "midi": 71,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 11.25,
+   "type": "rise",
+   "midi": 38,
+   "instrument": "marimba + sub sine (oct below) + bloom",
+   "src": "event"
+  },
+  {
+   "t": 11.25,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord G (11.25-13.75)",
+   "src": "backing"
+  },
+  {
+   "t": 11.5625,
+   "type": "rise",
+   "midi": 62,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 11.5625,
+   "type": "rise",
+   "midi": 69,
+   "instrument": "marimba (fifth, n>=3)",
+   "src": "event"
+  },
+  {
+   "t": 11.875,
+   "type": "rise",
+   "midi": 67,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 11.875,
+   "type": "rise",
+   "midi": 74,
+   "instrument": "marimba (fifth, n>=3)",
+   "src": "event"
+  },
+  {
+   "t": 12.1875,
+   "type": "rise",
+   "midi": 71,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 12.1875,
+   "type": "rise",
+   "midi": 78,
+   "instrument": "marimba (fifth, n>=3)",
+   "src": "event"
+  },
+  {
+   "t": 12.5,
+   "type": "rise",
+   "midi": 62,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 12.5,
+   "type": "rise",
+   "midi": 69,
+   "instrument": "marimba (fifth, n>=3)",
+   "src": "event"
+  },
+  {
+   "t": 12.8125,
+   "type": "rise",
+   "midi": 71,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 12.8125,
+   "type": "rise",
+   "midi": 78,
+   "instrument": "marimba (fifth, n>=3)",
+   "src": "event"
+  },
+  {
+   "t": 13.125,
+   "type": "rise",
+   "midi": 67,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 13.125,
+   "type": "rise",
+   "midi": 74,
+   "instrument": "marimba (fifth, n>=3)",
+   "src": "event"
+  },
+  {
+   "t": 13.4375,
+   "type": "rise",
+   "midi": 74,
+   "instrument": "marimba",
+   "src": "event"
+  },
+  {
+   "t": 13.4375,
+   "type": "rise",
+   "midi": 81,
+   "instrument": "marimba (fifth, n>=3)",
+   "src": "event"
+  },
+  {
+   "t": 13.75,
+   "type": "pop",
+   "midi": 69,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 13.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord A (13.75-16.25)",
+   "src": "backing"
+  },
+  {
+   "t": 13.75,
+   "type": "bass",
+   "midi": 45,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 14.0625,
+   "type": "pop",
+   "midi": 73,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 14.375,
+   "type": "pop",
+   "midi": 73,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 14.6875,
+   "type": "pop",
+   "midi": 76,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 15.0,
+   "type": "pop",
+   "midi": 81,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 15.3125,
+   "type": "pop",
+   "midi": 85,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 15.625,
+   "type": "pop",
+   "midi": 85,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 15.9375,
+   "type": "pop",
+   "midi": 88,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 16.25,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 16.25,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (16.25-18.75)",
+   "src": "backing"
+  },
+  {
+   "t": 16.25,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 16.25,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 16.4063,
+   "type": "roof",
+   "midi": 83,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 16.5625,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 16.5625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 16.7188,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 16.875,
+   "type": "roof",
+   "midi": 74,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 16.875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 17.0313,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 17.1875,
+   "type": "roof",
+   "midi": 76,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 17.1875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 17.3438,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 17.5,
+   "type": "roof",
+   "midi": 78,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 17.5,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 17.6563,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 17.8125,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 17.8125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 17.9688,
+   "type": "roof",
+   "midi": 74,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 18.125,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 18.125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 18.2813,
+   "type": "roof",
+   "midi": 81,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 18.4375,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 18.4375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 18.5938,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 18.75,
+   "type": "roof",
+   "midi": 81,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 18.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord Bm (18.75-21.25)",
+   "src": "backing"
+  },
+  {
+   "t": 18.75,
+   "type": "bass",
+   "midi": 47,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 18.75,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 18.9063,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 19.0625,
+   "type": "floor",
+   "midi": 54,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 19.0625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 19.2188,
+   "type": "roof",
+   "midi": 78,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 19.375,
+   "type": "floor",
+   "midi": 55,
+   "instrument": "woodblock",
+   "src": "event"
+  },
+  {
+   "t": 19.375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 19.5313,
+   "type": "roof",
+   "midi": 62,
+   "instrument": "kalimba + marimba unison",
+   "src": "event"
+  },
+  {
+   "t": 19.6875,
+   "type": "pop",
+   "midi": 66,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 19.6875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 19.8438,
+   "type": "plank",
+   "midi": 69,
+   "instrument": "marimba (dry, short)",
+   "src": "event"
+  },
+  {
+   "t": 20.0,
+   "type": "plank",
+   "midi": 71,
+   "instrument": "marimba (dry, short)",
+   "src": "event"
+  },
+  {
+   "t": 20.0,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 20.1563,
+   "type": "plank",
+   "midi": 74,
+   "instrument": "marimba (dry, short)",
+   "src": "event"
+  },
+  {
+   "t": 20.3125,
+   "type": "plank",
+   "midi": 78,
+   "instrument": "marimba (dry, short)",
+   "src": "event"
+  },
+  {
+   "t": 20.3125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 20.4688,
+   "type": "splash",
+   "midi": 81,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 20.5038,
+   "type": "splash",
+   "midi": 93,
+   "instrument": "kalimba grace (oct up)",
+   "src": "event"
+  },
+  {
+   "t": 20.625,
+   "type": "pop",
+   "midi": 78,
+   "instrument": "kalimba",
+   "src": "event"
+  },
+  {
+   "t": 20.625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 20.7813,
+   "type": "sparkle",
+   "midi": 83,
+   "instrument": "kalimba + glass (sparkle gliss)",
+   "src": "event"
+  },
+  {
+   "t": 20.8263,
+   "type": "sparkle",
+   "midi": 85,
+   "instrument": "kalimba + glass (sparkle gliss)",
+   "src": "event"
+  },
+  {
+   "t": 20.8713,
+   "type": "sparkle",
+   "midi": 86,
+   "instrument": "kalimba + glass (sparkle gliss)",
+   "src": "event"
+  },
+  {
+   "t": 20.9375,
+   "type": "sparkle",
+   "midi": 78,
+   "instrument": "kalimba + glass (sparkle gliss)",
+   "src": "event"
+  },
+  {
+   "t": 20.9375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 20.9825,
+   "type": "sparkle",
+   "midi": 79,
+   "instrument": "kalimba + glass (sparkle gliss)",
+   "src": "event"
+  },
+  {
+   "t": 21.0275,
+   "type": "sparkle",
+   "midi": 81,
+   "instrument": "kalimba + glass (sparkle gliss)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "chord",
+   "midi": 38,
+   "instrument": "marimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "chord",
+   "midi": 50,
+   "instrument": "marimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "chord",
+   "midi": 57,
+   "instrument": "marimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "chord",
+   "midi": 62,
+   "instrument": "marimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "chord",
+   "midi": 66,
+   "instrument": "marimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "chord",
+   "midi": 69,
+   "instrument": "marimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "chord",
+   "midi": 74,
+   "instrument": "kalimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.25,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (21.25-22.50)",
+   "src": "backing"
+  },
+  {
+   "t": 21.25,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 21.25,
+   "type": "ostinato",
+   "midi": 50,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 21.25,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 21.25,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 21.262,
+   "type": "chord",
+   "midi": 78,
+   "instrument": "kalimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.274,
+   "type": "chord",
+   "midi": 81,
+   "instrument": "kalimba (D chord)",
+   "src": "event"
+  },
+  {
+   "t": 21.40625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 21.5625,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 21.5625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 21.71875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 21.875,
+   "type": "ostinato",
+   "midi": 62,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 21.875,
+   "type": "counter",
+   "midi": 74,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 21.875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 22.03125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 22.1875,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 22.1875,
+   "type": "counter",
+   "midi": 78,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 22.1875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 22.34375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 22.5,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord G (22.50-23.75)",
+   "src": "backing"
+  },
+  {
+   "t": 22.5,
+   "type": "bass",
+   "midi": 43,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 22.5,
+   "type": "ostinato",
+   "midi": 71,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 22.5,
+   "type": "counter",
+   "midi": 81,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 22.5,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 22.5,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 22.65625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 22.8125,
+   "type": "ostinato",
+   "midi": 62,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 22.8125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 22.96875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 23.125,
+   "type": "ostinato",
+   "midi": 67,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 23.125,
+   "type": "counter",
+   "midi": 83,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 23.125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 23.28125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 23.4375,
+   "type": "ostinato",
+   "midi": 62,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 23.4375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 23.59375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 23.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (23.75-25.00)",
+   "src": "backing"
+  },
+  {
+   "t": 23.75,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 23.75,
+   "type": "ostinato",
+   "midi": 50,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 23.75,
+   "type": "counter",
+   "midi": 81,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 23.75,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 23.75,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 23.90625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 24.0625,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 24.0625,
+   "type": "counter",
+   "midi": 78,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 24.0625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 24.21875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 24.375,
+   "type": "boatbell",
+   "midi": 74,
+   "instrument": "ship bell (small)",
+   "src": "event"
+  },
+  {
+   "t": 24.375,
+   "type": "ostinato",
+   "midi": 62,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 24.375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 24.53125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 24.6875,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 24.6875,
+   "type": "counter",
+   "midi": 76,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 24.6875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 24.84375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 25.0,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord A (25.00-26.25)",
+   "src": "backing"
+  },
+  {
+   "t": 25.0,
+   "type": "bass",
+   "midi": 45,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 25.0,
+   "type": "ostinato",
+   "midi": 73,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 25.0,
+   "type": "counter",
+   "midi": 74,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 25.0,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 25.0,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 25.15625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 25.3125,
+   "type": "ostinato",
+   "midi": 64,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 25.3125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 25.46875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 25.625,
+   "type": "ostinato",
+   "midi": 69,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 25.625,
+   "type": "counter",
+   "midi": 69,
+   "instrument": "kalimba countermelody",
+   "src": "backing"
+  },
+  {
+   "t": 25.625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 25.78125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 25.9375,
+   "type": "ostinato",
+   "midi": 64,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 25.9375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 26.09375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 26.25,
+   "type": "window",
+   "midi": 74,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 26.25,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (26.25-28.75)",
+   "src": "backing"
+  },
+  {
+   "t": 26.25,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 26.25,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 26.25,
+   "type": "ostinato",
+   "midi": 50,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 26.5625,
+   "type": "window",
+   "midi": 78,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 26.5625,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 26.875,
+   "type": "window",
+   "midi": 81,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 26.875,
+   "type": "ostinato",
+   "midi": 62,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 27.1875,
+   "type": "window",
+   "midi": 83,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 27.1875,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 27.5,
+   "type": "window",
+   "midi": 81,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 27.5,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 27.5,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 27.5,
+   "type": "ostinato",
+   "midi": 66,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 27.8125,
+   "type": "window",
+   "midi": 78,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 27.8125,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 28.125,
+   "type": "window",
+   "midi": 76,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 28.125,
+   "type": "ostinato",
+   "midi": 62,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 28.4375,
+   "type": "window",
+   "midi": 74,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 28.4375,
+   "type": "ostinato",
+   "midi": 57,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 28.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord Bm (28.75-31.25)",
+   "src": "backing"
+  },
+  {
+   "t": 28.75,
+   "type": "bass",
+   "midi": 47,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 28.75,
+   "type": "ostinato",
+   "midi": 59,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 29.0625,
+   "type": "ostinato",
+   "midi": 66,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 29.375,
+   "type": "window",
+   "midi": 69,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 29.375,
+   "type": "ostinato",
+   "midi": 71,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 29.6875,
+   "type": "ostinato",
+   "midi": 66,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 30.0,
+   "type": "window",
+   "midi": 66,
+   "instrument": "kalimba (long tail) + glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 30.0,
+   "type": "bass",
+   "midi": 47,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 30.0,
+   "type": "ostinato",
+   "midi": 74,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 30.3125,
+   "type": "ostinato",
+   "midi": 66,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 30.625,
+   "type": "ostinato",
+   "midi": 71,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 30.9375,
+   "type": "ostinato",
+   "midi": 66,
+   "instrument": "marimba ostinato",
+   "src": "backing"
+  },
+  {
+   "t": 31.25,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (31.25-33.75)",
+   "src": "backing"
+  },
+  {
+   "t": 33.75,
+   "type": "ring",
+   "midi": 69,
+   "instrument": "marimba (rising arpeggio)",
+   "src": "event"
+  },
+  {
+   "t": 33.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord Asus4 (33.75-36.00)",
+   "src": "backing"
+  },
+  {
+   "t": 34.375,
+   "type": "ring",
+   "midi": 71,
+   "instrument": "marimba (rising arpeggio)",
+   "src": "event"
+  },
+  {
+   "t": 34.375,
+   "type": "ring",
+   "midi": 59,
+   "instrument": "marimba (warmth, oct below)",
+   "src": "event"
+  },
+  {
+   "t": 35.0,
+   "type": "ring",
+   "midi": 74,
+   "instrument": "marimba (rising arpeggio)",
+   "src": "event"
+  },
+  {
+   "t": 35.0,
+   "type": "ring",
+   "midi": 62,
+   "instrument": "marimba (warmth, oct below)",
+   "src": "event"
+  },
+  {
+   "t": 35.625,
+   "type": "ring",
+   "midi": 78,
+   "instrument": "marimba (rising arpeggio)",
+   "src": "event"
+  },
+  {
+   "t": 35.625,
+   "type": "ring",
+   "midi": 66,
+   "instrument": "marimba (warmth, oct below)",
+   "src": "event"
+  },
+  {
+   "t": 35.9375,
+   "type": "lamproom",
+   "midi": 98,
+   "instrument": "glass tink",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": 38,
+   "instrument": "marimba (ignite bloom)",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": 50,
+   "instrument": "marimba (ignite bloom)",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": 57,
+   "instrument": "marimba (ignite bloom)",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": 62,
+   "instrument": "marimba (ignite bloom)",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": 66,
+   "instrument": "marimba (ignite bloom)",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": 38,
+   "instrument": "sub sine",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": 86,
+   "instrument": "glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "ignite",
+   "midi": null,
+   "instrument": "air swell (decaying)",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "beamhit",
+   "midi": 74,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "beamhit",
+   "midi": 62,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 36.25,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (36.25-38.75)",
+   "src": "backing"
+  },
+  {
+   "t": 36.25,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 36.25,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 36.258,
+   "type": "beamhit",
+   "midi": 86,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 36.31,
+   "type": "ignite",
+   "midi": 90,
+   "instrument": "glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 36.37,
+   "type": "ignite",
+   "midi": 93,
+   "instrument": "glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 36.40625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 36.43,
+   "type": "ignite",
+   "midi": 98,
+   "instrument": "glass shimmer",
+   "src": "event"
+  },
+  {
+   "t": 36.5625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 36.71875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 36.875,
+   "type": "beamhit",
+   "midi": 78,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 36.875,
+   "type": "beamhit",
+   "midi": 66,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 36.875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 36.883,
+   "type": "beamhit",
+   "midi": 90,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 37.03125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 37.1875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 37.34375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 37.5,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 37.5,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 37.5,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 37.65625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 37.8125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 37.96875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 38.125,
+   "type": "beamhit",
+   "midi": 81,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 38.125,
+   "type": "beamhit",
+   "midi": 69,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 38.125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 38.133,
+   "type": "beamhit",
+   "midi": 93,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 38.28125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 38.4375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 38.59375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 38.75,
+   "type": "beamhit",
+   "midi": 83,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 38.75,
+   "type": "beamhit",
+   "midi": 71,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 38.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord Bm (38.75-41.25)",
+   "src": "backing"
+  },
+  {
+   "t": 38.75,
+   "type": "bass",
+   "midi": 47,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 38.75,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 38.75,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 38.758,
+   "type": "beamhit",
+   "midi": 95,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 38.90625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 39.0625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 39.21875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 39.375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 39.53125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 39.6875,
+   "type": "boatbell",
+   "midi": 81,
+   "instrument": "ship bell (answer, warm)",
+   "src": "event"
+  },
+  {
+   "t": 39.6875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 39.84375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 40.0,
+   "type": "beamhit",
+   "midi": 81,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 40.0,
+   "type": "beamhit",
+   "midi": 69,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 40.0,
+   "type": "bass",
+   "midi": 47,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 40.0,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 40.0,
+   "type": "kick",
+   "midi": 26,
+   "instrument": "soft kick (~55 Hz)",
+   "src": "perc"
+  },
+  {
+   "t": 40.008,
+   "type": "beamhit",
+   "midi": 93,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 40.15625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 40.3125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 40.46875,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 40.625,
+   "type": "beamhit",
+   "midi": 78,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 40.625,
+   "type": "beamhit",
+   "midi": 66,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 40.625,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 40.633,
+   "type": "beamhit",
+   "midi": 90,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 40.78125,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 40.9375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 41.09375,
+   "type": "shaker",
+   "midi": null,
+   "instrument": "shaker (bp noise)",
+   "src": "perc"
+  },
+  {
+   "t": 41.25,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord G (41.25-43.75)",
+   "src": "backing"
+  },
+  {
+   "t": 41.25,
+   "type": "bass",
+   "midi": 43,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 41.875,
+   "type": "beamhit",
+   "midi": 76,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 41.875,
+   "type": "beamhit",
+   "midi": 64,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 41.883,
+   "type": "beamhit",
+   "midi": 88,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 42.5,
+   "type": "beamhit",
+   "midi": 74,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 42.5,
+   "type": "beamhit",
+   "midi": 62,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 42.508,
+   "type": "beamhit",
+   "midi": 86,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 43.75,
+   "type": "beamhit",
+   "midi": 74,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 43.75,
+   "type": "beamhit",
+   "midi": 62,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 43.75,
+   "type": "pad",
+   "midi": null,
+   "instrument": "pad chord D (43.75-53.00)",
+   "src": "backing"
+  },
+  {
+   "t": 43.75,
+   "type": "bass",
+   "midi": 38,
+   "instrument": "marimba (low root)",
+   "src": "backing"
+  },
+  {
+   "t": 43.758,
+   "type": "beamhit",
+   "midi": 86,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 44.375,
+   "type": "beamhit",
+   "midi": 78,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 44.375,
+   "type": "beamhit",
+   "midi": 66,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 44.383,
+   "type": "beamhit",
+   "midi": 90,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 45.625,
+   "type": "beamhit",
+   "midi": 81,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 45.625,
+   "type": "beamhit",
+   "midi": 69,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 45.633,
+   "type": "beamhit",
+   "midi": 93,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 46.25,
+   "type": "beamhit",
+   "midi": 83,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 46.25,
+   "type": "beamhit",
+   "midi": 71,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 46.258,
+   "type": "beamhit",
+   "midi": 95,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 47.5,
+   "type": "beamhit",
+   "midi": 81,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 47.5,
+   "type": "beamhit",
+   "midi": 69,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 47.5,
+   "type": "bell",
+   "midi": 74,
+   "instrument": "buoy bell (far: lowpassed, wet)",
+   "src": "event"
+  },
+  {
+   "t": 47.508,
+   "type": "beamhit",
+   "midi": 93,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 48.125,
+   "type": "beamhit",
+   "midi": 78,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 48.125,
+   "type": "beamhit",
+   "midi": 66,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 48.133,
+   "type": "beamhit",
+   "midi": 90,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 48.75,
+   "type": "final",
+   "midi": 38,
+   "instrument": "marimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 48.768,
+   "type": "final",
+   "midi": 50,
+   "instrument": "marimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 48.786,
+   "type": "final",
+   "midi": 57,
+   "instrument": "marimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 48.804,
+   "type": "final",
+   "midi": 62,
+   "instrument": "marimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 48.822,
+   "type": "final",
+   "midi": 66,
+   "instrument": "marimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 48.85,
+   "type": "final",
+   "midi": 69,
+   "instrument": "kalimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 48.88,
+   "type": "final",
+   "midi": 74,
+   "instrument": "kalimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 48.91,
+   "type": "final",
+   "midi": 78,
+   "instrument": "kalimba (final D chord)",
+   "src": "backing"
+  },
+  {
+   "t": 49.375,
+   "type": "beamhit",
+   "midi": 76,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 49.375,
+   "type": "beamhit",
+   "midi": 64,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 49.383,
+   "type": "beamhit",
+   "midi": 88,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  },
+  {
+   "t": 50.0,
+   "type": "beamhit",
+   "midi": 74,
+   "instrument": "kalimba lead",
+   "src": "event"
+  },
+  {
+   "t": 50.0,
+   "type": "beamhit",
+   "midi": 62,
+   "instrument": "marimba (oct below)",
+   "src": "event"
+  },
+  {
+   "t": 50.008,
+   "type": "beamhit",
+   "midi": 86,
+   "instrument": "glass-bell shimmer",
+   "src": "event"
+  }
+ ]
+}

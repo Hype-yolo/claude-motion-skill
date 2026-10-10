@@ -1,0 +1,54 @@
+[
+ {
+  "id": "n1",
+  "text": "For a hundred years, the lighthouse of Greywater never once went dark.",
+  "voice": "af_heart",
+  "speed": 0.88,
+  "asr": "For a hundred years, the lighthouse of Graywater never once went dark.",
+  "sub": "For a hundred years, the lighthouse of Greywater never once went dark."
+ },
+ {
+  "id": "n2",
+  "text": "Tonight, it did.",
+  "voice": "af_heart",
+  "speed": 0.82
+ },
+ {
+  "id": "k1",
+  "text": "Take the last flame, little Wren. Keep it close. Don't let the wind have it.",
+  "voice": "bm_george",
+  "speed": 0.84,
+  "asr": "Take the last flame, little Ren. Keep it close. Don't let the wind have it."
+ },
+ {
+  "id": "n3",
+  "text": "Through the Whisperwood, where even the moon loses its way,",
+  "voice": "af_heart",
+  "speed": 0.88,
+  "asr": "Through the whisper would, where even the moon loses its way,"
+ },
+ {
+  "id": "n4",
+  "text": "up the Gale Steps, where the storm tried to take it from her.",
+  "voice": "af_heart",
+  "speed": 0.9
+ },
+ {
+  "id": "n5",
+  "text": "But a flame held by careful hands does not go out.",
+  "voice": "af_heart",
+  "speed": 0.84
+ },
+ {
+  "id": "n6",
+  "text": "And far out at sea, every lost ship found its way home.",
+  "voice": "af_heart",
+  "speed": 0.86
+ },
+ {
+  "id": "n7",
+  "text": "Every path begins with a single light.",
+  "voice": "af_heart",
+  "speed": 0.84
+ }
+]

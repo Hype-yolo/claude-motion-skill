@@ -1,0 +1,56 @@
+{
+  "park": "Cedar Point Shores",
+  "title": "4 Walks on Cedar Point",
+  "kicker": "Harbor Inn Guest Guide",
+  "footer": "Ask the front desk for a tide table",
+  "units": { "distance": "km", "elevation": "m" },
+  "trails": [
+    {
+      "name": "Tidepool Walk",
+      "difficulty": "easy",
+      "distance": 2.4,
+      "time": "45 min",
+      "elevation": null,
+      "scene": "coast",
+      "time_of_day": "dawn"
+    },
+    {
+      "name": "Old Cedar Grove",
+      "difficulty": "easy",
+      "distance": 5,
+      "time": "2 h",
+      "elevation": 120,
+      "scene": "forest",
+      "time_of_day": "golden"
+    },
+    {
+      "name": "Harbor Lake Circuit",
+      "difficulty": "moderate",
+      "distance": 8.5,
+      "time": "3 h",
+      "elevation": null,
+      "scene": "lake",
+      "time_of_day": "noon"
+    },
+    {
+      "name": "Signal Hill Night Hike",
+      "difficulty": "hard",
+      "distance": 11,
+      "time": "5 h",
+      "elevation": 640,
+      "scene": "ridge",
+      "time_of_day": "night"
+    }
+  ],
+  "banner_time": "banner",
+  "palette": {
+    "paper": "#EFE9DA",
+    "wall": { "board": "#3E5058", "groove": "#2A383E", "rail": "#6E8A8F" },
+    "banner": { "sky1": "#BFE0DA", "sky2": "#3E8A9A", "far": "#E0A43C", "mid": "#E0A43C", "near": "#1E2B3A", "sun": "#F6E3B0", "glow": "#BFE0DA" },
+    "dawn":   { "sky1": "#F7D9C2", "sky2": "#E7928A", "far": "#6A8FB0", "mid": "#3D6F8E", "near": "#22354A", "sun": "#FFF0D2", "glow": "#F7D9C2" },
+    "noon":   { "sky1": "#E8F1E6", "sky2": "#7CB6CF", "far": "#D0B98E", "mid": "#3E8A6A", "near": "#17392E", "sun": "#EFC03E", "glow": "#F3E3AE" },
+    "golden": { "sky1": "#F8DC8E", "sky2": "#E59A3A", "far": "#8D6B4A", "mid": "#51683A", "near": "#26301F", "sun": "#FFF3C9", "glow": "#F6C35A" },
+    "dusk":   { "sky1": "#F4B461", "sky2": "#D8613F", "far": "#7C3E5F", "mid": "#43325A", "near": "#1B1B2F", "sun": "#FBE3A6", "glow": "#E8683F" },
+    "night":  { "sky1": "#46598A", "sky2": "#28325A", "far": "#6C7BA8", "mid": "#2D3659", "near": "#11152A", "sun": "#F3EACB", "glow": "#9FB2E0" }
+  }
+}

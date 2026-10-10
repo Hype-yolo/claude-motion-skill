@@ -1,0 +1,7 @@
+Music: "Room to Think" (dark-keynote demo) — original score, rendered by score.py
+
+Sampled instruments used: glockenspiel, marimba, vibraphone_bowed, vibraphone_hard
+Source: Versilian Community Sample Library (VCSL) by Versilian Studios / Sam Gossner — CC0 1.0 (https://github.com/sgossner/VCSL) — attribution not required, credited with thanks.
+Samples (CC0): Versilian Community Sample Library (Versilian Studios)
+
+Synthesized in numpy (no license): pad (detuned saw/triangle), riser (noise sweep), low sine pulse, noise shaker.

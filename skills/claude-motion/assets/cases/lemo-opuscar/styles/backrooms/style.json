@@ -1,0 +1,18 @@
+{
+ "slug": "backrooms",
+ "num": "36",
+ "en": "Liminal Found Footage",
+ "cn": "后室 / 新怪谈",
+ "category_en": "Cinema & Eras",
+ "category_cn": "电影与时代",
+ "film": "Night Shift Orientation",
+ "line": "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.",
+ "line_cn": "新夜班员工拍下入职第一晚：无尽的黄色办公空间，和墙上的员工守则。",
+ "uses": [
+  "Horror",
+  "Mystery & ARG",
+  "Game teasers"
+ ],
+ "frame_sec": 35.82,
+ "dur": 59.7
+}

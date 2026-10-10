@@ -1,0 +1,6 @@
+{
+  "name": "anime-cel-engine",
+  "private": true,
+  "license": "MIT",
+  "dependencies": { "puppeteer-core": "^25.11.0" }
+}

@@ -1,0 +1,67 @@
+[
+ {
+  "id": "p0",
+  "voice": "af_bella",
+  "speed": 0.84,
+  "text": "Good evening, and welcome to the night shift."
+ },
+ {
+  "id": "p1",
+  "voice": "af_bella",
+  "speed": 0.84,
+  "text": "Rule one. The humming of the lights is normal.",
+  "asr": "Rule 1. The humming of the lights is normal."
+ },
+ {
+  "id": "p2",
+  "voice": "af_bella",
+  "speed": 0.84,
+  "text": "Rule two. You are the only employee on this floor.",
+  "asr": "Rule 2. You are the only employee on this floor."
+ },
+ {
+  "id": "p3",
+  "voice": "af_bella",
+  "speed": 0.84,
+  "text": "Rule three. If the lights flicker three times, do not look at the ceiling.",
+  "asr": "Rule 3. If the lights flicker three times, do not look at the ceiling."
+ },
+ {
+  "id": "p4",
+  "voice": "af_bella",
+  "speed": 0.82,
+  "text": "Rule four. There are no exits on this floor. If you see an exit sign, do not follow it.",
+  "asr": "Rule 4. There are no exits on this floor. If you see an exit sign, do not follow it."
+ },
+ {
+  "id": "p6",
+  "voice": "af_bella",
+  "speed": 0.78,
+  "text": "Rule six.",
+  "asr": "Rule 6."
+ },
+ {
+  "id": "w1",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "text": "Okay. First night."
+ },
+ {
+  "id": "w2",
+  "voice": "am_michael",
+  "speed": 0.88,
+  "text": "Hello?"
+ },
+ {
+  "id": "w3",
+  "voice": "am_michael",
+  "speed": 0.9,
+  "text": "It was midnight a second ago."
+ },
+ {
+  "id": "w4",
+  "voice": "am_michael",
+  "speed": 0.88,
+  "text": "That's an exit."
+ }
+]

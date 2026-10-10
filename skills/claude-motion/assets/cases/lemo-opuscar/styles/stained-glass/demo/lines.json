@@ -1,0 +1,52 @@
+[
+ {
+  "id": "L1",
+  "text": "This window only tells its story where the sun falls.",
+  "voice": "bf_alice",
+  "speed": 0.88
+ },
+ {
+  "id": "L2",
+  "text": "At dawn, a knight was sent to slay the dragon that ate the sun.",
+  "voice": "bf_alice",
+  "speed": 0.88,
+  "asr": "At dawn, a night was sent to slay the dragon that ate the sun."
+ },
+ {
+  "id": "L3",
+  "text": "He crossed the hills and rivers in the white noon light.",
+  "voice": "bf_alice",
+  "speed": 0.88
+ },
+ {
+  "id": "L4",
+  "text": "All afternoon they fought, and the shadows grew longer.",
+  "voice": "bf_alice",
+  "speed": 0.88
+ },
+ {
+  "id": "L5",
+  "text": "Then, in the red of evening, he saw what the dragon was guarding.",
+  "voice": "bf_alice",
+  "speed": 0.88
+ },
+ {
+  "id": "L6",
+  "text": "The last ember of the sun, kept warm until morning.",
+  "voice": "bf_alice",
+  "speed": 0.88
+ },
+ {
+  "id": "L7",
+  "text": "So the knight laid down his sword.",
+  "voice": "bf_alice",
+  "speed": 0.86,
+  "asr": "So the night laid down his sword."
+ },
+ {
+  "id": "L8",
+  "text": "And every night since, one pane of glass keeps its own light.",
+  "voice": "bf_alice",
+  "speed": 0.88
+ }
+]

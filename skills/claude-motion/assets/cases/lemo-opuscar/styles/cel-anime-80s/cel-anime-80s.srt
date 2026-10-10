@@ -1,0 +1,31 @@
+1
+00:00:00,850 --> 00:00:04,249
+BASE: Nightbird, come in. The launch is at dawn.
+
+2
+00:00:04,300 --> 00:00:07,141
+BASE: The pilot won't fly without his tape.
+
+3
+00:00:08,000 --> 00:00:10,173
+Copy. I'll beat the sun.
+
+4
+00:00:27,097 --> 00:00:29,743
+BASE: The drawbridge is going up! Turn back!
+
+5
+00:00:29,743 --> 00:00:31,693
+No time to go around.
+
+6
+00:00:42,312 --> 00:00:44,019
+Special delivery.
+
+7
+00:00:44,019 --> 00:00:46,835
+BASE: Tape's aboard. He's playing it now.
+
+8
+00:00:50,743 --> 00:00:52,761
+Told you I'd beat the sun.

@@ -1,0 +1,40 @@
+[
+ {
+  "id": "l1",
+  "t": 5.67,
+  "text": "Each dot is one summer: the whole planet's average temperature.",
+  "voice": "af_alloy",
+  "speed": 0.92
+ },
+ {
+  "id": "l2",
+  "t": 12.0,
+  "text": "For fifty years, her summers barely moved.",
+  "voice": "af_alloy",
+  "speed": 0.92,
+  "asr": "For 50 years, her summers barely moved."
+ },
+ {
+  "id": "l3",
+  "t": 21.5,
+  "text": "Then the dots began to climb, and they never came back down.",
+  "voice": "af_alloy",
+  "speed": 0.92
+ },
+ {
+  "id": "l4",
+  "t": 32.5,
+  "text": "This summer, she turned one hundred. It was the warmest ever measured.",
+  "voice": "af_alloy",
+  "speed": 0.92,
+  "asr": "This summer she turned 100. It was the warmest ever measured.",
+  "hold": 4.72
+ },
+ {
+  "id": "l5",
+  "t": 43.6,
+  "text": "The next summer hasn't been drawn yet.",
+  "voice": "af_alloy",
+  "speed": 0.92
+ }
+]

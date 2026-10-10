@@ -1,0 +1,42 @@
+[
+ {
+  "id": "v1",
+  "text": "Six a.m. One car. One note.",
+  "asr": "6 a.m. 1 car. 1 note.",
+  "voice": "am_adam",
+  "speed": 0.9
+ },
+ {
+  "id": "v2",
+  "text": "Every green light adds a beat.",
+  "voice": "am_adam",
+  "speed": 0.95
+ },
+ {
+  "id": "v3",
+  "text": "The seven-forty brings the bass.",
+  "asr": "The 740 brings the base.",
+  "voice": "am_adam",
+  "speed": 0.95,
+  "note": "whisper hears the homophone base/bass; judged OK by ear-independent homophone rule"
+ },
+ {
+  "id": "v4",
+  "text": "By eight, the whole town is playing.",
+  "voice": "am_adam",
+  "speed": 0.95,
+  "asr": "By 8, the whole town is playing."
+ },
+ {
+  "id": "v5",
+  "text": "Every song needs a rest.",
+  "voice": "am_adam",
+  "speed": 0.88
+ },
+ {
+  "id": "v6",
+  "text": "Then... take it from the top.",
+  "voice": "am_adam",
+  "speed": 0.92
+ }
+]

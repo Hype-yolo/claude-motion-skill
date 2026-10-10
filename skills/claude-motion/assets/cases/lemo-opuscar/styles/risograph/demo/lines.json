@@ -1,0 +1,7 @@
+[
+ {"id": "l1", "t": 5.6,  "text": "Sunday morning. The whole city is still blue.", "voice": "am_adam", "speed": 0.95},
+ {"id": "l2", "t": 9.0,  "text": "Then the bakery opens, and the day gets its first color.", "voice": "am_adam", "speed": 0.95},
+ {"id": "l3", "t": 21.7, "text": "The park adds pink. And, apparently, a passenger.", "voice": "am_adam", "speed": 0.95},
+ {"id": "l4", "t": 28.3, "text": "By the river, every color overlaps.", "voice": "am_adam", "speed": 0.95},
+ {"id": "l5", "t": 32.8, "text": "Same ride every Sunday. Never quite the same print.", "voice": "am_adam", "speed": 0.95}
+]

@@ -1,0 +1,8 @@
+@font-face { font-family: 'Titan'; src: url(TitanOne-Regular.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Lilita'; src: url(LilitaOne-Regular.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'VT'; src: url(VT323-Regular.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Arch'; src: url(ArchitectsDaughter-Regular.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Gochi'; src: url(GochiHand-Regular.ttf) format('truetype'); font-display: block; }
+@font-face { font-family: 'Silk'; src: url(Silkscreen-Regular.ttf) format('truetype'); font-weight: 400; font-display: block; }
+@font-face { font-family: 'Silk'; src: url(Silkscreen-Bold.ttf) format('truetype'); font-weight: 700; font-display: block; }
+@font-face { font-family: 'Inter'; src: url(Inter.ttf) format('truetype'); font-weight: 100 900; font-display: block; }

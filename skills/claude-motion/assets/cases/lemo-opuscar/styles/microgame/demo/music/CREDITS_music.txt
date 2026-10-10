@@ -1,0 +1,5 @@
+Original score for "Five-Second Astronaut" (Microgame Frenzy), composed in code (score.py).
+Drums: "MuldjordKit" by Lars Muldjord (drumgizmo.org), FreePats version, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Piano: "Salamander Grand Piano V3" by Alexander Holm, licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+Samples (CC0): Karoryfer Samples / sfzinstruments, VS Chamber Orchestra: Community Edition (Versilian Studios), Versilian Community Sample Library (Versilian Studios)
+Synthesized: slap bass, square/pulse waves, record scratch, heartbeat drone (numpy). Guqin: core/audio/pluck.py physical model.

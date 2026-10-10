@@ -1,0 +1,18 @@
+{
+ "slug": "glass-product",
+ "num": "44",
+ "en": "Glass Product Render",
+ "cn": "玻璃质感产品",
+ "category_en": "Materials & 3D",
+ "category_cn": "材质与 3D",
+ "film": "Aura — Hear the Light",
+ "line": "Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.",
+ "line_cn": "虚构玻璃耳机 Aura 的开箱与特写。",
+ "uses": [
+  "Product launches",
+  "Consumer tech",
+  "Beauty"
+ ],
+ "frame_sec": 19.2,
+ "dur": 32.0
+}

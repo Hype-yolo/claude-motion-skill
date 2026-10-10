@@ -1,0 +1,257 @@
+{
+  "repo": "edenfunf/reelmimic",
+  "commit": "73492b0dac349bb46a3ae8a8bf6fb2b34cf3b02e",
+  "files": [
+    {
+      "path": ".claude/skills/anime-cel/GUIDE.md",
+      "bytes": 15386,
+      "sha256": "d0c890041a42f074ad85291d143120f22f601159ee4e24c156e313c175631923"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/LICENSE-render.mjs.txt",
+      "bytes": 1068,
+      "sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/package-lock.json",
+      "bytes": 11571,
+      "sha256": "7bf848b1d49bbc77c709dad2d50a746f188e873b8ba46997e649a04001722f68"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/package.json",
+      "bytes": 124,
+      "sha256": "d77050152500139fd635f0f267d28a761858e2460266b7e852a5e6377619ff16"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/render.mjs",
+      "bytes": 17505,
+      "sha256": "d125b6af655198a7ae04daeac253824d90d2b0b87ce2c716f5a9c701ba955500"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/src/anime.js",
+      "bytes": 43482,
+      "sha256": "8ed6ddb5e3fac98b3deea1d99c9c98eb4ce05e1aa33f1f11609a5db665d087fe"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/src/cast.js",
+      "bytes": 59807,
+      "sha256": "26e9ed8d4c7cbdd83e7d06918693d9ad9e788a2a5400c60cc83518d5c1222b2a"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/src/config.js",
+      "bytes": 329,
+      "sha256": "866847ebeebbd4556981aa9cd202d14146e1cb1fa57df7d50e193039ed3a82b1"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/src/kit.js",
+      "bytes": 9903,
+      "sha256": "7b099eb9df6f43cec25be94be2e851baaaad6cf1417f0f60993926cfc21e014f"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/src/scenes/demo.js",
+      "bytes": 5990,
+      "sha256": "9fcb07b4d946c5786aec5140e4ccfec08e8f9b1c90024c0bdeb2df478fe77834"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/src/sheets.js",
+      "bytes": 5799,
+      "sha256": "59400831978893c15d60f003ff1601df6a8ec595aea1a59d4205b53b92b33505"
+    },
+    {
+      "path": ".claude/skills/anime-cel/template/studio.html",
+      "bytes": 1225,
+      "sha256": "596f9f4739983cd1bc2b83e731665c6684523f1500d71f7421edb4a82af8900c"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/GUIDE.md",
+      "bytes": 16717,
+      "sha256": "0ec957611b8609bc80ca54b03259fd943badbd3cc100b33cdcaf8cda3a666fb6"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/LICENSE-render.mjs.txt",
+      "bytes": 1068,
+      "sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/package-lock.json",
+      "bytes": 11583,
+      "sha256": "d6dfe67dbbd4e94a5f6db18dc6c75792757f3ac8be3861273b4dad94cd633f5f"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/package.json",
+      "bytes": 130,
+      "sha256": "6798b13ddac671a7df4c7faf43c0635f2b2ceba0f8b04a2b964bf40bbb2c5a78"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/render.mjs",
+      "bytes": 17505,
+      "sha256": "d125b6af655198a7ae04daeac253824d90d2b0b87ce2c716f5a9c701ba955500"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/src/cast.js",
+      "bytes": 32838,
+      "sha256": "937ab7ec0ef7e3283643a41ff524a0dd90a7f0f76b289713492c41b48627dce6"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/src/config.js",
+      "bytes": 171,
+      "sha256": "9a2a923cac3c6dec73ac67d6a238d9a15465916cdd3d6acfdff53cdb25e17b2b"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/src/cutout.js",
+      "bytes": 51179,
+      "sha256": "2aefe9b2d2dfa4161dcb4e35faa6b697d5ed381e4797ac2fa18f412e11772f6d"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/src/kit.js",
+      "bytes": 9903,
+      "sha256": "7b099eb9df6f43cec25be94be2e851baaaad6cf1417f0f60993926cfc21e014f"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/src/scenes/demo.js",
+      "bytes": 7688,
+      "sha256": "af54cb27ac6c9235fe74956a549ea2fa34f3db7156a4ec5c8e5e90802d067c91"
+    },
+    {
+      "path": ".claude/skills/paper-cutout/template/studio.html",
+      "bytes": 1363,
+      "sha256": "3237cae224276d6b66fafa227385e63df08ac6ffad0e6f39d8358085986fe912"
+    },
+    {
+      "path": ".claude/skills/pixel-art/GUIDE.md",
+      "bytes": 17030,
+      "sha256": "fdbaec686facd156328597fbd85bc7a82f07b899247e474c5762c8fc8a7065e8"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/LICENSE-render.mjs.txt",
+      "bytes": 1068,
+      "sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/package-lock.json",
+      "bytes": 11577,
+      "sha256": "c798eb02b0f8c7f7f9afe280d40ee20f32e8212be03793307a2cde605f757384"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/package.json",
+      "bytes": 127,
+      "sha256": "c17d887ba4eb781597b8f7811036f8153a1dda72e7baa266dee803b23b09d408"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/render.mjs",
+      "bytes": 17505,
+      "sha256": "d125b6af655198a7ae04daeac253824d90d2b0b87ce2c716f5a9c701ba955500"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/src/cast.js",
+      "bytes": 26655,
+      "sha256": "5fb1453fd85bd9b4f6d154ad8a43a4c211cab7afc41c7f64c01734685a809725"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/src/config.js",
+      "bytes": 340,
+      "sha256": "c1918f76cfdcf46ba2021b8f5d28c221baceb6d347d81fef1dbef9f19e1a16db"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/src/kit.js",
+      "bytes": 9903,
+      "sha256": "7b099eb9df6f43cec25be94be2e851baaaad6cf1417f0f60993926cfc21e014f"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/src/pixel.js",
+      "bytes": 51235,
+      "sha256": "52fe442f1f35627e4ae163b31a9e3d677554a52d51a2a786e400f9d4300f5fea"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/src/scenes/demo.js",
+      "bytes": 8668,
+      "sha256": "b4b6239830707ce8ee5544a0fcd29f1b7c77a03c8df5761f7bbea2da7c247715"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/src/sheets.js",
+      "bytes": 4859,
+      "sha256": "4bd6d0a2c48bb6384c4178ed59509094e891281c28161d633e167a6255d7e106"
+    },
+    {
+      "path": ".claude/skills/pixel-art/template/studio.html",
+      "bytes": 1250,
+      "sha256": "1a2fc61a7e0d04fa72a49defec7c832306c7276d51b852ac6861289768f73c07"
+    },
+    {
+      "path": ".claude/skills/whiteboard/GUIDE.md",
+      "bytes": 18240,
+      "sha256": "5955679dc82d517413c979c34f20b2ee3d1975cca47c113e727d7700b42c63a9"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/LICENSE-render.mjs.txt",
+      "bytes": 1068,
+      "sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/package-lock.json",
+      "bytes": 11579,
+      "sha256": "78097d7cde4fc62e7b92d4dd1f9a9e400374735e03c87a9d0da16a62eaf0b19d"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/package.json",
+      "bytes": 128,
+      "sha256": "0fe63ddc51c133bd9548df652eb0c35ace381dd0150c6bc34ae168242ff0d4c6"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/render.mjs",
+      "bytes": 17505,
+      "sha256": "d125b6af655198a7ae04daeac253824d90d2b0b87ce2c716f5a9c701ba955500"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/src/cast.js",
+      "bytes": 26554,
+      "sha256": "d3706bfe1fa363d1dbebd883920a00fc0de2f7802faec0e2ba9574159664ef52"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/src/config.js",
+      "bytes": 141,
+      "sha256": "490aca57af4d54b9e76603d09c59165981da9c870793e6890c9338d6bddb3e20"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/src/kit.js",
+      "bytes": 9903,
+      "sha256": "7b099eb9df6f43cec25be94be2e851baaaad6cf1417f0f60993926cfc21e014f"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/src/scenes/demo.js",
+      "bytes": 4130,
+      "sha256": "71370cf5bdef5400814d85c6c8f7c918d9e1795b0c5b28bd567967ec6a31f47c"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/src/sheets.js",
+      "bytes": 3681,
+      "sha256": "d7a21633c063a1c7a070d3968f62ca9fe41b212fde82769791a4f4a740f2a6f4"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/src/whiteboard.js",
+      "bytes": 59081,
+      "sha256": "bc7b3a070a1f6b219c36a000888d52fbef8037a488885d14e8ab22fe2ee49247"
+    },
+    {
+      "path": ".claude/skills/whiteboard/template/studio.html",
+      "bytes": 1303,
+      "sha256": "f79321189d8632296662b9a669370e209351435df76e22a2d047dc1cbf80954a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "2e17767a9d8bcb81f23fc08305caf2900ee42e20f48c3172f1d86a5a9627d8d7"
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3263,
+      "sha256": "cd78923ec0a1bdc0a7dc7609897a80ae96076850f84ae93d839640ce2cd98e0a"
+    }
+  ],
+  "boundary": "Original code preserved byte for byte; no binaries or external assets imported. Four source engines, not four new validated films."
+}

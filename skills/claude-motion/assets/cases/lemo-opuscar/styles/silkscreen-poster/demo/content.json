@@ -1,0 +1,47 @@
+{
+  "park": "Granite Valley",
+  "title": "3 Trails in Granite Valley",
+  "kicker": "Visitor Center Trail Guide",
+  "footer": "Free trail maps at the Visitor Center",
+  "units": { "distance": "km", "elevation": "m" },
+  "trails": [
+    {
+      "name": "Lakeshore Loop",
+      "difficulty": "easy",
+      "distance": 3.2,
+      "time": "1 h",
+      "elevation": null,
+      "scene": "lake",
+      "time_of_day": "dawn"
+    },
+    {
+      "name": "Cascade Falls Trail",
+      "difficulty": "moderate",
+      "distance": 7,
+      "time": "3 h",
+      "elevation": null,
+      "scene": "waterfall",
+      "time_of_day": "noon"
+    },
+    {
+      "name": "Summit Ridge",
+      "difficulty": "hard",
+      "distance": 14,
+      "time": "7 h",
+      "elevation": 1100,
+      "scene": "ridge",
+      "time_of_day": "dusk"
+    }
+  ],
+  "banner_time": "banner",
+  "palette": {
+    "banner": { "sky1": "#F7C66B", "sky2": "#E4683F", "far": "#2F6F73", "mid": "#2F6F73", "near": "#1C2A33", "sun": "#FBE3A6", "glow": "#F7C66B" },
+    "paper": "#F2E8D2",
+    "wall": { "board": "#5E4432", "groove": "#3F2C21", "rail": "#8A6547" },
+    "dawn":   { "sky1": "#F6CD98", "sky2": "#EE9A73", "far": "#9A7FA8", "mid": "#3E7079", "near": "#1E3B3F", "sun": "#FBE6B4" },
+    "noon":   { "sky1": "#E4EEDC", "sky2": "#86BCD0", "far": "#C2AE92", "mid": "#4C8753", "near": "#1D4331", "sun": "#F2C14A", "glow": "#F0DFA6" },
+    "golden": { "sky1": "#F7D787", "sky2": "#E9A94F", "far": "#A57C68", "mid": "#5E7A45", "near": "#2B3A28", "sun": "#FFF1C4", "glow": "#F4C065" },
+    "dusk":   { "sky1": "#F4B461", "sky2": "#D8613F", "far": "#7C3E5F", "mid": "#43325A", "near": "#1B1B2F", "sun": "#FBE3A6", "glow": "#E8683F" },
+    "night":  { "sky1": "#3D4B72", "sky2": "#27304F", "far": "#4E5C82", "mid": "#232B45", "near": "#12152A", "sun": "#EDE6C8" }
+  }
+}

@@ -1,0 +1,18 @@
+{
+ "slug": "woodcut",
+ "num": "15",
+ "en": "Woodcut Print",
+ "cn": "木刻版画",
+ "category_en": "Print & Printmaking",
+ "category_cn": "印刷与版画",
+ "film": "The Bell Founder",
+ "line": "A village spends a whole winter casting one bell; the first time it rings, the snow stops.",
+ "line_cn": "村子用一整个冬天铸一口钟，钟声第一次响起，雪停了。",
+ "uses": [
+  "Folk tales",
+  "Craft brands",
+  "Book trailers"
+ ],
+ "frame_sec": 49.14,
+ "dur": 58.5
+}

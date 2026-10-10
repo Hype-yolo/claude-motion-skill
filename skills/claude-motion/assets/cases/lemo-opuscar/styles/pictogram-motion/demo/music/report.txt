@@ -1,0 +1,148 @@
+ASIAD 2026 - ORIGINAL SCORE - RENDER REPORT
+================================================================
+150 BPM, 4/4, beat 0.4 s; 101 bars = 161.6 s; files 163.6 s @ 48 kHz / 24-bit stereo
+Shots in timeline: 79   gaps (pre-hit silences): 11
+
+LOUDNESS (ffmpeg loudnorm analysis, first pass)
+  music.wav (master)   I = -14.11 LUFS   TP =  -1.12 dBTP   LRA =  6.60 LU
+  music_bed.wav        I = -25.73 LUFS   TP =  -2.92 dBTP   LRA =  8.30 LU
+  sfx.wav              I = -29.10 LUFS   TP =  -7.56 dBTP   LRA = 11.80 LU
+  internal BS.1770 meter on master: -14.03 LUFS, true peak (4x) -1.30 dBTP
+  glue compressor: 2:1, max GR 2.1 dB, avg GR on loud passages 0.1 dB; limiter ceiling -1.3 dBTP
+  stem peaks: bed -3.1 dBFS, sfx -9.8 dBFS (stems summed 1:1 = pre-master mix)
+  stereo: master L/R correlation 0.79, side/mid -9.4 dB
+  sfx level: set so sfx RMS is 6.0 dB under the drum bus in +/-100 ms around each transition
+
+BAND ENERGY (dB relative to total 20 Hz-20 kHz energy)
+  band            bed(pre-EQ)   bed      sfx     master
+     20-120    Hz      -1.0     -3.0     -3.9     -2.9
+    120-500    Hz      -9.1     -5.6    -13.8     -5.9
+    500-2000   Hz     -14.6     -9.9    -10.8     -9.9
+   2000-6000   Hz     -16.3    -11.7     -7.0    -11.2
+   6000-16000  Hz     -18.5    -13.9     -6.8    -13.2
+  low-band rebalance applied to both stems: -7.7 dB below 120 Hz (zero-phase split)
+
+SECTION LEVEL BY BUS (K-weighted RMS dB, pre-master, before section automation, diagnostic)
+  section     drums    bass     pad    sham    koto      fx  reverb
+  intro       -14.5   -19.0   -23.7   -22.4   -22.2   -16.4   -25.8
+  ath         -11.3   -14.2   -22.3   -16.0   -23.7   -23.1   -25.5
+  aqua        -13.8   -23.0   -20.4   -50.6   -16.8   -19.6   -24.0
+  ball        -12.4   -15.4   -22.2   -17.7   -25.7   -22.6   -26.9
+  combat       -9.6   -14.6   -23.2   -16.0  -240.0   -21.0   -26.6
+  power       -14.8   -21.6   -20.0   -32.4   -28.3   -20.3   -29.6
+  nature      -11.2   -14.3   -21.0   -18.2   -20.6   -20.7   -25.0
+  asia        -10.5   -13.8   -19.5   -15.4   -22.6   -20.3   -24.2
+  finale      -14.2   -18.0   -18.7   -19.7   -22.1   -15.3   -24.5
+  share of 20-120 Hz energy: drums 68%, bass 20%, pad 0%, sham 0%, koto 0%, fx 12%, reverb 0%
+
+ONSET CHECK on music.wav: for each shot t0, strongest transient-band (1.5-12 kHz) energy rise within +/-30 ms
+  onset = measured onset - t0 (2 ms window vs preceding 5 ms); pass = |onset| <= 15 ms and rise >= 6 dB
+  low dB = 40-200 Hz energy in the 10 ms after t0 vs the 10 ms ending 5 ms before t0 (body weight of the hit)
+  peak = position of max |x| within t0-5..+40 ms
+    # id            kind      t0 (s)  onset ms  rise dB  low dB  peak ms  status
+    0 intro         intro       0.00       0.0     99.0    99.0      0.0  OK
+    1 ath           chapter    19.20      -0.1     16.8    23.9      1.5  OK
+    2 sprint        card       22.40      -0.1     15.2     7.6      2.3  OK
+    3 hurdles       card       24.00      -0.1     15.6     7.7      1.7  OK
+    4 relay         card       25.60      -0.0     12.9     8.5      1.5  OK
+    5 distance      card       27.20      -0.1     15.2     8.9      1.1  OK
+    6 steeple       card       28.80      -0.1     15.9     6.7      1.1  OK
+    7 marathon      card       30.40      -0.1     11.4     5.9      1.0  OK
+    8 walk          card       32.00      -0.1     14.4     6.4      1.9  OK
+    9 highjump      card       33.60      -0.1     17.9     4.9      1.9  OK
+   10 polevault     card       35.20      -0.1     18.1     7.7      1.5  OK
+   11 longjump      card       36.80      -0.2     19.0     5.1      1.1  OK
+   12 shot          card       38.40      -0.1     12.3    10.0      1.3  OK
+   13 discus        card       40.00      -0.1     13.8     6.1      0.1  OK
+   14 hammer        card       41.60      -0.1     16.5     7.7      0.8  OK
+   15 javelin       card       43.20      -0.1     14.7     9.5      2.0  OK
+   16 aqua          chapter    44.80       0.2     14.2    23.5      2.1  OK
+   17 free          card       48.00      -0.0      7.2    12.6      0.3  OK
+   18 breast        card       48.80      -0.1      7.5    14.4      2.1  OK
+   19 back          card       49.60       0.0      6.6    20.3      3.5  OK
+   20 fly           card       50.40      -0.1      7.5    16.7      0.2  OK
+   21 diving        card       51.20      -0.0     15.0    20.6      1.6  OK
+   22 artistic      card       52.80      -0.1     11.5    22.9      0.3  OK
+   23 waterpolo     card       54.40      -0.1     12.0    25.3      1.7  OK
+   24 ball          chapter    56.00      -0.2     13.0    24.6      2.3  OK
+   25 football      card       59.20      -0.1     16.6     5.8      1.9  OK
+   26 basketball    card       60.80      -0.1     13.6    10.0      1.5  OK
+   27 volleyball    card       62.40      -0.0     13.0    13.0      1.5  OK
+   28 handball      card       64.00      -0.0     15.3    13.5      0.7  OK
+   29 hockey        card       65.60      -0.1     15.1     8.6      2.7  OK
+   30 rugby         card       67.20      -0.1     12.6    19.9      1.0  OK
+   31 baseball      card       68.80      -0.1     14.9     9.1      1.9  OK
+   32 cricket       card       70.40      -0.0     11.6     7.7      1.6  OK
+   33 golf          card       72.00      -0.0     16.6     6.7      1.5  OK
+   34 badminton     card       73.60      -0.1     15.5    10.5      1.9  OK
+   35 tabletennis   card       74.40      -0.2     15.0    12.3      0.3  OK
+   36 tennis        card       75.20      -0.1     16.3    12.9      1.8  OK
+   37 softtennis    card       76.00      -0.1     16.4    18.2      1.4  OK
+   38 squash        card       76.80      -0.1     13.2    24.5      1.5  OK
+   39 padel         card       77.60      -0.1     14.2    14.1      1.8  OK
+   40 teqball       card       78.40      -0.1     14.9    16.2      2.7  OK
+   41 combat        chapter    80.00      -0.1     13.4    25.8      1.8  OK
+   42 judo          card       83.20      -0.1      9.4     4.0      2.2  OK
+   43 karate        card       84.80      -0.1      9.7     8.5      0.8  OK
+   44 taekwondo     card       86.40      -0.1     11.7     6.1      0.2  OK
+   45 boxing        card       88.00      -0.1     11.0     9.2      0.2  OK
+   46 wrestling     card       89.60      -0.1     12.9     3.9      2.2  OK
+   47 fencing       card       91.20      -0.1     10.1     7.8      1.6  OK
+   48 jujitsu       card       92.80      -0.1     14.0     4.4      1.9  OK
+   49 kurash        card       94.40      -0.1     13.2     6.0      1.4  OK
+   50 mma           card       96.00      -0.1     13.0     7.1      0.7  OK
+   51 power         chapter    97.60      -0.1     14.5    24.1      1.0  OK
+   52 weightlifting card      100.80      -0.1     14.4    13.7      2.7  OK
+   53 shooting      card      102.40      -0.2      9.2    17.8      2.7  OK
+   54 archery       card      104.00      -0.2     12.8    19.1      2.5  OK
+   55 gym_art       card      105.60      -0.1     11.2    23.1      2.7  OK
+   56 gym_rhythm    card      107.20      -0.2     12.9    29.1      2.3  OK
+   57 gym_tramp     card      108.80      -0.2      7.8    17.4      2.7  OK
+   58 pentathlon    card      110.40      -0.1     14.1    19.7      2.2  OK
+   59 nature        chapter   112.00      -0.1     14.8    24.5      1.8  OK
+   60 rowing        card      115.20      -0.1     11.0    13.6      2.0  OK
+   61 canoe         card      116.80      -0.1     12.5     7.2      0.3  OK
+   62 sailing       card      118.40      -0.0     10.5     8.5      2.5  OK
+   63 surfing       card      120.00      -0.1     15.1     5.3      0.3  OK
+   64 triathlon     card      121.60      -0.1     14.4     7.5      0.1  OK
+   65 cyc_road      card      123.20      -0.2     12.6     9.4      1.5  OK
+   66 cyc_track     card      124.00      -0.1     15.7     9.5      1.0  OK
+   67 cyc_bmx       card      124.80      -0.0     12.2    10.3      1.9  OK
+   68 cyc_mtb       card      125.60      -0.2     13.3     7.6      0.6  OK
+   69 equestrian    card      126.40      -0.1     16.9     6.3      1.5  OK
+   70 asia          chapter   128.00      -0.1     16.6    21.8      1.5  OK
+   71 kabaddi       card      131.20      -0.1     17.1     7.3      0.0  OK
+   72 takraw        card      132.80      -0.1     12.7     2.8      2.3  OK
+   73 wushu         card      134.40      -0.1     11.3     2.5      1.0  OK
+   74 skate         card      136.00      -0.1     14.2     1.9      0.1  OK
+   75 climbing      card      137.60      -0.1     14.8     6.2      1.1  OK
+   76 breaking      card      139.20      -0.1     14.3     3.1      2.5  OK
+   77 esports       card      140.80      -0.1     11.8     2.2      1.5  OK
+   78 finale        finale    142.40      -0.1     16.8    22.1      1.9  OK
+  => 79/79 shots pass; no misses
+
+EXTRA HITS (not shots): title slam bar 4, number accents bars 8/9/10, huge hit bar 93, final hit bar 98
+  bar   4 t=   6.40s  onset   -0.0 ms  rise  22.3 dB  low  25.5 dB
+  bar   8 t=  12.80s  onset   -0.1 ms  rise   6.3 dB  low  18.8 dB
+  bar   9 t=  14.40s  onset   -0.1 ms  rise  13.9 dB  low  15.6 dB
+  bar  10 t=  16.00s  onset   -0.1 ms  rise  12.0 dB  low  16.7 dB
+  bar  93 t= 148.80s  onset   -0.1 ms  rise  18.0 dB  low  25.1 dB
+  bar  98 t= 156.80s  onset   -0.1 ms  rise  19.4 dB  low  24.0 dB
+
+PRE-HIT GAPS (bed RMS in the 0.2 s before each big hit vs the 0.4 s before that; drums+bass muted)
+  hit @    6.40s (bar   4)  gap level  -17.9 dB vs groove
+  hit @   19.20s (bar  12)  gap level  -14.0 dB vs groove
+  hit @   44.80s (bar  28)  gap level  -14.4 dB vs groove
+  hit @   56.00s (bar  35)  gap level   -9.2 dB vs groove
+  hit @   80.00s (bar  50)  gap level  -17.2 dB vs groove
+  hit @   97.60s (bar  61)  gap level  -16.3 dB vs groove
+  hit @  112.00s (bar  70)  gap level  -10.9 dB vs groove
+  hit @  128.00s (bar  80)  gap level  -15.1 dB vs groove
+  hit @  142.40s (bar  89)  gap level  -14.1 dB vs groove
+  hit @  148.80s (bar  93)  gap level  -15.3 dB vs groove
+  hit @  156.80s (bar  98)  gap level   -7.9 dB vs groove
+
+NOTES
+  * Timeline has the cycling 2-beat cards at beats 308-314 = bars 77-78 (brief said 76-77); accents follow the timeline.
+  * Shot 0 (t=0) cannot carry a lead-in whoosh; it gets an sfx impact + odaiko heartbeat at sample 0 instead.
+  * Render time 31 s.

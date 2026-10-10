@@ -1,0 +1,18 @@
+{
+ "slug": "iso-infographic",
+ "num": "24",
+ "en": "Isometric Infographic",
+ "cn": "等距信息图",
+ "category_en": "Information & Keynote",
+ "category_cn": "信息与发布",
+ "film": "From Bean to Cup",
+ "line": "A coffee's journey from the plantation to your hands, across one isometric world.",
+ "line_cn": "一杯咖啡从种植园到你手里的旅程。",
+ "uses": [
+  "Process explainers",
+  "Supply chains",
+  "Annual reports"
+ ],
+ "frame_sec": 35.28,
+ "dur": 58.8
+}

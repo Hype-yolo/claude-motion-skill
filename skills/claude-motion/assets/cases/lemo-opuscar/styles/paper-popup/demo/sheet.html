@@ -1,0 +1,23 @@
+<!doctype html><html><head><link rel="stylesheet" href="fonts.css"><style>body{margin:0;background:#c9d6c2}</style></head><body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script type="module">
+import * as A from './art.js';
+import { cv } from './paper.js';
+await document.fonts.load('700 40px Fredoka'); await document.fonts.load('40px "Lilita One"');
+const C = document.getElementById('c').getContext('2d');
+C.fillStyle = '#9ec3d8'; C.fillRect(0, 0, 1920, 540); C.fillStyle = '#86b36f'; C.fillRect(0, 540, 1920, 540);
+const put = (c, x, y, h) => { const w = c.width * h / c.height; C.drawImage(c, x, y - h, w, h); return w; };
+const pip = cv(A.PIP_W, A.PIP_H); A.drawPip(pip.getContext('2d'), {}); put(pip, 20, 420, 380);
+const pip2 = cv(A.PIP_W, A.PIP_H); A.drawPip(pip2.getContext('2d'), { walk: 1.2, stride: 1, armL: 1.2, armR: -.4, mouth: 'open', eyes: 'happy', flap: 1 }); put(pip2, 330, 420, 380);
+const pip3 = cv(A.PIP_W, A.PIP_H); A.drawPip(pip3.getContext('2d'), { mouth: 'worried', eyes: 'wide', look: [.6, -.8] }); put(pip3, 640, 420, 380);
+const cr = cv(A.CR_W, A.CR_H); A.drawCrumple(cr.getContext('2d'), { mouthOpen: .8 }); put(cr, 960, 420, 330);
+const cr2 = cv(A.CR_W, A.CR_H); A.drawCrumple(cr2.getContext('2d'), { mood: 'dizzy' }); put(cr2, 1280, 420, 330);
+const wh = cv(1400, 800); A.drawWhale(wh.getContext('2d'), {}); put(wh, 1500, 330, 230);
+let x = 10;
+for (const it of [A.hill(.2, .06, '#7fcf5f', '#5aa844', 3, { dots: ['#ff8fb1', '#fff'] }), A.lolliTree(.07, '#58b947', '#3f9434', 4), A.pine(.08, '#2f8f55', '#236b40', 5), A.mushHouse(.07), A.door(.02), A.sunOnStick(.022, .05), A.cloud(.06, 2), A.sign(.045, 'Papervale'), A.fence(.06, .018), A.flower(.02, '#ff7aa8', 1), A.bush(.05, .025, '#4fae4c', '#3a8a3a', 3, '#e8413a')])
+  x += put(it.c, x, 800, it.h * 3200) + 10;
+x = 10;
+for (const it of [A.waveStrip(.2, .03, '#4aa3e0', '#2f7cc0', 3), A.boat(.05), A.moon(.02), A.star(.008), A.island(.06), A.mushroom(.03, '#f08a2e', 2), A.log(.07), A.fern(.04, 3), A.sketchTree(.07), A.sketchHouse(.05), A.bang(), A.leafBit('#e8a33a')])
+  x += put(it.c, x, 1070, it.h * 3000) + 10;
+window.READY = true;
+</script></body></html>

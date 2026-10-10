@@ -1,0 +1,23 @@
+1
+00:00:00,120 --> 00:00:02,808
+Your target carries a key.
+
+2
+00:00:03,350 --> 00:00:06,497
+Nobody knows what it opens.
+
+3
+00:00:11,750 --> 00:00:13,843
+He travels light.
+
+4
+00:00:17,450 --> 00:00:19,434
+He never looks back.
+
+5
+00:00:26,150 --> 00:00:28,885
+Tonight, he runs out of roof.
+
+6
+00:00:37,950 --> 00:00:40,821
+Now you know what it opens.

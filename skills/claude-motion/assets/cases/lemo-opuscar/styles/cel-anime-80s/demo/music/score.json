@@ -1,0 +1,25 @@
+{
+ "bpm": 116,
+ "beat": 0.5172,
+ "bar": 2.069,
+ "dur": 59.0,
+ "key": "Eb major -> E major at bar 22",
+ "title_hit": 10.3448,
+ "fill_bar": 8.2759,
+ "verse": 14.4828,
+ "prechorus": 26.8966,
+ "cutout_start": 32.5862,
+ "cutout_end": 33.1034,
+ "chorus_hit": 33.1034,
+ "land_hit": 37.2414,
+ "tape_lofi_start": 43.4483,
+ "tape_lofi_end": 45.5172,
+ "keychange_hit": 45.5172,
+ "pullback": 49.6552,
+ "final_chord": 53.7931,
+ "fade_out": [
+  58.5,
+  59.0
+ ],
+ "note": "stems are post-fx, pre-master (share the master pre-gain); score.wav is mastered to <= -1.2 dBFS peak"
+}
