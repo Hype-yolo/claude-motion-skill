@@ -1,0 +1,59 @@
+{
+  "id": "songbie-crayon",
+  "repository": "https://github.com/JohnnyWang8802/songbie",
+  "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+  "author": "Johnny Wang",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Johnny Wang",
+  "upstreamRenderSha256": "5f28a68605e93b4f06210b7c8fa943e27e7a3453613f68f5f5a5282fe96f0242",
+  "upstreamOriginalStory": "Snowman at piano, black cat, melting and red scarf; 72 seconds, square canvas.",
+  "newStory": "Otter repairs a windsock, returning breeze, reflection; 18 seconds, landscape canvas.",
+  "retained": [
+    "crayon",
+    "PRESS",
+    "stroke",
+    "pinhole camera",
+    "box face culling",
+    "paperTex",
+    "makeTooth",
+    "applyTooth",
+    "3-frame BOIL"
+  ],
+  "adaptations": [
+    "factory for arbitrary Canvas dimensions",
+    "removed score/story/audio/Node CLI from engine",
+    "paper grid widened from 40 to ceil(max(W,H)/30)+2",
+    "depth-sorted scene draw queue exposed"
+  ],
+  "functionPreservation": {
+    "crayon": {
+      "identical": true,
+      "upstreamSha256": "ec8d100d032f6812b0d2d2dd1f2de806a89c5090e687824ddb23a708fa458ac2",
+      "adaptedSha256": "ec8d100d032f6812b0d2d2dd1f2de806a89c5090e687824ddb23a708fa458ac2"
+    },
+    "stroke": {
+      "identical": true,
+      "upstreamSha256": "47be37dc56c0b1032920fae8e6f3d3a30335fdf688b8d0051768c8b7aec40a68",
+      "adaptedSha256": "47be37dc56c0b1032920fae8e6f3d3a30335fdf688b8d0051768c8b7aec40a68"
+    },
+    "camera-and-box": {
+      "identical": true,
+      "upstreamSha256": "02f6411ecdf768d8521d3abfadeb0d15ec6cb50643505a839f3b16103e9b1ecd",
+      "adaptedSha256": "02f6411ecdf768d8521d3abfadeb0d15ec6cb50643505a839f3b16103e9b1ecd"
+    },
+    "geometry": {
+      "identical": true,
+      "upstreamSha256": "2cc53b8c9bdd58bf17bc2f5675d5bad521397f08fe9566f63464c7d1981b6d4e",
+      "adaptedSha256": "2cc53b8c9bdd58bf17bc2f5675d5bad521397f08fe9566f63464c7d1981b6d4e"
+    },
+    "tooth": {
+      "identical": true,
+      "upstreamSha256": "bbcebb201a62f2399262f64545af9626cff34b0a82292af235740e71e1065a3d",
+      "adaptedSha256": "bbcebb201a62f2399262f64545af9626cff34b0a82292af235740e71e1065a3d"
+    },
+    "PRESS": {
+      "identical": true,
+      "sha256": "46cd61b7eb1b65e1247b5bebde754076b8b7d5b327a55eaa6eaa8f797320067a"
+    }
+  }
+}

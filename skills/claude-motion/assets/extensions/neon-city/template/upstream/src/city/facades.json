@@ -1,0 +1,77 @@
+{
+ "size": 1024,
+ "maskSize": 512,
+ "normalSize": 512,
+ "layers": [
+  {
+   "name": "hk-brown",
+   "kind": "res",
+   "w": 13.429,
+   "h": 9.3,
+   "bays": 4,
+   "floors": 3,
+   "windows": 13
+  },
+  {
+   "name": "hk-white",
+   "kind": "res",
+   "w": 14.834,
+   "h": 14.5,
+   "bays": 3,
+   "floors": 5,
+   "windows": 25
+  },
+  {
+   "name": "hk-office",
+   "kind": "res",
+   "w": 12.151,
+   "h": 7.4,
+   "bays": 2,
+   "floors": 2,
+   "windows": 8
+  },
+  {
+   "name": "hk-pink",
+   "kind": "res",
+   "w": 17.119,
+   "h": 16.5,
+   "bays": 3,
+   "floors": 5,
+   "windows": 15
+  },
+  {
+   "name": "hk-tower",
+   "kind": "res",
+   "w": 14.859,
+   "h": 15,
+   "bays": 6,
+   "floors": 5,
+   "windows": 30
+  },
+  {
+   "name": "tonglau",
+   "kind": "res",
+   "w": 21.692,
+   "h": 15.5,
+   "bays": 7,
+   "floors": 5,
+   "windows": 35
+  },
+  {
+   "name": "office-c",
+   "kind": "lit",
+   "w": 30.4,
+   "h": 30.4,
+   "bays": 0,
+   "floors": 8
+  },
+  {
+   "name": "piers",
+   "kind": "lit",
+   "w": 20.4,
+   "h": 20.4,
+   "bays": 0,
+   "floors": 6
+  }
+ ]
+}

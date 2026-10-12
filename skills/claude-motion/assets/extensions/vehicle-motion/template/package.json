@@ -1,0 +1,15 @@
+{
+  "name": "claude-motion-vehicle-motion",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "three": "0.170.0",
+    "@dimforge/rapier3d-compat": "0.21.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

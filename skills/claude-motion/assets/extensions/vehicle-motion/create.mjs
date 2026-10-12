@@ -1,0 +1,2 @@
+import {cp,access} from 'node:fs/promises';import path from 'node:path';import{fileURLToPath}from'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url)),args=process.argv.slice(2),i=args.indexOf('--out');if(i<0||!args[i+1])throw Error('Usage: node create.mjs --out NEW_DIRECTORY');const out=path.resolve(args[i+1]);try{await access(out);throw Error('Output exists')}catch(e){if(e.code!=='ENOENT')throw e}await cp(path.join(root,'template'),out,{recursive:true});await cp(path.join(root,'SOURCE.json'),path.join(out,'SOURCE.json'));console.log(out);

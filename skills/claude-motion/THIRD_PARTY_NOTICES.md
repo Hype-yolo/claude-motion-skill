@@ -71,3 +71,30 @@ Quaternius Ultimate Animated Animal Pack: https://quaternius.com/packs/ultimatea
 The reading-room starter contains 14 additional Kenney Furniture Kit GLBs (CC0), with original source URLs, archive/member hashes in ASSETS.json and KENNEY-LICENSE.txt. These assets belong to the scene starter and are not 14 extra entries in the 30-object catalog.
 
 The botanical-ink starter bundles unmodified RoughJS 4.6.6 (MIT), https://github.com/rough-stuff/rough . Its complete notice is assets/scenes/botanical-ink/ROUGHJS-LICENSE. The botanical drawing composition and contact-workshop two-link motion helper are local MIT additions, not attributed to Claude or Lemo.
+
+## Source components connected 2026-10-12
+
+- JohnnyWang8802/songbie @ 97225eb54a351c9938ad896e04bef7a7020393fb: MIT code, original soundtrack and Apple samples excluded; licenses in assets/extensions/songbie-crayon.
+- cclank/lanshu-create-ai-presenter-video @ 762d3ee42623b75a4ec63ad6aa61ace69d78ce6e: MIT core/V2 DOM-SVG components, no voice/presenter service; assets/extensions/lanshu-explainer.
+- achrefelouafi/ProceduralBuildingsThreeJS @ 6c19f1b1f14408353989ad26cda27f1e1ede5e91: MIT code/geometry kit; texture sets documented by upstream as ambientCG/Poly Haven CC0. Photographic room atlas excluded. Three.js 0.185.1 MIT included locally. assets/extensions/procedural-buildings.
+
+These components preserve attribution and enable adaptation; author statements of model origin are not independently verified generation logs.
+
+## Remaining source components connected 2026-10-13
+
+- billpwchan/neon-zenith @ 27ad04ef04aa9e1e1366fccc63e15a379b999f01: MIT code; asset licenses separate; selected implementation and unmodified license notices in `assets/extensions/neon-city`; complete source/asset boundaries in SOURCE.json and README.md.
+- Aureliengmz/clearwater @ 4bc826134321043a25df3c2b6fed16fb7b9241e8: MIT code; asset licenses separate; selected implementation and unmodified license notices in `assets/extensions/clearwater`; complete source/asset boundaries in SOURCE.json and README.md.
+- Edd-io/Workspace @ e50a203051a173f5191977d13e2259d1952de676: MIT code; asset licenses separate; selected implementation and unmodified license notices in `assets/extensions/workspace`; complete source/asset boundaries in SOURCE.json and README.md.
+- L1vsun/BLOCKWORLD @ 4d33550c023661beda4a012630e5d93819a6677e: MIT code; asset licenses separate; selected implementation and unmodified license notices in `assets/extensions/blockworld`; complete source/asset boundaries in SOURCE.json and README.md.
+- drcollect/demolition-derby @ f559fc60a7f2ee3a21a4faf77e998ae31ad67c43: MIT code; asset licenses separate; selected implementation and unmodified license notices in `assets/extensions/vehicle-motion`; complete source/asset boundaries in SOURCE.json and README.md.
+- iamtechartist/memory-fading-into-watercolor @ 0bcc7cedfa9b0323437d746916174c9bba34026e: MIT upstream code; retained dependencies keep their individual licenses; selected implementation and unmodified license notices in `assets/extensions/watercolor-memory`; complete source/asset boundaries in SOURCE.json and README.md.
+- Leonxlnx/claude-launchvideo @ f0906e8629fa524c7cedc1ac959bf987005ee846: MIT upstream code; retained dependencies keep their individual licenses; selected implementation and unmodified license notices in `assets/extensions/launch-graphics`; complete source/asset boundaries in SOURCE.json and README.md.
+- bizarro/evangelion @ 8f670f3262c75a454d26e01e062da96db7eefb05: MIT upstream code; retained dependencies keep their individual licenses; selected implementation and unmodified license notices in `assets/extensions/neon-overdrive`; complete source/asset boundaries in SOURCE.json and README.md.
+- Salmisaari/eudoom-video @ a7bb5ed43644cb214bd3546266c8492914177f98: MIT upstream code; retained dependencies keep their individual licenses; selected implementation and unmodified license notices in `assets/extensions/eudoom-motion`; complete source/asset boundaries in SOURCE.json and README.md.
+- ledbetterljoshua/functional-emotions-video @ b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49: MIT upstream code; retained dependencies keep their individual licenses; selected implementation and unmodified license notices in `assets/extensions/functional-emotions`; complete source/asset boundaries in SOURCE.json and README.md.
+- ChetasLua/little-neighbourhood @ 7888ed552f85d63a57351efc7a69345b791936eb: MIT upstream code; retained dependencies keep their individual licenses; selected implementation and unmodified license notices in `assets/extensions/neighbourhood`; complete source/asset boundaries in SOURCE.json and README.md.
+- buildwithhanif/claude-animation-skill @ 4ddb8c80fdec96dc9f55d4b9bdee60bde6f0134b: MIT; selected implementation and unmodified license notices in `assets/extensions/bee-colony`; complete source/asset boundaries in SOURCE.json and README.md.
+- simonw/tools @ e12bd6da66e591ce2bc3fad88124e930126ac9eb: Apache-2.0; selected implementation and unmodified license notices in `assets/extensions/pixel-birds`; complete source/asset boundaries in SOURCE.json and README.md.
+- stefanomainardi/omacrt @ 8a643fdeffc79f7cf965e68c5699caa0e1280771: MIT; selected implementation and unmodified license notices in `assets/extensions/people-gait`; complete source/asset boundaries in SOURCE.json and README.md.
+
+Remotion 4 is a separately licensed dependency (personal/company terms), not covered by the launch project MIT license. All original license notices are preserved. Rapier Apache-2.0, Three.js MIT and other bundled runtime notices remain separate. Original recordings/lyrics, Collect excluded car models, unlicensed article image atlases and unclear-license source projects are not redistributed. Author model claims are not verified generation logs.

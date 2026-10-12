@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0-beta.1",
+  "version": "0.3.0-beta.1",
   "files": [
     {
       "path": "LICENSE",
@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4325,
-      "sha256": "0b9e074f02f7cf1b407757ac256afa3a45d92ff485413e567dd81821bffbe0ae"
+      "bytes": 5216,
+      "sha256": "b5430b9fcedda3475c80459c16d594de7a7688cd4dcb3f93ee769ac90e1683f3"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 1371,
-      "sha256": "243d89f26369e6037668c200c2361beb59436ea5b79cbeb4f2b1a4006f4e17f1"
+      "bytes": 2029,
+      "sha256": "5274fc360f3f56dcd1945d89c66a5b58494e73c65625f255ccc1f0d59cc84f37"
     },
     {
       "path": "skills/claude-motion/LICENSE",
@@ -28,13 +28,13 @@
     },
     {
       "path": "skills/claude-motion/SKILL.md",
-      "bytes": 10051,
-      "sha256": "1edc6d33c238ea9ed3a274a11bcebb28d9bd1ca0e21ddc4e8b8f605f5db6f1e4"
+      "bytes": 11025,
+      "sha256": "cfddc6c12459c17782f309bc09bf5aa9e03803826f114dacbb191c9ab9800b15"
     },
     {
       "path": "skills/claude-motion/THIRD_PARTY_NOTICES.md",
-      "bytes": 7779,
-      "sha256": "788f503756f006c2bc06a6da5e1e0ab191f727ba12b7bb430020cc6e3aa7ab87"
+      "bytes": 12942,
+      "sha256": "7654a5b29ba6217767880e78ad162da26cbc3db6e5b6a682331209ae0dd41d47"
     },
     {
       "path": "skills/claude-motion/agents/openai.yaml",
@@ -7657,6 +7657,2516 @@
       "sha256": "5706770a7499769a1a6d935d16595f6a59aacc1291b1439832bdaa940c163fd2"
     },
     {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/README.md",
+      "bytes": 1035,
+      "sha256": "66a7800eab5b8074b09e237704bea3a6614e9d5a977560a48b07de75ddc750b7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/SOURCE.json",
+      "bytes": 3018,
+      "sha256": "b8bc604a446b3a4c23b4762e65cb694338b0805182ef972566f7d37052ab74f7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/create.mjs",
+      "bytes": 603,
+      "sha256": "566fc191c80c0f028754af09c1114a057704c4220139b21f00c20ca3716339e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/preview.png",
+      "bytes": 1299129,
+      "sha256": "dfe8591c6e0b039bbe8577034bf65db67bd01c1487b702701c4ca62dc01e0d41"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/template/LICENSE-UPSTREAM",
+      "bytes": 1080,
+      "sha256": "22613aa5bd8808d19a66479717a0a88dd3e0dd199e0b48bed3fadb9ee327280b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/template/index.html",
+      "bytes": 441,
+      "sha256": "f7f920da3113d8fed4c397e99ba13137ba601f400eec3440fb219fbe5fae2f7a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/template/lib/canvas.mjs",
+      "bytes": 141,
+      "sha256": "a07a90c73944e7b01784851c97a86678b73f57a31616f07d1454bd8af01a96ac"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/template/lib/core.mjs",
+      "bytes": 10458,
+      "sha256": "1f37f79721338ca21fdc6b87dd22072f5edf2764296b9187780d300c37989b16"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/template/lib/nature.mjs",
+      "bytes": 5512,
+      "sha256": "763ad0e7ea258718cc4bf104024ca3bbdb64db30900c8a439d3782204b12abe7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/template/lib/textures.mjs",
+      "bytes": 9047,
+      "sha256": "84ece51403af404f0a19240ec2288c34760e1d611bb7c437e91cae82727f7ea3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/template/scene.js",
+      "bytes": 2517,
+      "sha256": "2e7e03f371a7993e88b79ac4e9cd4795d03dd24f66ac6f367447fb9050b2ba35"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/LICENSE",
+      "bytes": 1080,
+      "sha256": "22613aa5bd8808d19a66479717a0a88dd3e0dd199e0b48bed3fadb9ee327280b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/examples/ant-colony/film.mjs",
+      "bytes": 28830,
+      "sha256": "8afbee75c4c7c1a60ac162cdc8207aec4a0e2078f47713522f0aaf8888fb57c0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/colony.mjs",
+      "bytes": 9188,
+      "sha256": "4c2b68a8f223efb3891e72151f7ecab69da877bab5d67bfd79da5f3f66abb383"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/core.mjs",
+      "bytes": 10461,
+      "sha256": "df85c88458057c1fa061881bfd77d82bd6830e2038f96c452394f8a4fd250c9e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/film.mjs",
+      "bytes": 7248,
+      "sha256": "2c999da159b476d3b735cfbd78c010d501b9f03f198bca14b61fe2eaa977c937"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/fx.mjs",
+      "bytes": 9047,
+      "sha256": "ffa92fa119c160f3e11d84baa4b1e094e499a855745d744e0f034093684ecfbb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/lowpoly.mjs",
+      "bytes": 7220,
+      "sha256": "30fe415f237a03416f44a12c787240b77a9e0cc0ae6970f7e5b5dc6d73c113d4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/nature.mjs",
+      "bytes": 5512,
+      "sha256": "763ad0e7ea258718cc4bf104024ca3bbdb64db30900c8a439d3782204b12abe7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/pen.mjs",
+      "bytes": 9055,
+      "sha256": "2b5881ae369ab871124325305278b9a72b69d1d63557dcd89a13b39a3e574f15"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/ant.mjs",
+      "bytes": 16165,
+      "sha256": "8a958fd42da49f5bea449a5bc29e56b6c27bbc007b414d14a7f825ab8154c2e3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/bean.mjs",
+      "bytes": 9244,
+      "sha256": "75c4dd4c9c8866c62c57ecdf6b02fffb622e0f9c05c41b66be99a4e330436f32"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/bug.mjs",
+      "bytes": 5105,
+      "sha256": "7e54f29ce943fdd52736f35370e587b2befdba660cadd8029a18211e6d996802"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/chibi.mjs",
+      "bytes": 11888,
+      "sha256": "ac54cf71a55e0af9d4bd475ae06f35ca4d2fe63d5626e9a68ae8a9ea987d04b7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/critter.mjs",
+      "bytes": 7098,
+      "sha256": "cd796d09bdc28b4504231546c6bc0209a457ac69cc2bbc6894314b1d6970848b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/lib/textures.mjs",
+      "bytes": 9047,
+      "sha256": "84ece51403af404f0a19240ec2288c34760e1d611bb7c437e91cae82727f7ea3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/bee-colony/upstream/plugins/claude-animation/skills/claude-animation/package.json",
+      "bytes": 298,
+      "sha256": "8be3adbdd622355f622d53aa7fef66865bf74eb0ddeb7cd3c0fa1890110dc418"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/README.md",
+      "bytes": 1618,
+      "sha256": "54d4fd1164523c0a95fd9dcf307a2f216392e81841f7707b93996ea49d24d680"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/SOURCE.json",
+      "bytes": 1510,
+      "sha256": "e2baaf2cda768f9930c56e66545a072d9b21b04e1927441344cd472d981f4976"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/create.mjs",
+      "bytes": 561,
+      "sha256": "db9fd931d4c05442d23f35f2b989efe3a472db8d5d8a4fe7df5c9ab140d76546"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/preview.png",
+      "bytes": 1621223,
+      "sha256": "c63c22941e13a5afd94d8ac451d94e7946bd73950cb30c7075461dc52948e32e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/ADAPTATION.md",
+      "bytes": 1889,
+      "sha256": "2c520a9621fe4236ff03b8dc1c25dc52509217a311f4ff87556999b22ec181ed"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/LICENSE.three",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/LICENSE.upstream",
+      "bytes": 1080,
+      "sha256": "635d2f292067fc3f757e122a2ef6fd18c629e199debd326249c3d25a7d4b6cbe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/VERIFICATION.json",
+      "bytes": 335,
+      "sha256": "2c7d5017879380f8aa82e7417dec895568fd3268f7190cf9426fbdb0a104f323"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/blockworld.js",
+      "bytes": 60099,
+      "sha256": "ce79bcdf168033ece71cc9a58ba1adff1f845d2ffacbf0bd3d2ce2bb113c5568"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/index.html",
+      "bytes": 219,
+      "sha256": "934c4c5128a7329896bc3a022612dd3047c0c351838e2e8f85901ece431889e3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/preview.html",
+      "bytes": 270,
+      "sha256": "eae651c9327897fcdf47e2d60b8e0a6ca9c4c527bd9786743c8d0ed0384c6685"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/scene.js",
+      "bytes": 2721,
+      "sha256": "ac3c315b78f66f963533c3ee43b01c88687c34a32e8387e850ed346ae45fcc7f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/three.bundle.js",
+      "bytes": 725943,
+      "sha256": "9875cb9e0ba1510c183849cef3ecca06d1c2d021556903e26f19b89e445899ab"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/blockworld/template/upstream/game.original.js",
+      "bytes": 59466,
+      "sha256": "a7ccd813b456780ca92c8eb6a9a86d22874d7b5f7c7ffc73b4ea3d0e4d23de1d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/README.md",
+      "bytes": 1755,
+      "sha256": "487c6a664008971581caa71deee6808d7dac77a77bac895cacf381f479906aa4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/SOURCE.json",
+      "bytes": 2356,
+      "sha256": "473a35ce8ae005f8596107f29d8d9afa77b08c0a0b8422801df38d7fcd2f9cb5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/create.mjs",
+      "bytes": 561,
+      "sha256": "db9fd931d4c05442d23f35f2b989efe3a472db8d5d8a4fe7df5c9ab140d76546"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/preview.png",
+      "bytes": 1187829,
+      "sha256": "0f37a5ed544a4b648f9009cf09feb207d5607f52db6b341e1ceff653632cc693"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/ADAPTATION.md",
+      "bytes": 2068,
+      "sha256": "70036cf14aab04d7f3d39016aba51cd68242a7ed46f76d5150d8967cad2c2170"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/LICENSE.three",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/LICENSE.upstream",
+      "bytes": 1064,
+      "sha256": "43443eda9f19bc42c27bfc877ba233bdebdd0a17a86f3fe4204a1816cfcc3185"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/VERIFICATION.json",
+      "bytes": 341,
+      "sha256": "dccf9460f1d0d17e3f2a49408879b8c18992e4951c35621e393fa803d554d7d7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/build.mjs",
+      "bytes": 157,
+      "sha256": "654f15c920f369832f204115492583f41b77da48350ecc52c6176f4339397d43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/index.html",
+      "bytes": 334231,
+      "sha256": "613470aa57c3d51420eb8357eb2d9960faeb1eff88dc6339e15a864b42bff82f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/package.json",
+      "bytes": 230,
+      "sha256": "292f2ea3658c85ecd741dda63639a671116ed7429dd15e9aa0c16f4e0c4f61d1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/preview.html",
+      "bytes": 270,
+      "sha256": "eae651c9327897fcdf47e2d60b8e0a6ca9c4c527bd9786743c8d0ed0384c6685"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/scene.js",
+      "bytes": 904671,
+      "sha256": "63c249391d4153607524284734d908a2e7c6528811ff18a349ed81ae6391ab85"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/scene.source.js",
+      "bytes": 3306,
+      "sha256": "9212a5bcfed7b6f0d54c1e79b1fbdb57d11987d0a9388bc8e8a3c0a0d7beee88"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/upstream/README.md",
+      "bytes": 2238,
+      "sha256": "2c4960d9ff156bcd35c049578525f9d5f61c995c5f1defd662ecca756feff891"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/upstream/main.original.js",
+      "bytes": 46498,
+      "sha256": "d9011f695ead42d98e292c463e76d48c41273b2db4990de05296857772aff8c6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/upstream/pebbles.original.base64",
+      "bytes": 333806,
+      "sha256": "83cf85afd2bd26bf1cbb65f5b71518956cb0facd99fdc5502daa2651e462d688"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/upstream/tools/make_pebbles.py",
+      "bytes": 4635,
+      "sha256": "0c4a2a5d761e1499fb46ba8ff3e69aefe08d1ab521b48fc43c0d3886fcde51e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/clearwater/template/water.js",
+      "bytes": 46864,
+      "sha256": "8a6ec138235c0fe4f09994a46345d399a3c82785995a34d49c6496b1417ce068"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/LICENSE",
+      "bytes": 1556,
+      "sha256": "eec47faa01db7537a7641a99e0b6999bf9b3d40fe97a3e93c06d7b997883af22"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/README.md",
+      "bytes": 596,
+      "sha256": "7a44d57c7e725e0e0d01452e65a9692431731e9ef95cf7b70a7670afcd345e68"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/SOURCE.json",
+      "bytes": 14938,
+      "sha256": "c95429fe9b9c8d4e59a0da723d76947443f673e2fb6243da4d5005a035d164a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/create.mjs",
+      "bytes": 403,
+      "sha256": "ff3dcef3802591d3952d67f16a4749253b02eef69fb92a8c9c05cf5266a77c5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/entry.ts",
+      "bytes": 171,
+      "sha256": "9cf10382b7ad503f0c22b99c4274188b23491dbe6d9445db6dd71ddd11a47802"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/preview.png",
+      "bytes": 644924,
+      "sha256": "3554da6760b2c5f5e9e9d0b9d109f6cf54feb42e8b8f1be2dda177897e52d96e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/ADAPTATION.md",
+      "bytes": 1814,
+      "sha256": "39d70601bc8606064d6ee59633125948da321c6932481e16894428bb0e078ac9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/LICENSE-UPSTREAM",
+      "bytes": 1556,
+      "sha256": "eec47faa01db7537a7641a99e0b6999bf9b3d40fe97a3e93c06d7b997883af22"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/LICENSE.mexicat",
+      "bytes": 1074,
+      "sha256": "5fc212466ce7183be5d85a3ee34fea461712842d5cd256b470978a83577083cb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/SOURCE.json",
+      "bytes": 14938,
+      "sha256": "c95429fe9b9c8d4e59a0da723d76947443f673e2fb6243da4d5005a035d164a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/index.html",
+      "bytes": 924,
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/licenses/three-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/lut/inklut.bin",
+      "bytes": 143748,
+      "sha256": "7633c88df7e19666cfe420978f139e6f86612de5628ce3cf6ea473f4d1e44a30"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/lut/inklut.json",
+      "bytes": 196,
+      "sha256": "eb313fe86006255142dacf37d7dc53f7e6a8bb6436897969e9249265b90e56e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/package.json",
+      "bytes": 74,
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/preview.html",
+      "bytes": 273,
+      "sha256": "68b99ee3e30ee0a07ff6d6298f883c887e96fb114bd51432fb3ab6684cd5290c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/scene.js",
+      "bytes": 3310,
+      "sha256": "bee9c9dcbd594f87055d0328d1de2af6f60e07c93ab987e0e6969d4f2afad038"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/template/system.js",
+      "bytes": 1269089,
+      "sha256": "d38fe6507d9eedac0f10b36415ae0ae5396a2cfb37a293846de3c81d1b96f9b3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/audio.ts",
+      "bytes": 5435,
+      "sha256": "f43e20578f445ee952e8196c1c5fa00c13563c4d24b259a92b37c29b495df6b5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/engine.ts",
+      "bytes": 18682,
+      "sha256": "3a056c89c959e25b484594e586a0989f3ee9177ce359af3743fe9c375b126057"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/gl.ts",
+      "bytes": 11681,
+      "sha256": "b75ebd88e3613e658259d1199a5a72c818bb24654467ea783973e1b38e49fa22"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/glsl/common.ts",
+      "bytes": 11024,
+      "sha256": "7e962fecd329f7b1af76b53ed4be0e360f352ec8ed8a85745c812d84ac791fbf"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/hud.ts",
+      "bytes": 7755,
+      "sha256": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/lines.ts",
+      "bytes": 7778,
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/lyrics.ts",
+      "bytes": 4150,
+      "sha256": "03f360eb8aad243fe4b7186e7a1c6009b244969ffee0ce203998ab6120a879db"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/palette.ts",
+      "bytes": 2837,
+      "sha256": "cd33f1e5288ad20ca3f08a9ea9c94911cd484ea822e8eae768214eed34651436"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/post.ts",
+      "bytes": 12015,
+      "sha256": "c59a80699639e808044d7d5182d25fc4b593173dfadc62619e4c34ca01329c03"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/print.ts",
+      "bytes": 8246,
+      "sha256": "67bddcd6d7425e5a13e904563ddea3f0a52d49d999837772c8f90c85e99f93b8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/scale.ts",
+      "bytes": 615,
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/scene.ts",
+      "bytes": 2998,
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/stroke.ts",
+      "bytes": 14549,
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/type.ts",
+      "bytes": 10782,
+      "sha256": "56eda2878b023bd5a1308efab4fb327c8814f7233bbb1ded13e26b7d4200cf41"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/eudoom-motion/upstream/engine/util.ts",
+      "bytes": 7537,
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/LICENSE",
+      "bytes": 1073,
+      "sha256": "739513cbcff74d889ff842615c188e6fd849367dad8285a878302bb8a816e681"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/README.md",
+      "bytes": 646,
+      "sha256": "bcb88e6c6b04c4f84c59b5acb220533bb4a70d398973ab40a04d37c98ef378a5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/SOURCE.json",
+      "bytes": 6041,
+      "sha256": "d63d0b2332722b67138f965c3a0d0ed4d459ac4cd01d2db31776709d2ba2def0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/create.mjs",
+      "bytes": 403,
+      "sha256": "ff3dcef3802591d3952d67f16a4749253b02eef69fb92a8c9c05cf5266a77c5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/preview.png",
+      "bytes": 823274,
+      "sha256": "56a0d95e2c97ba71db326d79fcc25bc7e75aaeed290caf5235cdd5da2a8c4e5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/ADAPTATION.md",
+      "bytes": 1861,
+      "sha256": "015b285cc98824d4c4f73c356b94f49186f5117316a335b9874ef02814376c7f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/LICENSE-UPSTREAM",
+      "bytes": 1073,
+      "sha256": "739513cbcff74d889ff842615c188e6fd849367dad8285a878302bb8a816e681"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/SOURCE.json",
+      "bytes": 6041,
+      "sha256": "d63d0b2332722b67138f965c3a0d0ed4d459ac4cd01d2db31776709d2ba2def0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/index.html",
+      "bytes": 924,
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/package.json",
+      "bytes": 74,
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/paint.js",
+      "bytes": 10936,
+      "sha256": "30189fc62047f64ee5877dd29107e0bc63c8e2cc6cf63ea1dde1d0087842d213"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/preview.html",
+      "bytes": 275,
+      "sha256": "9918d27db8d05e58430e80165902d8013c8159f92720c7b7f3091fe8d2181a15"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/template/scene.js",
+      "bytes": 2556,
+      "sha256": "2211f076ded5e1f2c2136a88dd4d8386f31db17dd4f3de3639bbee3a27cfb02a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/functional-emotions/upstream/paint.js",
+      "bytes": 10909,
+      "sha256": "1c995377c4c1038eec5d4b48de4aa55b50ba909ccf442396808ad4f595e3a6a9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/LICENSE",
+      "bytes": 1063,
+      "sha256": "5ee4e300085ba144aae1ec5b72774ef5408bd933c1f02f429359313a4251bfad"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/README.md",
+      "bytes": 3669,
+      "sha256": "ba359ad1ceac69065d2249f9ab00673c2b5b39225fa20af1f1332dc009fd5778"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/SOURCE.json",
+      "bytes": 727,
+      "sha256": "573e04959957f23a19894fe9ec9848b7b50d7a8212524c83496d8ab0745691b3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/create.mjs",
+      "bytes": 853,
+      "sha256": "a30c5b98056619f435b138377f37a9fa5511068a20aac153a5f5a3d95b059cc4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/export.mjs",
+      "bytes": 4282,
+      "sha256": "612c61fba2c31cb6a253652a1976a52fecdd587c0574d437952749c1fe5e6a93"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/preview.png",
+      "bytes": 127238,
+      "sha256": "18e7262c1f813ae69ece089a5b5c12142870e05f829a01c3dcd91d90cf82bad0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/film.js",
+      "bytes": 7478,
+      "sha256": "5ae50eba329921627caf84309e814eb411e829613abfd876cc41cedc01ee32af"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/index.html",
+      "bytes": 676,
+      "sha256": "0c317f6db420583f93f51cc19ed0b6ce483ad5893b09147f511a75bca8e82a8e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/lib/core.js",
+      "bytes": 11347,
+      "sha256": "0926bf921b44433f4bc703d87fdd087c75b4df69243c101d15be99cc17b49598"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/lib/kit.css",
+      "bytes": 14792,
+      "sha256": "b714407f098992edbfafa761e78b998b46462d12a9801e000924ee6916d0585a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/lib/kit.js",
+      "bytes": 28809,
+      "sha256": "ca5b1468be305798941d7e054b30c2376e8d17311a088239adab10f966cd2210"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/package.json",
+      "bytes": 237,
+      "sha256": "71cea09a794a357615acb68740c794c9e2584d68120d3022863b5e1bf77e0a32"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/story.js",
+      "bytes": 1028,
+      "sha256": "c0cf8b837dca23e26c4a405645ef2e6a3a2861fe1dbb4bfaf27371d49b3908d0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/lanshu-explainer/template/style.css",
+      "bytes": 1480,
+      "sha256": "8fdee22c61e04e157e8d8305089796e1ca2ddf7277d84352831385a6ba8d5b99"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/LICENSE",
+      "bytes": 1065,
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/README.md",
+      "bytes": 637,
+      "sha256": "d6ced3bff01cfb0c1bd5df167ee8cbbcf4735b758fa05ccd398669476ce03177"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/SOURCE.json",
+      "bytes": 8797,
+      "sha256": "2d6d768c05cd546f26015507ccfc02bd07e26b7013d43d59a476d1f1e342d319"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/create.mjs",
+      "bytes": 403,
+      "sha256": "ff3dcef3802591d3952d67f16a4749253b02eef69fb92a8c9c05cf5266a77c5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/entry.ts",
+      "bytes": 229,
+      "sha256": "e20259d18daff358f421abfb8cdad167c1ddf4867d36a2e9a4507a3198c2e6ea"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/preview.png",
+      "bytes": 147434,
+      "sha256": "9526d30885c5156014854deaccfd2533945902464e25d00091ea33aad5243142"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/ADAPTATION.md",
+      "bytes": 2033,
+      "sha256": "2f10558b77263a8d92c1f9d653381302465c65287d11f91a979debe272722b43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/LICENSE-UPSTREAM",
+      "bytes": 1065,
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/SOURCE.json",
+      "bytes": 8797,
+      "sha256": "2d6d768c05cd546f26015507ccfc02bd07e26b7013d43d59a476d1f1e342d319"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/export.mjs",
+      "bytes": 4333,
+      "sha256": "18899fd422a6c41c4c06b9371031b2bac325fd22d3f729bf81544d853e57c899"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/film.js",
+      "bytes": 5247,
+      "sha256": "42f23a162529812ecbdff0e164028bd581ab4fe61c46379f9af3bcae93b6d2cb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/index.html",
+      "bytes": 518,
+      "sha256": "18dda93072e568f3629173e058f56d0c21c9e1498cbf6fa537d394105133c3a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/licenses/react-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/licenses/react-dom-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/licenses/remotion-LICENSE.txt",
+      "bytes": 2823,
+      "sha256": "7ed959c698257cc981157b306d4542b8d35252fb4ef9316da0caaa959f181d4c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/package.json",
+      "bytes": 74,
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/preview.html",
+      "bytes": 271,
+      "sha256": "852f49c59b41c62682f8fe63ad56e3244f1c2746cb7d9d2a925cfa990c8756a0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/template/system.js",
+      "bytes": 752330,
+      "sha256": "63359a0ec3ac1ff9541c170525e5b12b0d1d25487e6e66c5e33a64c096b79cf8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/upstream/anim.ts",
+      "bytes": 3010,
+      "sha256": "d420d0d198a09cc95af1c4df9101984372fb82e23d5ac672526f1a3a7ae0a710"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/upstream/fx/Cursor.tsx",
+      "bytes": 854,
+      "sha256": "c645e70dcaa733c65ffcbbaa9085593d4aad249a69bdfa6f0ca41a71ab88a672"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/launch-graphics/upstream/fx/RackFocus.tsx",
+      "bytes": 1327,
+      "sha256": "1082756cca17461b8312ac1d796d019bb13705659ae0f6fd4c602642414ee783"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/LICENSE",
+      "bytes": 1066,
+      "sha256": "6e1868082b209af518f8dc822ee36bdff79ffde0ce6bc27fd8111ab1dbd74840"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/README.md",
+      "bytes": 986,
+      "sha256": "b106b03361a0fb314a98eb59018a6fbd7ed679cbeb6630d205eadd2aaf98021e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/SOURCE.json",
+      "bytes": 3633,
+      "sha256": "b00f6fd292fd873a62fcf01c6812c6197d91bafe722b4c1aa00ce136989ad48c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/create.mjs",
+      "bytes": 403,
+      "sha256": "ff3dcef3802591d3952d67f16a4749253b02eef69fb92a8c9c05cf5266a77c5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/preview.png",
+      "bytes": 739646,
+      "sha256": "4d33442d20579cc8666f814407a15a2d45f4bdda21c70a5a12ee0c89d30c6155"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/ADAPTATION.md",
+      "bytes": 2270,
+      "sha256": "9e6fe190ea0d2b503f3a9aee9009a54b86226cfab3587a3f8a2242c3236826ca"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/LICENSE-UPSTREAM",
+      "bytes": 1066,
+      "sha256": "6e1868082b209af518f8dc822ee36bdff79ffde0ce6bc27fd8111ab1dbd74840"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/SOURCE.json",
+      "bytes": 3633,
+      "sha256": "b00f6fd292fd873a62fcf01c6812c6197d91bafe722b4c1aa00ce136989ad48c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/index.html",
+      "bytes": 924,
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/neighbours.js",
+      "bytes": 77517,
+      "sha256": "58f1a37c5b424ea903172222b4c731bf5259837b284336a295fba25891c15b96"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/package.json",
+      "bytes": 74,
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/preview.html",
+      "bytes": 272,
+      "sha256": "4cac872729bc1d4e01e9b5cd6b9e323b8bfc973e573c31b33924f0ec6de70f24"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/template/scene.js",
+      "bytes": 2870,
+      "sha256": "ddef0bd5ee4783c1a2a83eef74b39a1c83b830f791cacc0cd0588ae77f1d0000"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neighbourhood/upstream/index.html",
+      "bytes": 405371,
+      "sha256": "c0d2d504671d3db419419bd8ad9a1c27bbf55509376f6900d230ba91d09af740"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/README.md",
+      "bytes": 1583,
+      "sha256": "5c8ef064435eadf07b1c5cee029103ae5af2a05790e29af0a720610c46187ed8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/SOURCE.json",
+      "bytes": 8968,
+      "sha256": "eefe0c9b7e66645d285b54c201c3fda4e9b32c15db40f62d59e47e0c297fb46f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/create.mjs",
+      "bytes": 561,
+      "sha256": "db9fd931d4c05442d23f35f2b989efe3a472db8d5d8a4fe7df5c9ab140d76546"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/preview.png",
+      "bytes": 524879,
+      "sha256": "5c990d56b217f2e25e627e6d7cbd733ff6d81b086937b38c55b58510d65df7eb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/ADAPTATION.md",
+      "bytes": 1895,
+      "sha256": "370185ddb661e73ff10c43158d1de75c949df9fc98b76733d64ec6b7b1f0f545"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/LICENSE.three",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/LICENSE.upstream",
+      "bytes": 1213,
+      "sha256": "1ce81d47e9946a1933ec09213e39cba9b1c72a3cd34d8309ba1c913a4ee484b7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/VERIFICATION.json",
+      "bytes": 335,
+      "sha256": "3474eaa92ed991d0494756a08c0686699d8bb4a92e0a352047afd334ab4a7245"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/build.mjs",
+      "bytes": 157,
+      "sha256": "654f15c920f369832f204115492583f41b77da48350ecc52c6176f4339397d43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/index.html",
+      "bytes": 222,
+      "sha256": "65e3d7ee454254e639ed48d12998bff411e4374c2cbd13c790c9fa1984b2170a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/package.json",
+      "bytes": 229,
+      "sha256": "aff876afe1b39417b935bfd2ea43dcf4936f4c418b77bfe008a3e5d350faf495"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/preview.html",
+      "bytes": 270,
+      "sha256": "eae651c9327897fcdf47e2d60b8e0a6ca9c4c527bd9786743c8d0ed0384c6685"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/scene.js",
+      "bytes": 1222389,
+      "sha256": "4a490b8bbd48e21a80665f865aaf09c2d21c89be5135582e51ff3d355779079a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/scene.source.js",
+      "bytes": 6898,
+      "sha256": "09433f2b4d9f5c478725d85a6210b64df8d7317f8e70d82cfd69ea7f55850985"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/tex/concrete_albedo.webp",
+      "bytes": 237758,
+      "sha256": "62ce9b164952c32e0a8760d0cc87d9b5dc0901b22b9f0aa1269ce4b1343cbf1e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/tex/shutter_albedo.webp",
+      "bytes": 85998,
+      "sha256": "9a7c5984c57ca767859dcce04c448b09b28b68e2e7fe2a36b2d3dc828ade25e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/CREDITS.md",
+      "bytes": 4090,
+      "sha256": "39d99dd752581ce6f57335f43fbd36a0c4e5c3ecbe218325d4a6473050834efc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/atmos/clouds.js",
+      "bytes": 4454,
+      "sha256": "e8d307bbcefbcb107a5a0f4997d6d1b3414e5cc235c37ad508540ca899f0446b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/atmos/fog.js",
+      "bytes": 2965,
+      "sha256": "0b64092b4697fe87f79e4edfe1cdfb8c6025d80c710ae66b445d9a0361019efa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/atmos/lightning.js",
+      "bytes": 1350,
+      "sha256": "e93300a3febd4ac81b3bdb2da675bd694aad10a2ecc69d3d4bdc06399d86c2f8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/atmos/rain.js",
+      "bytes": 7536,
+      "sha256": "08c326243d8652be648b9eb68dfea46856e694fc178df6a31ebd954b7a869162"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/atmos/sky.js",
+      "bytes": 2104,
+      "sha256": "d1c01eb25cdfa86145a6611086ba331628df4b9404a44d4c9b2df5beef26b9bf"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/audio/audio.js",
+      "bytes": 16486,
+      "sha256": "b2a9a6a278bc280aaa69512ece0a0af5ed4f3d7dcdf97d7ae5eadaaf5c1502fe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/adscreens.js",
+      "bytes": 23337,
+      "sha256": "8b98ac152670fb6b096fa778db11df7fc2b06d18de78edcc8127824f57416ddb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/buildings.js",
+      "bytes": 30148,
+      "sha256": "0fa13d1823f041e765c446a5a75d8a7f9a86d9bc1a653ffbca0773e0799e6be0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/district.js",
+      "bytes": 15299,
+      "sha256": "20bb47a9ab0b07e14e9acf2e094b8bd306820e8a65ea7641832b8ca9e35f8e25"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/district.json",
+      "bytes": 146322,
+      "sha256": "26749986bdd4e61027f32b10ac5852f116b469af0e349a67e3a1c3ea4caac03e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/facadekit.js",
+      "bytes": 15867,
+      "sha256": "bffe0a381dc00fdd0c4a4a517a48ccead6670d1ef3534f9bd99586096ee216bd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/facades.json",
+      "bytes": 1039,
+      "sha256": "ddfb34b1f84f3a9ff6f2d9de813026ebb3ef0b712e46317e516a2dbbd6875e7e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/ground.js",
+      "bytes": 12765,
+      "sha256": "490db02900cb9b68113a22bb5cef48a424cb92d5c80fbcea773220f5ae8c5434"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/heightmap.js",
+      "bytes": 1805,
+      "sha256": "293f26d54a52e35ff7a280cc9a29b598e0d053ce776fab795042c5723f195f4b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/instancing.js",
+      "bytes": 4093,
+      "sha256": "a63d77195c55feb6c757a1674ac779aa77010e5d4544b0a409fa2756a6ca7732"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/kit_brown.json",
+      "bytes": 97,
+      "sha256": "17f5ae6419f970a6b84ae5589ec895b1e5389305b443bb77c59c88ad72d3543f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/kit_proc.json",
+      "bytes": 92,
+      "sha256": "be5883ca48670314fbfe4d3a60bcee0c66d598102c4e3aa650b2b4d824eef48f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/layout.js",
+      "bytes": 35618,
+      "sha256": "2df02019b82afefe44a44b9b9390185e2abf1645d5d1876155807324892b887f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/lightmap.js",
+      "bytes": 3815,
+      "sha256": "6a6e8091b7eee897d02dbec0823d5393a7edb4c22b7d20019e013d2ccda3ac5c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/massing.js",
+      "bytes": 12398,
+      "sha256": "aec527a48a9d23ec5aafc88e5ea1efcab51e6b94674bd802e9811be7c2dfd8cb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/props.js",
+      "bytes": 7079,
+      "sha256": "9e98f7535af700302d24742d121a025de280f4daf4a6329cc28e660c0b5ecde4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/shopkit.js",
+      "bytes": 6443,
+      "sha256": "9659a0b24246d62779658be5023796970c362d8786959ecf03545a46a881904a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/shopkit.json",
+      "bytes": 268,
+      "sha256": "c563e6155e7a0f224ef4ded402c8767756fb1472709de3cb0c55665b6bb57014"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/shops.json",
+      "bytes": 28,
+      "sha256": "2f0dce08f3fd34d81504e4580ee7bd4e8ff52dba1dbf2cececf0a940aedcb470"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/signs-atlas.json",
+      "bytes": 6520,
+      "sha256": "a53efdb89d91bcee2d558e26c9cd86930aec0a204cf87187a763cd02942f1ea0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/signs.js",
+      "bytes": 2605,
+      "sha256": "f8830001b4f4bb9acdcecddfd52e8bb1f4fd355e2a2151e7ea87ac124b2a59c4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/city/zenith.js",
+      "bytes": 4074,
+      "sha256": "82b0260c6be5e3251cdfb80324318efd94306240fa42b887348b08ab5b253436"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/core/env.js",
+      "bytes": 3733,
+      "sha256": "1dda19184a7a4498673c15ae2c8dbc1aa2fc629297f67f006ed1f0088adca856"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/core/governor.js",
+      "bytes": 2077,
+      "sha256": "e6d815ea84d4a7247890238e651ba0b73d9ce64ec217a688413956002a07f9fb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/core/input.js",
+      "bytes": 2738,
+      "sha256": "948f7b2f672ff02d31e978ffa3c196b75af2d578e59ab7bea874653d1151f0b6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/core/post.js",
+      "bytes": 3613,
+      "sha256": "65839d6a2c066eee30d3897f35003fcfa2b0feb2c40e37c04b08dc24ff559402"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/core/rng.js",
+      "bytes": 1450,
+      "sha256": "2dfa339dbe97c63089469a8669b5bbf04bc284b060a2889825f65c8263ffe616"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/core/shared.js",
+      "bytes": 4532,
+      "sha256": "820e54394e72b994384ce1c9fdce415ce40906ee1a179e480c14da5afcf15e6e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/debug/bot.js",
+      "bytes": 4046,
+      "sha256": "9d01d8b9ccf93ca05457f536b4e4001570d8f04e25f78fbb3252f9fc57a48191"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/debug/flycam.js",
+      "bytes": 1772,
+      "sha256": "475aed0a535da9b4edcc03cada566f1d97ea9ba0f01ac1a5a1f648dced637d25"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/game/attract.js",
+      "bytes": 3087,
+      "sha256": "6c442b9ed008024d8a9a0426cac4033d1c915c6c1e1a742ecc3a3e968b9dc4ee"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/game/game.js",
+      "bytes": 16005,
+      "sha256": "fc422b11b74b31ef9100cc5ec74a5710b861e4fe00b8d35c4d3ed114808cf0a9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/game/runs.js",
+      "bytes": 20224,
+      "sha256": "089a0ea67917b208b210f89aa8c510d66c4d9fb37007c0930bfb2f44ea8f3805"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/life/skytraffic.js",
+      "bytes": 12694,
+      "sha256": "eecdf3120058aff0ced52ebf0bf8838f9df5ce0f9f596692997e798069a93504"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/life/traffic.js",
+      "bytes": 19469,
+      "sha256": "189006374035e714c75cb9e6c9e322eafb222559dac057e4a5112e1866fb6b44"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/life/vehicles.json",
+      "bytes": 1268,
+      "sha256": "9416f27fbf4d9dc76787def3af9f4a1dc18ee380e736d3ed4361d987a14a10b5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/main.js",
+      "bytes": 15202,
+      "sha256": "a01aad77e7e45765644379cc21577f8d4fdaddb5895ab65ca02c615852715c89"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/tsl/util.js",
+      "bytes": 1424,
+      "sha256": "1e6ab7d99853f47f8c3e2349b78cc16c30fee10f2c26e10f2737e059f9deec5c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/ui/base.css",
+      "bytes": 236,
+      "sha256": "f9fb6e6aeed65653ed32482db253e8a6676f925c5ebcdfbcbdbf0a7d0f226828"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/ui/citymap.js",
+      "bytes": 1917,
+      "sha256": "6af7a98c09cb7c5befd051f83b857aa102c22f02d8c745a5636faf9073a20bce"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/ui/hud.js",
+      "bytes": 15927,
+      "sha256": "c036b6932ba2faa08ebe8723c8c8b479b63f0064afeca9d86adf5774a9e44bea"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/ui/screens.js",
+      "bytes": 18681,
+      "sha256": "8f36643019bf245548e03554c89d98fe08b52f07a86e05b6ba97f29aae26b6be"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/ui/touch.js",
+      "bytes": 2619,
+      "sha256": "f2e0bb58addaf02ab8b54d1ec5289a99a4aebe0d66773ad4987e5efec21e73a7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/ui/ui.css",
+      "bytes": 22752,
+      "sha256": "1274795a4076accc787ea46f5fe34d21b6606670ba6685389ce3fcf45e5fa7f4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/vehicle/camera.js",
+      "bytes": 5557,
+      "sha256": "593be12532b5027eac14eb710268c6d323ace187f1dc93d9d19aea0e2f426427"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/vehicle/kite.js",
+      "bytes": 12699,
+      "sha256": "be2f61c3312855edb4cbac77dc750ac71b5578d2152cd955d69db4204eec9220"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/vehicle/loft.js",
+      "bytes": 3106,
+      "sha256": "c4aedc2816547a4beaea71ded8a65aee1bfe86c3e64d2fc723ae634b35bd1e14"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-city/template/upstream/src/vehicle/model.js",
+      "bytes": 10998,
+      "sha256": "4cc10f62a5b1fc2622bf10bcfccb60c309193bfad8b3deece3db546df8a0d9cf"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/LICENSE",
+      "bytes": 1294,
+      "sha256": "00b81385b4f3132713588de29cd143806aaf9909fede859312a2f31787bb1962"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/README.md",
+      "bytes": 592,
+      "sha256": "35c0f9efaf6c9a30b2f150a76e05da6217487a899b312414a831eb20bac8ce5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/SOURCE.json",
+      "bytes": 14991,
+      "sha256": "e119c3689bf20ebe7a06a970ae53f4a743b042eca53f461e13a0426b06f7f88c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/create.mjs",
+      "bytes": 403,
+      "sha256": "ff3dcef3802591d3952d67f16a4749253b02eef69fb92a8c9c05cf5266a77c5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/entry.ts",
+      "bytes": 180,
+      "sha256": "665253b2abc5a1a0af854ba7325b081137d3b355e674741a041908a93f23936a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/preview.png",
+      "bytes": 253318,
+      "sha256": "43616e25c10ffbcc1d36987e700119205f2d92c91fbd7573244b882058a6eb30"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/ADAPTATION.md",
+      "bytes": 1806,
+      "sha256": "dec7383aa963252051ccc1ed7a2cbb9a00454a9d6a47e033c54ffe96b0341cff"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/LICENSE-UPSTREAM",
+      "bytes": 1294,
+      "sha256": "00b81385b4f3132713588de29cd143806aaf9909fede859312a2f31787bb1962"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/SOURCE.json",
+      "bytes": 14991,
+      "sha256": "e119c3689bf20ebe7a06a970ae53f4a743b042eca53f461e13a0426b06f7f88c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/index.html",
+      "bytes": 924,
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/licenses/three-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/package.json",
+      "bytes": 74,
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/preview.html",
+      "bytes": 272,
+      "sha256": "48f2dfc50bdae44c3feea14687e9316308283675fdab4c7ca2a499d2bb00bfe3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/scene.js",
+      "bytes": 3072,
+      "sha256": "8191a35f10960fbe3fa7d61b15abf2033b9ad8c94f05cee8a6560c781165f813"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/template/system.js",
+      "bytes": 1277346,
+      "sha256": "a6553c1861c395e781a018da0d979a0e81c7bc0d7d7f79018513d76ba9f6567a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/audio.ts",
+      "bytes": 10086,
+      "sha256": "57fcddd33e531a5e0333c616a8a2d35c70faf946987cbbbc7eeddd713cee6c0a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/engine.ts",
+      "bytes": 18894,
+      "sha256": "0f91083beede3cc7549fc696a5b20ecddcf882fdec2a886b7c639443041c53fa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/gl.ts",
+      "bytes": 11491,
+      "sha256": "05126116d767ba87875274664ace6dd7e4b93ed917166a6f0dec7f93ae50dc46"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/glsl/common.ts",
+      "bytes": 11218,
+      "sha256": "dd0ff7a168644e232bcebc5c176996b00ccba951f1950743fbfa4ff3d23241cb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/hud.ts",
+      "bytes": 2969,
+      "sha256": "d33b7cb381a13ef9b8d0996ab7b20084af3cee36c1f5800d9b41128bf65080b6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/lines.ts",
+      "bytes": 7778,
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/lyrics.ts",
+      "bytes": 4170,
+      "sha256": "4b88419609f5fd5f9977cdc76a122d884a16b652fb941fb1dd8ae9607b3f0bde"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/palette.ts",
+      "bytes": 1662,
+      "sha256": "570fcfb5beb5f31dcdc21e934f4bf3c7b289c984d3fc87fcfcc0a7d3649f918a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/post.ts",
+      "bytes": 10734,
+      "sha256": "e8cd7ab22c1f160d51bb475202d81ea3d0f45625c4c09e0995854afdfd5588fb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/scale.ts",
+      "bytes": 615,
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/scene.ts",
+      "bytes": 3188,
+      "sha256": "32f23fc7875595c766715fdfa4cbd9b93a9b899ad428ca0d2e800475bc416bd0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/spectrum.ts",
+      "bytes": 4970,
+      "sha256": "c7fb8d3bd4ed494296785b9a8e3fa50c3d087b6f5669699c806e961ad1f758d7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/stroke.ts",
+      "bytes": 14549,
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/type.ts",
+      "bytes": 9573,
+      "sha256": "2c70468e22d6b4bf99d6b67b007d882ba8f24d4549bf970fea57a37e8e085dfb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/neon-overdrive/upstream/engine/util.ts",
+      "bytes": 7537,
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/README.md",
+      "bytes": 1123,
+      "sha256": "1d0fab04a0bf954a6b916906e0c119dcbe05e230861ed7dc5f653fe9b6d726f7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/SOURCE.json",
+      "bytes": 383,
+      "sha256": "fa8cd96206faf1522c2497a8d1a47842abc61672424d5c1eec10797e5ad962fa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/create.mjs",
+      "bytes": 603,
+      "sha256": "566fc191c80c0f028754af09c1114a057704c4220139b21f00c20ca3716339e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/preview.png",
+      "bytes": 38014,
+      "sha256": "5eff0e317d70d42841588256656281e50ea4b5b2b3fb9ee14dc478b808262961"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/template/LICENSE-UPSTREAM",
+      "bytes": 1073,
+      "sha256": "9abba9333b52c852374b94a52fb148c0832fe01fd57eb80e23917fe4f226a0d4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/template/gait.js",
+      "bytes": 1149,
+      "sha256": "a9eadb07c17177658ba0376642872447177d3f58b3d8ea8369c9af239df68d63"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/template/index.html",
+      "bytes": 441,
+      "sha256": "f7f920da3113d8fed4c397e99ba13137ba601f400eec3440fb219fbe5fae2f7a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/template/scene.js",
+      "bytes": 3036,
+      "sha256": "4e02a4155875362fabc596bda74e830d63e2244c5d891a38000772ce7f4ccf1d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/upstream/LICENSE",
+      "bytes": 1073,
+      "sha256": "9abba9333b52c852374b94a52fb148c0832fe01fd57eb80e23917fe4f226a0d4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/people-gait/upstream/shell/src/people.rs",
+      "bytes": 41560,
+      "sha256": "869df2106ba808c21592e484d966f0fcfe9efdbdb6c6233d686bc1bc29e3f7e5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/README.md",
+      "bytes": 996,
+      "sha256": "33912adc843ba343e75468c6c3ff73775fae231eddb7a1e0dfddc39945cb1af1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/SOURCE.json",
+      "bytes": 371,
+      "sha256": "268ddc7928039d840627242ef4686887d9129ece1aa205a4822cae4f758baffe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/create.mjs",
+      "bytes": 603,
+      "sha256": "566fc191c80c0f028754af09c1114a057704c4220139b21f00c20ca3716339e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/preview.png",
+      "bytes": 79104,
+      "sha256": "7e1ec9010ef99d104fba543492eace8a2ab84548a395bd014b4741b1ab0f946d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/template/LICENSE-UPSTREAM",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/template/birds.js",
+      "bytes": 4656,
+      "sha256": "0a3d59976c7c5ae0c7e26bb8a5659f3575075208a61ec3cd453b2ee20349b82b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/template/index.html",
+      "bytes": 441,
+      "sha256": "f7f920da3113d8fed4c397e99ba13137ba601f400eec3440fb219fbe5fae2f7a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/template/scene.js",
+      "bytes": 2567,
+      "sha256": "8e12ce546d4e3e6a2f2cbd615616cf6d50fbc59a65be49cb39038f694a18b082"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/upstream/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/pixel-birds/upstream/kakapo-party.html",
+      "bytes": 45823,
+      "sha256": "7e847f6f8b2ad4624fdb08d5bfd49f71a302b79021f24963dcf988d81a0e9b20"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/README.md",
+      "bytes": 1651,
+      "sha256": "3c9a28afcbd7c10681bb04529dfb08d33af906f7204439e8e89097ade9b6f9c3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/SOURCE.json",
+      "bytes": 3985,
+      "sha256": "abc6888e078a9ab135423e6dc5be25a4bcffeba50522bcbe19c6f8d62fe78be0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/build.mjs",
+      "bytes": 1044,
+      "sha256": "74dd135088d38f6551b90704b621da8eea33265ab9d5dbf0d2ca7d8716e68ee2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/create.mjs",
+      "bytes": 1642,
+      "sha256": "78ef2e177a3d244d37838a0672ebda21559eb6d490918d151281115a91a0a05b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/preview.png",
+      "bytes": 1115540,
+      "sha256": "0df49cecedc3fd71d64f1b0b5bbff7e46fd09fe529fb267b72dabe68086b5d79"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/LICENSE-UPSTREAM",
+      "bytes": 1077,
+      "sha256": "fa655f413edefb7d5416d743714e4cdd7899134b2fb4003732b2ef9eecac4fd4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/kit.glb",
+      "bytes": 505900,
+      "sha256": "de9d966ceb4262e7f6ebcbbd9342f2144e11b31ee8f919992ab61a233bd02fbe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/door_color.jpg",
+      "bytes": 215713,
+      "sha256": "f9a1d489ad77fe7867f8a558f65b76a327f5481b5a15b254b5f8c38c55a7de94"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/door_rd.png",
+      "bytes": 293277,
+      "sha256": "f2626cafd5c1ba8b2a47cc55bb01d2ee34bd33d6f49460b6565ac5ebd476f6eb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/frame_color.jpg",
+      "bytes": 271680,
+      "sha256": "a5a6e452de98f5790a700c2decdfce772ba251dd497de8196a66be38e1e7d73c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/frame_rd.png",
+      "bytes": 323896,
+      "sha256": "dbacdc5edec15e9c6ad21930b7142729558154f2e87e35e66a7dc3e81672a8a0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/iron_color.jpg",
+      "bytes": 179757,
+      "sha256": "cfd73a52d01bc628d7f044dacbaf55ccdd1efe7d4d877023529e8de12dec646e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/iron_rd.png",
+      "bytes": 453698,
+      "sha256": "fc824ff16331c7c9e31feff8ffc02df9969a5e50fd80dd9fa88dbc77bc031df4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/stone_color.jpg",
+      "bytes": 87446,
+      "sha256": "bdbe47ff6c0a5b0552c51f58b4c185d5b8e0536855f60bedbd3c3ed8c1a6bd41"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/stone_rd.png",
+      "bytes": 164344,
+      "sha256": "2a633701eb0cffb4e3246b5e55d39b136ab4669caef4f84ae8232a89062393b7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/trim_color.jpg",
+      "bytes": 458665,
+      "sha256": "29054a77af627a3f7f26c6197771f69c0fbee03463e6a2cce862ad98dfd0700c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/trim_rd.png",
+      "bytes": 338725,
+      "sha256": "e6427e67b72036235d206e77d8e8f0737e3e4806226faecea663f7775afa584b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/zinc_color.jpg",
+      "bytes": 198949,
+      "sha256": "1fe0aebea8880a59fbcf0fc21c2b3c54b4ab01e454429f259c2deaccf8ad5153"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/assets/tex/zinc_rd.png",
+      "bytes": 515440,
+      "sha256": "884b298a7b4fc114595e05b8ed57f710a421d3f1923bc9239fcdb2db75d36688"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/building-system.js",
+      "bytes": 2102,
+      "sha256": "d3e1725d0fdc175ed1bcf89386ac28c5f12ad6f984c0cf0cc319f071747bedeb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/index.html",
+      "bytes": 393,
+      "sha256": "10c5ba6570af8c6e66bcb9d23c5c4aecdfaf5c3e0ab6b6c60bf83a70f1a80d3f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/scene.js",
+      "bytes": 8596,
+      "sha256": "227880c2965a6b8cfb0f05c1690e44ad95da1da8469261b5ad18325b174c67f3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/system/generator.js",
+      "bytes": 9200,
+      "sha256": "546bcf7a23850b12bf04a8438ba67837205f87ecbb9820319468707aa7b248e8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/system/interiors.js",
+      "bytes": 8176,
+      "sha256": "43ed48e2cf24d29e2b031f0e07545aee05182b48b7c342c32097a62cd8d79e72"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/system/kit.js",
+      "bytes": 4313,
+      "sha256": "a64582a398961b5f450221a1d74f5b6ae7f465105334d0b5dd8d2ec84d21761c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/system/materials.js",
+      "bytes": 14836,
+      "sha256": "6acdd65409cfff2bcd382a1b04e03ec29e7a6ce44fd4cec27bbe552130797588"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/system/params.js",
+      "bytes": 1492,
+      "sha256": "8db4c042d26e2144183b72f004c1a5f5d51c9a5aae24b79ae2c7d45992ba3e94"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/system/rng.js",
+      "bytes": 2664,
+      "sha256": "4605f752d2393f159711c4d2fd7edbfe174814a8f7e69c3a652102adb007ae8f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/LICENSE",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/3DMLoader.js",
+      "bytes": 40112,
+      "sha256": "cf98f7751a8a26f2e72291fdf5c105561e416cb50424265027e41d2bb92ecf7e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/3MFLoader.js",
+      "bytes": 38674,
+      "sha256": "3498e2c2a3b8fa23b183a5efedd56956d4d9a2353f4203b42c494d1606f30d65"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/AMFLoader.js",
+      "bytes": 11435,
+      "sha256": "79a321834200d8b7029bd3c6e08df8d6f86bf78150e5fd3e6b36e76d82dc4d7d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/BVHLoader.js",
+      "bytes": 10649,
+      "sha256": "597e148c7afb516db8522ac0d0cb05f775c13aaf665623fa25b17abbcd55e3ba"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/ColladaLoader.js",
+      "bytes": 3988,
+      "sha256": "b150c67c4bf98ed1eec3cf291e1bd00fc53016488bcefadd7a24f659e86e52d9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/DDSLoader.js",
+      "bytes": 9088,
+      "sha256": "500c12d19c791a8e8177137e67cbfc63357de1b3e1afe87b4805c09ab6b56c6b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/DRACOLoader.js",
+      "bytes": 19030,
+      "sha256": "fdafdf4aa11bbc65d89adb338efd844bedf94073702f9049240ff1f1ea48ad5f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/EXRLoader.js",
+      "bytes": 86154,
+      "sha256": "1355b32a2ee1226bffd0f96558f3d21e300832813ab70d51ec971025ebc34d5d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/FBXLoader.js",
+      "bytes": 111266,
+      "sha256": "2c0f9920e80bfb65b43fc7cd3968cc0a760cb89807b67d688c7622cea0790283"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/FontLoader.js",
+      "bytes": 5292,
+      "sha256": "a8d78ab85e596ef6c274023ee165520000f010011553dbfafe5c966387aca3d8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/GCodeLoader.js",
+      "bytes": 7199,
+      "sha256": "47ae92508ba78c4148b3a3ee9182a2f47c4ca8bf3cc622d49dd29cdfb9a579c7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/GLTFLoader.js",
+      "bytes": 114959,
+      "sha256": "97642d720f16cc9a0c9844934198e4d0c023bea8e89576d0f7545d03b2d103d2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/HDRCubeTextureLoader.js",
+      "bytes": 3731,
+      "sha256": "d67fcb9ec88e27736b55cfd591f86ed8529e61fc5a923328ee52cb499c753407"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/HDRLoader.js",
+      "bytes": 12079,
+      "sha256": "0986b578f9acd14cec74e5ee85e07f45e681b40bcd229a601a0391201f9b5ff1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/IESLoader.js",
+      "bytes": 8373,
+      "sha256": "7eebc9cdc4020fafca85bea7d1b26877e9ccf7d3d8928f7ae4344f379d33de57"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/KMZLoader.js",
+      "bytes": 3298,
+      "sha256": "26d2f8e77c60312979da205030865b371e217e76ed8bdeaca79b063257c7a93e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/KTX2Loader.js",
+      "bytes": 36567,
+      "sha256": "3a3233ce3409443076d3414b78832e1405fcfac5ecb34d367365fd0781127d6c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/KTXLoader.js",
+      "bytes": 7187,
+      "sha256": "078f7ef250de3dfd00c79f0a405eb5d30ed543b0943aa8da8cef76b57ab327ab"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/LDrawLoader.js",
+      "bytes": 61141,
+      "sha256": "dbc5877629f24f8a740152cc25b4d2acb1adae698278d4b380338626186451d5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/LUT3dlLoader.js",
+      "bytes": 5077,
+      "sha256": "8efe28ea296f2d8b1c98a8e5fe289f0a522eb48b7d89ec47beda2b85441745a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/LUTCubeLoader.js",
+      "bytes": 4635,
+      "sha256": "a1b65ae4f6a27c636feefdf9d29acd3af0d97729c058b9bf6522e13a5836dffc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/LUTImageLoader.js",
+      "bytes": 4184,
+      "sha256": "c8040476e51bf948317b8161a1c3f8e795ebcdbcdd70055c2f00619841760cf4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/LWOLoader.js",
+      "bytes": 24156,
+      "sha256": "8836bba5e3adb7c9feb86d2edac8962b6032d5c05ae16005cf1bb52426e6eb51"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/LottieLoader.js",
+      "bytes": 3499,
+      "sha256": "2224a046f31233310d17720efec17507f9ce9ddd1bdd0bb21190937a0da2cc3d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/MD2Loader.js",
+      "bytes": 13625,
+      "sha256": "6b63e78ba7c109030bc341442a4704aaacf599e50f47524ca15eff92d94ff7a7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/MDDLoader.js",
+      "bytes": 3936,
+      "sha256": "6a3f8494e46d636c6a874b789d9bbc80dafd9fc1594e06abda0d1f6ffe94065e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/MTLLoader.js",
+      "bytes": 11356,
+      "sha256": "f1f8f0c6fcfa09671cb609954ea436521d835606853c110c5aff2dc8188f5e61"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/MaterialXLoader.js",
+      "bytes": 26223,
+      "sha256": "66cd29cd762996cb130ed71bd32d41b8a7548e0fcb0f70a25e8d6de898f2bf14"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/NRRDLoader.js",
+      "bytes": 14603,
+      "sha256": "d5d8caeba4bd6ec7a04a79da2147e649c23d26a82e9f8cc81c32b7d20a2edb74"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/OBJLoader.js",
+      "bytes": 22916,
+      "sha256": "86c8384e269b75a21d502d438e3f0dc2e09dc61b6e6da6b81947f5b119112bf8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/PCDLoader.js",
+      "bytes": 16582,
+      "sha256": "a8d4617e2e1fb320165fccfc5d2abb1388b583f301270c00e5b480b83c689125"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/PDBLoader.js",
+      "bytes": 8255,
+      "sha256": "c01fc4af47f302f8d7ff4715be43c2a0a55f7901aeaaf44ef9ad9cb55a49f894"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/PLYLoader.js",
+      "bytes": 21869,
+      "sha256": "67b8c1015209b89081a92fdd69dc9df4a61284c3e9f8bb5380e441e4c64e5111"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/PVRLoader.js",
+      "bytes": 5411,
+      "sha256": "4e61e0da18ccd3b3aee323320c44270a0eb1b52abf68bf364dfee6ac5fe676ec"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/RGBELoader.js",
+      "bytes": 268,
+      "sha256": "6c08f9c441040a61a188ad7711078da4df48f8c5ac3b3725dd6f10ac9ff81162"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/STLLoader.js",
+      "bytes": 10715,
+      "sha256": "023ed97f848b633d8bcd53d4db3b996d29d0c644088700691297c552257d480b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/SVGLoader.js",
+      "bytes": 76850,
+      "sha256": "a58536582ec55d41d9ed8bedaf0633398cf9004110cb4a9741d572bded4a3129"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/TDSLoader.js",
+      "bytes": 25168,
+      "sha256": "44ddcadff60e929f39bdf4aaca13b2315baea19169cfca3527507d10c77e557e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/TGALoader.js",
+      "bytes": 11792,
+      "sha256": "da4cfa0c050b8076a63596f36f6e5a54a4a8271774a5301482996be030505c43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/TIFFLoader.js",
+      "bytes": 1221,
+      "sha256": "c166ff39d8ff1c4bf6c38d2d355f5d5e29516cde712eebee827a0a131cee57a0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/TTFLoader.js",
+      "bytes": 5578,
+      "sha256": "880cd473ddde7899a793af9684905959dd41c4d04514fd2de8554f72e9cdc2fd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/USDLoader.js",
+      "bytes": 7358,
+      "sha256": "2fc767b02d8f8e7c30610f4daef50a09c0616cf23d2a455473a6ef12d4477ae9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/USDZLoader.js",
+      "bytes": 266,
+      "sha256": "15f6a71479324d99ac12bd9951ee718178c091985559c3c0563225fd911f764b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/UltraHDRLoader.js",
+      "bytes": 19696,
+      "sha256": "fd67cf0e861d9f4eeb02e3b5acc62896658edafb6410eb4fc4c178352c0a6971"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/VOXLoader.js",
+      "bytes": 21829,
+      "sha256": "c632abb3f0c9e4df3c0385c9d56d5fd8926b49445eafdc5f1f63ab33dd162cf5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/VRMLLoader.js",
+      "bytes": 76363,
+      "sha256": "731e9e9e993f81d6a641862ec68d6d329be17274880544aa8da245fc6b189361"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/VTKLoader.js",
+      "bytes": 30565,
+      "sha256": "bc93507bd4fe08ff625115d2b685b11f518119a2f5ae24cea614eeb60fdc3555"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/XYZLoader.js",
+      "bytes": 3280,
+      "sha256": "e19780545ea436de1848dea2b6b54a226e82657c9c167ed91584e6bd6b3dcb8e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/collada/ColladaComposer.js",
+      "bytes": 66711,
+      "sha256": "d96f4dcf36bc6a30a4d385bce511ed10e27893d1824074daa97ac863df1232e8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/collada/ColladaParser.js",
+      "bytes": 36839,
+      "sha256": "d9532ab17f1d9e2919deba8029d759d5dcaed2f21195ded9e29491f719b1a0c6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/lwo/IFFParser.js",
+      "bytes": 26740,
+      "sha256": "0908627856138eb83f97e2453badc51c2dfade4034e06ab0db6ec8d6056163ba"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/lwo/LWO2Parser.js",
+      "bytes": 10137,
+      "sha256": "8fd8159c6a4c91a421a667660abbaa83244ead6581586b65abbbe2ab4af5dec6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/lwo/LWO3Parser.js",
+      "bytes": 9269,
+      "sha256": "6b56d4b581d40a1525f687273231b67c8bc6a4dbdedf7d544e6c8925e63c17c0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/usd/USDAParser.js",
+      "bytes": 18892,
+      "sha256": "06dc0bea197e7dbce1030f7de7e83ee621dafd362f77071c5f3ee11577e9b125"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/usd/USDCParser.js",
+      "bytes": 43612,
+      "sha256": "6bf37cdab31e5e3196bb2a8f038b3e1dfb4ea66b6c5cd9f2c5d5c730a3e764d8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/loaders/usd/USDComposer.js",
+      "bytes": 111331,
+      "sha256": "cf6471010d14151c4664c46382eb5a0677483df0b633b229f4d20755c9e2b4ed"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/BufferGeometryUtils.js",
+      "bytes": 37621,
+      "sha256": "5c552223a9309883743b80538d6e9cdb45e3227f30d3ec56fb2c39b46e78d595"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/CameraUtils.js",
+      "bytes": 3204,
+      "sha256": "9d3fd8e3dbc94f50a45acf41b18a8f1d14254af403e90a19573036d127567def"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/ColorUtils.js",
+      "bytes": 1652,
+      "sha256": "016c9556fb486cb8dd0e7a3d7ccdc074f7ac3ce09624db75c2463ec82739a19a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/GeometryCompressionUtils.js",
+      "bytes": 13014,
+      "sha256": "0bb16305a0ed75a582e41361a17601fe460efa514af0fd470385f965cce10be6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/GeometryUtils.js",
+      "bytes": 5593,
+      "sha256": "649f315d948f16bf32f43b86b3d96f05c9ffe36304ca6c94cf45ea35084d9864"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/LDrawUtils.js",
+      "bytes": 6055,
+      "sha256": "aaf8a11994c2e3a2e435d5e95842a5bb5501747ee4bcb59aa62fe4d2cea55dde"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/SceneOptimizer.js",
+      "bytes": 10275,
+      "sha256": "9ca2e875cadd48af46d787a2f6bed8ebba3233992ff74b178997cb8c44aab34e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/SceneUtils.js",
+      "bytes": 8634,
+      "sha256": "d2d1673d80cdb919232f8e22fd341f79ec5b6f1c8d7df3fe884ceb8c8fbedc07"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/ShadowMapViewer.js",
+      "bytes": 6249,
+      "sha256": "d80ad3d17ecdc7dd2ec4a9aed66cc4ca5765af049012e0ca2d628a5d91f512cd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/ShadowMapViewerGPU.js",
+      "bytes": 5981,
+      "sha256": "8cc8b462c005e9539e8c977d4f1b96582061578adab7dd9697654fe27cc225bf"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/SkeletonUtils.js",
+      "bytes": 11535,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/SortUtils.js",
+      "bytes": 3354,
+      "sha256": "a69012ad02b7dbdfca8d5384453a3a17c4c8e7c3fbedfa3b1f948c1ef121bf99"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/UVsDebug.js",
+      "bytes": 3427,
+      "sha256": "67869b5c32f8fc4729b5a2a56d00c5a5db60c1d10f8a169c9cba8e84c1865e92"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/WebGLTextureUtils.js",
+      "bytes": 3068,
+      "sha256": "6a8a2f033b0f39480be0d1a289063a1c66ea58bab14cc49498ca03827aade5ee"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/WebGPUTextureUtils.js",
+      "bytes": 2273,
+      "sha256": "477e79956c73665293745a2126cc5b9508f83eb38cb5446390de39b872c292e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/addons/utils/WorkerPool.js",
+      "bytes": 3110,
+      "sha256": "5ac7095fd566bc9ae48376055fd66edf27cb9ebbf9e1269dc206bfd4933ae9eb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.cjs",
+      "bytes": 2093053,
+      "sha256": "a681da9aba775c1de422367863efda9e5638847e6e1fccc51ba57e8a8124fc07"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.core.js",
+      "bytes": 1443056,
+      "sha256": "3718df126d69c125362a03340913204470d8c50238605150e57f808840fb7759"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.core.min.js",
+      "bytes": 385386,
+      "sha256": "05b2609338c76cd65daf74f3ac515bc9a5045e1b3b33edc07d8c9bd55250fa90"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.module.js",
+      "bytes": 650153,
+      "sha256": "bbf5ed13fe4373f5bd38b14ea8e62e9f157327da5638edc6d3863e08b167c9c7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.module.min.js",
+      "bytes": 365552,
+      "sha256": "86bcee248b64f44bcfc23c331ae74619061957d59cab040171dcb6fb5900beb6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.tsl.js",
+      "bytes": 34213,
+      "sha256": "c3844718a7becd4d2d10fef29a503e6a8789bd1636e2e62767f2cf00fa56f8c1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.tsl.min.js",
+      "bytes": 23676,
+      "sha256": "93e864a9adf5eea21fe35ac7fe69403bdd35ad7dc8e393248ee214ba3a815a65"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.webgpu.js",
+      "bytes": 2172442,
+      "sha256": "50e4013dd3903e8afb09a4829962dbf105488de7bd47f61308f44bd2e66b3340"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.webgpu.min.js",
+      "bytes": 667861,
+      "sha256": "9deb9cc8943f215f77c27b2cc86bacb83dbd5ab92ef8a7e172437a9e2dff819c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.webgpu.nodes.js",
+      "bytes": 2164091,
+      "sha256": "99d8d52546ac3082aa171d7176584667799b8ac435c8ea5bc2d36275ed0647e6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/template/three/three.webgpu.nodes.min.js",
+      "bytes": 665902,
+      "sha256": "71889742eb7a9cc40b655fc19b8ab6cb6981dea6b66c0495ce705d107ee55a65"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/LICENSE",
+      "bytes": 1077,
+      "sha256": "fa655f413edefb7d5416d743714e4cdd7899134b2fb4003732b2ef9eecac4fd4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/README.md",
+      "bytes": 24057,
+      "sha256": "6062897312a02dd9e2aa3b24ab960915965e0510fff6699c657d338d34e33c75"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/package.json",
+      "bytes": 895,
+      "sha256": "4cdfd4b2baeedca3abcf8de7f3222bb18157f502eaf07b538bf484d04a234b0a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/kit.glb",
+      "bytes": 505900,
+      "sha256": "de9d966ceb4262e7f6ebcbbd9342f2144e11b31ee8f919992ab61a233bd02fbe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/door_color.jpg",
+      "bytes": 215713,
+      "sha256": "f9a1d489ad77fe7867f8a558f65b76a327f5481b5a15b254b5f8c38c55a7de94"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/door_rd.png",
+      "bytes": 293277,
+      "sha256": "f2626cafd5c1ba8b2a47cc55bb01d2ee34bd33d6f49460b6565ac5ebd476f6eb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/frame_color.jpg",
+      "bytes": 271680,
+      "sha256": "a5a6e452de98f5790a700c2decdfce772ba251dd497de8196a66be38e1e7d73c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/frame_rd.png",
+      "bytes": 323896,
+      "sha256": "dbacdc5edec15e9c6ad21930b7142729558154f2e87e35e66a7dc3e81672a8a0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/iron_color.jpg",
+      "bytes": 179757,
+      "sha256": "cfd73a52d01bc628d7f044dacbaf55ccdd1efe7d4d877023529e8de12dec646e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/iron_rd.png",
+      "bytes": 453698,
+      "sha256": "fc824ff16331c7c9e31feff8ffc02df9969a5e50fd80dd9fa88dbc77bc031df4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/stone_color.jpg",
+      "bytes": 87446,
+      "sha256": "bdbe47ff6c0a5b0552c51f58b4c185d5b8e0536855f60bedbd3c3ed8c1a6bd41"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/stone_rd.png",
+      "bytes": 164344,
+      "sha256": "2a633701eb0cffb4e3246b5e55d39b136ab4669caef4f84ae8232a89062393b7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/trim_color.jpg",
+      "bytes": 458665,
+      "sha256": "29054a77af627a3f7f26c6197771f69c0fbee03463e6a2cce862ad98dfd0700c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/trim_rd.png",
+      "bytes": 338725,
+      "sha256": "e6427e67b72036235d206e77d8e8f0737e3e4806226faecea663f7775afa584b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/zinc_color.jpg",
+      "bytes": 198949,
+      "sha256": "1fe0aebea8880a59fbcf0fc21c2b3c54b4ab01e454429f259c2deaccf8ad5153"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/public/assets/tex/zinc_rd.png",
+      "bytes": 515440,
+      "sha256": "884b298a7b4fc114595e05b8ed57f710a421d3f1923bc9239fcdb2db75d36688"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/src/generator.ts",
+      "bytes": 9197,
+      "sha256": "c1ef7d6030d391adde105cefb50fe93cfd86ad8db6535a704c4f56153ba47442"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/src/interiors.ts",
+      "bytes": 8173,
+      "sha256": "47a12b2636b9e8901fa69213b3ce671f755150f4c49877f246d7327fd2ec8e47"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/src/kit.ts",
+      "bytes": 4260,
+      "sha256": "04f625c7691bee80b69439c460a4e11af56789102235d1d7770d323905094f31"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/src/materials.ts",
+      "bytes": 14813,
+      "sha256": "8d501dcae9694d00532afdd117684aecd5859e8e9d3df713ebc0ca61e30f0180"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/src/params.ts",
+      "bytes": 1492,
+      "sha256": "84d8b4a99267dadc851223915f51b5b09d976c50016ba1a2ffd658188c196c08"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-buildings/upstream/src/rng.ts",
+      "bytes": 2664,
+      "sha256": "19bf7373e4496163da8ab923b5d66e70fe08f4b9b7b1eaab9f8a6fe2507ca021"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/LICENSE",
+      "bytes": 1068,
+      "sha256": "c3322db87e3f98740f994bc27e60678d4ba391e258618d93b08feb69de17657a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/README.md",
+      "bytes": 3032,
+      "sha256": "9a2a6e7bb4cd9069598d94e98aafe587adbde58f772f3b855cf2084aa7dde0a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/SOURCE.json",
+      "bytes": 2272,
+      "sha256": "530c41a0aa5cb202454bf14bc684ff07e2627fc116a47e6a5a418879edfb5593"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/crayon.js",
+      "bytes": 13697,
+      "sha256": "765a06b41460c45f69c63d589cfc1ea4868607c5f3624b029125b2678ba47875"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/create-project.mjs",
+      "bytes": 838,
+      "sha256": "14b642e997ddfe08ae254d25e3a4f2b2ef02f591925ad0907ca9da8b43ec36b1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/ADAPTATION.md",
+      "bytes": 1155,
+      "sha256": "3ac80c2a33d7229dafd97f2287ed74346cd8ddd1811bf3c95c9c5c6e65634857"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/LICENSE.songbie",
+      "bytes": 1068,
+      "sha256": "c3322db87e3f98740f994bc27e60678d4ba391e258618d93b08feb69de17657a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/SOURCE.json",
+      "bytes": 2272,
+      "sha256": "530c41a0aa5cb202454bf14bc684ff07e2627fc116a47e6a5a418879edfb5593"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/crayon.js",
+      "bytes": 13697,
+      "sha256": "765a06b41460c45f69c63d589cfc1ea4868607c5f3624b029125b2678ba47875"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/index.html",
+      "bytes": 1217,
+      "sha256": "177a08375646f56421f5172da634e3d14acf2803bf9ceed9d6f5171bf966658b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/package.json",
+      "bytes": 233,
+      "sha256": "65612fcdcc2b8cc2cc0b7c73c59cdcd994ed844fe39f7916c2425139caae5515"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/examples/otter-windsock/scene.js",
+      "bytes": 9379,
+      "sha256": "a2b9ff8d7d60ad8d6dc6a24631b5b0257148a61271647764cdc640b84d07743d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/preview.png",
+      "bytes": 2205938,
+      "sha256": "76c3ed1e15ad086dd5179f4bd0fcf54d3a07ee04b93ffee5693ca7f09f5602b9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/upstream/README.md",
+      "bytes": 2917,
+      "sha256": "95ff86821fbb8959a7fa0184ae39b6539298709e62ccc2462789259a3616b592"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/upstream/render.js",
+      "bytes": 62655,
+      "sha256": "5f28a68605e93b4f06210b7c8fa943e27e7a3453613f68f5f5a5282fe96f0242"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/songbie-crayon/upstream/score.js",
+      "bytes": 4194,
+      "sha256": "480d966c29d1d59d27f8fc71ca26b6dc22a2e0ce2d93644e051c38498774da93"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/README.md",
+      "bytes": 1773,
+      "sha256": "383962605d2f99f861f6b408185a2ae0a791180fdf34b0712b3e67d566eac92b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/SOURCE.json",
+      "bytes": 2223,
+      "sha256": "579581517c141c10b0094c7aa7c03e68e04c2ba3e680f9df0b808dc5a4911bc7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/create.mjs",
+      "bytes": 561,
+      "sha256": "db9fd931d4c05442d23f35f2b989efe3a472db8d5d8a4fe7df5c9ab140d76546"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/preview.png",
+      "bytes": 417167,
+      "sha256": "c9b4d187c152c5995c563db9fb37a08289ee87a54fdd7489ed67f9578f7e9e63"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/ADAPTATION.md",
+      "bytes": 2085,
+      "sha256": "a12711e06a25e199298596a7d432bbbe7e9be7df486bea334cca18debef01ffe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/LICENSE.rapier",
+      "bytes": 11343,
+      "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/LICENSE.three",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/LICENSE.upstream",
+      "bytes": 1070,
+      "sha256": "7029db6743919a55b377c067bb99af11623e23ee7fd7b9f3270ceaf15a94a827"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/VERIFICATION.json",
+      "bytes": 337,
+      "sha256": "61fcd10351ad5c9e08ef488684578807ca86ec11dd5d3f7a9b34b57ff44d5df0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/build.mjs",
+      "bytes": 157,
+      "sha256": "654f15c920f369832f204115492583f41b77da48350ecc52c6176f4339397d43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/common.js",
+      "bytes": 1882,
+      "sha256": "d1d3ea17120376de0291406eac5874c22f321633ce6e56b56ef46669907223bb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/index.html",
+      "bytes": 222,
+      "sha256": "65e3d7ee454254e639ed48d12998bff411e4374c2cbd13c790c9fa1984b2170a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/package.json",
+      "bytes": 277,
+      "sha256": "49d8a48f6d307f18623cf3060370bdd1deefc82c369d44fab4e9acb7b568cb81"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/preview.html",
+      "bytes": 270,
+      "sha256": "eae651c9327897fcdf47e2d60b8e0a6ca9c4c527bd9786743c8d0ed0384c6685"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/scene.js",
+      "bytes": 5675835,
+      "sha256": "16f2e4981cca9306c0154ad4af7bcaf5e86865f4fe0f2a6ccd47a4741101a523"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/scene.source.js",
+      "bytes": 5203,
+      "sha256": "846e04624eab3aadc2d95a3a1728b0a97f063251e124b8407ef93edaba385ae1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/upstream/ASSETS.md",
+      "bytes": 3152,
+      "sha256": "a1a4c2245818f0e6497209c0af3751181f3f4874c1d9cce4a4c6e2d2f182d845"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/upstream/MODEL-EXCLUDED-LICENSE.md",
+      "bytes": 608,
+      "sha256": "de68b9ab0fb7e3c071f9e46c112021061612e490b6065ec96916331db989590b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/upstream/car/vehicle.ts",
+      "bytes": 14344,
+      "sha256": "a6cc6e0d1660abc340562afa9978ddbf1e18cea1109ed307ded27587492bb52d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/upstream/core/math.ts",
+      "bytes": 2281,
+      "sha256": "1b5864aaf678f1e0fb3a61796f35e991cbb6cc3f909d89b91249c4d51e8aec02"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/vehicle-motion/template/upstream/physics/world.ts",
+      "bytes": 1847,
+      "sha256": "96fde008cf95d675e8000085ea5a3036f81ac523363c33d77ef2ac76f49db762"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/LICENSE",
+      "bytes": 1067,
+      "sha256": "b0e0e711c04aac69e316e9c79a3119b722dc7d65e129990cdbe7a35dea6fec8b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/README.md",
+      "bytes": 650,
+      "sha256": "a845c2315a3bc693fd2eca2b51ec4e634e4136fb3ba05336b0f36e725a4a9f5f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/SOURCE.json",
+      "bytes": 3919,
+      "sha256": "db6afc42b33ba880ae61c944b296e24d60d8be11c15e478c965dfd988f786006"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/create.mjs",
+      "bytes": 403,
+      "sha256": "ff3dcef3802591d3952d67f16a4749253b02eef69fb92a8c9c05cf5266a77c5e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/preview.png",
+      "bytes": 1138533,
+      "sha256": "743dbb830e4c182596c8c17eebc6329925b8d43da818ca17bbf6e58194392925"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/ADAPTATION.md",
+      "bytes": 1925,
+      "sha256": "b4eb75e2f0e76491967dc1290512ff215829a755efb50a40d340ea41001e86d9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/LICENSE-UPSTREAM",
+      "bytes": 1067,
+      "sha256": "b0e0e711c04aac69e316e9c79a3119b722dc7d65e129990cdbe7a35dea6fec8b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/SOURCE.json",
+      "bytes": 3919,
+      "sha256": "db6afc42b33ba880ae61c944b296e24d60d8be11c15e478c965dfd988f786006"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/index.html",
+      "bytes": 924,
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/licenses/simplex-noise-LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "01951c4f7d8e7ce92540c4f575a2aec39738b39d25a06a96059d82ed83fb594e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/licenses/three-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/package.json",
+      "bytes": 74,
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/preview.html",
+      "bytes": 278,
+      "sha256": "a0b6da2fbfda0ba58102d3883f02d7dc78e1f1a64cb99387117d9c2a03b802e1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/scene.js",
+      "bytes": 6068,
+      "sha256": "e2b1882f9a00a1384038aa08cb90bfa2a56b6cbd7a6e248c098be76b4af48ba1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/template/system.js",
+      "bytes": 1266893,
+      "sha256": "81a5b4e365a5f17041584f0000d53ff99fe332afac71667c45a650d2451f15e8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/upstream/index.html",
+      "bytes": 61325,
+      "sha256": "7525de365b1fb5637f08569c01dbe2d7b606ce58b6b4aa24dfed87f8c737f976"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/watercolor-memory/watercolor-core.js",
+      "bytes": 17756,
+      "sha256": "ca62722e8f8787878b8e5f5ac65a7db8e3ffa17cc2cdd13ebf37d6288f86becf"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/README.md",
+      "bytes": 1551,
+      "sha256": "08802eb17565f2605e5d8eb3033cb158c05bea618cff688ef74af2ed86c16103"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/SOURCE.json",
+      "bytes": 3724,
+      "sha256": "10e8fc6514ffda082129ba775054fd38cad64309899eef7303d05e91c344ca89"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/create.mjs",
+      "bytes": 561,
+      "sha256": "db9fd931d4c05442d23f35f2b989efe3a472db8d5d8a4fe7df5c9ab140d76546"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/preview.png",
+      "bytes": 484539,
+      "sha256": "f0531c0b22998aac7378aa7da44bc10cef3eb1e4670a50212c60c5196ff7ea76"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/ADAPTATION.md",
+      "bytes": 1862,
+      "sha256": "6938c87460413afeca7bc4a229835756a600743a399ed9d3284a2a1e68a47a61"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/LICENSE.three",
+      "bytes": 1081,
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/LICENSE.upstream",
+      "bytes": 1061,
+      "sha256": "ce378da54b6ef9a0efd6ed461ba2f6b21592a55e424924535e6e6a629afd5008"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/VERIFICATION.json",
+      "bytes": 333,
+      "sha256": "45c0fab68830df8c406b48ac676996743e294430661bdf5a279ac6a49369f704"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/build.mjs",
+      "bytes": 157,
+      "sha256": "654f15c920f369832f204115492583f41b77da48350ecc52c6176f4339397d43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/common.js",
+      "bytes": 1882,
+      "sha256": "d1d3ea17120376de0291406eac5874c22f321633ce6e56b56ef46669907223bb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/index.html",
+      "bytes": 222,
+      "sha256": "65e3d7ee454254e639ed48d12998bff411e4374c2cbd13c790c9fa1984b2170a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/package.json",
+      "bytes": 229,
+      "sha256": "bec61dfff39a35f689bb27abd0a1cae77f6629fdd43d11bf6944317f9f02da95"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/preview.html",
+      "bytes": 270,
+      "sha256": "eae651c9327897fcdf47e2d60b8e0a6ca9c4c527bd9786743c8d0ed0384c6685"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/props.glb",
+      "bytes": 2386404,
+      "sha256": "8cdbb0cce4fc7222c4423a1323f7b1e32cb66d95b1f5759a698c84096a2e360a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/scene.js",
+      "bytes": 1354907,
+      "sha256": "e2da3c0970de6fdd4732de05bbf8f0d31e4682b13c4e8ae7e06573b4106c83c6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/scene.source.js",
+      "bytes": 3908,
+      "sha256": "082419b688e6084e5c47b03121c082c00c36d43325b3a18c81d5350d706c6948"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/appearance.ts",
+      "bytes": 1726,
+      "sha256": "61db171bd103646776eb8a1aba61813af5410d1ec6b077ab12c95e8b5c255567"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/README.md",
+      "bytes": 2809,
+      "sha256": "884fbc2ee94589fc413bb66ed74d4d13a75a994df6b8dd092c3adf0468f44c4a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/build_character.py",
+      "bytes": 15490,
+      "sha256": "55f1043554a6a6fc70afb0cabfc999df2251717c030d08013feda8378eda8b0c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/build_props.py",
+      "bytes": 2274,
+      "sha256": "f07975ad93395fa31635ac7bd4d190be02909fa73fdb766c13cfd2e7e2119463"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/character/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/character/rig.py",
+      "bytes": 14258,
+      "sha256": "ba83f128e8066b4d3df75a5bee16964d98692dca846d2f1d62b7c770dac814aa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/lib/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/lib/kit.py",
+      "bytes": 21068,
+      "sha256": "d39cb29f4370fa8ae347d24938d3b3dd4daecfee3e96f797f866e9a978c79794"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/props/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/props/desk_set.py",
+      "bytes": 15766,
+      "sha256": "6a34fdbcb77771a19e85acd6cf75da38c0b80841e9e4c8c668766bd4457368d6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/props/lounge.py",
+      "bytes": 9371,
+      "sha256": "b2073b7d88188ed36e6f1b63762b960b050c34602981b60914f30d8fcaf65d09"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/props/outdoor.py",
+      "bytes": 10136,
+      "sha256": "d177cef5638745c392307aa36d1fa49049b6f9f972d067521eef32bf5dc8d8c8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/blender/props/room.py",
+      "bytes": 12426,
+      "sha256": "6f6a80c68ed42658c6e967c3cc330cef6fd214b754586a4f03eee9862d876199"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/lampLight.ts",
+      "bytes": 2229,
+      "sha256": "2702114dc3ec1af91f2c65080f834d3bb82197739226ab4dec80d11559d931dd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/propLibrary.ts",
+      "bytes": 5508,
+      "sha256": "9d93413e9c626d24080a585cc03e3e145aebdac03dc2728588b633d563ab7cd4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/workspace/template/upstream/textures.ts",
+      "bytes": 9129,
+      "sha256": "3a9cc7fec7c3912ba92591d5417716712733777a870c609cd04247f20b2025a5"
+    },
+    {
       "path": "skills/claude-motion/assets/model-viewer/film.js",
       "bytes": 5014,
       "sha256": "f6c441d1541ad31df6bae98683a085fdcb456d25025d58f148211e8c66dc1379"
@@ -10744,12 +13254,12 @@
     {
       "path": "skills/claude-motion/package-lock.json",
       "bytes": 9875,
-      "sha256": "78b722d93035f9d7aa6c263b5e0bbc14b686f935a4ed425f8e9e7b64c8d012c5"
+      "sha256": "849061d0a0ab5e8eb60d4049705354e99d390143dadd0b9e43c385176e5e8798"
     },
     {
       "path": "skills/claude-motion/package.json",
       "bytes": 532,
-      "sha256": "4bd8d1fa4f0790c142e00f68d3efe92d5daf38418af320309db93d352d18bae2"
+      "sha256": "3f609659c330ee5bd6efe8a01d72233511f82e42fa58f3c5f1909ad610c29041"
     },
     {
       "path": "skills/claude-motion/references/case-catalog.json",
@@ -10807,14 +13317,19 @@
       "sha256": "c65f51bada6b9fa99f824848c786e780da49f5dc417899122c8fa875466a52ff"
     },
     {
+      "path": "skills/claude-motion/references/extension-catalog.json",
+      "bytes": 110375,
+      "sha256": "91ae3e221edfa2966e27c53c0bf44998270e366a4bcdb5031b5cc20394a51007"
+    },
+    {
       "path": "skills/claude-motion/references/how-it-works.md",
-      "bytes": 6271,
-      "sha256": "a53f7b59c129fc3071a2dde81c0edac298387ba26975ee8d2a7340715f7c3826"
+      "bytes": 6578,
+      "sha256": "d25a4fdc8f73bd2098e16979d11255e4fec5cfa3c6029d535bad32290e1d45ca"
     },
     {
       "path": "skills/claude-motion/references/installation.md",
-      "bytes": 3693,
-      "sha256": "a8d3e5881a6dd674372171f84add2d2225a59aa21c7996aeb72fb92d00f12008"
+      "bytes": 4953,
+      "sha256": "e77bc27ad2410a4dfa3299a43335ba80ae19e35d4418f4ea30c4f8ce5175797a"
     },
     {
       "path": "skills/claude-motion/references/model-catalog.json",
@@ -10867,9 +13382,14 @@
       "sha256": "03f62e3b8faa2ce7f4f6ccdce6f77d0e0beed1b8c0870208aba05d64b711b97f"
     },
     {
+      "path": "skills/claude-motion/references/source-extensions.md",
+      "bytes": 6661,
+      "sha256": "eee0619f6bc971147292f831cfe8c8154a447944025d3249ecd7e48a1ee028f7"
+    },
+    {
       "path": "skills/claude-motion/references/source-index.json",
-      "bytes": 148863,
-      "sha256": "fc6f90ccc4cc92049a261cc93fe4ec62fa330209149e4fc655a029f70ffff4cf"
+      "bytes": 158669,
+      "sha256": "7cedfe1035553c60ad71520bdb60cf3016b17240b92d35322747be47fdefa7fa"
     },
     {
       "path": "skills/claude-motion/references/targeted-components.md",
@@ -10878,13 +13398,18 @@
     },
     {
       "path": "skills/claude-motion/scripts/check-package.mjs",
-      "bytes": 3148,
-      "sha256": "b22490f4a1d822e0a8eb41a3c9151a8815f54030e6f802e8a5aa13b4e043fdf7"
+      "bytes": 3652,
+      "sha256": "3167a2fadba68f72336f9262de58987f7274ea793ccb3c5962f7bf52a94853e7"
     },
     {
       "path": "skills/claude-motion/scripts/create-engine.mjs",
       "bytes": 3161,
       "sha256": "6ad3436b1f618a9bfeb1809e2059cb3fd65b263aba06947cd9e8c5d62019d459"
+    },
+    {
+      "path": "skills/claude-motion/scripts/create-extension.mjs",
+      "bytes": 1487,
+      "sha256": "c76001c4857af4e23f04daa26831fa35c7fbee4ed2450ac30f3b5fc72a41b376"
     },
     {
       "path": "skills/claude-motion/scripts/create-hd2d.mjs",
@@ -10918,8 +13443,8 @@
     },
     {
       "path": "skills/claude-motion/scripts/route.mjs",
-      "bytes": 5936,
-      "sha256": "d0a1771204cce07dead9d03ef58d1e250b7bb2a2149737d652f06e6c2be22bf1"
+      "bytes": 6573,
+      "sha256": "a7d1a54a93937d719e40eaef12b6041b96182d6f415399278440857725eb3fde"
     },
     {
       "path": "skills/claude-motion/scripts/verify-engine.mjs",
@@ -10935,11 +13460,6 @@
       "path": "skills/claude-motion/scripts/verify-papercut.mjs",
       "bytes": 4157,
       "sha256": "eaa88bcee4339fa560463365a2fba688ccb0da89152b9a18cfc6d4dcff9c6017"
-    },
-    {
-      "path": "validation.json",
-      "bytes": 1491,
-      "sha256": "0176d09b0dc1119df71f5fe4101863cde917cf7d4c29b800bd4e5b27719b34af"
     }
   ]
 }

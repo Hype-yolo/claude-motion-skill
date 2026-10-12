@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Memory Fading Into Watercolor</title>
+<style>
+  :root { --paper: #f4ecdf; --ink: #4a4540; }
+  html, body { margin: 0; height: 100%; background: var(--paper); overflow: hidden; }
+  #stage { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; }
+
+  #intro {
+    position: fixed; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+    background: radial-gradient(ellipse at center, rgba(244,236,223,.82) 0%, rgba(244,236,223,.62) 55%, rgba(244,236,223,.42) 100%);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    color: var(--ink);
+    transition: opacity 1.8s ease;
+    user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
+  }
+  #intro .title { font-size: clamp(18px, 2.6vw, 27px); font-style: italic; letter-spacing: .03em; text-align: center; padding: 0 16px; }
+  #intro svg { width: 92px; height: 10px; opacity: .5; }
+  #intro .cta { font-size: 12px; letter-spacing: .34em; text-transform: lowercase; opacity: .5; }
+  #intro.ready { cursor: pointer; }
+  #intro.ready .cta { animation: breathe 3.2s ease-in-out infinite; }
+  #intro.gone { opacity: 0; pointer-events: none; }
+  @keyframes breathe { 0%, 100% { opacity: .32; } 50% { opacity: .82; } }
+
+  #debug {
+    position: fixed; top: 12px; left: 12px; width: min(400px, calc(100vw - 24px)); box-sizing: border-box;
+    padding: 12px 14px; border-radius: 6px;
+    background: rgba(38, 34, 31, .86); color: #efe6d8;
+    font: 11px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    pointer-events: none; white-space: pre;
+  }
+  #debug[hidden] { display: none; }
+  #debug .h { color: #bfb3a2; letter-spacing: .08em; }
+  #debug .dim { color: #8f8577; }
+  #debug .on { background: #efe6d8; color: #26221f; }
+  #debug .miss { color: #e39a8f; }
+  #debug .meter { display: inline-block; width: 110px; height: 7px; background: rgba(255,255,255,.12); vertical-align: middle; position: relative; }
+  #debug .meter i { position: absolute; left: 0; top: 0; bottom: 0; }
+  #debug .tl { position: relative; height: 16px; margin: 4px 0 2px; background: rgba(255,255,255,.07); white-space: normal; }
+  #debug .tl b { position: absolute; top: 0; bottom: 0; width: 1px; background: rgba(255,255,255,.18); }
+  #debug .tl s { position: absolute; top: 0; bottom: 0; width: 2px; text-decoration: none; }
+  #debug .tl u { position: absolute; top: -2px; bottom: -2px; width: 2px; background: #fff; text-decoration: none; }
+  #debug .tl em { position: absolute; top: 0; bottom: 0; background: rgba(255,255,255,.08); }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+    "tone": "https://cdn.jsdelivr.net/npm/tone@15.1.22/+esm",
+    "roughjs": "https://cdn.jsdelivr.net/npm/roughjs@4.6.6/bundled/rough.esm.js",
+    "simplex-noise": "https://cdn.jsdelivr.net/npm/simplex-noise@4.0.3/dist/esm/simplex-noise.js"
+  }
+}
+</script>
+</head>
+<body>
+<canvas id="stage"></canvas>
+
+<div id="intro" role="button" tabindex="0" aria-label="Tap to begin">
+  <div class="title">Memory Fading Into Watercolor</div>
+  <svg viewBox="0 0 92 10" aria-hidden="true"><path d="M2 6 C 20 3, 34 7, 50 5 S 78 3, 90 5" fill="none" stroke="#4a4540" stroke-width="1" stroke-linecap="round"/></svg>
+  <div class="cta" id="cta">gathering the piano…</div>
+</div>
+
+<div id="debug" hidden></div>
+
+<script type="module">
+import * as THREE from 'three';
+import * as Tone from 'tone';
+import rough from 'roughjs';
+import { createNoise4D } from 'simplex-noise';
+
+/* ================================================================== *
+ *  TIME — 80 BPM, 4/4, 4 bars = 12.0 s. Every visual below is a pure
+ *  function of the Transport's position, so a frame at t=12 is the
+ *  frame at t=0.
+ * ================================================================== */
+const BPM = 80;
+const BEAT = 60 / BPM;          // 0.75 s
+const BAR = 4 * BEAT;           // 3.0 s
+const LOOP = 4 * BAR;           // 12.0 s
+const RECALL = 10.8;            // the lone F#4 rings; the memory is drawn back in
+
+// One quarter note per beat. null = rest, '~' = the previous note still ringing.
+const MELODY = [
+  ['F#4', 'D5', 'C#5', 'A4'],
+  ['F#4', 'D5', null,  'A4'],
+  ['F#4', 'D5', null,  null],
+  ['F#4', '~',  '~',   '~' ],
+];
+const BASS_BARS = [0, 1, 2];
+
+const PLAYED = [];
+MELODY.forEach((row, bar) => row.forEach((note, beat) => {
+  if (note && note !== '~') PLAYED.push({ note, bar, beat, time: bar * BAR + beat * BEAT });
+}));
+// A bloom fires the first time a remembered note is missing.
+const MISSING = [];
+for (let bar = 1; bar < MELODY.length; bar++) for (let beat = 0; beat < 4; beat++) {
+  const was = MELODY[bar - 1][beat], now = MELODY[bar][beat];
+  if (was && was !== '~' && (now === null || now === '~'))
+    MISSING.push({ bar, beat, note: was, time: bar * BAR + beat * BEAT, pos: `${bar}:${beat}:0` });
+}
+// → C#5 @ 4.50 s (bar 2 beat 3), A4 @ 8.25 s (bar 3 beat 4), D5 @ 9.75 s (bar 4 beat 2)
+
+const REGIONS = [
+  { name: 'branch', colour: '#f08a2c', label: 'branch bursts · gold + cadmium' },
+  { name: 'ropes',  colour: '#4d6fd6', label: 'ropes run · ultramarine + turquoise' },
+  { name: 'seat',   colour: '#d63d86', label: 'seat blooms · magenta' },
+  { name: 'sky',    colour: '#8a4fb0', label: 'sky erupts · sunset' },
+];
+const ONSET = [MISSING[0].time, MISSING[1].time, MISSING[2].time];
+const CLIMAX = MISSING[2].time;
+const RISE = [0.9, 1.0, 0.7];
+const GROW = [2.6, 2.0, 1.4];
+
+const clamp01 = x => Math.min(1, Math.max(0, x));
+const smoother = x => { x = clamp01(x); return x * x * x * (x * (x * 6 - 15) + 10); };
+const easeOut = x => 1 - Math.pow(1 - clamp01(x), 3);
+const easeInOut = x => { x = clamp01(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; };
+const wrap = t => ((t % LOOP) + LOOP) % LOOP;
+
+// Envelopes (all hit exactly zero at t = 12 ≡ 0)
+const late     = t => 1 - smoother((t - 11.6) / 0.4);                  // safety floor to zero
+const recallAt = t => easeInOut((t - RECALL) / 1.1);                   // pencil re-draw sweep
+const bloomAt  = (t, i) => t < ONSET[i] ? 0 : easeOut((t - ONSET[i]) / RISE[i]) * late(t);
+const ghostAt  = (t, i) => t < ONSET[i] ? 0 : smoother((t - ONSET[i]) / (RISE[i] + 0.8)) * late(t);
+const wetAt    = (t, i) => t < ONSET[i] ? 1 : 1 - clamp01((t - ONSET[i]) / 3.0);
+const paintAt  = t => smoother((t - ONSET[0]) / 1.2) * (1 - smoother((t - RECALL) / 1.0));
+const glowAt   = t => (0.35 * smoother((t - 3) / 6.75) + 0.65 * smoother((t - CLIMAX) / 0.5)) * (1 - smoother((t - 10.9) / 0.9));
+const climaxAt = t => smoother((t - CLIMAX) / 0.45) * (1 - smoother((t - RECALL) / 0.8));
+const skyRAt   = t => t < CLIMAX ? 0 : 1.15 * easeOut((t - CLIMAX) / 0.7) * (1 - easeInOut((t - RECALL) / 1.0));
+// a punch: snaps in, settles out
+const kick     = a => a <= 0 ? 0 : (1 - Math.exp(-a * 18)) * Math.exp(-a * 3.2);
+// the held breath: the lone F#4 rings, the world dims, then the D5 never comes
+const breathAt = t => smoother((t - 9.0) / 0.75) * (1 - smoother((t - CLIMAX) / 0.12));
+const flashAt  = t => (ONSET.reduce((s, o, i) => s + (t >= o ? (i === 2 ? 1 : 0.35) * Math.exp(-(t - o) / (i === 2 ? 0.32 : 0.2)) : 0), 0)) * late(t);
+const zoomAt   = t => 1 + 0.1 * (t < RECALL ? easeInOut(t / RECALL) : 1 - easeInOut((t - RECALL) / (LOOP - RECALL)))
+                       + (0.03 * breathAt(t) + 0.02 * kick(t - ONSET[0]) + 0.025 * kick(t - ONSET[1]) + 0.07 * kick(t - CLIMAX)) * late(t);
+const pulseAt  = t => PLAYED.reduce((s, n) => { const a = wrap(t - n.time); return s + (a < 3 ? Math.exp(-a / 0.45) : 0); }, 0);
+
+// The swing: one full swing per bar, extremes on beats 1 and 3. It loses its
+// momentum as the melody is forgotten and is pushed again as it is recalled.
+const SWING_MAX = 0.62;           // radians — a big, joyful arc at the start
+const swingAmp = t => {
+  const decay = 1 - 0.95 * smoother((t - 5.5) / 4.6);
+  return SWING_MAX * (decay + (1 - decay) * smoother((t - RECALL) / (LOOP - RECALL)));
+};
+const swingPose = (t, alpha) => {
+  t = wrap(t);
+  const a = swingAmp(t), th = a * Math.cos(2 * Math.PI * t / BAR);
+  return [Math.sin(th), Math.cos(th), (a / SWING_MAX) * 40 * Math.sin(2 * Math.PI * t / BAR + 0.8), alpha];
+};
+
+function mulberry32(a) {
+  return function () {
+    a |= 0; a = a + 0x6D2B79F5 | 0;
+    let t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+
+/* ================================================================== *
+ *  DRAWING — Rough.js with fixed seeds. Line canvas: R = tree/ground,
+ *  G = swing (drawn at rest; the shader swings it). Mask canvas:
+ *  R = tree, G = ropes, B = seat.
+ * ================================================================== */
+const ART_W = 2000, ART_H = 1500;
+const SEAT_CENTRE = [1035 / ART_W, 1 - 1000 / ART_H];
+
+const G = {
+  trunkL:    [[292,1292],[305,1120],[296,950],[312,760],[300,560],[318,380],[306,250]],
+  trunkTopR: [[352,250],[366,330],[378,424]],
+  trunkR:    [[372,484],[380,640],[386,800],[392,960],[386,1120],[400,1292]],
+  branchTop: [[378,424],[560,402],[760,388],[980,384],[1200,388],[1420,398],[1600,412],[1736,428]],
+  branchBot: [[372,484],[560,452],[760,431],[980,421],[1200,420],[1420,424],[1600,428],[1736,428]],
+  twigs: [
+    [[720,396],[748,340],[790,292]],
+    [[1290,392],[1336,334],[1404,300]],
+    [[1566,414],[1628,378],[1694,356]],
+    [[318,256],[292,200],[266,156]],
+    [[340,254],[362,196],[396,150]],
+  ],
+  leaves: [
+    [790,292,64,-0.9], [772,318,52,-2.5], [1404,300,70,-0.35], [1360,318,56,-1.6],
+    [1694,356,62,-0.2], [1650,370,48,1.25], [1736,428,58,1.45], [266,156,56,-2.2],
+    [396,150,60,-0.9], [376,176,44,-0.1],
+  ],
+  loops: [[900,405,46,62],[1180,404,44,56]],
+  ropes: [[[898,436],[882,700],[866,984]], [[1182,432],[1194,700],[1206,984]]],
+  seatTop:   [[818,992],[1252,992],[1272,976],[838,976]],
+  seatFront: [[818,992],[1252,992],[1252,1032],[818,1032]],
+  knots: [[866,1044],[1206,1044]],
+  ground: [[208,1296],[420,1286],[700,1293],[1000,1284],[1300,1292],[1560,1286],[1794,1294]],
+};
+
+function leafPath(x, y, len, ang, w = 0.34) {
+  const dx = Math.cos(ang), dy = Math.sin(ang), nx = -dy, ny = dx;
+  const tx = x + dx * len, ty = y + dy * len;
+  const mx = x + dx * len * 0.5, my = y + dy * len * 0.5;
+  return `M${x} ${y} Q${mx + nx * len * w} ${my + ny * len * w} ${tx} ${ty} Q${mx - nx * len * w} ${my - ny * len * w} ${x} ${y} Z`;
+}
+
+function drawLineArt() {
+  const c = document.createElement('canvas');
+  c.width = ART_W; c.height = ART_H;
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#000'; ctx.fillRect(0, 0, ART_W, ART_H);
+  ctx.globalCompositeOperation = 'lighter';
+  const rc = rough.canvas(c);
+  const rnd = mulberry32(20240927);
+  let seed = 7;
+  const ink = (v, ch) => ch === 'g' ? `rgb(0,${v},0)` : `rgb(${v},0,0)`;
+  const S = (o = {}, v = 242, ch = 'r') => ({ stroke: ink(v, ch), strokeWidth: 3.2, roughness: 1.15, bowing: 1.3, seed: seed++, ...o });
+  const shade = (o = {}, v = 138, ch = 'r') => ({ stroke: 'none', fill: ink(v, ch), fillStyle: 'hachure', fillWeight: 1.5,
+                                                   hachureGap: 9, hachureAngle: -48, roughness: 1.3, seed: seed++, ...o });
+
+  // tree
+  rc.curve(G.trunkL, S({ strokeWidth: 3.6 }));
+  rc.curve(G.trunkTopR, S({ strokeWidth: 3.2 }));
+  rc.curve(G.trunkR, S({ strokeWidth: 3.6 }));
+  rc.curve(G.branchTop, S({ strokeWidth: 3.4 }));
+  rc.curve(G.branchBot, S({ strokeWidth: 3.4 }));
+  rc.line(1736, 428, 1752, 431, S({ strokeWidth: 2.4 }));
+  rc.polygon([...G.branchBot.slice(0, 6), ...G.branchBot.slice(0, 6).reverse().map(([x, y]) => [x, y - 17 + (x - 372) * 0.008])], shade());
+  rc.polygon([[372,500],[380,640],[386,800],[392,960],[386,1120],[398,1286],[372,1286],[362,1120],[366,960],[360,800],[356,640],[350,500]], shade({ hachureAngle: -60, hachureGap: 11 }));
+  for (const tw of G.twigs) rc.curve(tw, S({ strokeWidth: 2.6, roughness: 0.9 }));
+  for (let i = 0; i < 9; i++) {
+    const y = 560 + i * 78 + rnd() * 30, x = 322 + rnd() * 34;
+    rc.curve([[x, y], [x + 4 - rnd() * 8, y + 22], [x + 2 - rnd() * 4, y + 40 + rnd() * 20]], S({ strokeWidth: 1.6, roughness: 0.7 }, 184));
+  }
+  for (let i = 0; i < 7; i++) {
+    const x = 470 + i * 150 + rnd() * 50, y = 412 + (x - 470) * -0.012 + rnd() * 10;
+    rc.curve([[x, y], [x + 24, y - 2 + rnd() * 4], [x + 46 + rnd() * 20, y + 2]], S({ strokeWidth: 1.5, roughness: 0.6 }, 176));
+  }
+  rc.ellipse(338, 820, 20, 34, S({ strokeWidth: 1.8, roughness: 0.8 }, 200));
+  for (const [x, y, len, ang] of G.leaves) {
+    rc.path(leafPath(x, y, len, ang), S({ strokeWidth: 2.2, roughness: 0.8, fill: ink(124), fillStyle: 'hachure',
+      hachureGap: 6, fillWeight: 1.2, hachureAngle: ang * 57.3 + 65 }));
+    rc.line(x, y, x + Math.cos(ang) * len * 0.8, y + Math.sin(ang) * len * 0.8, S({ strokeWidth: 1.3, roughness: 0.5 }, 189));
+  }
+  // ground
+  rc.curve(G.ground, S({ strokeWidth: 2.6, roughness: 1.3 }, 208));
+  rc.ellipse(1040, 1302, 390, 26, shade({ hachureGap: 7, hachureAngle: -20 }, 122));
+  for (const gx of [236, 330, 432, 610, 880, 1180, 1430, 1640, 1760]) {
+    const blades = 3 + Math.floor(rnd() * 3);
+    for (let i = 0; i < blades; i++) {
+      const x = gx + (i - blades / 2) * 7, h = 22 + rnd() * 26, lean = (rnd() - 0.4) * 20;
+      rc.curve([[x, 1292], [x + lean * 0.4, 1292 - h * 0.55], [x + lean, 1292 - h]], S({ strokeWidth: 1.6, roughness: 0.5 }, 196));
+    }
+  }
+
+  // the swing, into the green channel
+  for (const [x, y, w, h] of G.loops) rc.ellipse(x, y, w, h, S({ strokeWidth: 2.6, roughness: 0.9 }, 242, 'g'));
+  for (const rope of G.ropes) {
+    rc.curve(rope, S({ strokeWidth: 2.8, roughness: 0.8 }, 242, 'g'));
+    const [a, , b] = rope;
+    for (let s = 0.06; s < 0.97; s += 0.07) {
+      const x = a[0] + (b[0] - a[0]) * s, y = a[1] + (b[1] - a[1]) * s;
+      rc.line(x - 5, y - 4, x + 5, y + 4, S({ strokeWidth: 1.4, roughness: 0.3 }, 168, 'g'));
+    }
+  }
+  rc.polygon(G.seatTop, S({ strokeWidth: 3.0 }, 242, 'g'));
+  rc.polygon(G.seatFront, S({ strokeWidth: 3.2, fill: ink(143, 'g'), fillStyle: 'hachure', hachureGap: 8, fillWeight: 1.4, hachureAngle: -35 }, 242, 'g'));
+  for (const [x, y] of G.knots) {
+    rc.circle(x, y, 16, S({ strokeWidth: 2.2, roughness: 0.7 }, 242, 'g'));
+    rc.line(x, y + 8, x - 4, y + 30, S({ strokeWidth: 2.0, roughness: 0.6 }, 242, 'g'));
+  }
+  return c;
+}
+
+function drawMask() {
+  const MS = 0.5;
+  const c = document.createElement('canvas');
+  c.width = ART_W * MS; c.height = ART_H * MS;
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#000'; ctx.fillRect(0, 0, c.width, c.height);
+  ctx.scale(MS, MS);
+  ctx.globalCompositeOperation = 'lighter';
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  const trace = (pts, close) => {
+    ctx.beginPath(); ctx.moveTo(pts[0][0], pts[0][1]);
+    for (let i = 1; i < pts.length - 1; i++) {
+      const mx = (pts[i][0] + pts[i + 1][0]) / 2, my = (pts[i][1] + pts[i + 1][1]) / 2;
+      ctx.quadraticCurveTo(pts[i][0], pts[i][1], mx, my);
+    }
+    const l = pts[pts.length - 1]; ctx.lineTo(l[0], l[1]);
+    if (close) ctx.closePath();
+  };
+  const region = (colour, fn) => { ctx.fillStyle = ctx.strokeStyle = colour; fn(); };
+  region('#ff0000', () => {
+    trace([...G.trunkL, ...G.trunkTopR, ...G.branchTop, ...G.branchBot.slice().reverse(), ...G.trunkR], true);
+    ctx.fill(); ctx.lineWidth = 34; ctx.stroke();
+    ctx.lineWidth = 30; for (const tw of G.twigs) { trace(tw); ctx.stroke(); }
+    ctx.lineWidth = 22;
+    for (const [x, y, len, ang] of G.leaves) { const p = new Path2D(leafPath(x, y, len, ang)); ctx.fill(p); ctx.stroke(p); }
+  });
+  region('#00ff00', () => {
+    ctx.lineWidth = 26;
+    for (const rope of G.ropes) { trace(rope); ctx.stroke(); }
+    for (const [x, y, w, h] of G.loops) { ctx.beginPath(); ctx.ellipse(x, y, w / 2, h / 2, 0, 0, Math.PI * 2); ctx.stroke(); }
+  });
+  region('#0000ff', () => {
+    ctx.lineWidth = 26;
+    for (const poly of [G.seatTop, G.seatFront]) {
+      ctx.beginPath(); poly.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.closePath();
+      ctx.fill(); ctx.stroke();
+    }
+    for (const [x, y] of G.knots) { ctx.beginPath(); ctx.arc(x, y + 8, 22, 0, Math.PI * 2); ctx.fill(); }
+  });
+  return c;
+}
+
+// A single leaf sprite: G = watercolour body, R = graphite outline + veins.
+function drawLeafSprite() {
+  const c = document.createElement('canvas');
+  c.width = c.height = 256;
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#000'; ctx.fillRect(0, 0, 256, 256);
+  ctx.globalCompositeOperation = 'lighter';
+  const d = leafPath(26, 128, 204, 0, 0.36);
+  ctx.fillStyle = 'rgb(0,255,0)'; ctx.fill(new Path2D(d));
+  const rc = rough.canvas(c);
+  rc.path(d, { stroke: 'rgb(255,0,0)', strokeWidth: 5, roughness: 0.9, seed: 404 });
+  rc.line(30, 128, 214, 126, { stroke: 'rgb(200,0,0)', strokeWidth: 3, roughness: 0.6, seed: 405 });
+  for (let i = 0; i < 4; i++) {
+    const x = 70 + i * 36;
+    rc.line(x, 128, x + 26, 128 - 30 + i * 4, { stroke: 'rgb(150,0,0)', strokeWidth: 2.2, roughness: 0.5, seed: 406 + i });
+    rc.line(x, 128, x + 26, 128 + 30 - i * 4, { stroke: 'rgb(150,0,0)', strokeWidth: 2.2, roughness: 0.5, seed: 416 + i });
+  }
+  return c;
+}
+
+/* Tileable fBm from simplex-noise (4D torus mapping). R low, G mid, B fine, A low (decorrelated). */
+function makeNoise(size = 256) {
+  const noise4 = createNoise4D(mulberry32(1337));
+  const chans = [ { f: 3, o: 5 }, { f: 6, o: 4 }, { f: 24, o: 3 }, { f: 4, o: 4 } ];
+  const raw = new Float32Array(size * size * 4);
+  const cu = new Float32Array(size), su = new Float32Array(size);
+  for (let i = 0; i < size; i++) { const a = (i / size) * Math.PI * 2; cu[i] = Math.cos(a); su[i] = Math.sin(a); }
+  const lo = [1e9, 1e9, 1e9, 1e9], hi = [-1e9, -1e9, -1e9, -1e9];
+  for (let y = 0; y < size; y++) for (let x = 0; x < size; x++) {
+    for (let c = 0; c < 4; c++) {
+      const { f, o } = chans[c];
+      let v = 0, amp = 0.5, r = f / (Math.PI * 2);
+      for (let k = 0; k < o; k++) {
+        const off = c * 31.7 + k * 7.3;
+        v += amp * noise4(cu[x] * r + off, su[x] * r - off, cu[y] * r + off * 0.5, su[y] * r - off * 0.5);
+        amp *= 0.5; r *= 2;
+      }
+      raw[(y * size + x) * 4 + c] = v;
+      if (v < lo[c]) lo[c] = v; if (v > hi[c]) hi[c] = v;
+    }
+  }
+  const data = new Uint8Array(size * size * 4);
+  for (let i = 0; i < raw.length; i++) { const c = i & 3; data[i] = Math.round(255 * (raw[i] - lo[c]) / (hi[c] - lo[c])); }
+  const tex = new THREE.DataTexture(data, size, size, THREE.RGBAFormat);
+  tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
+  tex.magFilter = THREE.LinearFilter; tex.minFilter = THREE.LinearMipmapLinearFilter;
+  tex.generateMipmaps = true; tex.needsUpdate = true;
+  return tex;
+}
+
+/* ================================================================== *
+ *  SHADERS
+ * ================================================================== */
+const VERT = /* glsl */`
+  varying vec2 vUv;
+  void main() { vUv = uv; gl_Position = vec4(position.xy, 0.0, 1.0); }
+`;
+
+// Inverse of the swing's perspective pendulum: given a point on screen (scene
+// uv), where on the resting swing drawing did it come from? pose = (sinθ, cosθ,
+// lateral px, alpha). The swing moves toward/away from the viewer in depth.
+const SWING_GLSL = /* glsl */`
+  const vec2 ART = vec2(2000.0, 1500.0);
+  const float PIVOT_Y = 405.0, ROPE_L = 590.0, EYE_Y = 820.0, CAM_D = 2000.0, SWING_CX = 1040.0;
+  vec2 unswing(vec2 uv, vec4 pose) {
+    vec2 a = vec2(uv.x * ART.x, (1.0 - uv.y) * ART.y);
+    float s = CAM_D * (a.y - PIVOT_Y) / (ROPE_L * (CAM_D * pose.y + (a.y - EYE_Y) * pose.x));
+    s = max(s, 0.0);
+    float k = CAM_D / (CAM_D - s * ROPE_L * pose.x);
+    vec2 b = vec2(SWING_CX + (a.x - SWING_CX - pose.z * s) / k, PIVOT_Y + s * ROPE_L);
+    b = mix(a, b, step(PIVOT_Y, a.y));
+    return vec2(b.x / ART.x, 1.0 - b.y / ART.y);
+  }
+`;
+
+// One step of pigment transport: a noise-weighted max-dilation, so each wet
+// front follows the paper's uneven thirst (fingers, tide lines, drips).
+const SIM_FRAG = /* glsl */`
+  precision highp float;
+  varying vec2 vUv;
+  uniform sampler2D uPrev, uMask, uNoise;
+  uniform vec2  uTexel;
+  uniform vec4  uInject;
+  uniform vec4  uK;
+  uniform float uRad;
+  uniform vec4  uSweep;
+  uniform float uAngle;
+  uniform vec2  uSeat;
+  uniform vec4  uPose;
+  const float ASPECT = 4.0 / 3.0;
+  ${SWING_GLSL}
+
+  void main() {
+    vec2 sp = vUv * vec2(ASPECT, 1.0);
+    float nL = texture2D(uNoise, sp * 1.3 + vec2(0.11, 0.53)).r;
+    float nM = texture2D(uNoise, sp * 4.7 + vec2(0.37, 0.19)).g;
+    float nH = texture2D(uNoise, sp * 13.0 + vec2(0.71, 0.83)).b;
+    float thirst = mix(0.45, 2.0, smoothstep(0.28, 0.72, 0.5 * nL + 0.3 * nM + 0.2 * nH));
+
+    vec4 f = texture2D(uPrev, vUv);
+    for (int i = 0; i < 8; i++) {
+      float a = uAngle + float(i) * 0.78539816;
+      vec2 d = vec2(cos(a), sin(a));
+      vec3 grav = 1.0 - vec3(0.16, 0.55, 0.3) * d.y;      // ropes drip hardest
+      vec3 nb = texture2D(uPrev, vUv + d * uTexel * uRad).rgb;
+      f.rgb = max(f.rgb, nb * exp(-uK.rgb * uRad * thirst * grav));
+    }
+
+    // the swing's regions follow it, so pigment is laid along its path
+    vec2 wuv = unswing(vUv, uPose);
+    vec3 m = vec3(texture2D(uMask, vUv).r, texture2D(uMask, wuv).gb);
+    vec3 wetting = 0.3 + 0.7 * vec3(smoothstep(0.35, 0.65, nM), smoothstep(0.35, 0.65, nH), smoothstep(0.3, 0.7, nL));
+    float sB = 1.0 - smoothstep(uSweep.r - 0.05, uSweep.r, vUv.x);           // trunk → tip
+    float sR = smoothstep(uSweep.g - 0.04, uSweep.g, wuv.y);                  // down the ropes
+    float sS = 1.0 - smoothstep(uSweep.b - 0.04, uSweep.b, length((wuv - uSeat) * vec2(ASPECT, 1.0)));
+    vec3 src = m * vec3(sB, sR, sS);
+    f.rgb = max(f.rgb, uInject.rgb * src * wetting);
+    gl_FragColor = vec4(min(f.rgb, vec3(1.0)), 0.0);
+  }
+`;
+
+const COMP_FRAG = /* glsl */`
+  precision highp float;
+  varying vec2 vUv;
+  uniform sampler2D uState, uLines, uMask, uNoise;
+  uniform vec2  uRes;
+  uniform vec4  uScene;       // drawing-buffer px: origin.xy, size.zw
+  uniform float uPx;
+  uniform vec2  uSimTexel;
+  uniform float uZoom;
+  uniform vec2  uFocus, uDrift;
+  uniform vec3  uAmount, uWet, uSplat;
+  uniform vec4  uGhost;
+  uniform vec4  uPose[6];
+  uniform float uRecall, uPulse, uGlow, uRays, uClimax, uT;
+  uniform float uSkyR, uSkyAmt, uDropShrink, uDropAmt;
+  uniform vec4  uDrop[8];     // centre.xy (scene uv), age, size
+  uniform vec3  uDropCol[8];
+  uniform vec4  uRipple[3];   // centre.xy, age, amplitude
+  uniform float uFlash, uBreath, uInvert, uPaint;
+  const float ASPECT = 4.0 / 3.0;
+  ${SWING_GLSL}
+
+  const vec3 PAPER   = vec3(0.957, 0.925, 0.875);
+  const vec3 GOLD    = vec3(0.955, 0.740, 0.170);
+  const vec3 ORANGE  = vec3(0.950, 0.410, 0.090);
+  const vec3 ULTRA   = vec3(0.210, 0.290, 0.830);
+  const vec3 TURQ    = vec3(0.040, 0.560, 0.640);
+  const vec3 MAGENTA = vec3(0.860, 0.130, 0.500);
+  const vec3 CRIMSON = vec3(0.880, 0.190, 0.290);
+  const vec3 CORAL   = vec3(0.960, 0.400, 0.310);
+  const vec3 VIOLET  = vec3(0.410, 0.190, 0.620);
+  const vec3 INDIGO  = vec3(0.110, 0.110, 0.370);
+  const vec3 TEAL    = vec3(0.050, 0.380, 0.450);
+  const vec3 GRAPHITE = vec3(0.200, 0.190, 0.190);
+
+  vec3 ab(vec3 c) { return max(-log(c / PAPER), 0.0); }       // Beer–Lambert absorbance
+  float hash(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
+
+  vec3 skyPalette(float r) {
+    vec3 c = mix(GOLD, ORANGE, smoothstep(0.0, 0.22, r));
+    c = mix(c, CORAL, smoothstep(0.18, 0.40, r));
+    c = mix(c, MAGENTA, smoothstep(0.36, 0.58, r));
+    c = mix(c, VIOLET, smoothstep(0.55, 0.78, r));
+    c = mix(c, INDIGO, smoothstep(0.76, 1.0, r));
+    return mix(c, TEAL, smoothstep(1.02, 1.3, r));
+  }
+
+  float pigment(float f, float g, float thr, float soft, float poolW, float poolAmt,
+                float flow, float bn, float tooth) {
+    float dist = (f - thr) / g;                          // CSS px inside the wet edge
+    float body = smoothstep(-soft, soft, dist);
+    float pool = body * exp(-max(dist, 0.0) / poolW);    // pigment dragged to the drying edge
+    float d = 0.3 + 0.55 * flow * flow;
+    d += pool * poolAmt;
+    d += smoothstep(0.75, 1.0, f) * 0.18;
+    float lvl = 0.70;                                    // back-runs: pale lobes, dark rims
+    float bIn  = smoothstep(lvl, lvl + 0.012, bn);
+    float bRim = bIn * (1.0 - smoothstep(lvl + 0.012, lvl + 0.045, bn));
+    d = d * (1.0 - 0.35 * bIn) + bRim * 0.5;
+    d *= mix(1.3, 0.75, tooth);                          // granulation
+    return body * d;
+  }
+
+  // Splatter flung from a burst: one hashed dot per grid cell, denser near the centre.
+  float splat(vec2 sp, vec2 c, float age, float scale, float seed) {
+    vec2 g = sp * scale, id = floor(g), fr = fract(g);
+    float h1 = hash(id + seed), h2 = hash(id + seed + 11.3), h3 = hash(id + seed + 27.9), h4 = hash(id + seed + 41.7);
+    vec2 ctr = 0.2 + 0.6 * vec2(h2, h3);
+    float rad = mix(0.07, 0.32, h1 * h1);
+    float dd = length((id + ctr) / scale - c * vec2(ASPECT, 1.0));
+    float reach = 0.32 * (1.0 - exp(-age * 4.0));
+    float keep = step(h4, exp(-dd / 0.08) * 0.8) * step(dd, reach);
+    return keep * (1.0 - smoothstep(rad * 0.7, rad, length(fr - ctr)));
+  }
+
+  void main() {
+    vec2 frag = gl_FragCoord.xy;
+    vec2 s0  = (frag - uScene.xy) / uScene.zw;                   // screen, in unzoomed scene units
+    // each bloom lands like a drop on water: a ring that bends the whole picture
+    float sheen = 0.0;
+    for (int i = 0; i < 3; i++) {
+      vec4 rp = uRipple[i];
+      if (rp.z > 0.0 && rp.z < 2.5) {
+        vec2 q = (s0 - rp.xy) * vec2(ASPECT, 1.0);
+        float x = length(q) - rp.z * 0.9;
+        float env = exp(-x * x / 0.006) * exp(-rp.z * 1.5) * rp.w;
+        float w = sin(x * 64.0);
+        s0 += normalize(q + 1e-5) * w * env / vec2(ASPECT, 1.0);
+        sheen += max(w, 0.0) * env;
+      }
+    }
+    vec2 suv = uFocus + (s0 - uFocus) / uZoom + uDrift;          // mid plane: the drawing
+    float zb = 1.0 + (uZoom - 1.0) * 0.55;
+    vec2 buv = uFocus + (s0 - uFocus) / zb + uDrift * 0.55;      // back plane: the sky
+    vec2 cuv = clamp(suv, 0.0, 1.0);
+    vec2 sp  = cuv * vec2(ASPECT, 1.0);
+    vec2 bsp = buv * vec2(ASPECT, 1.0);
+    float inside = step(0.0, suv.x) * step(suv.x, 1.0) * step(0.0, suv.y) * step(suv.y, 1.0);
+    float border = smoothstep(0.0, 0.07, cuv.x) * smoothstep(0.0, 0.07, 1.0 - cuv.x)
+                 * smoothstep(0.0, 0.07, cuv.y) * smoothstep(0.0, 0.07, 1.0 - cuv.y) * inside;
+
+    // ---------------------------------------------------------------- paper
+    vec2 gp = suv * uScene.zw / uPx;
+    float t1  = texture2D(uNoise, gp / 83.0).b;
+    float t1s = texture2D(uNoise, (gp + vec2(-0.9, 0.9)) / 83.0).b;
+    float t2  = texture2D(uNoise, gp / 211.0 + 0.5).g;
+    float mot = texture2D(uNoise, gp / 1300.0 + 0.7).r;
+    float tooth = clamp(t1 * 0.65 + t2 * 0.35, 0.0, 1.0);
+    vec3 paper = PAPER * (1.0 + (tooth - 0.5) * 0.05 + (mot - 0.5) * 0.05);
+    paper *= 1.0 + (t1 - t1s) * 0.2;
+
+    vec3 A = vec3(0.0);                                            // sky + drops absorbance
+
+    // ---------------------------------------------------------------- sky + note drops (back plane)
+    vec2 bw = texture2D(uNoise, bsp * 0.7 + vec2(0.013, -0.009) * uT).ra - 0.5;
+    float bn1 = texture2D(uNoise, bsp * 3.0 + bw * 0.4).r;
+    float bn2 = texture2D(uNoise, bsp * 10.0 + bw).b;
+    if (uSkyAmt > 0.0) {
+      vec2 q = (buv - vec2(0.53, 0.47)) * vec2(ASPECT, 1.0);
+      float dist = length(q + bw * 0.22) * (0.86 + 0.3 * bn1) + (bn2 - 0.5) * 0.03;
+      float ins = uSkyR - dist;
+      float body = smoothstep(-0.003, 0.006, ins);
+      float pool = body * exp(-max(ins, 0.0) / 0.022);
+      float r = clamp(dist / 0.95 + bw.x * 0.3 - 0.14 * max(uT - ${CLIMAX.toFixed(2)}, 0.0) + 0.1, 0.0, 1.4);
+      float dens = (0.55 + 0.6 * bn1) * mix(1.25, 0.8, tooth) + pool * 1.3;
+      float bIn = smoothstep(0.66, 0.68, bn2 * 0.5 + bn1 * 0.5);
+      dens = dens * (1.0 - 0.4 * bIn) + bIn * (1.0 - smoothstep(0.68, 0.72, bn2 * 0.5 + bn1 * 0.5)) * 0.6;
+      dens *= 0.25 + 0.75 * smoothstep(0.0, 0.16, dist);          // the sun stays paper-white
+      A += ab(skyPalette(r)) * dens * body * uSkyAmt;
+    }
+    for (int i = 0; i < 8; i++) {
+      vec4 dp = uDrop[i];
+      if (dp.z > 0.0) {
+        vec2 q = (buv - dp.xy) * vec2(ASPECT, 1.0);
+        float r = dp.w * (1.0 - exp(-dp.z * 2.6)) * uDropShrink;
+        float dist = length(q) * (0.78 + 0.5 * bn1) + (bn2 - 0.5) * 0.012;
+        float ins = r - dist;
+        float body = smoothstep(-0.0015, 0.003, ins);
+        float pool = body * exp(-max(ins, 0.0) / 0.009);
+        float dens = (0.4 + 0.5 * bn2) * mix(1.25, 0.8, tooth) + pool * 1.1;
+        A += ab(uDropCol[i]) * dens * body * uDropAmt;
+      }
+    }
+
+    // ---------------------------------------------------------------- region pigment (mid plane)
+    vec2 tx = vec2(uSimTexel.x, 0.0), ty = vec2(0.0, uSimTexel.y);
+    vec4 f  = texture2D(uState, cuv);
+    vec4 gx = texture2D(uState, cuv + tx) - texture2D(uState, cuv - tx);
+    vec4 gy = texture2D(uState, cuv + ty) - texture2D(uState, cuv - ty);
+    float cssPerTexel = uScene.z * uSimTexel.x / uPx / uZoom;
+    vec4 g = sqrt(gx * gx + gy * gy) / (2.0 * cssPerTexel) + 1e-5;
+
+    vec2 warp = (texture2D(uNoise, sp * 0.8 + 0.3).ra - 0.5) * 0.35;
+    float edgeN = texture2D(uNoise, sp * 9.0 + warp).b * 0.7 + texture2D(uNoise, sp * 31.0).b * 0.3 - 0.5;
+    float fl0 = texture2D(uNoise, sp * 2.2 + warp).r;
+    float fl1 = texture2D(uNoise, sp * 1.7 + warp + 0.41).a;
+    float bnA = texture2D(uNoise, sp * 2.1 + warp * 0.6 + 0.17).g;
+    float vg  = texture2D(uNoise, sp * 1.2 + 0.4).a;
+
+    // the recall front radiates out from the swing
+    float order = clamp(0.06 + 0.8 * length((cuv - vec2(0.52, 0.38)) * vec2(ASPECT, 1.0)) / 0.9 + edgeN * 0.15, 0.02, 0.9);
+    float contract = smoothstep(order - 0.35, order, uRecall) * 0.7;
+    float vanish = 1.0 - smoothstep(order - 0.12, order + 0.02, uRecall);
+
+    vec3 d;
+    d.x = pigment(f.r, g.r, 0.26 + edgeN * 0.10 + contract, 0.8, 2.4, 1.1, fl0, bnA, tooth);
+    d.y = pigment(f.g, g.g, 0.28 + edgeN * 0.10 + contract, 0.8, 2.2, 1.05, fl1, bnA, tooth) * mix(1.25, 0.8, tooth);
+    d.z = pigment(f.b, g.b, 0.24 + edgeN * 0.08 + contract, 1.8, 3.2, 1.0, fl0, bnA, tooth);
+    if (uSplat.x > 0.0) d.x += splat(sp, vec2(0.47, 0.72), uSplat.x, 90.0, 1.0) + splat(sp, vec2(0.47, 0.72), uSplat.x, 34.0, 5.0);
+    if (uSplat.y > 0.0) d.y += splat(sp, vec2(0.52, 0.52), uSplat.y, 90.0, 9.0) + splat(sp, vec2(0.52, 0.52), uSplat.y, 34.0, 13.0);
+    if (uSplat.z > 0.0) d.z += splat(sp, vec2(0.52, 0.34), uSplat.z, 90.0, 17.0) + splat(sp, vec2(0.52, 0.34), uSplat.z, 34.0, 21.0);
+    d *= uAmount * (1.0 + 0.2 * uWet) * border * vanish;
+    d.x *= 1.0 - 0.6 * clamp(d.y + d.z, 0.0, 1.0);                 // ropes and seat lift the branch colour
+    float held = smoothstep(0.0, 0.7, d.x + d.y + d.z);
+    A *= 1.0 - 0.7 * held;                                         // and the drawing resists the sky wash
+
+    A += mix(ab(GOLD), ab(ORANGE), smoothstep(0.3, 0.7, vg)) * d.x
+       + mix(ab(ULTRA), ab(TURQ), smoothstep(0.35, 0.7, vg)) * d.y
+       + mix(ab(MAGENTA), ab(CRIMSON), smoothstep(0.3, 0.7, vg)) * d.z;
+    vec3 col = paper * exp(-A);
+
+    // wet sheen: light catching the meniscus of fresh pigment
+    vec2 grad = vec2(dot(gx.rgb, uWet * uAmount), dot(gy.rgb, uWet * uAmount));
+    vec3 nrm = normalize(vec3(-grad * 22.0, 1.0));
+    float spec = pow(max(dot(nrm, normalize(vec3(0.55, 0.6, 0.75))), 0.0), 28.0);
+    col += vec3(1.0, 0.96, 0.88) * spec * 0.45 * clamp(d.x + d.y + d.z, 0.0, 1.0);
+
+    // ---------------------------------------------------------------- graphite
+    vec2 wuv = unswing(cuv, uPose[0]);
+    float mT = texture2D(uMask, cuv).r;
+    vec2  mS = texture2D(uMask, wuv).gb;
+    float gh = max(max(mT * uGhost.x, mS.x * uGhost.y), max(mS.y * uGhost.z, uGhost.w));
+    float reveal = smoothstep(order - 0.06, order, uRecall);
+    gh *= 1.0 - reveal;
+    float bias = gh * 1.8;
+    float grain = mix(0.62, 1.0, smoothstep(0.2, 0.75, tooth));
+    // motion echoes: pencil at first, then trails of pigment as the memory turns to colour
+    for (int k = 1; k < 6; k++) {
+      float e = texture2D(uLines, unswing(cuv, uPose[k]), 0.4 + float(k) * 0.4).g * uPose[k].w * grain * inside;
+      vec3 trail = mix(GRAPHITE, mix(MAGENTA, ULTRA, float(k) / 5.0), uPaint);
+      col = mix(col, trail, clamp(e * mix(1.0, 0.5, gh) * (1.0 + uPaint), 0.0, 1.0) * 0.55);
+    }
+    float line = max(texture2D(uLines, cuv, bias).r, texture2D(uLines, wuv, bias).g) * grain * inside;
+    // on the dark sky the pencil turns to light, so the scene keeps its shape
+    float lum = dot(col, vec3(0.299, 0.587, 0.114));
+    vec3 ink = mix(GRAPHITE, vec3(1.0, 0.95, 0.84), (1.0 - smoothstep(0.32, 0.6, lum)) * uInvert);
+    col = mix(col, ink, clamp(line * mix(1.0, 0.3, gh) * (1.0 + 0.25 * uPulse) * mix(1.0, 1.6, uInvert), 0.0, 1.0) * 0.9);
+    // the pencil re-draws with a gold glint
+    float band = smoothstep(0.0, 0.025, uRecall - order) * (1.0 - smoothstep(0.025, 0.11, uRecall - order)) * step(uRecall, 0.999);
+    col = mix(col, vec3(1.0, 0.74, 0.28), clamp(line * band * 1.4, 0.0, 1.0) * 0.85);
+    col += vec3(0.10, 0.06, 0.0) * band * border;
+
+    // ---------------------------------------------------------------- light
+    vec2 dL = (s0 - vec2(1.02, 1.08)) * vec2(uScene.z / uScene.w, 1.0);
+    float ang = atan(dL.y, dL.x) / 6.2831853;
+    float r1 = texture2D(uNoise, vec2(ang * 13.0 + 0.05 * sin(6.2831853 * uT / 12.0), 0.37)).b;
+    float r2 = texture2D(uNoise, vec2(ang * 29.0 - 0.04 * sin(6.2831853 * uT / 6.0), 0.71)).g;
+    float ray = pow(smoothstep(0.42, 0.95, r1 * 0.6 + r2 * 0.4), 1.4);
+    float light = ray * exp(-length(dL) * 1.25) * uRays + exp(-length(dL) * 1.8) * uGlow * 0.45;
+    col = 1.0 - (1.0 - col) * (1.0 - vec3(1.0, 0.82, 0.52) * light * 0.6);
+    col *= mix(vec3(1.0), vec3(1.03, 0.95, 0.84), uGlow * 0.55);
+
+    col += vec3(1.0, 0.95, 0.85) * sheen * 10.0;                      // light on the ripple crest
+    float fl = uFlash * exp(-length((s0 - vec2(0.53, 0.47)) * vec2(ASPECT, 1.0)) * 1.6);
+    col = mix(col, vec3(1.0, 0.97, 0.9), clamp(fl, 0.0, 1.0) * 0.7);
+    float lumB = dot(col, vec3(0.299, 0.587, 0.114));
+    col = mix(col, vec3(lumB) * 0.9, 0.4 * uBreath);                  // the held breath drains the world
+
+    // ---------------------------------------------------------------- vignette + dither
+    vec2 q = frag / uRes - 0.5; q.x *= uRes.x / uRes.y;
+    float v = smoothstep(0.35, 1.15, length(q));
+    col *= 1.0 - v * (0.16 + 0.2 * uClimax + 0.25 * uBreath);
+    col = mix(col, col * mix(vec3(1.0, 0.97, 0.92), vec3(0.78, 0.68, 0.92), uClimax), v * 0.7);
+    col += (fract(sin(dot(frag, vec2(12.9898, 78.233))) * 43758.5453) - 0.5) / 255.0;
+    gl_FragColor = vec4(col, 1.0);
+  }
+`;
+
+// Shared camera for the particle layers: art px → clip, with parallax by depth.
+const CAMERA_GLSL = /* glsl */`
+  uniform vec4 uScene; uniform vec2 uRes; uniform float uZoom; uniform vec2 uFocus; uniform vec2 uDrift;
+  vec4 toClip(vec2 art, float depth) {
+    vec2 suv = vec2(art.x / 2000.0, 1.0 - art.y / 1500.0);
+    float z = 1.0 + (uZoom - 1.0) * depth;
+    vec2 s0 = uFocus + (suv - uDrift * depth - uFocus) * z;
+    return vec4((uScene.xy + s0 * uScene.zw) / uRes * 2.0 - 1.0, 0.0, 1.0);
+  }
+`;
+
+const LEAF_VERT = /* glsl */`
+  ${CAMERA_GLSL}
+  uniform float uT, uPaint;
+  attribute vec4 aA;   // spawn, life, size, depth
+  attribute vec4 aB;   // origin.xy (art px), velocity.xy (px/s)
+  attribute vec4 aC;   // sway amp, freq, phase, spin
+  attribute vec4 aD;   // colour.rgb, blur
+  varying vec2 vUv; varying float vAlpha, vBlur, vPaint; varying vec3 vCol;
+  void main() {
+    float age = mod(uT - aA.x + 24.0, 12.0);
+    float alive = step(age, aA.y);
+    vAlpha = smoothstep(0.0, 0.3, age) * (1.0 - smoothstep(aA.y - 0.7, aA.y, age)) * alive;
+    vec2 p = aB.xy + aB.zw * age + vec2(aC.x * sin(age * aC.y + aC.z), 0.35 * aC.x * sin(2.0 * age * aC.y + aC.z));
+    float rot = aC.z + 0.8 * sin(age * aC.y * 0.9 + aC.z) + aC.w * age;
+    vec2 c = position.xy * aA.z;
+    c.x *= mix(0.3, 1.0, abs(cos(age * aC.y * 0.7 + aC.z)));   // flutter: the leaf turns in depth
+    c = mat2(cos(rot), sin(rot), -sin(rot), cos(rot)) * c;
+    gl_Position = alive > 0.5 ? toClip(p + vec2(c.x, -c.y), aA.w) : vec4(2.0, 2.0, 2.0, 1.0);
+    vUv = uv; vBlur = aD.w; vCol = aD.rgb; vPaint = uPaint;
+  }
+`;
+const LEAF_FRAG = /* glsl */`
+  precision highp float;
+  uniform sampler2D uLeaf;
+  varying vec2 vUv; varying float vAlpha, vBlur, vPaint; varying vec3 vCol;
+  void main() {
+    vec4 t = texture2D(uLeaf, vUv, vBlur);
+    vec3 m = mix(vec3(1.0), vCol, t.g * (0.12 + 0.88 * vPaint));   // watercolour body (multiply)
+    m *= mix(vec3(1.0), vec3(0.26, 0.245, 0.24), t.r * mix(0.95, 0.55, vPaint));
+    gl_FragColor = vec4(mix(vec3(1.0), m, vAlpha), 1.0);
+  }
+`;
+
+const MOTE_VERT = /* glsl */`
+  ${CAMERA_GLSL}
+  uniform float uT, uPx, uDust, uEmber;
+  attribute vec4 aP;   // dust: base.xy, radius, phase     · ember: origin.xy, vel.xy
+  attribute vec4 aQ;   // dust: k1, k2, size, kind=0       · ember: delay, phase, size, kind=1
+  attribute vec3 aCol;
+  varying float vAlpha; varying vec3 vCol;
+  void main() {
+    vec2 p; float a; float depth = 1.25;
+    if (aQ.w < 0.5) {
+      float w = 6.2831853 * uT / 12.0;
+      p = aP.xy + aP.z * vec2(cos(w * aQ.x + aP.w), sin(w * aQ.y + aP.w * 1.3));
+      a = uDust * (0.45 + 0.55 * sin(w * 3.0 + aP.w * 5.0));
+    } else {
+      float age = uT - ${CLIMAX.toFixed(2)} - aQ.x;
+      p = aP.xy + aP.zw * age + vec2(16.0 * sin(age * 3.0 + aQ.y), -70.0 * age * age);
+      a = uEmber * step(0.0, age) * (1.0 - smoothstep(1.2, 2.0, age)) * (0.6 + 0.4 * sin(age * 9.0 + aQ.y));
+      depth = 1.1;
+    }
+    vAlpha = clamp(a, 0.0, 1.0); vCol = aCol;
+    gl_Position = toClip(p, depth);
+    gl_PointSize = aQ.z * uPx * (1.0 + (uZoom - 1.0) * depth);
+  }
+`;
+const MOTE_FRAG = /* glsl */`
+  precision highp float;
+  varying float vAlpha; varying vec3 vCol;
+  void main() {
+    float d = length(gl_PointCoord - 0.5);
+    float a = (1.0 - smoothstep(0.0, 0.5, d)) * 0.55 + (1.0 - smoothstep(0.0, 0.16, d)) * 0.45;
+    gl_FragColor = vec4(vCol, a * vAlpha);
+  }
+`;
+
+/* ================================================================== *
+ *  RENDERER
+ * ================================================================== */
+const canvas = document.getElementById('stage');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: false, alpha: false, powerPreference: 'high-performance' });
+renderer.autoClear = false;
+const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+const quad = new THREE.PlaneGeometry(2, 2);
+
+const noiseTex = makeNoise(256);
+const linesTex = new THREE.CanvasTexture(drawLineArt());
+linesTex.minFilter = THREE.LinearMipmapLinearFilter; linesTex.generateMipmaps = true;
+const maskTex = new THREE.CanvasTexture(drawMask());
+maskTex.minFilter = THREE.LinearFilter; maskTex.generateMipmaps = false;
+const leafTex = new THREE.CanvasTexture(drawLeafSprite());
+leafTex.minFilter = THREE.LinearMipmapLinearFilter; leafTex.generateMipmaps = true;
+
+let pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+const sceneCss = () => { const s = Math.min(innerWidth * 0.94 / ART_W, innerHeight * 0.94 / ART_H); return [ART_W * s, ART_H * s]; };
+const SIM_W = Math.max(448, Math.min(800, Math.round(sceneCss()[0] * 0.6 / 16) * 16));
+const SIM_H = Math.round(SIM_W * 0.75);
+const SIM_SCALE = SIM_W / 800;
+const STEPS_PER_SEC = 60;
+
+const rtOpts = { type: THREE.HalfFloatType, format: THREE.RGBAFormat, minFilter: THREE.LinearFilter,
+                 magFilter: THREE.LinearFilter, depthBuffer: false, stencilBuffer: false,
+                 wrapS: THREE.ClampToEdgeWrapping, wrapT: THREE.ClampToEdgeWrapping };
+let rtA = new THREE.WebGLRenderTarget(SIM_W, SIM_H, rtOpts);
+let rtB = new THREE.WebGLRenderTarget(SIM_W, SIM_H, rtOpts);
+
+const v4 = () => new THREE.Vector4();
+const simMat = new THREE.ShaderMaterial({
+  vertexShader: VERT, fragmentShader: SIM_FRAG, depthTest: false, depthWrite: false,
+  uniforms: {
+    uPrev: { value: null }, uMask: { value: maskTex }, uNoise: { value: noiseTex },
+    uTexel: { value: new THREE.Vector2(1 / SIM_W, 1 / SIM_H) },
+    uInject: { value: v4() }, uK: { value: v4() }, uRad: { value: SIM_SCALE },
+    uSweep: { value: v4() }, uAngle: { value: 0 },
+    uSeat: { value: new THREE.Vector2(...SEAT_CENTRE) }, uPose: { value: v4() },
+  },
+});
+
+const camUniforms = {
+  uScene: { value: v4() }, uRes: { value: new THREE.Vector2() }, uZoom: { value: 1 },
+  uFocus: { value: new THREE.Vector2(0.52, 0.45) }, uDrift: { value: new THREE.Vector2() },
+  uPx: { value: 1 }, uT: { value: 0 },
+};
+const compMat = new THREE.ShaderMaterial({
+  vertexShader: VERT, fragmentShader: COMP_FRAG, depthTest: false, depthWrite: false,
+  uniforms: {
+    ...camUniforms,
+    uState: { value: rtA.texture }, uLines: { value: linesTex }, uMask: { value: maskTex }, uNoise: { value: noiseTex },
+    uSimTexel: { value: new THREE.Vector2(1 / SIM_W, 1 / SIM_H) },
+    uAmount: { value: new THREE.Vector3() }, uWet: { value: new THREE.Vector3() }, uSplat: { value: new THREE.Vector3() },
+    uGhost: { value: v4() }, uPose: { value: Array.from({ length: 6 }, v4) },
+    uRipple: { value: Array.from({ length: 3 }, v4) }, uFlash: { value: 0 }, uBreath: { value: 0 }, uInvert: { value: 0 }, uPaint: { value: 0 },
+    uRecall: { value: 0 }, uPulse: { value: 0 }, uGlow: { value: 0 }, uRays: { value: 0 }, uClimax: { value: 0 },
+    uSkyR: { value: 0 }, uSkyAmt: { value: 0 }, uDropShrink: { value: 1 }, uDropAmt: { value: 0 },
+    uDrop: { value: Array.from({ length: 8 }, v4) },
+    uDropCol: { value: Array.from({ length: 8 }, () => new THREE.Vector3()) },
+  },
+});
+
+const simScene = new THREE.Scene(); simScene.add(new THREE.Mesh(quad, simMat));
+const compScene = new THREE.Scene(); compScene.add(new THREE.Mesh(quad, compMat));
+const fxScene = new THREE.Scene();
+
+// Watercolour pigments, as they look at full strength on this paper.
+const PIG = {
+  gold: [0.955, 0.74, 0.17], orange: [0.95, 0.41, 0.09], crimson: [0.88, 0.19, 0.29],
+  magenta: [0.86, 0.13, 0.50], ultra: [0.21, 0.29, 0.83], turq: [0.04, 0.56, 0.64], coral: [0.96, 0.40, 0.31],
+  indigo: [0.42, 0.36, 0.78],
+};
+const NOTE_PIG = { 'F#4': PIG.gold, D5: PIG.magenta, A4: PIG.turq, 'C#5': PIG.coral, D3: PIG.indigo };
+
+// Colour drops blossom in the sky for every note once the forgetting has begun.
+const DROP_SPOTS = [[0.80, 0.63, 0.13], [0.42, 0.88, 0.11], [0.87, 0.82, 0.10], [0.64, 0.86, 0.12], [0.31, 0.58, 0.10], [0.73, 0.44, 0.11]];
+const DROPS = [
+  ...PLAYED.filter(n => n.bar > 0).slice(0, 6).map((n, i) => ({ ...n, spot: DROP_SPOTS[i] })),
+  // the low D3 of bars 2 and 3 pools deep indigo near the ground
+  { note: 'D3', time: BAR, spot: [0.36, 0.2, 0.095] },
+  { note: 'D3', time: 2 * BAR, spot: [0.84, 0.25, 0.09] },
+];
+DROPS.forEach((d, i) => compMat.uniforms.uDropCol.value[i].set(...NOTE_PIG[d.note]));
+
+// ---------------------------------------------------------------- falling leaves
+{
+  const rnd = mulberry32(777);
+  const leafColours = [PIG.orange, PIG.gold, PIG.crimson, PIG.magenta, PIG.coral];
+  const specs = [];
+  const branchLeaf = (spawn) => {
+    const [lx, ly] = G.leaves[Math.floor(rnd() * G.leaves.length)];
+    const x = rnd() < 0.5 ? lx : 520 + rnd() * 1150, y = rnd() < 0.5 ? ly : 400 + rnd() * 20;
+    const vy = 150 + rnd() * 55;
+    specs.push({ spawn, life: Math.min((1290 - y) / vy, 6.2), size: 46 + rnd() * 18, depth: 1,
+                 x, y, vx: 20 + rnd() * 50, vy, sway: 30 + rnd() * 34, freq: 2 + rnd() * 1.3, phase: rnd() * 6.28,
+                 spin: (rnd() - 0.5) * 1.2, col: leafColours[Math.floor(rnd() * leafColours.length)], blur: 0 });
+  };
+  PLAYED.forEach(n => branchLeaf(n.time + 0.05));        // each note shakes a leaf loose
+  [1.1, 4.1, 7.4, 10.4].forEach(branchLeaf);
+  for (let i = 0; i < 12; i++) {                         // the climax shakes the whole tree
+    const [lx, ly] = G.leaves[i % G.leaves.length];
+    specs.push({ spawn: CLIMAX + rnd() * 0.15, life: 1.0 + rnd() * 0.25, size: 80 + rnd() * 40, depth: 1.1,
+                 x: lx, y: ly, vx: (rnd() - 0.35) * 520, vy: -60 + rnd() * 340, sway: 40, freq: 3 + rnd() * 2,
+                 phase: rnd() * 6.28, spin: (rnd() - 0.5) * 6, col: [PIG.gold, PIG.coral, PIG.orange][i % 3], blur: 0.6 });
+  }
+  [CLIMAX + 0.1, CLIMAX + 0.4, CLIMAX + 0.7].forEach(spawn => specs.push({  // big, soft, close to the lens
+    spawn, life: 1.7, size: 150 + rnd() * 60, depth: 1.55, x: -250 + rnd() * 500, y: 80 + rnd() * 380,
+    vx: 820 + rnd() * 240, vy: 240 + rnd() * 160, sway: 70, freq: 2.6, phase: rnd() * 6.28, spin: 1.4,
+    col: leafColours[Math.floor(rnd() * 3)], blur: 2.6 }));
+  const geo = new THREE.InstancedBufferGeometry().copy(new THREE.PlaneGeometry(1, 1));
+  geo.instanceCount = specs.length;
+  const attr = (n, fn) => geo.setAttribute(n, new THREE.InstancedBufferAttribute(new Float32Array(specs.flatMap(fn)), 4));
+  attr('aA', s => [s.spawn, s.life, s.size, s.depth]);
+  attr('aB', s => [s.x, s.y, s.vx, s.vy]);
+  attr('aC', s => [s.sway, s.freq, s.phase, s.spin]);
+  attr('aD', s => [...s.col, s.blur]);
+  const mat = new THREE.ShaderMaterial({
+    vertexShader: LEAF_VERT, fragmentShader: LEAF_FRAG, uniforms: { ...camUniforms, uPaint: { value: 0 }, uLeaf: { value: leafTex } },
+    transparent: true, depthTest: false, depthWrite: false,
+    blending: THREE.CustomBlending, blendSrc: THREE.ZeroFactor, blendDst: THREE.SrcColorFactor,   // multiply, like pigment
+  });
+  const mesh = new THREE.Mesh(geo, mat); mesh.frustumCulled = false; mesh.renderOrder = 1;
+  fxScene.add(mesh);
+  var leafMat = mat;
+}
+
+// ---------------------------------------------------------------- dust + embers
+{
+  const rnd = mulberry32(4242);
+  const P = [], Q = [], C = [];
+  for (let i = 0; i < 110; i++) {
+    const x = 300 + Math.pow(rnd(), 0.6) * 1650, y = 60 + rnd() * 1150;
+    P.push(x, y, 18 + rnd() * 50, rnd() * 6.28);
+    Q.push(1 + Math.floor(rnd() * 2), 1 + Math.floor(rnd() * 2), 2 + rnd() * 3.5, 0);
+    C.push(1.0, 0.86 + rnd() * 0.08, 0.5 + rnd() * 0.2);
+  }
+  const emberCols = [[1.0, 0.80, 0.35], [1.0, 0.55, 0.30], [0.98, 0.42, 0.55], [1.0, 0.92, 0.6]];
+  for (let i = 0; i < 320; i++) {
+    const a = rnd() * Math.PI * 2, r = Math.sqrt(rnd()) * 330;
+    P.push(1060 + Math.cos(a) * r * 1.4, 760 + Math.sin(a) * r * 0.8, Math.cos(a) * (60 + rnd() * 260), -80 - rnd() * 260);
+    Q.push(rnd() * 0.4, rnd() * 6.28, 3 + rnd() * 8, 1);
+    C.push(...emberCols[Math.floor(rnd() * emberCols.length)]);
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(new Float32Array(P.length / 4 * 3), 3));
+  geo.setAttribute('aP', new THREE.Float32BufferAttribute(P, 4));
+  geo.setAttribute('aQ', new THREE.Float32BufferAttribute(Q, 4));
+  geo.setAttribute('aCol', new THREE.Float32BufferAttribute(C, 3));
+  const mat = new THREE.ShaderMaterial({
+    vertexShader: MOTE_VERT, fragmentShader: MOTE_FRAG,
+    uniforms: { ...camUniforms, uDust: { value: 0 }, uEmber: { value: 0 } },
+    transparent: true, depthTest: false, depthWrite: false, blending: THREE.NormalBlending,
+  });
+  const pts = new THREE.Points(geo, mat); pts.frustumCulled = false; pts.renderOrder = 2;
+  fxScene.add(pts);
+  var moteMat = mat;
+}
+
+renderer.compile(simScene, camera);
+renderer.compile(compScene, camera);
+renderer.compile(fxScene, camera);
+
+function layout() {
+  const W = innerWidth, H = innerHeight;
+  renderer.setPixelRatio(pixelRatio);
+  renderer.setSize(W, H);
+  const [sw, sh] = sceneCss();
+  const buf = renderer.getDrawingBufferSize(new THREE.Vector2());
+  const k = buf.x / W;
+  camUniforms.uRes.value.copy(buf);
+  camUniforms.uPx.value = k;
+  camUniforms.uScene.value.set((W - sw) / 2 * k, (H - sh) / 2 * k, sw * k, sh * k);
+}
+addEventListener('resize', layout);
+layout();
+
+let stepsDone = 0;
+function clearSim(t) {
+  renderer.setClearColor(0x000000, 0);
+  for (const rt of [rtA, rtB]) { renderer.setRenderTarget(rt); renderer.clear(true, false, false); }
+  renderer.setRenderTarget(null);
+  stepsDone = Math.floor(t * STEPS_PER_SEC);
+}
+
+const K_BASE = [0.055, 0.085, 0.05];
+function simStep(ts, step) {
+  const u = simMat.uniforms;
+  const since = i => ts - ONSET[i];
+  const inj = i => since(i) < 0 ? 0 : 0.8 + 0.2 * easeOut(since(i) / 1.2);
+  u.uInject.value.set(inj(0), inj(1), inj(2), 0);
+  const k = i => K_BASE[i] / SIM_SCALE * (1 + 1.3 * (1 - easeOut(since(i) / GROW[i])));
+  u.uK.value.set(k(0), k(1), k(2), 0);
+  u.uSweep.value.set(
+    0.12 + 0.80 * easeInOut(since(0) / 1.0),     // bursts along the branch
+    0.80 - 0.56 * easeOut(since(1) / 0.9),       // runs down the ropes
+    0.30 * easeOut(since(2) / 0.6), 0);          // floods the seat
+  u.uPose.value.set(...swingPose(ts, 1));
+  u.uAngle.value = step * 2.39996323;
+  u.uPrev.value = rtA.texture;
+  renderer.setRenderTarget(rtB);
+  renderer.render(simScene, camera);
+  [rtA, rtB] = [rtB, rtA];
+}
+
+/* ================================================================== *
+ *  AUDIO
+ * ================================================================== */
+const transport = Tone.getTransport();
+const draw = Tone.getDraw();
+transport.bpm.value = BPM;
+transport.timeSignature = 4;
+transport.loop = true;
+transport.loopStart = 0;
+transport.loopEnd = '4m';
+
+const master = new Tone.Volume(-3).toDestination();
+const limiter = new Tone.Limiter(-1).connect(master);
+const warmth = new Tone.Filter({ type: 'lowpass', frequency: 6800, rolloff: -12 }).connect(limiter);
+const reverb = new Tone.Reverb({ decay: 5, wet: 0.45, preDelay: 0.03 }).connect(warmth);
+const hall = new Tone.Reverb({ decay: 7, wet: 0.8, preDelay: 0.05 }).connect(warmth);
+const piano = new Tone.Sampler({
+  urls: { C3: 'C3.mp3', 'D#3': 'Ds3.mp3', 'F#3': 'Fs3.mp3', A3: 'A3.mp3', C4: 'C4.mp3', 'D#4': 'Ds4.mp3',
+          'F#4': 'Fs4.mp3', A4: 'A4.mp3', C5: 'C5.mp3', 'D#5': 'Ds5.mp3', 'F#5': 'Fs5.mp3' },
+  baseUrl: 'https://tonejs.github.io/audio/salamander/',
+  release: 1.6,
+}).connect(reverb);
+
+// a warm pad under the remembered bars — gone by bar 4 so the last note stands alone
+const pad = new Tone.PolySynth(Tone.Synth, {
+  oscillator: { type: 'fattriangle', count: 3, spread: 22 },
+  envelope: { attack: 1.2, decay: 0.6, sustain: 0.75, release: 2.2 }, volume: -25,
+}).connect(new Tone.Filter({ type: 'lowpass', frequency: 1300, rolloff: -24 }).connect(hall));
+// the watercolour hitting the paper: a soft falling whoosh
+const bloomNoise = new Tone.NoiseSynth({ noise: { type: 'pink' }, envelope: { attack: 0.02, decay: 1.4, sustain: 0, release: 0.4 }, volume: -27 });
+const bloomFilter = new Tone.Filter({ type: 'lowpass', frequency: 2600, Q: 0.8 }).connect(hall);
+bloomNoise.connect(bloomFilter);
+// the climax: a low swell under the missing D5
+const sub = new Tone.Synth({ oscillator: { type: 'sine' }, envelope: { attack: 0.35, decay: 0.9, sustain: 0.3, release: 1.4 }, volume: -15 }).connect(limiter);
+// the recall: rising air + shimmer into the downbeat
+const riseNoise = new Tone.NoiseSynth({ noise: { type: 'pink' }, envelope: { attack: 1.1, decay: 0.01, sustain: 1, release: 0.9 }, volume: -31 });
+const riseFilter = new Tone.Filter({ type: 'bandpass', frequency: 400, Q: 0.9 }).connect(hall);
+riseNoise.connect(riseFilter);
+const shimmer = new Tone.PolySynth(Tone.Synth, {
+  oscillator: { type: 'sine' }, envelope: { attack: 1.0, decay: 0.2, sustain: 0.9, release: 2.2 }, volume: -31,
+}).connect(hall);
+
+const VEL = [0.47, 0.42, 0.44, 0.40];
+MELODY.forEach((row, bar) => row.forEach((note, beat) => {
+  if (!note || note === '~') return;
+  const ringsOn = bar === MELODY.length - 1 && row.slice(1).every(n => n === '~');
+  const dur = ringsOn ? LOOP - bar * BAR - 0.12 : BEAT * 1.25;
+  const vel = ringsOn ? 0.45 : VEL[beat] - bar * 0.01;
+  transport.schedule(time => piano.triggerAttackRelease(note, dur, time, vel), `${bar}:${beat}:0`);
+}));
+for (const bar of BASS_BARS) transport.schedule(time => piano.triggerAttackRelease('D3', 2.6, time, 0.22), `${bar}:0:0`);
+[[['D3', 'A3', 'E4'], 2.6], [['B2', 'F#3', 'A3', 'D4'], 2.6], [['G2', 'D3', 'F#3', 'B3'], 1.8]].forEach(([chord, dur], bar) =>
+  transport.schedule(time => pad.triggerAttackRelease(chord, dur, time, 0.5), `${bar}:0:0`));
+MISSING.forEach(m => transport.schedule(time => {
+  bloomFilter.frequency.cancelScheduledValues(time);
+  bloomFilter.frequency.setValueAtTime(2800, time);
+  bloomFilter.frequency.exponentialRampToValueAtTime(260, time + 1.3);
+  bloomNoise.triggerAttackRelease(1.2, time, m.time === CLIMAX ? 1 : 0.7);
+}, m.pos));
+transport.schedule(time => sub.triggerAttackRelease('D2', 0.9, time, 0.8), MISSING[2].pos);
+transport.schedule(time => {
+  riseFilter.frequency.cancelScheduledValues(time);
+  riseFilter.frequency.setValueAtTime(380, time);
+  riseFilter.frequency.exponentialRampToValueAtTime(5200, time + 1.15);
+  riseNoise.triggerAttackRelease(1.12, time, 0.9);
+  shimmer.triggerAttackRelease(['A5', 'D6', 'F#6'], 1.12, time, 0.5);
+}, RECALL);
+
+// Discrete visual events ride on Tone.Draw so they land when the audio does.
+const events = [];
+const logEvent = (label, expected) => {
+  events.unshift({ t: transportSeconds(), expected, label });
+  events.length = Math.min(events.length, 6);
+};
+transport.schedule(time => draw.schedule(() => { clearSim(transportSeconds()); logEvent('loop · buffers cleared', 0); }, time), 0);
+MISSING.forEach((m, i) => transport.schedule(time => draw.schedule(() =>
+  logEvent(`${m.note} missing → ${REGIONS[i].label}${i === 2 ? ' + sky' : ''}`, m.time), time), m.pos));
+transport.schedule(time => draw.schedule(() => logEvent('lone F#4 · recall, re-inking', RECALL), time), RECALL);
+
+let started = false;
+function transportSeconds() {
+  if (!started) return 0;
+  return wrap(transport.getTicksAtTime(Tone.immediate()) / transport.PPQ * BEAT);
+}
+
+/* ================================================================== *
+ *  FRAME LOOP
+ * ================================================================== */
+const debugEl = document.getElementById('debug');
+let lastT = 0, frameMs = 16.7, lastNow = performance.now(), qualityCheckAt = Infinity, slowChecks = 0;
+const MAX_STEPS_PER_FRAME = 4;
+const ECHO = [[0.05, 0.34], [0.10, 0.26], [0.15, 0.19], [0.20, 0.13], [0.26, 0.08]];
+const RIPPLES = [[0.47, 0.72, 0.006], [0.52, 0.52, 0.007], [0.53, 0.47, 0.016]];
+
+function frame(now) {
+  requestAnimationFrame(frame);
+  const dt = now - lastNow; lastNow = now;
+  frameMs += (Math.min(dt, 100) - frameMs) * 0.05;
+  if (now > qualityCheckAt) {
+    qualityCheckAt = now + 2000;
+    slowChecks = frameMs > 22 ? slowChecks + 1 : 0;
+    if (slowChecks >= 2 && pixelRatio > 1) { pixelRatio = Math.max(1, pixelRatio - 0.5); layout(); slowChecks = 0; }
+  }
+
+  const t = transportSeconds();
+  if (t < lastT - LOOP / 2) clearSim(t);
+  lastT = t;
+
+  const target = Math.floor(t * STEPS_PER_SEC);
+  if (target < stepsDone) stepsDone = target;
+  if (target - stepsDone > MAX_STEPS_PER_FRAME) stepsDone = target - MAX_STEPS_PER_FRAME;
+  while (stepsDone < target) {
+    stepsDone++;
+    const ts = stepsDone / STEPS_PER_SEC;
+    if (ts >= ONSET[0]) simStep(ts, stepsDone);
+  }
+
+  // camera: a slow push toward the swing, a breath out on the recall
+  camUniforms.uT.value = t;
+  camUniforms.uZoom.value = zoomAt(t);
+  const shake = t >= CLIMAX ? 0.005 * Math.exp(-(t - CLIMAX) * 3) * late(t) : 0;
+  camUniforms.uDrift.value.set(0.006 * Math.sin(2 * Math.PI * t / LOOP) + shake * Math.sin((t - CLIMAX) * 47),
+                               0.004 * Math.sin(4 * Math.PI * t / LOOP) + shake * Math.cos((t - CLIMAX) * 39));
+
+  const u = compMat.uniforms;
+  u.uState.value = rtA.texture;
+  u.uAmount.value.set(bloomAt(t, 0), bloomAt(t, 1), bloomAt(t, 2));
+  u.uWet.value.set(wetAt(t, 0), wetAt(t, 1), wetAt(t, 2));
+  u.uSplat.value.set(t - ONSET[0], t - ONSET[1], t - ONSET[2]);
+  u.uGhost.value.set(ghostAt(t, 0), ghostAt(t, 1), ghostAt(t, 2), ghostAt(t, 2));
+  u.uPose.value[0].set(...swingPose(t, 1));
+  ECHO.forEach(([lag, a], k) => u.uPose.value[k + 1].set(...swingPose(t - lag, a)));
+  const pulse = pulseAt(t), glow = glowAt(t), climax = climaxAt(t), breath = breathAt(t);
+  RIPPLES.forEach(([x, y, a], i) => u.uRipple.value[i].set(x, y, t - ONSET[i], a * late(t)));
+  u.uFlash.value = flashAt(t);
+  u.uBreath.value = breath;
+  u.uPaint.value = paintAt(t);
+  u.uInvert.value = smoother((t - CLIMAX) / 0.4) * (1 - smoother((t - RECALL) / 0.7));
+  u.uRecall.value = recallAt(t);
+  u.uPulse.value = pulse;
+  u.uGlow.value = glow;
+  u.uClimax.value = climax;
+  u.uRays.value = (0.55 + 0.4 * pulse + 0.8 * glow) * (1 - 0.85 * breath);
+  u.uSkyR.value = skyRAt(t);
+  u.uSkyAmt.value = t >= CLIMAX ? late(t) : 0;
+  u.uDropShrink.value = 1 - easeInOut((t - RECALL) / 0.95);
+  u.uDropAmt.value = late(t);
+  DROPS.forEach((d, i) => u.uDrop.value[i].set(d.spot[0], d.spot[1], t - d.time, d.spot[2]));
+  leafMat.uniforms.uPaint.value = paintAt(t);
+  moteMat.uniforms.uDust.value = (0.6 + 0.35 * pulse + 0.35 * glow) * (1 - 0.7 * breath);
+  moteMat.uniforms.uEmber.value = climax;
+
+  renderer.setRenderTarget(null);
+  renderer.render(compScene, camera);
+  renderer.render(fxScene, camera);
+
+  if (!debugEl.hidden) renderDebug(t, u);
+}
+
+function renderDebug(t, u) {
+  const bar = Math.min(3, Math.floor(t / BAR)), beatF = (t - bar * BAR) / BEAT, beat = Math.min(3, Math.floor(beatF));
+  const six = Math.floor((beatF - beat) * 4);
+  const pct = x => (x * 100).toFixed(2) + '%';
+  const amounts = [u.uAmount.value.x, u.uAmount.value.y, u.uAmount.value.z, u.uSkyR.value / 0.98];
+  const ghosts  = [u.uGhost.value.x, u.uGhost.value.y, u.uGhost.value.z, u.uGhost.value.w];
+  const grid = MELODY.map((row, b) => row.map((n, k) => {
+    const cell = (n === null ? '·' : n === '~' ? '~' : n).padEnd(4);
+    const missing = MISSING.some(m => m.bar === b && m.beat === k);
+    const cls = b === bar && k === beat ? 'on' : missing ? 'miss' : n ? '' : 'dim';
+    return `<span class="${cls}">${missing ? cell.replace(/^./, '×') : cell}</span>`;
+  }).join(' ')).map((r, b) => `  bar ${b + 1}  ${r}`).join('\n');
+  const meters = REGIONS.map((r, i) =>
+    `  ${r.name.padEnd(7)}<span class="meter"><i style="width:${(amounts[i] * 100).toFixed(1)}%;background:${r.colour}"></i></span> ${amounts[i].toFixed(3)}  <span class="dim">ghost ${ghosts[i].toFixed(2)}</span>`).join('\n');
+  const marks = ONSET.map((o, i) => `<s style="left:${pct(o / LOOP)};background:${REGIONS[i].colour}"></s>`).join('');
+  const ticks = Array.from({ length: 16 }, (_, i) => `<b style="left:${pct(i / 16)};${i % 4 ? '' : 'background:rgba(255,255,255,.4)'}"></b>`).join('');
+  const wrapDelta = e => ((e.t - e.expected + LOOP * 1.5) % LOOP) - LOOP / 2;
+  const log = events.map(e => `  ${e.t.toFixed(3)}s <span class="dim">(Δ ${(wrapDelta(e) * 1000).toFixed(0).padStart(3)} ms)</span> ${e.label}`).join('\n');
+  const theta = Math.asin(u.uPose.value[0].x) * 180 / Math.PI;
+  debugEl.innerHTML =
+`<span class="h">MEMORY FADING · DEBUG</span>  <span class="dim">[D] to hide</span>
+  transport ${t.toFixed(3)} s   bar ${bar + 1} · beat ${beat + 1} · ${six + 1}/4
+  progress  ${(t / LOOP * 100).toFixed(1).padStart(5)} %   <span class="dim">tone pos ${transport.position}</span>
+<div class="tl">${ticks}<em style="left:${pct(RECALL / LOOP)};width:${pct((LOOP - RECALL) / LOOP)}"></em>${marks}<u style="left:${pct(t / LOOP)}"></u></div>
+${grid}
+
+${meters}
+  swing  ${theta.toFixed(1).padStart(5)}°   recall ${u.uRecall.value.toFixed(2)}   glow ${u.uGlow.value.toFixed(2)}   zoom ${camUniforms.uZoom.value.toFixed(3)}
+
+  <span class="dim">sim ${SIM_W}×${SIM_H} · ${STEPS_PER_SEC} steps/s · step ${stepsDone} · ${(1000 / frameMs).toFixed(0)} fps · px ${pixelRatio}</span>
+${log || '  <span class="dim">no events yet</span>'}`;
+}
+
+addEventListener('keydown', e => {
+  if (e.key === 'd' || e.key === 'D') debugEl.hidden = !debugEl.hidden;
+});
+
+requestAnimationFrame(frame);
+
+/* ================================================================== *
+ *  START
+ * ================================================================== */
+const intro = document.getElementById('intro');
+const cta = document.getElementById('cta');
+let ready = false;
+
+async function begin() {
+  if (!ready || started) return;
+  await Tone.start();
+  clearSim(0);
+  transport.start('+0.08');
+  started = true;
+  qualityCheckAt = performance.now() + 3000;
+  intro.classList.add('gone');
+  intro.addEventListener('transitionend', () => { intro.style.display = 'none'; }, { once: true });
+}
+intro.addEventListener('pointerdown', begin);
+intro.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); begin(); } });
+
+try {
+  await Promise.all([Tone.loaded(), reverb.ready, hall.ready]);
+  ready = true;
+  intro.classList.add('ready');
+  cta.textContent = 'tap to begin';
+} catch (err) {
+  console.error(err);
+  cta.textContent = 'the piano could not be reached — reload to try again';
+}
+
+window.__memory = { transport, Tone, transportSeconds, MISSING, ONSET };
+</script>
+</body>
+</html>
+

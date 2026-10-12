@@ -1,0 +1,232 @@
+{
+  "id": "neon-city",
+  "repo": "billpwchan/neon-zenith",
+  "sha": "27ad04ef04aa9e1e1366fccc63e15a379b999f01",
+  "url": "https://github.com/billpwchan/neon-zenith/tree/27ad04ef04aa9e1e1366fccc63e15a379b999f01",
+  "codeLicense": "MIT",
+  "originalLicenseSha256": "1ce81d47e9946a1933ec09213e39cba9b1c72a3cd34d8309ba1c913a4ee484b7",
+  "retained": "Original corporate/rngFor tier geometry, complete createBuildings procedural TSL window/parallax/grime/neon-spill material, makeNoiseTexture, original stateless createRain streak and splash shaders, chunkedInstances. The city chooses original GLASS style to use the procedural branch, with neutral array placeholders for the unused captured-facade branch.",
+  "rewritten": "New canal, stone bridge, paper canopy with ribs, maintenance quadrotor with retrieval tether, umbrella fall/drift/retrieval and a moving camera.",
+  "assetsAndLicense": "MIT code. Concrete and shutter maps are CC0 according to upstream CREDITS: Poly Haven. No CC BY external vehicle/shop/building models, photographic facade atlases, fonts, HDRI or audio are included.",
+  "boundary": "Three 0.170.0 bundled. Original upstream is 0.186.1; this adaptation was actually rendered with 0.170.0. Native WebGL backend, not a full WebGPU/game port.",
+  "sourceFiles": [
+    {
+      "path": "upstream/CREDITS.md",
+      "sha256": "39d99dd752581ce6f57335f43fbd36a0c4e5c3ecbe218325d4a6473050834efc"
+    },
+    {
+      "path": "upstream/src/atmos/clouds.js",
+      "sha256": "e8d307bbcefbcb107a5a0f4997d6d1b3414e5cc235c37ad508540ca899f0446b"
+    },
+    {
+      "path": "upstream/src/atmos/fog.js",
+      "sha256": "0b64092b4697fe87f79e4edfe1cdfb8c6025d80c710ae66b445d9a0361019efa"
+    },
+    {
+      "path": "upstream/src/atmos/lightning.js",
+      "sha256": "e93300a3febd4ac81b3bdb2da675bd694aad10a2ecc69d3d4bdc06399d86c2f8"
+    },
+    {
+      "path": "upstream/src/atmos/rain.js",
+      "sha256": "08c326243d8652be648b9eb68dfea46856e694fc178df6a31ebd954b7a869162"
+    },
+    {
+      "path": "upstream/src/atmos/sky.js",
+      "sha256": "d1c01eb25cdfa86145a6611086ba331628df4b9404a44d4c9b2df5beef26b9bf"
+    },
+    {
+      "path": "upstream/src/audio/audio.js",
+      "sha256": "b2a9a6a278bc280aaa69512ece0a0af5ed4f3d7dcdf97d7ae5eadaaf5c1502fe"
+    },
+    {
+      "path": "upstream/src/city/adscreens.js",
+      "sha256": "8b98ac152670fb6b096fa778db11df7fc2b06d18de78edcc8127824f57416ddb"
+    },
+    {
+      "path": "upstream/src/city/buildings.js",
+      "sha256": "0fa13d1823f041e765c446a5a75d8a7f9a86d9bc1a653ffbca0773e0799e6be0"
+    },
+    {
+      "path": "upstream/src/city/district.js",
+      "sha256": "20bb47a9ab0b07e14e9acf2e094b8bd306820e8a65ea7641832b8ca9e35f8e25"
+    },
+    {
+      "path": "upstream/src/city/district.json",
+      "sha256": "26749986bdd4e61027f32b10ac5852f116b469af0e349a67e3a1c3ea4caac03e"
+    },
+    {
+      "path": "upstream/src/city/facadekit.js",
+      "sha256": "bffe0a381dc00fdd0c4a4a517a48ccead6670d1ef3534f9bd99586096ee216bd"
+    },
+    {
+      "path": "upstream/src/city/facades.json",
+      "sha256": "ddfb34b1f84f3a9ff6f2d9de813026ebb3ef0b712e46317e516a2dbbd6875e7e"
+    },
+    {
+      "path": "upstream/src/city/ground.js",
+      "sha256": "490db02900cb9b68113a22bb5cef48a424cb92d5c80fbcea773220f5ae8c5434"
+    },
+    {
+      "path": "upstream/src/city/heightmap.js",
+      "sha256": "293f26d54a52e35ff7a280cc9a29b598e0d053ce776fab795042c5723f195f4b"
+    },
+    {
+      "path": "upstream/src/city/instancing.js",
+      "sha256": "a63d77195c55feb6c757a1674ac779aa77010e5d4544b0a409fa2756a6ca7732"
+    },
+    {
+      "path": "upstream/src/city/kit_brown.json",
+      "sha256": "17f5ae6419f970a6b84ae5589ec895b1e5389305b443bb77c59c88ad72d3543f"
+    },
+    {
+      "path": "upstream/src/city/kit_proc.json",
+      "sha256": "be5883ca48670314fbfe4d3a60bcee0c66d598102c4e3aa650b2b4d824eef48f"
+    },
+    {
+      "path": "upstream/src/city/layout.js",
+      "sha256": "2df02019b82afefe44a44b9b9390185e2abf1645d5d1876155807324892b887f"
+    },
+    {
+      "path": "upstream/src/city/lightmap.js",
+      "sha256": "6a6e8091b7eee897d02dbec0823d5393a7edb4c22b7d20019e013d2ccda3ac5c"
+    },
+    {
+      "path": "upstream/src/city/massing.js",
+      "sha256": "aec527a48a9d23ec5aafc88e5ea1efcab51e6b94674bd802e9811be7c2dfd8cb"
+    },
+    {
+      "path": "upstream/src/city/props.js",
+      "sha256": "9e98f7535af700302d24742d121a025de280f4daf4a6329cc28e660c0b5ecde4"
+    },
+    {
+      "path": "upstream/src/city/shopkit.js",
+      "sha256": "9659a0b24246d62779658be5023796970c362d8786959ecf03545a46a881904a"
+    },
+    {
+      "path": "upstream/src/city/shopkit.json",
+      "sha256": "c563e6155e7a0f224ef4ded402c8767756fb1472709de3cb0c55665b6bb57014"
+    },
+    {
+      "path": "upstream/src/city/shops.json",
+      "sha256": "2f0dce08f3fd34d81504e4580ee7bd4e8ff52dba1dbf2cececf0a940aedcb470"
+    },
+    {
+      "path": "upstream/src/city/signs-atlas.json",
+      "sha256": "a53efdb89d91bcee2d558e26c9cd86930aec0a204cf87187a763cd02942f1ea0"
+    },
+    {
+      "path": "upstream/src/city/signs.js",
+      "sha256": "f8830001b4f4bb9acdcecddfd52e8bb1f4fd355e2a2151e7ea87ac124b2a59c4"
+    },
+    {
+      "path": "upstream/src/city/zenith.js",
+      "sha256": "82b0260c6be5e3251cdfb80324318efd94306240fa42b887348b08ab5b253436"
+    },
+    {
+      "path": "upstream/src/core/env.js",
+      "sha256": "1dda19184a7a4498673c15ae2c8dbc1aa2fc629297f67f006ed1f0088adca856"
+    },
+    {
+      "path": "upstream/src/core/governor.js",
+      "sha256": "e6d815ea84d4a7247890238e651ba0b73d9ce64ec217a688413956002a07f9fb"
+    },
+    {
+      "path": "upstream/src/core/input.js",
+      "sha256": "948f7b2f672ff02d31e978ffa3c196b75af2d578e59ab7bea874653d1151f0b6"
+    },
+    {
+      "path": "upstream/src/core/post.js",
+      "sha256": "65839d6a2c066eee30d3897f35003fcfa2b0feb2c40e37c04b08dc24ff559402"
+    },
+    {
+      "path": "upstream/src/core/rng.js",
+      "sha256": "2dfa339dbe97c63089469a8669b5bbf04bc284b060a2889825f65c8263ffe616"
+    },
+    {
+      "path": "upstream/src/core/shared.js",
+      "sha256": "820e54394e72b994384ce1c9fdce415ce40906ee1a179e480c14da5afcf15e6e"
+    },
+    {
+      "path": "upstream/src/debug/bot.js",
+      "sha256": "9d01d8b9ccf93ca05457f536b4e4001570d8f04e25f78fbb3252f9fc57a48191"
+    },
+    {
+      "path": "upstream/src/debug/flycam.js",
+      "sha256": "475aed0a535da9b4edcc03cada566f1d97ea9ba0f01ac1a5a1f648dced637d25"
+    },
+    {
+      "path": "upstream/src/game/attract.js",
+      "sha256": "6c442b9ed008024d8a9a0426cac4033d1c915c6c1e1a742ecc3a3e968b9dc4ee"
+    },
+    {
+      "path": "upstream/src/game/game.js",
+      "sha256": "fc422b11b74b31ef9100cc5ec74a5710b861e4fe00b8d35c4d3ed114808cf0a9"
+    },
+    {
+      "path": "upstream/src/game/runs.js",
+      "sha256": "089a0ea67917b208b210f89aa8c510d66c4d9fb37007c0930bfb2f44ea8f3805"
+    },
+    {
+      "path": "upstream/src/life/skytraffic.js",
+      "sha256": "eecdf3120058aff0ced52ebf0bf8838f9df5ce0f9f596692997e798069a93504"
+    },
+    {
+      "path": "upstream/src/life/traffic.js",
+      "sha256": "189006374035e714c75cb9e6c9e322eafb222559dac057e4a5112e1866fb6b44"
+    },
+    {
+      "path": "upstream/src/life/vehicles.json",
+      "sha256": "9416f27fbf4d9dc76787def3af9f4a1dc18ee380e736d3ed4361d987a14a10b5"
+    },
+    {
+      "path": "upstream/src/main.js",
+      "sha256": "a01aad77e7e45765644379cc21577f8d4fdaddb5895ab65ca02c615852715c89"
+    },
+    {
+      "path": "upstream/src/tsl/util.js",
+      "sha256": "1e6ab7d99853f47f8c3e2349b78cc16c30fee10f2c26e10f2737e059f9deec5c"
+    },
+    {
+      "path": "upstream/src/ui/base.css",
+      "sha256": "f9fb6e6aeed65653ed32482db253e8a6676f925c5ebcdfbcbdbf0a7d0f226828"
+    },
+    {
+      "path": "upstream/src/ui/citymap.js",
+      "sha256": "6af7a98c09cb7c5befd051f83b857aa102c22f02d8c745a5636faf9073a20bce"
+    },
+    {
+      "path": "upstream/src/ui/hud.js",
+      "sha256": "c036b6932ba2faa08ebe8723c8c8b479b63f0064afeca9d86adf5774a9e44bea"
+    },
+    {
+      "path": "upstream/src/ui/screens.js",
+      "sha256": "8f36643019bf245548e03554c89d98fe08b52f07a86e05b6ba97f29aae26b6be"
+    },
+    {
+      "path": "upstream/src/ui/touch.js",
+      "sha256": "f2e0bb58addaf02ab8b54d1ec5289a99a4aebe0d66773ad4987e5efec21e73a7"
+    },
+    {
+      "path": "upstream/src/ui/ui.css",
+      "sha256": "1274795a4076accc787ea46f5fe34d21b6606670ba6685389ce3fcf45e5fa7f4"
+    },
+    {
+      "path": "upstream/src/vehicle/camera.js",
+      "sha256": "593be12532b5027eac14eb710268c6d323ace187f1dc93d9d19aea0e2f426427"
+    },
+    {
+      "path": "upstream/src/vehicle/kite.js",
+      "sha256": "be2f61c3312855edb4cbac77dc750ac71b5578d2152cd955d69db4204eec9220"
+    },
+    {
+      "path": "upstream/src/vehicle/loft.js",
+      "sha256": "c4aedc2816547a4beaea71ded8a65aee1bfe86c3e64d2fc723ae634b35bd1e14"
+    },
+    {
+      "path": "upstream/src/vehicle/model.js",
+      "sha256": "4cc10f62a5b1fc2622bf10bcfccb60c309193bfad8b3deece3db546df8a0d9cf"
+    }
+  ],
+  "usedImageGeneration": false,
+  "audio": false
+}

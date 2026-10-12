@@ -1,0 +1,121 @@
+{
+  "repo": "achrefelouafi/ProceduralBuildingsThreeJS",
+  "commit": "6c19f1b1f14408353989ad26cda27f1e1ede5e91",
+  "codeLicense": "MIT",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "fa655f413edefb7d5416d743714e4cdd7899134b2fb4003732b2ef9eecac4fd4",
+      "bytes": 1077
+    },
+    {
+      "path": "README.md",
+      "sha256": "6062897312a02dd9e2aa3b24ab960915965e0510fff6699c657d338d34e33c75",
+      "bytes": 24057
+    },
+    {
+      "path": "package.json",
+      "sha256": "4cdfd4b2baeedca3abcf8de7f3222bb18157f502eaf07b538bf484d04a234b0a",
+      "bytes": 895
+    },
+    {
+      "path": "public/assets/kit.glb",
+      "sha256": "de9d966ceb4262e7f6ebcbbd9342f2144e11b31ee8f919992ab61a233bd02fbe",
+      "bytes": 505900
+    },
+    {
+      "path": "public/assets/tex/door_color.jpg",
+      "sha256": "f9a1d489ad77fe7867f8a558f65b76a327f5481b5a15b254b5f8c38c55a7de94",
+      "bytes": 215713
+    },
+    {
+      "path": "public/assets/tex/door_rd.png",
+      "sha256": "f2626cafd5c1ba8b2a47cc55bb01d2ee34bd33d6f49460b6565ac5ebd476f6eb",
+      "bytes": 293277
+    },
+    {
+      "path": "public/assets/tex/frame_color.jpg",
+      "sha256": "a5a6e452de98f5790a700c2decdfce772ba251dd497de8196a66be38e1e7d73c",
+      "bytes": 271680
+    },
+    {
+      "path": "public/assets/tex/frame_rd.png",
+      "sha256": "dbacdc5edec15e9c6ad21930b7142729558154f2e87e35e66a7dc3e81672a8a0",
+      "bytes": 323896
+    },
+    {
+      "path": "public/assets/tex/iron_color.jpg",
+      "sha256": "cfd73a52d01bc628d7f044dacbaf55ccdd1efe7d4d877023529e8de12dec646e",
+      "bytes": 179757
+    },
+    {
+      "path": "public/assets/tex/iron_rd.png",
+      "sha256": "fc824ff16331c7c9e31feff8ffc02df9969a5e50fd80dd9fa88dbc77bc031df4",
+      "bytes": 453698
+    },
+    {
+      "path": "public/assets/tex/stone_color.jpg",
+      "sha256": "bdbe47ff6c0a5b0552c51f58b4c185d5b8e0536855f60bedbd3c3ed8c1a6bd41",
+      "bytes": 87446
+    },
+    {
+      "path": "public/assets/tex/stone_rd.png",
+      "sha256": "2a633701eb0cffb4e3246b5e55d39b136ab4669caef4f84ae8232a89062393b7",
+      "bytes": 164344
+    },
+    {
+      "path": "public/assets/tex/trim_color.jpg",
+      "sha256": "29054a77af627a3f7f26c6197771f69c0fbee03463e6a2cce862ad98dfd0700c",
+      "bytes": 458665
+    },
+    {
+      "path": "public/assets/tex/trim_rd.png",
+      "sha256": "e6427e67b72036235d206e77d8e8f0737e3e4806226faecea663f7775afa584b",
+      "bytes": 338725
+    },
+    {
+      "path": "public/assets/tex/zinc_color.jpg",
+      "sha256": "1fe0aebea8880a59fbcf0fc21c2b3c54b4ab01e454429f259c2deaccf8ad5153",
+      "bytes": 198949
+    },
+    {
+      "path": "public/assets/tex/zinc_rd.png",
+      "sha256": "884b298a7b4fc114595e05b8ed57f710a421d3f1923bc9239fcdb2db75d36688",
+      "bytes": 515440
+    },
+    {
+      "path": "src/generator.ts",
+      "sha256": "c1ef7d6030d391adde105cefb50fe93cfd86ad8db6535a704c4f56153ba47442",
+      "bytes": 9197
+    },
+    {
+      "path": "src/interiors.ts",
+      "sha256": "47a12b2636b9e8901fa69213b3ce671f755150f4c49877f246d7327fd2ec8e47",
+      "bytes": 8173
+    },
+    {
+      "path": "src/kit.ts",
+      "sha256": "04f625c7691bee80b69439c460a4e11af56789102235d1d7770d323905094f31",
+      "bytes": 4260
+    },
+    {
+      "path": "src/materials.ts",
+      "sha256": "8d501dcae9694d00532afdd117684aecd5859e8e9d3df713ebc0ca61e30f0180",
+      "bytes": 14813
+    },
+    {
+      "path": "src/params.ts",
+      "sha256": "84d8b4a99267dadc851223915f51b5b09d976c50016ba1a2ffd658188c196c08",
+      "bytes": 1492
+    },
+    {
+      "path": "src/rng.ts",
+      "sha256": "19bf7373e4496163da8ab923b5d66e70fe08f4b9b7b1eaab9f8a6fe2507ca021",
+      "bytes": 2664
+    }
+  ],
+  "excluded": [
+    "public/assets/tex/interiors.jpg \u2014 not used; photo rights not verified"
+  ],
+  "adaptation": "template/system/*.js: TS syntax removed; Kit constructor rewritten equivalently; glass/voile exported. building-system.js preserves generator/kit/material mechanisms and replaces room photos with procedural lights."
+}

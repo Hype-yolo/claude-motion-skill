@@ -1,0 +1,16 @@
+{
+ "N": 33,
+ "paper": "#f3eee3",
+ "inks": {
+  "black": "#1d1b20",
+  "blue": "#2b3f9e",
+  "yellow": "#ffd21f",
+  "orange": "#f2602b"
+ },
+ "order": [
+  "black",
+  "blue",
+  "yellow",
+  "orange"
+ ]
+}

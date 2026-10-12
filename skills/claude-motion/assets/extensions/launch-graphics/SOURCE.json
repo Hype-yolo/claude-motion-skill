@@ -1,0 +1,242 @@
+{
+  "repo": "Leonxlnx/claude-launchvideo",
+  "commit": "f0906e8629fa524c7cedc1ac959bf987005ee846",
+  "url": "https://github.com/Leonxlnx/claude-launchvideo/tree/f0906e8629fa524c7cedc1ac959bf987005ee846",
+  "license": "MIT (code only)",
+  "excluded": "Original audio, lyrics, reference images, brand characters and original completed video are excluded. Only code and procedural materials used.",
+  "retained": [
+    "original anim.ts E curves, frame tweens, SPR spring configurations, hitPulse",
+    "original RackFocus sharp/constant-blur crossfade",
+    "original Cursor path and press squash"
+  ],
+  "adaptation": "Replaced Tessel/calendar branding and app with fictional Aster astronomy. Newly written star chart aligns, ALIGN/FIND/DIM controls reveal, cursor saves an observation, then a three-node timeline grows. Original easing/springs, focus crossfade and pointer implementation are called in React. Local browser screenshot exporter preserves native DOM.",
+  "runtime": "dom-react",
+  "audio": false,
+  "userApproved": false,
+  "selectedOriginalFiles": [
+    {
+      "path": "upstream/anim.ts",
+      "sha256": "d420d0d198a09cc95af1c4df9101984372fb82e23d5ac672526f1a3a7ae0a710"
+    },
+    {
+      "path": "upstream/fx/Cursor.tsx",
+      "sha256": "c645e70dcaa733c65ffcbbaa9085593d4aad249a69bdfa6f0ca41a71ab88a672"
+    },
+    {
+      "path": "upstream/fx/RackFocus.tsx",
+      "sha256": "1082756cca17461b8312ac1d796d019bb13705659ae0f6fd4c602642414ee783"
+    }
+  ],
+  "dependencyLicenses": [
+    {
+      "name": "react",
+      "license": "MIT",
+      "file": "licenses/react-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "name": "react-dom",
+      "license": "MIT",
+      "file": "licenses/react-dom-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "name": "remotion",
+      "license": "Remotion 4 free-use license for individuals, companies up to 3 employees, non-profit or evaluation. Not MIT; not offered as relicensable MIT software.",
+      "file": "licenses/remotion-LICENSE.txt",
+      "sha256": "7ed959c698257cc981157b306d4542b8d35252fb4ef9316da0caaa959f181d4c"
+    }
+  ],
+  "pinnedRepositoryCodeInventory": [
+    {
+      "path": "README.md",
+      "sha256": "a8ad0737817c3b4d9739352f386ff27d7b080e3c829513fe6f4accd962f5fae8"
+    },
+    {
+      "path": "package.json",
+      "sha256": "fbbf75d0b33d93c9e8325820b248b4771d1b71588b6c89fe6fdc7b525dc8023c"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "c05ddcae25725d6532ddefc5ef0ff0a6eb96f42e25afbec37397093a7d9020f2"
+    },
+    {
+      "path": "remotion.config.ts",
+      "sha256": "43b22b6eaa978bea040db60bc6200b00243027e28e974186838445ff3e5d1091"
+    },
+    {
+      "path": "out/cues.json",
+      "sha256": "045695c8927dbfa182419248182dd76cc5ad910c62be372e7cc10d6890566b41"
+    },
+    {
+      "path": "scripts/export-cues.ts",
+      "sha256": "ee772bfb8892db012cf7ba207361e91379995f2b02ab9d9d439b6831deb86271"
+    },
+    {
+      "path": "src/LogoLab.tsx",
+      "sha256": "eb45d1cd095d359ad8ce4453e955dc3b5bbfa20afad193111d5985c2e0971d4e"
+    },
+    {
+      "path": "src/blur.ts",
+      "sha256": "a8cb86bcea1d6b2c533007217de3f8963b868bfb9908164f2782d66ef174da29"
+    },
+    {
+      "path": "src/AppLab.tsx",
+      "sha256": "ffc7cbf37928ab4b1a65af45291007ae6fc43ebc17c87d4c54646117108f7b49"
+    },
+    {
+      "path": "src/Root.tsx",
+      "sha256": "9e0ad422c74b488605bc4902209f5605b9fbb4bfd0c0205caccfd8109973f2cd"
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "8ad7cfb50e32546485a1a2ef5e468e5b6bdee2bc5c9b92d08882f96e3750b4a3"
+    },
+    {
+      "path": "src/timeline.ts",
+      "sha256": "09365eb7346fb98592b213c510850f76f203ab18ea843c7afceab9322be8173f"
+    },
+    {
+      "path": "src/Launch.tsx",
+      "sha256": "1d0acded5bd1206be4f640144a12899129cc2080f5ba5eb6dc4695004a3394b6"
+    },
+    {
+      "path": "src/LaunchSub.tsx",
+      "sha256": "e1fe754ae3cc2e465ea34ac8242783269ba4e58bf0efad07cd4d5266054900f3"
+    },
+    {
+      "path": "src/app/data.ts",
+      "sha256": "0900721b10e6881a0a8dc9743466fe1f06520f5f45cfe3c623b4bb531f9b67de"
+    },
+    {
+      "path": "src/app/CalendarApp.tsx",
+      "sha256": "28f5ae18032ed54271012d624aeef7957a10119cc14b0a9d6e446dab94482ef5"
+    },
+    {
+      "path": "src/app/weekLoad.ts",
+      "sha256": "b355e45f1f99a238b85443cd918cbdf924c74ec04c12b4d3e4d7f95f5faa9e9c"
+    },
+    {
+      "path": "src/fx/Cursor.tsx",
+      "sha256": "c645e70dcaa733c65ffcbbaa9085593d4aad249a69bdfa6f0ca41a71ab88a672"
+    },
+    {
+      "path": "src/fx/Words.tsx",
+      "sha256": "6bdc745979b5d5b8b7c8ccbf22283a0650d07a2476fd3ec34a299ba87bc2497b"
+    },
+    {
+      "path": "src/fx/RackFocus.tsx",
+      "sha256": "1082756cca17461b8312ac1d796d019bb13705659ae0f6fd4c602642414ee783"
+    },
+    {
+      "path": "src/brand/tokens.ts",
+      "sha256": "e6fc866fdb0b04043da2e790f2924fd9f6b09aa7634cd5460245a3d118afaba6"
+    },
+    {
+      "path": "src/brand/Mark.tsx",
+      "sha256": "9a1b4d76d82e4f2aae5d02a742cdd956f83e956f429c5f8095100e12bcee5ddc"
+    },
+    {
+      "path": "src/acts/Act5Features.tsx",
+      "sha256": "8e971113bd1455eb1637f059edcb3656b272ec1cbb050a7fc93d2cfbbd16155e"
+    },
+    {
+      "path": "src/acts/Act6End.tsx",
+      "sha256": "0fb42f792cd1ebddaee22e04e4395fdb561cf001085fe95ead75f59f43d1087d"
+    },
+    {
+      "path": "src/acts/Act4Plan.tsx",
+      "sha256": "53bc3f5c352d2a666e88d5801733e62aa4cb1fd1d9f0bd8c5f584ba27d7a2c59"
+    },
+    {
+      "path": "src/acts/Act1Fit.tsx",
+      "sha256": "292453caf7c30c2ab65a3de44ab25364977619814b78c791a049cd5003bd56f3"
+    },
+    {
+      "path": "src/acts/act1-data.ts",
+      "sha256": "64c3352993beae9b4d0f17038a150989a032cbf20dd932bacda031d0100bfc97"
+    },
+    {
+      "path": "src/acts/Act3Prompt.tsx",
+      "sha256": "21b327a32fa132d7455aa97626deacc6655eb4b3adfa128b2bb11807ecdb5500"
+    },
+    {
+      "path": "src/acts/Act2Mark.tsx",
+      "sha256": "69e5b12c63252b967e1ecd0002d57bee3d652e521e80b757c9bbea785a860759"
+    },
+    {
+      "path": "src/lib/FontGate.tsx",
+      "sha256": "e9bb603a5aaeb444a02c1d59c6684fe2f657462375d8fed0ca32d58edbd905f2"
+    },
+    {
+      "path": "src/lib/anim.ts",
+      "sha256": "d420d0d198a09cc95af1c4df9101984372fb82e23d5ac672526f1a3a7ae0a710"
+    },
+    {
+      "path": "src/lib/measure.ts",
+      "sha256": "3e7bf63b8305df58711e10a08142976d1737767b3afd9aec6ed1329c20f1f769"
+    }
+  ],
+  "retainedFiles": [
+    {
+      "path": "upstream/anim.ts",
+      "sha256": "d420d0d198a09cc95af1c4df9101984372fb82e23d5ac672526f1a3a7ae0a710"
+    },
+    {
+      "path": "upstream/fx/Cursor.tsx",
+      "sha256": "c645e70dcaa733c65ffcbbaa9085593d4aad249a69bdfa6f0ca41a71ab88a672"
+    },
+    {
+      "path": "upstream/fx/RackFocus.tsx",
+      "sha256": "1082756cca17461b8312ac1d796d019bb13705659ae0f6fd4c602642414ee783"
+    }
+  ],
+  "componentFiles": [
+    {
+      "path": "template/preview.html",
+      "sha256": "852f49c59b41c62682f8fe63ad56e3244f1c2746cb7d9d2a925cfa990c8756a0"
+    },
+    {
+      "path": "template/index.html",
+      "sha256": "18dda93072e568f3629173e058f56d0c21c9e1498cbf6fa537d394105133c3a4"
+    },
+    {
+      "path": "template/system.js",
+      "sha256": "63359a0ec3ac1ff9541c170525e5b12b0d1d25487e6e66c5e33a64c096b79cf8"
+    },
+    {
+      "path": "template/film.js",
+      "sha256": "42f23a162529812ecbdff0e164028bd581ab4fe61c46379f9af3bcae93b6d2cb"
+    },
+    {
+      "path": "template/ADAPTATION.md",
+      "sha256": "2f10558b77263a8d92c1f9d653381302465c65287d11f91a979debe272722b43"
+    },
+    {
+      "path": "template/package.json",
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "template/export.mjs",
+      "sha256": "18899fd422a6c41c4c06b9371031b2bac325fd22d3f729bf81544d853e57c899"
+    },
+    {
+      "path": "template/LICENSE-UPSTREAM",
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df"
+    },
+    {
+      "path": "template/licenses/remotion-LICENSE.txt",
+      "sha256": "7ed959c698257cc981157b306d4542b8d35252fb4ef9316da0caaa959f181d4c"
+    },
+    {
+      "path": "template/licenses/react-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "template/licenses/react-dom-LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    }
+  ],
+  "bundleLicense": "MIT upstream code; retained dependencies keep their individual licenses",
+  "assetLicenseAudit": "Procedural code only. LUT produced by MIT repository code. No source song/lyrics/recording/photo/font/brand mascot imported. Original excluded media recorded in docs/research/2026-10-13-all-sources/2d/excluded-media-manifest.json."
+}

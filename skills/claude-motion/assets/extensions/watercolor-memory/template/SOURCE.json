@@ -1,0 +1,97 @@
+{
+  "repo": "iamtechartist/memory-fading-into-watercolor",
+  "commit": "0bcc7cedfa9b0323437d746916174c9bba34026e",
+  "url": "https://github.com/iamtechartist/memory-fading-into-watercolor/tree/0bcc7cedfa9b0323437d746916174c9bba34026e",
+  "license": "MIT (code only)",
+  "excluded": "Original audio, lyrics, reference images, brand characters and original completed video are excluded. Only code and procedural materials used.",
+  "retained": [
+    "GPU max-dilation pigment transport with anisotropic paper thirst",
+    "torus-mapped simplex FBM",
+    "Beer-Lambert absorbance",
+    "wet-edge pooling, back-runs, paper tooth, graphite recollection"
+  ],
+  "adaptation": "Replaced original swing/tree with a newly drawn lighthouse harbor postcard. It dissolves into paper-fed pigment, clears, then a larger returning sailboat gathers into a new image. Color diffusion and absorption are genuine original shaders; swing warping disabled because it is inapplicable. New shoreline, harbor geometry, caption, masks, timing, no sound.",
+  "runtime": "canvas-scene with local source renderer",
+  "audio": false,
+  "userApproved": false,
+  "selectedOriginalFiles": [
+    {
+      "path": "upstream/index.html",
+      "sha256": "7525de365b1fb5637f08569c01dbe2d7b606ce58b6b4aa24dfed87f8c737f976"
+    }
+  ],
+  "dependencyLicenses": [
+    {
+      "name": "three",
+      "license": "MIT",
+      "file": "licenses/three-LICENSE.txt",
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "name": "simplex-noise",
+      "license": "MIT",
+      "file": "licenses/simplex-noise-LICENSE.txt",
+      "sha256": "01951c4f7d8e7ce92540c4f575a2aec39738b39d25a06a96059d82ed83fb594e"
+    }
+  ],
+  "pinnedRepositoryCodeInventory": [
+    {
+      "path": "index.html",
+      "sha256": "7525de365b1fb5637f08569c01dbe2d7b606ce58b6b4aa24dfed87f8c737f976"
+    },
+    {
+      "path": "README.md",
+      "sha256": "76d48c4ec08a6f33b36ecbfa1a2f414e55498d04b41a6c460eb2d173eed8f064"
+    }
+  ],
+  "retainedFiles": [
+    {
+      "path": "upstream/index.html",
+      "sha256": "7525de365b1fb5637f08569c01dbe2d7b606ce58b6b4aa24dfed87f8c737f976"
+    }
+  ],
+  "componentFiles": [
+    {
+      "path": "template/preview.html",
+      "sha256": "a0b6da2fbfda0ba58102d3883f02d7dc78e1f1a64cb99387117d9c2a03b802e1"
+    },
+    {
+      "path": "template/index.html",
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "template/scene.js",
+      "sha256": "e2b1882f9a00a1384038aa08cb90bfa2a56b6cbd7a6e248c098be76b4af48ba1"
+    },
+    {
+      "path": "template/system.js",
+      "sha256": "81a5b4e365a5f17041584f0000d53ff99fe332afac71667c45a650d2451f15e8"
+    },
+    {
+      "path": "template/render.mjs",
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "template/ADAPTATION.md",
+      "sha256": "b4eb75e2f0e76491967dc1290512ff215829a755efb50a40d340ea41001e86d9"
+    },
+    {
+      "path": "template/package.json",
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "template/LICENSE-UPSTREAM",
+      "sha256": "b0e0e711c04aac69e316e9c79a3119b722dc7d65e129990cdbe7a35dea6fec8b"
+    },
+    {
+      "path": "template/licenses/three-LICENSE.txt",
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "template/licenses/simplex-noise-LICENSE.txt",
+      "sha256": "01951c4f7d8e7ce92540c4f575a2aec39738b39d25a06a96059d82ed83fb594e"
+    }
+  ],
+  "bundleLicense": "MIT upstream code; retained dependencies keep their individual licenses",
+  "assetLicenseAudit": "Procedural code only. LUT produced by MIT repository code. No source song/lyrics/recording/photo/font/brand mascot imported. Original excluded media recorded in docs/research/2026-10-13-all-sources/2d/excluded-media-manifest.json."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "claude-animation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hand-drawn 2D animation in JavaScript: brush, watercolour, textured editorial rigs, rendered frame-exact with node canvas + ffmpeg.",
+  "dependencies": { "@napi-rs/canvas": "^0.1.65" }
+}

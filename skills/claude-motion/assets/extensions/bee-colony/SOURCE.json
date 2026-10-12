@@ -1,0 +1,70 @@
+{
+  "repo": "buildwithhanif/claude-animation-skill",
+  "commit": "4ddb8c80fdec96dc9f55d4b9bdee60bde6f0134b",
+  "files": [
+    {
+      "path": "upstream/LICENSE",
+      "sha256": "22613aa5bd8808d19a66479717a0a88dd3e0dd199e0b48bed3fadb9ee327280b"
+    },
+    {
+      "path": "upstream/examples/ant-colony/film.mjs",
+      "sha256": "8afbee75c4c7c1a60ac162cdc8207aec4a0e2078f47713522f0aaf8888fb57c0"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/colony.mjs",
+      "sha256": "4c2b68a8f223efb3891e72151f7ecab69da877bab5d67bfd79da5f3f66abb383"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/core.mjs",
+      "sha256": "df85c88458057c1fa061881bfd77d82bd6830e2038f96c452394f8a4fd250c9e"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/film.mjs",
+      "sha256": "2c999da159b476d3b735cfbd78c010d501b9f03f198bca14b61fe2eaa977c937"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/fx.mjs",
+      "sha256": "ffa92fa119c160f3e11d84baa4b1e094e499a855745d744e0f034093684ecfbb"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/lowpoly.mjs",
+      "sha256": "30fe415f237a03416f44a12c787240b77a9e0cc0ae6970f7e5b5dc6d73c113d4"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/nature.mjs",
+      "sha256": "763ad0e7ea258718cc4bf104024ca3bbdb64db30900c8a439d3782204b12abe7"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/pen.mjs",
+      "sha256": "2b5881ae369ab871124325305278b9a72b69d1d63557dcd89a13b39a3e574f15"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/ant.mjs",
+      "sha256": "8a958fd42da49f5bea449a5bc29e56b6c27bbc007b414d14a7f825ab8154c2e3"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/bean.mjs",
+      "sha256": "75c4dd4c9c8866c62c57ecdf6b02fffb622e0f9c05c41b66be99a4e330436f32"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/bug.mjs",
+      "sha256": "7e54f29ce943fdd52736f35370e587b2befdba660cadd8029a18211e6d996802"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/chibi.mjs",
+      "sha256": "ac54cf71a55e0af9d4bd475ae06f35ca4d2fe63d5626e9a68ae8a9ea987d04b7"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/rigs/critter.mjs",
+      "sha256": "cd796d09bdc28b4504231546c6bc0209a457ac69cc2bbc6894314b1d6970848b"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/lib/textures.mjs",
+      "sha256": "84ece51403af404f0a19240ec2288c34760e1d611bb7c437e91cae82727f7ea3"
+    },
+    {
+      "path": "upstream/plugins/claude-animation/skills/claude-animation/package.json",
+      "sha256": "8be3adbdd622355f622d53aa7fef66865bf74eb0ddeb7cd3c0fa1890110dc418"
+    }
+  ]
+}

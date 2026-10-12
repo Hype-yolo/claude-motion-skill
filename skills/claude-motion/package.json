@@ -1,6 +1,6 @@
 {
   "name": "@hype-yolo/claude-motion",
-  "version": "0.2.0-beta.1",
+  "version": "0.3.0-beta.1",
   "private": true,
   "type": "module",
   "description": "Source-assisted animation Skill: route, adapt and export editable films.",

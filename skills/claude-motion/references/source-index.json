@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "indexedEntryCount": 109,
-  "uniqueRepositoryCount": 109,
+  "indexedEntryCount": 122,
+  "uniqueRepositoryCount": 122,
   "importedRepositoryCount": 2,
   "importedCaseCount": 47,
   "sources": [
@@ -27,8 +27,8 @@
       "repo": "buildwithhanif/claude-animation-skill",
       "url": "https://github.com/buildwithhanif/claude-animation-skill",
       "commit": "4ddb8c80fdec96dc9f55d4b9bdee60bde6f0134b",
-      "kind": "角色引擎",
-      "style": "手绘自然",
+      "kind": "可调用源码组件",
+      "style": "纸面昆虫与植物",
       "priority": 1,
       "attribution": "作者原帖归属 Opus 5.5，README 配套源码",
       "reuse": "蚂蚁角色、笔刷、纸纹和场景渲染，用于角色及自然场景",
@@ -36,10 +36,13 @@
       "license_status": "开源代码",
       "demo_url": "https://x.com/hanifproduktif/status/2102742924148830211",
       "indexOrigin": "docs/references.json",
-      "importStatus": "indexed-only",
+      "importStatus": "component-connected",
       "importedCaseIds": [],
-      "provenanceVerification": "author/repository claims; not API-verified",
-      "previewStatus": "not executed as part of case library"
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending",
+      "componentIds": [
+        "bee-colony"
+      ]
     },
     {
       "repo": "francozanardi/papermotion",
@@ -153,19 +156,22 @@
       "repo": "ledbetterljoshua/functional-emotions-video",
       "url": "https://github.com/ledbetterljoshua/functional-emotions-video",
       "commit": "b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49",
-      "kind": "作品源码",
-      "style": "绘画 MV",
+      "kind": "可调用源码组件",
+      "style": "GPU 笔触情绪叙事",
       "priority": 1,
       "attribution": "作者标注 Opus 5.5",
       "reuse": "GPU 笔触渲染与分章动画；音乐另有来源",
-      "license": "MIT",
+      "license": "MIT upstream code; retained dependencies keep their individual licenses",
       "license_status": "开源代码",
       "demo_url": "https://x.com/eudaemonea/status/2102610626321490404",
       "indexOrigin": "docs/references.json",
-      "importStatus": "indexed-only",
+      "importStatus": "component-connected",
       "importedCaseIds": [],
-      "provenanceVerification": "author/repository claims; not API-verified",
-      "previewStatus": "not executed as part of case library"
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending",
+      "componentIds": [
+        "functional-emotions"
+      ]
     },
     {
       "repo": "lemomo-ai/lemo-opuscar",
@@ -683,19 +689,22 @@
       "repo": "Salmisaari/eudoom-video",
       "url": "https://github.com/Salmisaari/eudoom-video",
       "commit": "a7bb5ed43644cb214bd3546266c8492914177f98",
-      "kind": "作品源码",
-      "style": "印刷 MV",
+      "kind": "可调用源码组件",
+      "style": "四墨印刷与仪表图解",
       "priority": 2,
       "attribution": "作者标注 Opus 5.5",
       "reuse": "继承 mexicat 渲染器的再创作；不能视为完全独立技术来源",
-      "license": "MIT",
+      "license": "MIT upstream code; retained dependencies keep their individual licenses",
       "license_status": "开源代码",
       "demo_url": "https://github.com/Salmisaari/eudoom-video#readme",
       "indexOrigin": "docs/references.json",
-      "importStatus": "indexed-only",
+      "importStatus": "component-connected",
       "importedCaseIds": [],
-      "provenanceVerification": "author/repository claims; not API-verified",
-      "previewStatus": "not executed as part of case library"
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending",
+      "componentIds": [
+        "eudoom-motion"
+      ]
     },
     {
       "repo": "sanjuhs/opus-5.5-film-experiment-with-animation",
@@ -773,19 +782,22 @@
       "repo": "Aureliengmz/clearwater",
       "url": "https://github.com/Aureliengmz/clearwater",
       "commit": "4bc826134321043a25df3c2b6fed16fb7b9241e8",
-      "kind": "实时场景",
-      "style": "WebGL 水面",
+      "kind": "可调用源码组件",
+      "style": "实时浅水、FFT 波面与 RGB 焦散",
       "priority": 3,
       "attribution": "作者原帖归属 Opus 5.5；README 未写版本",
       "reuse": "水面、焦散和反光的实时程序，可研究材质，非剪辑短片",
-      "license": "MIT",
+      "license": "MIT code; asset licenses separate",
       "license_status": "开源代码",
       "demo_url": "https://x.com/Aurelien_Gz/status/2102786378282987591",
       "indexOrigin": "docs/references.json",
-      "importStatus": "indexed-only",
+      "importStatus": "component-connected",
       "importedCaseIds": [],
-      "provenanceVerification": "author/repository claims; not API-verified",
-      "previewStatus": "not executed as part of case library"
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending",
+      "componentIds": [
+        "clearwater"
+      ]
     },
     {
       "repo": "avenoxai/opus-5.5-benchmarks",
@@ -3245,6 +3257,206 @@
       "importedCaseIds": [],
       "provenanceVerification": "repository/author claims; generation API not verified",
       "previewStatus": "not integrated"
+    },
+    {
+      "repo": "JohnnyWang8802/songbie",
+      "url": "https://github.com/JohnnyWang8802/songbie",
+      "commit": "97225eb54a351c9938ad896e04bef7a7020393fb",
+      "kind": "可调用源码组件",
+      "style": "蜡笔空间故事",
+      "license": "MIT code; asset boundaries in component guide",
+      "importStatus": "component-connected",
+      "provenanceVerification": "author/repository claims; not API verified",
+      "previewStatus": "new-topic-film-exported; user-review-pending",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": []
+    },
+    {
+      "repo": "cclank/lanshu-create-ai-presenter-video",
+      "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+      "commit": "762d3ee42623b75a4ec63ad6aa61ace69d78ce6e",
+      "kind": "可调用源码组件",
+      "style": "V2系统信号讲解",
+      "license": "MIT code; asset boundaries in component guide",
+      "importStatus": "component-connected",
+      "provenanceVerification": "author/repository claims; not API verified",
+      "previewStatus": "new-topic-film-exported; user-review-pending",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": []
+    },
+    {
+      "repo": "achrefelouafi/ProceduralBuildingsThreeJS",
+      "url": "https://github.com/achrefelouafi/ProceduralBuildingsThreeJS",
+      "commit": "6c19f1b1f14408353989ad26cda27f1e1ede5e91",
+      "kind": "可调用源码组件",
+      "style": "参数化建筑",
+      "license": "MIT code; asset boundaries in component guide",
+      "importStatus": "component-connected",
+      "provenanceVerification": "author/repository claims; not API verified",
+      "previewStatus": "new-topic-film-exported; user-review-pending",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": []
+    },
+    {
+      "repo": "billpwchan/neon-zenith",
+      "url": "https://github.com/billpwchan/neon-zenith",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "27ad04ef04aa9e1e1366fccc63e15a379b999f01",
+      "kind": "可调用源码组件",
+      "style": "雨夜城市、程序幕墙与无状态雨",
+      "license": "MIT code; asset licenses separate",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "neon-city"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "Edd-io/Workspace",
+      "url": "https://github.com/Edd-io/Workspace",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "e50a203051a173f5191977d13e2259d1952de676",
+      "kind": "可调用源码组件",
+      "style": "程序生成办公室道具与材质",
+      "license": "MIT code; asset licenses separate",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "workspace"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "L1vsun/BLOCKWORLD",
+      "url": "https://github.com/L1vsun/BLOCKWORLD",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "4d33550c023661beda4a012630e5d93819a6677e",
+      "kind": "可调用源码组件",
+      "style": "体素地形、AO 网格与橡树生成",
+      "license": "MIT code; asset licenses separate",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "blockworld"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "drcollect/demolition-derby",
+      "url": "https://github.com/drcollect/demolition-derby",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "f559fc60a7f2ee3a21a4faf77e998ae31ad67c43",
+      "kind": "可调用源码组件",
+      "style": "真实车辆动力与可寻址运动轨迹",
+      "license": "MIT code; asset licenses separate",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "vehicle-motion"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "iamtechartist/memory-fading-into-watercolor",
+      "url": "https://github.com/iamtechartist/memory-fading-into-watercolor",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "0bcc7cedfa9b0323437d746916174c9bba34026e",
+      "kind": "可调用源码组件",
+      "style": "记忆水彩颜料运输",
+      "license": "MIT upstream code; retained dependencies keep their individual licenses",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "watercolor-memory"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "Leonxlnx/claude-launchvideo",
+      "url": "https://github.com/Leonxlnx/claude-launchvideo",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "f0906e8629fa524c7cedc1ac959bf987005ee846",
+      "kind": "可调用源码组件",
+      "style": "原生应用发布动效",
+      "license": "MIT upstream code; retained dependencies keep their individual licenses",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "launch-graphics"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "bizarro/evangelion",
+      "url": "https://github.com/bizarro/evangelion",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "8f670f3262c75a454d26e01e062da96db7eefb05",
+      "kind": "可调用源码组件",
+      "style": "霓虹 GPU 线场与 HDR 后期",
+      "license": "MIT upstream code; retained dependencies keep their individual licenses",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "neon-overdrive"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "ChetasLua/little-neighbourhood",
+      "url": "https://github.com/ChetasLua/little-neighbourhood",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "7888ed552f85d63a57351efc7a69345b791936eb",
+      "kind": "可调用源码组件",
+      "style": "邻里居民投影造型与关节动作",
+      "license": "MIT upstream code; retained dependencies keep their individual licenses",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "neighbourhood"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "simonw/tools",
+      "url": "https://github.com/simonw/tools",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "e12bd6da66e591ce2bc3fad88124e930126ac9eb",
+      "kind": "可调用源码组件",
+      "style": "像素鸟类形态与帧绘制",
+      "license": "Apache-2.0",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "pixel-birds"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
+    },
+    {
+      "repo": "stefanomainardi/omacrt",
+      "url": "https://github.com/stefanomainardi/omacrt",
+      "indexOrigin": "guanmo-ai/awesome-ai-motion @ 7087d3bf40740c145d6f9e39d6485b1fe0c0c044",
+      "importedCaseIds": [],
+      "commit": "8a643fdeffc79f7cf965e68c5699caa0e1280771",
+      "kind": "可调用源码组件",
+      "style": "人物支撑步态与关节曲线",
+      "license": "MIT",
+      "importStatus": "component-connected",
+      "componentIds": [
+        "people-gait"
+      ],
+      "provenanceVerification": "author/repository claims; not API-verified generation logs",
+      "previewStatus": "new-topic-film-exported; user-review-pending"
     }
-  ]
+  ],
+  "connectedAdditionalComponents": 3
 }

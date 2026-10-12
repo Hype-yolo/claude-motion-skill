@@ -1,0 +1,13 @@
+{
+  "topic": "desk",
+  "film": "learning/ab-test-14/skill/desk/film.mp4",
+  "spec": "18s 1280x720 24fps silent",
+  "frames": 432,
+  "decode": "passed",
+  "seekRepeat": "identical",
+  "errors": [],
+  "blocked": [],
+  "firstExportFrozen": true,
+  "revisionCount": 0,
+  "quality": "Representative frames inspected, not user-approved"
+}

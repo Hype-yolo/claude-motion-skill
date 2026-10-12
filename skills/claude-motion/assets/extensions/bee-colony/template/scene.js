@@ -1,0 +1,12 @@
+import{pathOf,ss,lerp,ellipse,fill,stroke,line,at}from'./lib/core.mjs';import{fibrePaper,grass,sun}from'./lib/textures.mjs';import{bee,blossom}from'./lib/nature.mjs';
+export const width=1280,height=720,duration=18;
+const bg=fibrePaper(width,height,'#f0ebdc'),outbound=pathOf([[250,372],[430,240],[650,300],[820,380],[958,416]]),home=pathOf([[958,416],[838,267],[628,294],[427,345],[250,372]]);
+function hive(g){g.save();g.translate(235,426);g.strokeStyle='#715b3c';g.lineWidth=3;for(let j=0;j<5;j++){ellipse(g,0,j*21-40,72-j*4,19);fill(g,['#cda568','#dbb479','#cf9f61','#d8ac6c','#c09760'][j]);stroke(g,3,'#765c39')}ellipse(g,-27,15,22,26);fill(g,'#393329');stroke(g,3);line(g,[[-55,61],[-40,128]],5,'#68583e');line(g,[[55,61],[40,128]],5,'#68583e');g.restore()}
+function flower(g,x,y,s,col){g.save();g.translate(x,y);line(g,[[0,0],[4,158]],4,'#53775a');g.save();g.translate(4,93);g.rotate(-.45);ellipse(g,-22,0,30,12);fill(g,'#779b72');stroke(g,1.5,'#496850');g.restore();g.scale(s,s);blossom(g,1,col);g.restore()}
+function flyer(g,p,t,pollen=false){g.save();g.translate(p[0],p[1]);const angle=p[2];g.rotate(angle);g.scale(-1,1);bee(g,t,.42);if(pollen){ellipse(g,2,16,6,7);fill(g,'#e2a94b');stroke(g,1.3)}g.restore()}
+export function render(g,t){g.drawImage(bg,0,0);sun(g,1070,100,42,{rays:10,len:[1.22,1.4],rayW:1.4});g.fillStyle='#bcc8a2';g.beginPath();g.moveTo(0,462);g.bezierCurveTo(210,371,380,430,650,450);g.bezierCurveTo(850,392,1000,370,1280,475);g.lineTo(1280,720);g.lineTo(0,720);g.fill();g.fillStyle='#d5d5b9';g.fillRect(0,571,1280,149);grass(g,578,0,1280,25,7,['#7f9471','#9cad86']);for(let i=0;i<85;i++){const x=(i*149)%1280,y=590+(i*37)%115;line(g,[[x,y],[x+4,y-8],[x+7,y]],1,'#9ba88a')}
+ hive(g);flower(g,971,414,.46,'#ebc185');flower(g,1076,449,.36,'#dcb39b');flower(g,899,473,.28,'#d9bb82');
+ // Discover, collect, return, dance, guide the second worker. Paths use the upstream arc-length sampler.
+ if(t<6){const u=ss(0,5,t),p=outbound.at(u);p[1]+=Math.sin(t*4)*4*(1-u);flyer(g,p,t,t>5.4)}else if(t<10){flyer(g,home.at(ss(6,10,t)),t,true)}else if(t<13){const a=(t-10)*Math.PI*1.7;flyer(g,[250+24*Math.sin(a),363+11*Math.sin(a*2),Math.cos(a)*.15],t,true);flyer(g,[290,399+Math.sin(t*3)*2,0],t+.6)}else{const u=ss(13,17.4,t);flyer(g,outbound.at(u),t);const p=outbound.at(Math.max(0,u-.12));p[1]+=25;flyer(g,p,t+.5)}
+ if(t>6){g.save();g.globalAlpha=.3*ss(6,7,t)*(1-ss(12,14,t));const p=outbound.points;for(let i=0;i<p.length;i+=5){ellipse(g,p[i][0],p[i][1]+14,1.5,1.5);fill(g,'#c29658')}g.restore()}
+}

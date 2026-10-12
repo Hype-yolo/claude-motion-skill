@@ -1,0 +1,36 @@
+{
+  "id": "vehicle-motion",
+  "repo": "drcollect/demolition-derby",
+  "sha": "f559fc60a7f2ee3a21a4faf77e998ae31ad67c43",
+  "url": "https://github.com/drcollect/demolition-derby/tree/f559fc60a7f2ee3a21a4faf77e998ae31ad67c43",
+  "codeLicense": "MIT",
+  "originalLicenseSha256": "7029db6743919a55b377c067bb99af11623e23ee7fd7b9f3270ceaf15a94a827",
+  "retained": "Original Vehicle.step actually runs: raycast suspension springs/dampers, drive/brake/reverse, speed-dependent steering, friction ellipse, wheel slip/spin, engine and gear outputs. Original createWorld/120 Hz settings and collision groups. 2161 steps are baked to seekable transform/wheel tracks.",
+  "rewritten": "Three newly constructed delivery carts with no Collect geometry or named car designs, one-way bridge/river/banks, timed queue control and turn-by-turn crossing.",
+  "assetsAndLicense": "MIT code. All five Collect Car models, their geometry, designs and trademarks are explicitly excluded from MIT and are NOT copied into this extension or generated project. The exclusion notice is included only as documentation. New simple cart geometry is original local code. Rapier dependency has Apache-2.0 license.",
+  "boundary": "Three 0.170.0 and Rapier 0.21.0 bundled. No deformation/damage, derby arena/game, Collect assets, audio or autonomous collision-avoidance capability claimed. New queue control supplies inputs to real vehicle dynamics; trajectory checks validate this one story.",
+  "sourceFiles": [
+    {
+      "path": "upstream/ASSETS.md",
+      "sha256": "a1a4c2245818f0e6497209c0af3751181f3f4874c1d9cce4a4c6e2d2f182d845"
+    },
+    {
+      "path": "upstream/MODEL-EXCLUDED-LICENSE.md",
+      "sha256": "de68b9ab0fb7e3c071f9e46c112021061612e490b6065ec96916331db989590b"
+    },
+    {
+      "path": "upstream/car/vehicle.ts",
+      "sha256": "a6cc6e0d1660abc340562afa9978ddbf1e18cea1109ed307ded27587492bb52d"
+    },
+    {
+      "path": "upstream/core/math.ts",
+      "sha256": "1b5864aaf678f1e0fb3a61796f35e991cbb6cc3f909d89b91249c4d51e8aec02"
+    },
+    {
+      "path": "upstream/physics/world.ts",
+      "sha256": "96fde008cf95d675e8000085ea5a3036f81ac523363c33d77ef2ac76f49db762"
+    }
+  ],
+  "usedImageGeneration": false,
+  "audio": false
+}

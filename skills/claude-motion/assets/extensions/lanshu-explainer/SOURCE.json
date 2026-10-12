@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+  "commit": "762d3ee42623b75a4ec63ad6aa61ace69d78ce6e",
+  "license": "MIT",
+  "retained": {
+    "lib/core.js": "explainer/core/core.js",
+    "lib/kit.js": "explainer/kits/v2-signal/kit.js",
+    "lib/kit.css": "explainer/kits/v2-signal/kit.css"
+  },
+  "sha256": {
+    "lib/core.js": "0926bf921b44433f4bc703d87fdd087c75b4df69243c101d15be99cc17b49598",
+    "lib/kit.js": "ca5b1468be305798941d7e054b30c2376e8d17311a088239adab10f966cd2210",
+    "lib/kit.css": "b714407f098992edbfafa761e78b998b46462d12a9801e000924ee6916d0585a"
+  },
+  "styleChoice": "v2-signal",
+  "modelAttribution": "Upstream author repository; no independent audit of model usage"
+}

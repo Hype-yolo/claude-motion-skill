@@ -1,0 +1,24 @@
+{
+  "name": "french-procedural-building",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "verify": "rolldown tools/verify.ts -p node -o node_modules/.cache/verify.mjs && node node_modules/.cache/verify.mjs tools/truth.json",
+    "verify:nyc": "rolldown tools/nyc/verify_nyc.ts -p node -o node_modules/.cache/verify_nyc.mjs && node node_modules/.cache/verify_nyc.mjs tools/nyc/truth.json",
+    "verify:cn": "rolldown tools/cn/verify_cn.ts -p node -o node_modules/.cache/verify_cn.mjs && node node_modules/.cache/verify_cn.mjs tools/cn/truth.json"
+  },
+  "dependencies": {
+    "lil-gui": "^0.20.0",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.0",
+    "puppeteer-core": "^25.3.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.3"
+  }
+}

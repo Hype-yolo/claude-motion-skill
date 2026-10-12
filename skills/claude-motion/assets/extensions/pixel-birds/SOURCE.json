@@ -1,0 +1,14 @@
+{
+  "repo": "simonw/tools",
+  "commit": "e12bd6da66e591ce2bc3fad88124e930126ac9eb",
+  "files": [
+    {
+      "path": "upstream/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "upstream/kakapo-party.html",
+      "sha256": "7e847f6f8b2ad4624fdb08d5bfd49f71a302b79021f24963dcf988d81a0e9b20"
+    }
+  ]
+}

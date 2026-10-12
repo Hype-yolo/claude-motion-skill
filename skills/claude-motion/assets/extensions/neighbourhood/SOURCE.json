@@ -1,0 +1,83 @@
+{
+  "repo": "ChetasLua/little-neighbourhood",
+  "commit": "7888ed552f85d63a57351efc7a69345b791936eb",
+  "url": "https://github.com/ChetasLua/little-neighbourhood/tree/7888ed552f85d63a57351efc7a69345b791936eb",
+  "license": "MIT (code only)",
+  "excluded": "Original audio, lyrics, reference images, brand characters and original completed video are excluded. Only code and procedural materials used.",
+  "retained": [
+    "original procedural animal head DNA and 3D projection",
+    "original species features, ears, muzzles, eyes, fur",
+    "original drawResident full body",
+    "original inverse-kinematics arms/legs",
+    "original paper and seeded ink line boil"
+  ],
+  "adaptation": "Excluded Claude brand mascot and original tasks/game state. Extracted reusable animal anatomy, resident rig, paper and ink. A baker carries a plank, a gardener seats boards and a cyclist supplies a tool, repairing a gap and crossing together. New footbridge, houses, repair timeline and resident hand targets. Existing animal models reused with new role/context; body motion is the actual original resident rig.",
+  "runtime": "canvas-scene with local source renderer",
+  "audio": false,
+  "userApproved": false,
+  "selectedOriginalFiles": [
+    {
+      "path": "upstream/index.html",
+      "sha256": "c0d2d504671d3db419419bd8ad9a1c27bbf55509376f6900d230ba91d09af740"
+    }
+  ],
+  "dependencyLicenses": [],
+  "pinnedRepositoryCodeInventory": [
+    {
+      "path": "index.html",
+      "sha256": "c0d2d504671d3db419419bd8ad9a1c27bbf55509376f6900d230ba91d09af740"
+    },
+    {
+      "path": "README.md",
+      "sha256": "bb761c5d47eca282db3601b56f6545cd3c66eac5d1b556d1c70feaecd08ffae6"
+    }
+  ],
+  "retainedFiles": [
+    {
+      "path": "upstream/index.html",
+      "sha256": "c0d2d504671d3db419419bd8ad9a1c27bbf55509376f6900d230ba91d09af740"
+    }
+  ],
+  "componentFiles": [
+    {
+      "path": "template/preview.html",
+      "sha256": "4cac872729bc1d4e01e9b5cd6b9e323b8bfc973e573c31b33924f0ec6de70f24"
+    },
+    {
+      "path": "template/index.html",
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "template/scene.js",
+      "sha256": "ddef0bd5ee4783c1a2a83eef74b39a1c83b830f791cacc0cd0588ae77f1d0000"
+    },
+    {
+      "path": "template/render.mjs",
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "template/ADAPTATION.md",
+      "sha256": "9e6fe190ea0d2b503f3a9aee9009a54b86226cfab3587a3f8a2242c3236826ca"
+    },
+    {
+      "path": "template/package.json",
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "template/LICENSE-UPSTREAM",
+      "sha256": "6e1868082b209af518f8dc822ee36bdff79ffde0ce6bc27fd8111ab1dbd74840"
+    },
+    {
+      "path": "template/neighbours.js",
+      "sha256": "58f1a37c5b424ea903172222b4c731bf5259837b284336a295fba25891c15b96"
+    }
+  ],
+  "bundleLicense": "MIT upstream code; retained dependencies keep their individual licenses",
+  "assetLicenseAudit": "Procedural code only. LUT produced by MIT repository code. No source song/lyrics/recording/photo/font/brand mascot imported. Original excluded media recorded in docs/research/2026-10-13-all-sources/2d/excluded-media-manifest.json.",
+  "revision": {
+    "firstExport": "learning/ab-test-14/skill/town/film.mp4",
+    "currentExport": "learning/ab-test-14/skill/town/revision-v2/film.mp4",
+    "count": 1,
+    "reason": "River originally covered starting foot positions. Narrow vertical channel now crosses bridge gap, residents begin on banks and feet cross deck."
+  }
+}

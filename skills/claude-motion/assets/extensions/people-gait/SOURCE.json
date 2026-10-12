@@ -1,0 +1,14 @@
+{
+  "repo": "stefanomainardi/omacrt",
+  "commit": "8a643fdeffc79f7cf965e68c5699caa0e1280771",
+  "files": [
+    {
+      "path": "upstream/LICENSE",
+      "sha256": "9abba9333b52c852374b94a52fb148c0832fe01fd57eb80e23917fe4f226a0d4"
+    },
+    {
+      "path": "upstream/shell/src/people.rs",
+      "sha256": "869df2106ba808c21592e484d966f0fcfe9efdbdb6c6233d686bc1bc29e3f7e5"
+    }
+  ]
+}

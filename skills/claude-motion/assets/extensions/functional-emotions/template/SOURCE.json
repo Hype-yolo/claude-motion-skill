@@ -1,0 +1,164 @@
+{
+  "repo": "ledbetterljoshua/functional-emotions-video",
+  "commit": "b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49",
+  "url": "https://github.com/ledbetterljoshua/functional-emotions-video/tree/b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49",
+  "license": "MIT (code only)",
+  "excluded": "Original audio, lyrics, reference images, brand characters and original completed video are excluded. Only code and procedural materials used.",
+  "retained": [
+    "original GPU instanced brushstroke painter",
+    "edge-following source color sampling",
+    "dry-bristle stroke shader",
+    "canvas weave, vignette, light finish"
+  ],
+  "adaptation": "Replaced full song chapters, original human cast and lyrics with newly drawn shy forest creatures. A distant visual sound-wave cue is noticed, two possible paths appear, the creature withdraws and then approaches a friendly visitor; facial tension relaxes. Original GPU repainting remains. No audio track is included, so sound is represented visually.",
+  "runtime": "canvas-scene with local source renderer",
+  "audio": false,
+  "userApproved": false,
+  "selectedOriginalFiles": [
+    {
+      "path": "upstream/paint.js",
+      "sha256": "1c995377c4c1038eec5d4b48de4aa55b50ba909ccf442396808ad4f595e3a6a9"
+    }
+  ],
+  "dependencyLicenses": [],
+  "pinnedRepositoryCodeInventory": [
+    {
+      "path": "STORYBOARD.md",
+      "sha256": "de82990959de76a2935ee027e0d478e5b2c8f78dac5435216c21b40ecb19ce69"
+    },
+    {
+      "path": "index.html",
+      "sha256": "cbe6b25553b647881d055aec80e6a325b653c8c84812b153b04b3ccb1f1eee2e"
+    },
+    {
+      "path": "ANIMATION_GUIDE.md",
+      "sha256": "34086b09712d58c7035f241e5a54c4520d7ca29c42b377be9fd9a552627a3b60"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f92e4f77baea24d1a33a5fb7cf20bdacda177169b21ec7fcd3c26a244e4da571"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b60d13e3ef426ff85c1ee1b7b421d90fe6fa7de41d7875a734964d071c22c02b"
+    },
+    {
+      "path": "js/paint.js",
+      "sha256": "1c995377c4c1038eec5d4b48de4aa55b50ba909ccf442396808ad4f595e3a6a9"
+    },
+    {
+      "path": "js/cast.js",
+      "sha256": "6a3fb555f8f95e86c5b85e6556deea6d25e8c0afa7e92461f905e45b20f6c49f"
+    },
+    {
+      "path": "js/lib.js",
+      "sha256": "110ce39e3399ef58a9f996a135cb86f324b77ec64794b5b375199dc9a2ae55c6"
+    },
+    {
+      "path": "js/main.js",
+      "sha256": "c0e34a9b90ec6a1d70efdc5f47c7de2ab532d50330b2031cf7faa703d000122e"
+    },
+    {
+      "path": "js/data.js",
+      "sha256": "457c27319320171bfe5181ca5b9b67a4ab54a55758c3b1bed8b5f2234c7408e6"
+    },
+    {
+      "path": "legacy/lyric-video/index.html",
+      "sha256": "a75dd463ec283e148062663a2053baaf69ece9c14f3d7ab688fb7f56345e82ef"
+    },
+    {
+      "path": "legacy/lyric-video/js/core.js",
+      "sha256": "a34f6eb797041db9071977ef47d152504c7038e464d8054788a06a75af5d39e4"
+    },
+    {
+      "path": "legacy/lyric-video/js/main.js",
+      "sha256": "870471d9dbf9211eacd149ad8b5d3a97c165f4e4e1300c1fc7e39645f7e1842d"
+    },
+    {
+      "path": "legacy/lyric-video/js/data.js",
+      "sha256": "457c27319320171bfe5181ca5b9b67a4ab54a55758c3b1bed8b5f2234c7408e6"
+    },
+    {
+      "path": "legacy/lyric-video/js/shared.js",
+      "sha256": "08954366af4fe97fffd585e6275c1e2aef4e8742029ba5030f874a6197d5afaf"
+    },
+    {
+      "path": "legacy/lyric-video/js/scenes1.js",
+      "sha256": "09e188d417e6956226e8d9efd4e1d90f6c2e19ea365dc0e88c3846292334e02d"
+    },
+    {
+      "path": "js/ch/c4.js",
+      "sha256": "b7942b41ec5bb20ca47bfd1f8b5b5028e86b59cc5cd36cf808670a07860e8927"
+    },
+    {
+      "path": "js/ch/c5.js",
+      "sha256": "a7465bcd65a85f32f5e573764716428fda82ad7913c34312b6fc1e26d5cc169b"
+    },
+    {
+      "path": "js/ch/c1.js",
+      "sha256": "06427c47c01231516b674751597a50b5b73bde83d24bcc5841a79f4b7bd85f76"
+    },
+    {
+      "path": "js/ch/c6.js",
+      "sha256": "0287ae053fd1b382aba0ca56fd2d3a78b9b661b335eb77a99add8182484f132a"
+    },
+    {
+      "path": "js/ch/c2.js",
+      "sha256": "8319de29e32addb59bb060fef0a3ccfeca5d6f4160777a44a5c41301272ea98a"
+    },
+    {
+      "path": "js/ch/c3.js",
+      "sha256": "147f418575d6bbba3e3b8579c71d0d291917c61526554e7fd91ffa37d49e2d18"
+    },
+    {
+      "path": "js/ch/c7.js",
+      "sha256": "bc26422409685ff9812d1b63d55af37564d686cef67a4b4cadd2471ccfb1dd92"
+    },
+    {
+      "path": "js/ch/c8.js",
+      "sha256": "a79d02959fe97978b46fafd688bd6c8de7fa3b9f5526aec00f8e20c1e944951f"
+    }
+  ],
+  "retainedFiles": [
+    {
+      "path": "upstream/paint.js",
+      "sha256": "1c995377c4c1038eec5d4b48de4aa55b50ba909ccf442396808ad4f595e3a6a9"
+    }
+  ],
+  "componentFiles": [
+    {
+      "path": "template/preview.html",
+      "sha256": "9918d27db8d05e58430e80165902d8013c8159f92720c7b7f3091fe8d2181a15"
+    },
+    {
+      "path": "template/index.html",
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "template/scene.js",
+      "sha256": "2211f076ded5e1f2c2136a88dd4d8386f31db17dd4f3de3639bbee3a27cfb02a"
+    },
+    {
+      "path": "template/paint.js",
+      "sha256": "30189fc62047f64ee5877dd29107e0bc63c8e2cc6cf63ea1dde1d0087842d213"
+    },
+    {
+      "path": "template/render.mjs",
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "template/ADAPTATION.md",
+      "sha256": "015b285cc98824d4c4f73c356b94f49186f5117316a335b9874ef02814376c7f"
+    },
+    {
+      "path": "template/package.json",
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "template/LICENSE-UPSTREAM",
+      "sha256": "739513cbcff74d889ff842615c188e6fd849367dad8285a878302bb8a816e681"
+    }
+  ],
+  "bundleLicense": "MIT upstream code; retained dependencies keep their individual licenses",
+  "assetLicenseAudit": "Procedural code only. LUT produced by MIT repository code. No source song/lyrics/recording/photo/font/brand mascot imported. Original excluded media recorded in docs/research/2026-10-13-all-sources/2d/excluded-media-manifest.json."
+}

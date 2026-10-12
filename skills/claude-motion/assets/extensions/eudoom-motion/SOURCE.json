@@ -1,0 +1,423 @@
+{
+  "repo": "Salmisaari/eudoom-video",
+  "commit": "a7bb5ed43644cb214bd3546266c8492914177f98",
+  "url": "https://github.com/Salmisaari/eudoom-video/tree/a7bb5ed43644cb214bd3546266c8492914177f98",
+  "license": "MIT (code only)",
+  "excluded": "Original audio, lyrics, reference images, brand characters and original completed video are excluded. Only code and procedural materials used.",
+  "retained": [
+    "original four-ink PrintPost",
+    "actual 33-cube separation LUT",
+    "ink transmittance multiplication",
+    "dot screens, plate registration, ink grain, paper fibers"
+  ],
+  "adaptation": "Replaced EU song/history, imagery and lyrics with a crowded-orbit spacecraft transfer and landing. New planet, 18 satellites, trajectory, rocket, cratered moon and instrument readouts. Original four-ink shader and separation LUT create the printed material. Diagrams are illustrative and not flight physics.",
+  "runtime": "canvas-scene with local source renderer",
+  "audio": false,
+  "userApproved": false,
+  "selectedOriginalFiles": [
+    {
+      "path": "upstream/engine/scale.ts",
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "upstream/engine/audio.ts",
+      "sha256": "f43e20578f445ee952e8196c1c5fa00c13563c4d24b259a92b37c29b495df6b5"
+    },
+    {
+      "path": "upstream/engine/hud.ts",
+      "sha256": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58"
+    },
+    {
+      "path": "upstream/engine/print.ts",
+      "sha256": "67bddcd6d7425e5a13e904563ddea3f0a52d49d999837772c8f90c85e99f93b8"
+    },
+    {
+      "path": "upstream/engine/engine.ts",
+      "sha256": "3a056c89c959e25b484594e586a0989f3ee9177ce359af3743fe9c375b126057"
+    },
+    {
+      "path": "upstream/engine/lines.ts",
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "upstream/engine/palette.ts",
+      "sha256": "cd33f1e5288ad20ca3f08a9ea9c94911cd484ea822e8eae768214eed34651436"
+    },
+    {
+      "path": "upstream/engine/stroke.ts",
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "upstream/engine/type.ts",
+      "sha256": "56eda2878b023bd5a1308efab4fb327c8814f7233bbb1ded13e26b7d4200cf41"
+    },
+    {
+      "path": "upstream/engine/scene.ts",
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b"
+    },
+    {
+      "path": "upstream/engine/lyrics.ts",
+      "sha256": "03f360eb8aad243fe4b7186e7a1c6009b244969ffee0ce203998ab6120a879db"
+    },
+    {
+      "path": "upstream/engine/gl.ts",
+      "sha256": "b75ebd88e3613e658259d1199a5a72c818bb24654467ea783973e1b38e49fa22"
+    },
+    {
+      "path": "upstream/engine/util.ts",
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "upstream/engine/post.ts",
+      "sha256": "c59a80699639e808044d7d5182d25fc4b593173dfadc62619e4c34ca01329c03"
+    },
+    {
+      "path": "upstream/engine/glsl/common.ts",
+      "sha256": "7e962fecd329f7b1af76b53ed4be0e360f352ec8ed8a85745c812d84ac791fbf"
+    }
+  ],
+  "dependencyLicenses": [
+    {
+      "name": "three",
+      "license": "MIT",
+      "file": "licenses/three-LICENSE.txt",
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    }
+  ],
+  "pinnedRepositoryCodeInventory": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "7b3496b8a8a8eb87971944599b89446e3f45bae7e1fa7ec362d685430fa82ef0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "90020c5a46dfdeb50c742288a2d2ee3dfb47654f0ca8801e6bb3ee4588a2ac53"
+    },
+    {
+      "path": "research/nokia_l20.md",
+      "sha256": "e4c55e2e8632291596ed96210b778da395dd23b8dfc679d532b66fe4dfa9eb86"
+    },
+    {
+      "path": "research/archive.md",
+      "sha256": "5d164c22531ea94c66309fa5957583001435a7568495925aa496fe8ee5fc75a1"
+    },
+    {
+      "path": "research/eu_refs_economy.md",
+      "sha256": "764779f255f307e5c0e2bbf89a872ff0493f8ca3f151a5005c4a136c3e064144"
+    },
+    {
+      "path": "research/zeitgeist.md",
+      "sha256": "3b9f629d910edd3418698b6df6337e79cee3d7ce95f05f4d5668153f12cbe8cf"
+    },
+    {
+      "path": "research/mv_craft.md",
+      "sha256": "744c60c0efeeafb44f3f8633dcbd9cce479d126dffbccdceed48f4eb5f355c45"
+    },
+    {
+      "path": "research/typo_refs_history.md",
+      "sha256": "a3ef8898a1a460256ea50c1860e66c5ab02aa003cae44d2a402a182107cf75f9"
+    },
+    {
+      "path": "research/eu_refs_society.md",
+      "sha256": "65b840b13afa05d39b11140a38bff2f65e39893e823ecc7ec91e3f9d38c8e8bd"
+    },
+    {
+      "path": "research/eu_refs_rules.md",
+      "sha256": "6efa4addbfd3d6f497fcb93b1435b1cdf768809dae116cf940cea9f6f91fcca2"
+    },
+    {
+      "path": "research/typo_refs_modern.md",
+      "sha256": "355b2ac2dc4380652ddf40321e2b27f019583b554018314342effb63979f93f5"
+    },
+    {
+      "path": "research/genstack.md",
+      "sha256": "35c991d163cc6b88377c71078e808ba1e9f9093058a0e715846452b380dcf358"
+    },
+    {
+      "path": "research/acceleration.md",
+      "sha256": "8713a7b61bf0746cd2fe553f8c00ffe6397c622d9699f255973ed78fadaae74c"
+    },
+    {
+      "path": "lyrics/lyrics.src.js",
+      "sha256": "fbdb0d950277a6ea6c72d30843c17ce48b752757576700a1ca14188b7f3b1b77"
+    },
+    {
+      "path": "app/index.html",
+      "sha256": "b531304b130b91362e1ef5aa0618edfbf2035b4882f0b61b7f8109fa069dceea"
+    },
+    {
+      "path": "app/package.json",
+      "sha256": "73a592e9b1c8aebf211c4ae1ca13d8fc897aabd5efb8f447572d2a5e1e2b9b6f"
+    },
+    {
+      "path": "app/tsconfig.scripts.json",
+      "sha256": "a3f395d8de82e44f57d9a5353fd77fc333080115e6b4af3a57680fbc2e683bb7"
+    },
+    {
+      "path": "app/tsconfig.json",
+      "sha256": "83975a998a649e6a42098830ba5a016e92d43482ca3ab6d4f2b0f2d91e0c4762"
+    },
+    {
+      "path": "app/vite.config.ts",
+      "sha256": "5c19a0a1f06b0f364352949dc7d60bd8686e20651e130737f5a9707e2e712cda"
+    },
+    {
+      "path": "app/plates.json",
+      "sha256": "19eaab88256bc595ad38c33db2a812ea4b0939e09cdbf9c79b778b514ba61a0d"
+    },
+    {
+      "path": "docs/PROCESS.md",
+      "sha256": "d3bf9e511cddcfa41eff6176e926c73bb6b1f62e91c21c813411bf67745c60a2"
+    },
+    {
+      "path": "docs/ENGINE.md",
+      "sha256": "a076a92ff4705490f05e03c349a91120420222311ff1c0c317463db4c08a3867"
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "sha256": "52d5b422da302f5f40909952c7976f6b5b9dc16977e5885b3b7afaa3f6b731bf"
+    },
+    {
+      "path": "data/eu_words.json",
+      "sha256": "ea023ce63de6c34c30cb9a8eafced512ce36ed455f9aab64b032abe1ae077202"
+    },
+    {
+      "path": "data/visemes.json",
+      "sha256": "c94ea1cccddde7b11997dfdcec2e9e548d66f70df1128d9b0881552e084447fe"
+    },
+    {
+      "path": "data/visemes_eu.json",
+      "sha256": "2513bb6207baa0a91bf697ce73a2ad92ca37f8bea0a000616e5e32cba094a498"
+    },
+    {
+      "path": "data/audio.json",
+      "sha256": "c9581fbe0a18edb711834e4698ba1e2f83af028add7067b9e50aa24faf01600b"
+    },
+    {
+      "path": "data/timing_eu.json",
+      "sha256": "1950f2beba1ed3d966846f5602c7accd5127fbb2626d5485f90a0425219666b6"
+    },
+    {
+      "path": "app/scripts/render.ts",
+      "sha256": "ef4cf9488a2345f8e00cd328f13ba85ee56e6f93dcfd55f90becb4da81582fdc"
+    },
+    {
+      "path": "app/src/main.ts",
+      "sha256": "19ac1dfc3673d41ff519532c2e5b84e089c8cc92cd903e57dff40d12b2e92d58"
+    },
+    {
+      "path": "app/src/timeline.ts",
+      "sha256": "c90b9ce48aac1a60c5bac8fb937a2ff7c4da0b872d1de73608d92d3984b24110"
+    },
+    {
+      "path": "app/src/scenes/_kit.ts",
+      "sha256": "40b89894a5f89ed312aa6fe4c727d7de6d9bd520e729bd327083f52dc0e84817"
+    },
+    {
+      "path": "app/src/scenes/alive.ts",
+      "sha256": "9c8ca1016b31793d67ed8b6611dde6ec563af0019eb6faf081dcf92a3b64237b"
+    },
+    {
+      "path": "app/src/scenes/_idol.ts",
+      "sha256": "9c46e1b44d7e282ec9e997154262390ba8a8895cab3d8e4abd4f396528e4c527"
+    },
+    {
+      "path": "app/src/scenes/hybrid.ts",
+      "sha256": "4bb4309df8d61510495195de755a30bf53c6322f062923317e4ee8c412c2c770"
+    },
+    {
+      "path": "app/src/scenes/animatic.ts",
+      "sha256": "5d4b189ca7a5645bb12d6c4c33dd894321c426853b6b25b60d3c16ad9e479253"
+    },
+    {
+      "path": "app/src/scenes/_kin.ts",
+      "sha256": "541ad7122734cbd1f14f4c1c1c27e2ba7d3380f2f3e35c7ab9178e2286ed1f27"
+    },
+    {
+      "path": "app/src/engine/scale.ts",
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "app/src/engine/audio.ts",
+      "sha256": "f43e20578f445ee952e8196c1c5fa00c13563c4d24b259a92b37c29b495df6b5"
+    },
+    {
+      "path": "app/src/engine/hud.ts",
+      "sha256": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58"
+    },
+    {
+      "path": "app/src/engine/print.ts",
+      "sha256": "67bddcd6d7425e5a13e904563ddea3f0a52d49d999837772c8f90c85e99f93b8"
+    },
+    {
+      "path": "app/src/engine/engine.ts",
+      "sha256": "3a056c89c959e25b484594e586a0989f3ee9177ce359af3743fe9c375b126057"
+    },
+    {
+      "path": "app/src/engine/lines.ts",
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "app/src/engine/palette.ts",
+      "sha256": "cd33f1e5288ad20ca3f08a9ea9c94911cd484ea822e8eae768214eed34651436"
+    },
+    {
+      "path": "app/src/engine/stroke.ts",
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "app/src/engine/type.ts",
+      "sha256": "56eda2878b023bd5a1308efab4fb327c8814f7233bbb1ded13e26b7d4200cf41"
+    },
+    {
+      "path": "app/src/engine/scene.ts",
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b"
+    },
+    {
+      "path": "app/src/engine/lyrics.ts",
+      "sha256": "03f360eb8aad243fe4b7186e7a1c6009b244969ffee0ce203998ab6120a879db"
+    },
+    {
+      "path": "app/src/engine/gl.ts",
+      "sha256": "b75ebd88e3613e658259d1199a5a72c818bb24654467ea783973e1b38e49fa22"
+    },
+    {
+      "path": "app/src/engine/util.ts",
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "app/src/engine/post.ts",
+      "sha256": "c59a80699639e808044d7d5182d25fc4b593173dfadc62619e4c34ca01329c03"
+    },
+    {
+      "path": "app/src/engine/glsl/common.ts",
+      "sha256": "7e962fecd329f7b1af76b53ed4be0e360f352ec8ed8a85745c812d84ac791fbf"
+    },
+    {
+      "path": "app/public/lut/inklut.json",
+      "sha256": "eb313fe86006255142dacf37d7dc53f7e6a8bb6436897969e9249265b90e56e7"
+    },
+    {
+      "path": "app/public/fonts/LICENSES.md",
+      "sha256": "be30c6259a063b17e0f2c99e79e443a7ee4b9933f479abceca6f311cba2b995c"
+    },
+    {
+      "path": "app/public/animatic/img/_commons_credits.json",
+      "sha256": "c0f2778848c8177ceceeca468a330f0fced53da7e7b45935f0e66665aef6a3da"
+    }
+  ],
+  "retainedFiles": [
+    {
+      "path": "upstream/engine/scale.ts",
+      "sha256": "868ae545b1414e01f9a50a395bcd84081b84653a19485a7599f8a894eac5a9b0"
+    },
+    {
+      "path": "upstream/engine/audio.ts",
+      "sha256": "f43e20578f445ee952e8196c1c5fa00c13563c4d24b259a92b37c29b495df6b5"
+    },
+    {
+      "path": "upstream/engine/hud.ts",
+      "sha256": "9dcf8ba2ef614f87b6f3aa8834baa9b33d3e8589104b9e4f5145ad814414ba58"
+    },
+    {
+      "path": "upstream/engine/print.ts",
+      "sha256": "67bddcd6d7425e5a13e904563ddea3f0a52d49d999837772c8f90c85e99f93b8"
+    },
+    {
+      "path": "upstream/engine/engine.ts",
+      "sha256": "3a056c89c959e25b484594e586a0989f3ee9177ce359af3743fe9c375b126057"
+    },
+    {
+      "path": "upstream/engine/lines.ts",
+      "sha256": "afd4d20fb5d0d472b2f05585917388047e7f2297b9cb08adcc8bdac6e3763a27"
+    },
+    {
+      "path": "upstream/engine/palette.ts",
+      "sha256": "cd33f1e5288ad20ca3f08a9ea9c94911cd484ea822e8eae768214eed34651436"
+    },
+    {
+      "path": "upstream/engine/stroke.ts",
+      "sha256": "1a59c766f50eb85883c318d19780e037f6fa5122c8844689c60bef656f896ee5"
+    },
+    {
+      "path": "upstream/engine/type.ts",
+      "sha256": "56eda2878b023bd5a1308efab4fb327c8814f7233bbb1ded13e26b7d4200cf41"
+    },
+    {
+      "path": "upstream/engine/scene.ts",
+      "sha256": "496286017ce64400c50f063536db03ec26dd7da66722d636c13a37e24f79567b"
+    },
+    {
+      "path": "upstream/engine/lyrics.ts",
+      "sha256": "03f360eb8aad243fe4b7186e7a1c6009b244969ffee0ce203998ab6120a879db"
+    },
+    {
+      "path": "upstream/engine/gl.ts",
+      "sha256": "b75ebd88e3613e658259d1199a5a72c818bb24654467ea783973e1b38e49fa22"
+    },
+    {
+      "path": "upstream/engine/util.ts",
+      "sha256": "717fff8fc177040fc038067725e13b6f7ef7670b7a466f268404672dfaa44a4c"
+    },
+    {
+      "path": "upstream/engine/post.ts",
+      "sha256": "c59a80699639e808044d7d5182d25fc4b593173dfadc62619e4c34ca01329c03"
+    },
+    {
+      "path": "upstream/engine/glsl/common.ts",
+      "sha256": "7e962fecd329f7b1af76b53ed4be0e360f352ec8ed8a85745c812d84ac791fbf"
+    }
+  ],
+  "componentFiles": [
+    {
+      "path": "template/preview.html",
+      "sha256": "68b99ee3e30ee0a07ff6d6298f883c887e96fb114bd51432fb3ab6684cd5290c"
+    },
+    {
+      "path": "template/index.html",
+      "sha256": "b5f3c16cc8a8e889dd01a00ba6eb25667906d8835fda38ef914c9ce9facd6658"
+    },
+    {
+      "path": "template/scene.js",
+      "sha256": "bee9c9dcbd594f87055d0328d1de2af6f60e07c93ab987e0e6969d4f2afad038"
+    },
+    {
+      "path": "template/system.js",
+      "sha256": "d38fe6507d9eedac0f10b36415ae0ae5396a2cfb37a293846de3c81d1b96f9b3"
+    },
+    {
+      "path": "template/render.mjs",
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "template/LICENSE.mexicat",
+      "sha256": "5fc212466ce7183be5d85a3ee34fea461712842d5cd256b470978a83577083cb"
+    },
+    {
+      "path": "template/ADAPTATION.md",
+      "sha256": "39d70601bc8606064d6ee59633125948da321c6932481e16894428bb0e078ac9"
+    },
+    {
+      "path": "template/package.json",
+      "sha256": "702c47f27edaf3a7ed0fece55df48d3a0daa62422f22169c5b8c1f9f47f8ef1c"
+    },
+    {
+      "path": "template/LICENSE-UPSTREAM",
+      "sha256": "eec47faa01db7537a7641a99e0b6999bf9b3d40fe97a3e93c06d7b997883af22"
+    },
+    {
+      "path": "template/licenses/three-LICENSE.txt",
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "template/lut/inklut.json",
+      "sha256": "eb313fe86006255142dacf37d7dc53f7e6a8bb6436897969e9249265b90e56e7"
+    },
+    {
+      "path": "template/lut/inklut.bin",
+      "sha256": "7633c88df7e19666cfe420978f139e6f86612de5628ce3cf6ea473f4d1e44a30"
+    }
+  ],
+  "bundleLicense": "MIT upstream code; retained dependencies keep their individual licenses",
+  "assetLicenseAudit": "Procedural code only. LUT produced by MIT repository code. No source song/lyrics/recording/photo/font/brand mascot imported. Original excluded media recorded in docs/research/2026-10-13-all-sources/2d/excluded-media-manifest.json."
+}

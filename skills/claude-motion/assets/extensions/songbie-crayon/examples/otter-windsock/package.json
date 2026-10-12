@@ -1,0 +1,1 @@
+{"name":"songbie-crayon-project","private":true,"type":"module","scripts":{"preview":"python3 -m http.server 8000 --bind 127.0.0.1","render":"node render.mjs --root . --out film.mp4 --fps 24"},"dependencies":{"playwright":"1.63.0"}}
