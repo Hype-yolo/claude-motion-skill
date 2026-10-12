@@ -1,9 +1,11 @@
 {
-  "version": "0.2.0-beta.1",
-  "date": "2026-10-12",
+  "version": "0.3.0-beta.1",
+  "date": "2026-10-13",
   "status": "passed",
   "packageCheck": {
     "cases": 47,
+    "sourceExtensions": 17,
+    "extensionFilesVerified": 502,
     "concreteModels": 30,
     "sceneStarters": 14,
     "productionEngines": 5,
@@ -21,31 +23,49 @@
     "MOTION_PLAYWRIGHT_MODULE": "unset"
   },
   "renders": {
-    "demo-rumor": {
+    "bee-colony": {
       "duration": 18,
+      "fps": 24,
       "frames": 432,
       "audio": false,
       "decode": "passed",
       "seekRepeat": "identical",
       "errors": [],
       "blocked": [],
-      "sha256": "a5d803eaa4a7308fd4e7541bdca8ebbbfdf13506d9f1bfe712a342b9f4b510b7"
+      "width": 1280,
+      "height": 720,
+      "sha256": "62de57907a1986403f9a9570534e85c86e7395ab75912e61752d78622fc29eaf"
     },
-    "demo-room": {
+    "workspace": {
       "duration": 18,
+      "fps": 24,
       "frames": 432,
-      "audio": true,
+      "audio": false,
       "decode": "passed",
       "seekRepeat": "identical",
       "errors": [],
       "blocked": [],
-      "sha256": "f205f61f0beb592657bb729e8c1cdcb7c081b32fce42b0f990e76fc1c3e59741"
+      "width": 1280,
+      "height": 720,
+      "sha256": "95f292c69593cf9637d682f001f02cc5de4434e2552400c35d53b74d6697d125"
+    },
+    "launch-graphics": {
+      "duration": 18,
+      "fps": 24,
+      "frames": 432,
+      "audio": false,
+      "decode": "passed",
+      "seekRepeat": "identical",
+      "errors": [],
+      "blocked": [],
+      "width": 1280,
+      "height": 720,
+      "sha256": "bd2ee42092e5e8f63a603f1f716033bbd63a0012ba27162704a52b3ae554f5a5"
     }
   },
   "host": {
     "os": "macOS",
-    "node": "v26.0.0",
-    "ffmpeg": "ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers"
+    "node": "v26.0.0"
   },
-  "limits": "Uses host Node/FFmpeg/system fonts; not a fresh OS. Windows/Linux untested. Visual quality not inferred from technical checks."
+  "limits": "Uses host Node/FFmpeg/system fonts, not a fresh OS. Windows/Linux untested. Render demos validate distribution, not new isolated creative experiments. Technical results do not imply aesthetic superiority."
 }

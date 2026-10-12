@@ -13460,6 +13460,11 @@
       "path": "skills/claude-motion/scripts/verify-papercut.mjs",
       "bytes": 4157,
       "sha256": "eaa88bcee4339fa560463365a2fba688ccb0da89152b9a18cfc6d4dcff9c6017"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 2006,
+      "sha256": "4cdeb66edfaa1436d5896c1e3cbbcc3abb10038f764257f0a8e399921d9ab074"
     }
   ]
 }
