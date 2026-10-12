@@ -1,0 +1,109 @@
+{
+  "id": "animate-crosshatch",
+  "title": "钢笔排线",
+  "kind": "source-demo",
+  "path": "assets/scenes/animate-crosshatch",
+  "source": "https://github.com/cth9191/animate",
+  "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+  "license": "MIT",
+  "tags": [
+    "钢笔",
+    "排线",
+    "桌面",
+    "笔记",
+    "crosshatch"
+  ],
+  "retained": "排线阴影、纸纹、手写标记和桌面物件",
+  "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+  "requiresThree": false,
+  "duration": 6.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": true,
+  "userApproved": false,
+  "status": "rendered-source-demo",
+  "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+  "preview": "assets/scenes/animate-crosshatch/preview.png",
+  "files": [
+    {
+      "path": "ADAPTATION.md",
+      "sha256": "0d731b3048c1b8284d3517a57e45cf2819c8902ffa72e95e68eee94072a59cb5"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+    },
+    {
+      "path": "STYLE.md",
+      "sha256": "97a3cdfd418e9de66914708e9fd9b03cb20acb1b8ac0f327e46830f9b3937a82"
+    },
+    {
+      "path": "adapter.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "original.html",
+      "sha256": "9f00f0b31da0b103023eeee4ebf83f8ad3022a842ee2b8ed6e83af44a152e80e"
+    },
+    {
+      "path": "piece.json",
+      "sha256": "c21ae6c28b72374a9020d906297f4dbbc3be105f286f87f18fe894f3849e5c63"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "fa86ee22b53009bfa6f3c19cc0feea74b6abbacd701319b8bb3bc08532214f5d"
+    },
+    {
+      "path": "rebuild.mjs",
+      "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+    },
+    {
+      "path": "runtime/kit/board.js",
+      "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+    },
+    {
+      "path": "runtime/kit/core.js",
+      "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+    },
+    {
+      "path": "runtime/kit/morph.js",
+      "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+    },
+    {
+      "path": "runtime/kit/score-head.js",
+      "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+    },
+    {
+      "path": "runtime/kit/score-tail.js",
+      "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+    },
+    {
+      "path": "runtime/styles/crosshatch/kit.js",
+      "sha256": "a8c051c840e5a12c94984d37a9fa5db6be40938853197237d7f740312121822a"
+    },
+    {
+      "path": "runtime/tools/build.mjs",
+      "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+    },
+    {
+      "path": "src/bridges.js",
+      "sha256": "1cc6db03d883f917074f859eeedbb0fa76d9d3e3429c1d8b80b4dbddeb52f423"
+    },
+    {
+      "path": "src/head.html",
+      "sha256": "e514511bc44ea4e19e0845899a1129fe37e209d02aca8e26eddd63b9ddac010a"
+    },
+    {
+      "path": "src/scenes.js",
+      "sha256": "98ec5309ab5b44ba31e503ccbe27d5960985f41d67db915e78ea0377646a199a"
+    },
+    {
+      "path": "src/score.js",
+      "sha256": "b03ca36aa207cfbe330c1d1f2fea3b8c0bcc1c013a5ac62f93a3b780dec45ee7"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+import {piece,fill,cut,cutLine,fillPaper,trace,P,Pl,inset,within,ellipsePoly} from './engine/upstream/paper.js';import {crescent,swirl,crescentRows} from './engine/upstream/motifs.js';import {put,mul,T,R,S} from './engine/upstream/rig.js';
+export {piece,fill,cut,cutLine,fillPaper,trace,P,Pl,inset,within,ellipsePoly,crescent,swirl,crescentRows,put,mul,T,R,S};
+export const clamp=x=>Math.max(0,Math.min(1,x)),smooth=(t,a,b)=>{let q=clamp((t-a)/(b-a));return q*q*(3-2*q)},lerp=(a,b,t)=>a+(b-a)*t;
+let shadows=true;window.setFeature=(n,on)=>{if(n==='shadows')shadows=on};export const draw=(g,p,x,y,a=0,s=1,z=1)=>put(g,p,mul(T(x,y),mul(R(a),S(s))),{shadow:shadows?z:0,shadowCol:'rgba(56,30,28,.30)'});
+export function shape(pts,col,seed=1,decorate){const path=P(pts,true,.28,seed),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);return piece([Math.min(...xs)-8,Math.min(...ys)-8,Math.max(...xs)+8,Math.max(...ys)+8],g=>{fill(g,q=>trace(q,path),col);inset(g,path,3,1.5,col);decorate?.(g,path)},{col,seed,ss:2})}
+export function disk(r,col,seed=4){return piece([-r-5,-r-5,r+5,r+5],g=>fill(g,q=>q.arc(0,0,r,0,7),col),{col,seed,ss:2})}
+export function cog(r,n,col){const points=[];for(let i=0;i<n*4;i++){const a=i*Math.PI*2/(n*4),rr=r*(i%4===0||i%4===3?.83:1);points.push([Math.cos(a)*rr,Math.sin(a)*rr])}return shape(points,col,n,g=>{cut(g,q=>q.arc(0,0,r*.16,0,7));for(let i=0;i<6;i++){let a=i*Math.PI/3;g.save();g.rotate(a);cut(g,q=>{q.moveTo(r*.32,-r*.14);q.lineTo(r*.66,-r*.17);q.arc(0,0,r*.68,-.23,.23);q.lineTo(r*.32,r*.14);q.closePath()});g.restore()}})}

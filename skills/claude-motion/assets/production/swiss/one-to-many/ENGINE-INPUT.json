@@ -1,0 +1,24 @@
+{
+  "case": "lemo-swiss-motion",
+  "source": {
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419"
+  },
+  "files": [
+    {
+      "path": "engine/ease.js",
+      "source": "styles/swiss-motion/demo/ease.js",
+      "sha256": "c6b8aefb1b2f49d173a224fa74d1d49f2936dbe4b5f3ef340d520954139ee9c8"
+    },
+    {
+      "path": "engine/source-film.js",
+      "source": "styles/swiss-motion/demo/film.js",
+      "sha256": "69da97cb7f8e7d8856a282af85daf0b6f1c825d02e8fe4e369bdac55efb0d4be"
+    }
+  ],
+  "adapted": [
+    "engine/type.js: font and clip-baseline revealText extracted from source-film.js"
+  ],
+  "notUsed": "original film plot, poster, score and film timeline",
+  "adaptation": "分裂布局、连接波次和新构图"
+}

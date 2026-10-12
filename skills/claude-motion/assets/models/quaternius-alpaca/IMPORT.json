@@ -1,0 +1,169 @@
+{
+  "id": "quaternius-alpaca",
+  "title": "羊驼",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+  "path": "assets/models/quaternius-alpaca",
+  "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+      "bytes": 208
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "981362539376a4f9005aaa9e17ee70ae8f9ec86954d31666b6053ac8e6f4435e",
+      "bytes": 580
+    },
+    {
+      "path": "model.glb",
+      "sha256": "52b84a93cafb5c51baea724524f3e124f1e2609ae46f6cfcb11419706b0e0871",
+      "bytes": 783988
+    },
+    {
+      "path": "original.gltf",
+      "sha256": "5009bfa756c7b7af5e02263d47a6d9088cadaada2240b41b4e87f31327b0e063",
+      "bytes": 1435679
+    },
+    {
+      "path": "preview.png",
+      "sha256": "91e8b7e192798427da043d9539213d1dfa42a82cd05bd039dfdabe83b370b07f",
+      "bytes": 43980,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "羊驼",
+    "动物",
+    "农场",
+    "alpaca"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "animal",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=13dxCPosR1tVx24LKXr6gN44sIOY4hZgo",
+  "capabilities": {
+    "animated": true,
+    "clips": [
+      {
+        "name": "Attack_Headbutt",
+        "channels": 86
+      },
+      {
+        "name": "Attack_Kick",
+        "channels": 86
+      },
+      {
+        "name": "Death",
+        "channels": 86
+      },
+      {
+        "name": "Eating",
+        "channels": 86
+      },
+      {
+        "name": "Gallop",
+        "channels": 86
+      },
+      {
+        "name": "Gallop_Jump",
+        "channels": 92
+      },
+      {
+        "name": "Idle",
+        "channels": 86
+      },
+      {
+        "name": "Idle_2",
+        "channels": 86
+      },
+      {
+        "name": "Idle_Headlow",
+        "channels": 86
+      },
+      {
+        "name": "Idle_HitReact1",
+        "channels": 86
+      },
+      {
+        "name": "Idle_HitReact2",
+        "channels": 86
+      },
+      {
+        "name": "Jump_toIdle",
+        "channels": 92
+      },
+      {
+        "name": "Walk",
+        "channels": 86
+      }
+    ],
+    "skins": 1
+  },
+  "previewClip": "Walk",
+  "preview": "assets/models/quaternius-alpaca/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 7,
+    "triangles": 2060,
+    "animations": [
+      {
+        "name": "Attack_Headbutt",
+        "duration": 1
+      },
+      {
+        "name": "Attack_Kick",
+        "duration": 1
+      },
+      {
+        "name": "Death",
+        "duration": 1.0416666269302368
+      },
+      {
+        "name": "Eating",
+        "duration": 7.5
+      },
+      {
+        "name": "Gallop",
+        "duration": 0.6666666865348816
+      },
+      {
+        "name": "Gallop_Jump",
+        "duration": 1.75
+      },
+      {
+        "name": "Idle",
+        "duration": 4.166666507720947
+      },
+      {
+        "name": "Idle_2",
+        "duration": 4.166666507720947
+      },
+      {
+        "name": "Idle_Headlow",
+        "duration": 4.166666507720947
+      },
+      {
+        "name": "Idle_HitReact1",
+        "duration": 0.5833333134651184
+      },
+      {
+        "name": "Idle_HitReact2",
+        "duration": 0.6666666865348816
+      },
+      {
+        "name": "Jump_toIdle",
+        "duration": 1.9166666269302368
+      },
+      {
+        "name": "Walk",
+        "duration": 1.4583333730697632
+      }
+    ],
+    "deterministicSeek": true,
+    "verifiedClipCount": 13
+  }
+}

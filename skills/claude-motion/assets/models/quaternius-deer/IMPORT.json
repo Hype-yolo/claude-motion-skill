@@ -1,0 +1,170 @@
+{
+  "id": "quaternius-deer",
+  "title": "鹿",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+  "path": "assets/models/quaternius-deer",
+  "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+      "bytes": 208
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "19a6d17de955e59af823072262c62f3d263908de2fb3f836114500ac6dd5c161",
+      "bytes": 577
+    },
+    {
+      "path": "model.glb",
+      "sha256": "19a3ee311cbec9f0dfb5fc5038c1c49455c7d76a14e7678c61978672e3bddf25",
+      "bytes": 2013688
+    },
+    {
+      "path": "original.gltf",
+      "sha256": "b8afd0647e7a74332ce802c8326dfefe1a2b76da67ab925a631aaddb5ae9bdd4",
+      "bytes": 3288813
+    },
+    {
+      "path": "preview.png",
+      "sha256": "8b53abd7a8fd91994e156534627901f50410274b451576d92f1a7c46452e6df8",
+      "bytes": 51351,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "鹿",
+    "森林",
+    "动物",
+    "奔跑",
+    "deer"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "animal",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=1iGpXKrqYGyZCPGHPPSuDAoKnOXLhXJ0q",
+  "capabilities": {
+    "animated": true,
+    "clips": [
+      {
+        "name": "Attack_Headbutt",
+        "channels": 138
+      },
+      {
+        "name": "Attack_Kick",
+        "channels": 138
+      },
+      {
+        "name": "Death",
+        "channels": 138
+      },
+      {
+        "name": "Eating",
+        "channels": 138
+      },
+      {
+        "name": "Gallop",
+        "channels": 138
+      },
+      {
+        "name": "Gallop_Jump",
+        "channels": 138
+      },
+      {
+        "name": "Idle",
+        "channels": 138
+      },
+      {
+        "name": "Idle_2",
+        "channels": 138
+      },
+      {
+        "name": "Idle_Headlow",
+        "channels": 138
+      },
+      {
+        "name": "Idle_HitReact1",
+        "channels": 138
+      },
+      {
+        "name": "Idle_HitReact2",
+        "channels": 138
+      },
+      {
+        "name": "Jump_toIdle",
+        "channels": 138
+      },
+      {
+        "name": "Walk",
+        "channels": 138
+      }
+    ],
+    "skins": 1
+  },
+  "previewClip": "Walk",
+  "preview": "assets/models/quaternius-deer/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 7,
+    "triangles": 2098,
+    "animations": [
+      {
+        "name": "Attack_Headbutt",
+        "duration": 0.800000011920929
+      },
+      {
+        "name": "Attack_Kick",
+        "duration": 0.800000011920929
+      },
+      {
+        "name": "Death",
+        "duration": 0.8333333134651184
+      },
+      {
+        "name": "Eating",
+        "duration": 6
+      },
+      {
+        "name": "Gallop",
+        "duration": 0.5333333611488342
+      },
+      {
+        "name": "Gallop_Jump",
+        "duration": 1.399999976158142
+      },
+      {
+        "name": "Idle",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_2",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_Headlow",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_HitReact1",
+        "duration": 0.46666666865348816
+      },
+      {
+        "name": "Idle_HitReact2",
+        "duration": 0.5333333611488342
+      },
+      {
+        "name": "Jump_toIdle",
+        "duration": 1.5333333015441895
+      },
+      {
+        "name": "Walk",
+        "duration": 1.1666666269302368
+      }
+    ],
+    "deterministicSeek": true,
+    "verifiedClipCount": 13
+  }
+}

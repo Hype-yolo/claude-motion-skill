@@ -1,0 +1,66 @@
+{
+  "id": "lantern",
+  "title": "木制提灯",
+  "kind": "third-party-gltf",
+  "modelOrigin": "非 Claude 作品；通用开源模型",
+  "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern",
+  "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+  "license": [
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "artist": "sbtron",
+      "year": "2017",
+      "owner": "Microsoft",
+      "what": "Initial version",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    },
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "artist": "Frank Galligan",
+      "year": "2018",
+      "owner": "Frank Galligan",
+      "what": "Draco compression",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "model.glb",
+      "sha256": "a79458c4b02d695187a952f23a63b8bf278e7bc3d316a3c2a314f2d6974181f1",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern/glTF-Binary/Lantern.glb",
+      "bytes": 9564264
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "58a4903ae9c0bbb7d3f6ff1b9263b3b480edb7ca82109afdb06723275835a6c7",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern/README.md",
+      "bytes": 1080
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "89f9dfb00347fbfd36ef4592d32d8493abb74ba000cd7c620e491bfc264a81ad",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern/metadata.json",
+      "bytes": 1006
+    }
+  ],
+  "tags": [
+    "灯笼",
+    "提灯",
+    "道具",
+    "lantern",
+    "light"
+  ],
+  "path": "assets/models/lantern",
+  "entry": "model.glb",
+  "animations": false,
+  "status": "independent-project-and-export-checked-review-pending",
+  "userApproved": false,
+  "preview": "assets/models/lantern/preview.png",
+  "verification": "references/model-evidence.json"
+}

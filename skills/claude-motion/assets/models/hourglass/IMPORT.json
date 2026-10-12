@@ -1,0 +1,30 @@
+{
+  "id": "hourglass",
+  "title": "体积关联的沙漏",
+  "kind": "local-procedural",
+  "modelOrigin": "本项目修订的程序模型，非新增 Claude 来源",
+  "path": "assets/models/hourglass",
+  "entry": "model.js",
+  "source": "local project",
+  "license": "MIT",
+  "tags": [
+    "沙漏",
+    "计时",
+    "沙子",
+    "hourglass"
+  ],
+  "status": "independent-project-and-export-checked-review-pending",
+  "userApproved": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "0d706aec39535b0a09e7a65772ea1a1f72a4669b63c983e9f372b62f2cbeefd1"
+    },
+    {
+      "path": "model.js",
+      "sha256": "8e2a910329a663139f640f2700d77ecfe268a9773e1c24e58ab09684e8c1cafb"
+    }
+  ],
+  "preview": "assets/models/hourglass/preview.png",
+  "verification": "references/model-evidence.json"
+}

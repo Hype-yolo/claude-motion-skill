@@ -1,0 +1,1748 @@
+{
+  "schemaVersion": 1,
+  "scenes": [
+    {
+      "id": "animate-sketchbook",
+      "title": "素描笔记",
+      "kind": "source-demo",
+      "path": "assets/scenes/animate-sketchbook",
+      "source": "https://github.com/cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "license": "MIT",
+      "tags": [
+        "素描",
+        "手绘",
+        "笔记",
+        "创意",
+        "sketchbook"
+      ],
+      "retained": "纸张、手绘轮廓、涂鸦角色和形状过渡",
+      "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+      "requiresThree": false,
+      "duration": 6.0,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-source-demo",
+      "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+      "preview": "assets/scenes/animate-sketchbook/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "8a69fce67b1dc87b1dfb856e04786d86fafeabcb1551b63d66fa6dfc4b4c8544"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        },
+        {
+          "path": "STYLE.md",
+          "sha256": "3398e03719b6deb2ff68f6f1be52a47e370f1389f8b67be74af0887ad4ac9d5c"
+        },
+        {
+          "path": "adapter.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "original.html",
+          "sha256": "ac5aae4f7ffa179efcc6635799f1f88a0bef14a36840578342a31cb83f06abb0"
+        },
+        {
+          "path": "piece.json",
+          "sha256": "c7b45b1673ecc228c16dd6d0f448a21c795c36737abdbc5463be269c778a9741"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "9fc0f057e63d74f7c960d588371a00fc84806e16f999633824d7b0a56082b2f3"
+        },
+        {
+          "path": "rebuild.mjs",
+          "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+        },
+        {
+          "path": "runtime/kit/board.js",
+          "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+        },
+        {
+          "path": "runtime/kit/core.js",
+          "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+        },
+        {
+          "path": "runtime/kit/morph.js",
+          "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+        },
+        {
+          "path": "runtime/kit/score-head.js",
+          "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+        },
+        {
+          "path": "runtime/kit/score-tail.js",
+          "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+        },
+        {
+          "path": "runtime/styles/sketchbook/kit.js",
+          "sha256": "02ff4694da28f267920ddd5d2b01a9d9314c0fd33d0af679b2a8a1e99c86aca3"
+        },
+        {
+          "path": "runtime/tools/build.mjs",
+          "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+        },
+        {
+          "path": "src/bridges.js",
+          "sha256": "7924370bde0b4a3a08ccda806cfb686a2805146ca4d06abb849504179b381f29"
+        },
+        {
+          "path": "src/head.html",
+          "sha256": "769371c3cc878c5730234e7ef073cf176ba67575b6afb4145bc547f1dc05536b"
+        },
+        {
+          "path": "src/scenes.js",
+          "sha256": "2d671dc247896a4f10c0bf88de32995b5da52fce12d42741d0d72abf42a35f0c"
+        },
+        {
+          "path": "src/score.js",
+          "sha256": "2fd3653e0015b388999fb13169df18eae15cfc4cd2022f0944c6d245a3ea22c6"
+        }
+      ]
+    },
+    {
+      "id": "animate-crosshatch",
+      "title": "钢笔排线",
+      "kind": "source-demo",
+      "path": "assets/scenes/animate-crosshatch",
+      "source": "https://github.com/cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "license": "MIT",
+      "tags": [
+        "钢笔",
+        "排线",
+        "桌面",
+        "笔记",
+        "crosshatch"
+      ],
+      "retained": "排线阴影、纸纹、手写标记和桌面物件",
+      "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+      "requiresThree": false,
+      "duration": 6.0,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-source-demo",
+      "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+      "preview": "assets/scenes/animate-crosshatch/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "0d731b3048c1b8284d3517a57e45cf2819c8902ffa72e95e68eee94072a59cb5"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        },
+        {
+          "path": "STYLE.md",
+          "sha256": "97a3cdfd418e9de66914708e9fd9b03cb20acb1b8ac0f327e46830f9b3937a82"
+        },
+        {
+          "path": "adapter.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "original.html",
+          "sha256": "9f00f0b31da0b103023eeee4ebf83f8ad3022a842ee2b8ed6e83af44a152e80e"
+        },
+        {
+          "path": "piece.json",
+          "sha256": "c21ae6c28b72374a9020d906297f4dbbc3be105f286f87f18fe894f3849e5c63"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "fa86ee22b53009bfa6f3c19cc0feea74b6abbacd701319b8bb3bc08532214f5d"
+        },
+        {
+          "path": "rebuild.mjs",
+          "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+        },
+        {
+          "path": "runtime/kit/board.js",
+          "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+        },
+        {
+          "path": "runtime/kit/core.js",
+          "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+        },
+        {
+          "path": "runtime/kit/morph.js",
+          "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+        },
+        {
+          "path": "runtime/kit/score-head.js",
+          "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+        },
+        {
+          "path": "runtime/kit/score-tail.js",
+          "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+        },
+        {
+          "path": "runtime/styles/crosshatch/kit.js",
+          "sha256": "a8c051c840e5a12c94984d37a9fa5db6be40938853197237d7f740312121822a"
+        },
+        {
+          "path": "runtime/tools/build.mjs",
+          "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+        },
+        {
+          "path": "src/bridges.js",
+          "sha256": "1cc6db03d883f917074f859eeedbb0fa76d9d3e3429c1d8b80b4dbddeb52f423"
+        },
+        {
+          "path": "src/head.html",
+          "sha256": "e514511bc44ea4e19e0845899a1129fe37e209d02aca8e26eddd63b9ddac010a"
+        },
+        {
+          "path": "src/scenes.js",
+          "sha256": "98ec5309ab5b44ba31e503ccbe27d5960985f41d67db915e78ea0377646a199a"
+        },
+        {
+          "path": "src/score.js",
+          "sha256": "b03ca36aa207cfbe330c1d1f2fea3b8c0bcc1c013a5ac62f93a3b780dec45ee7"
+        }
+      ]
+    },
+    {
+      "id": "animate-riso",
+      "title": "孔版叠印",
+      "kind": "source-demo",
+      "path": "assets/scenes/animate-riso",
+      "source": "https://github.com/cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "license": "MIT",
+      "tags": [
+        "孔版",
+        "网点",
+        "叠印",
+        "城市",
+        "riso"
+      ],
+      "retained": "网点、套色与叠印合成，保留完整原绘图流程",
+      "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+      "requiresThree": false,
+      "duration": 6.0,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-source-demo",
+      "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+      "preview": "assets/scenes/animate-riso/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "b66d565a46e828dfb7c3c89c8c67378007da90de76b65a8616bbc97bb7dfc4a6"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        },
+        {
+          "path": "STYLE.md",
+          "sha256": "89eaf579f69496e979e1b985a37fa9f52e0932a874b27cdc0cebec5d787947fe"
+        },
+        {
+          "path": "adapter.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "original.html",
+          "sha256": "6d974352e69e7228002dcd9893265e879f4c4121f0b1f519cf3f79c5efe52634"
+        },
+        {
+          "path": "piece.json",
+          "sha256": "1aea3bee103a28d182a113e039b66014797ea93c6a3418ce63acbcbb663c123a"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "34176c1fbfa0842f17266524fb9f21fc3bde837f138f92356f3bce480859e3ad"
+        },
+        {
+          "path": "rebuild.mjs",
+          "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+        },
+        {
+          "path": "runtime/kit/board.js",
+          "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+        },
+        {
+          "path": "runtime/kit/core.js",
+          "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+        },
+        {
+          "path": "runtime/kit/morph.js",
+          "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+        },
+        {
+          "path": "runtime/kit/score-head.js",
+          "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+        },
+        {
+          "path": "runtime/kit/score-tail.js",
+          "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+        },
+        {
+          "path": "runtime/styles/riso/kit.js",
+          "sha256": "0786f5db98abb592bcb1249b3558a6ff69d1a41afa4005f7b4d185758744791b"
+        },
+        {
+          "path": "runtime/tools/build.mjs",
+          "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+        },
+        {
+          "path": "src/bridges.js",
+          "sha256": "4551788f7c5d3c1a82da4a8fe904ec3bf6d6df96fbb368f7418ce0c0f34661f7"
+        },
+        {
+          "path": "src/head.html",
+          "sha256": "cc99611f91cfd8593a31cd224f748748a89cd827d8b25bb920a3d404b64f1473"
+        },
+        {
+          "path": "src/scenes.js",
+          "sha256": "086510b88e417fc6a77fb8dd807956bd7424f3965bf3e376d89314afb80851ac"
+        },
+        {
+          "path": "src/score.js",
+          "sha256": "8d254e04be626b5f5db548d011be43045c7f755bd3a9dd1f4687d7b247de45dc"
+        }
+      ]
+    },
+    {
+      "id": "animate-isometric",
+      "title": "等距线描",
+      "kind": "source-demo",
+      "path": "assets/scenes/animate-isometric",
+      "source": "https://github.com/cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "license": "MIT",
+      "tags": [
+        "等距",
+        "线描",
+        "电脑",
+        "设备",
+        "isometric"
+      ],
+      "retained": "等距投影、电脑与设备的连贯形变",
+      "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+      "requiresThree": false,
+      "duration": 6.0,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-source-demo",
+      "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+      "preview": "assets/scenes/animate-isometric/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "980cdc65d1ee4b4caed75e3169be6c811039fd42eb4ec042d74e2955e3048c24"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        },
+        {
+          "path": "STYLE.md",
+          "sha256": "ce4d7cfdb19620abf0dd63da2f7ff88c89987042da4950d87403189f4c411095"
+        },
+        {
+          "path": "adapter.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "original.html",
+          "sha256": "09df32dde750a424ec092987406662387e6df98350c477b7bee4b172e636ca3c"
+        },
+        {
+          "path": "piece.json",
+          "sha256": "32af19a37f7a93902f8cfbbdcb789f3158f1a274e8e2641784f3b9f741f272af"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "3d0ea904095d0e4e9b3e8e8a8644550f564b584c398308d56dd182f8d5d475ce"
+        },
+        {
+          "path": "rebuild.mjs",
+          "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+        },
+        {
+          "path": "runtime/kit/board.js",
+          "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+        },
+        {
+          "path": "runtime/kit/core.js",
+          "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+        },
+        {
+          "path": "runtime/kit/morph.js",
+          "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+        },
+        {
+          "path": "runtime/kit/score-head.js",
+          "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+        },
+        {
+          "path": "runtime/kit/score-tail.js",
+          "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+        },
+        {
+          "path": "runtime/styles/isometric/kit.js",
+          "sha256": "80de9daeec940abd0eb25a9fb865df328b477a41301099b6a61e50a5a4f7f37e"
+        },
+        {
+          "path": "runtime/tools/build.mjs",
+          "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+        },
+        {
+          "path": "src/bridges.js",
+          "sha256": "a05964cb61d668491cd1f7152c3ab29df31b519d88578752e90585b8db7107df"
+        },
+        {
+          "path": "src/head.html",
+          "sha256": "1ef884579bd8366cdeb36e0dbdead04433aba1d5a67a36d6fa2dc00863c08fe3"
+        },
+        {
+          "path": "src/scenes.js",
+          "sha256": "96aeb3f37611c1db78b6eda8064a5a20018224d7a53d105d3d1b9895668604a4"
+        },
+        {
+          "path": "src/score.js",
+          "sha256": "30b29803a36fedde86046c7b026ea20167f438349c54f6d1eb60a68bccd358f4"
+        }
+      ]
+    },
+    {
+      "id": "animate-pixel",
+      "title": "像素夜景",
+      "kind": "source-demo",
+      "path": "assets/scenes/animate-pixel",
+      "source": "https://github.com/cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "license": "MIT",
+      "tags": [
+        "像素",
+        "夜景",
+        "游戏",
+        "pixel"
+      ],
+      "retained": "像素网格、抖色与角色动作",
+      "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+      "requiresThree": false,
+      "duration": 6.0,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-source-demo",
+      "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+      "preview": "assets/scenes/animate-pixel/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "c078057a88c3d81b72de3a1cf44b31ad70e402d441db5a54251d7af9560e9223"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        },
+        {
+          "path": "STYLE.md",
+          "sha256": "58712dbbb7628e486d943fcb4ce6a89abd5de0e545e123e5483abeaf792395ca"
+        },
+        {
+          "path": "adapter.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "original.html",
+          "sha256": "bde5f588dc742d299218373ef2ab1afe78a4132ef896c3638275b453fdaed875"
+        },
+        {
+          "path": "piece.json",
+          "sha256": "ac47a6cdd3ae71ce76d7df737d7ee5f1d4d9b15b0591498184923a9c0a2b1c9e"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "7bde019240032ae14c5b432041a0d583a3e71307e2548830ac7d1978e3b75e01"
+        },
+        {
+          "path": "rebuild.mjs",
+          "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+        },
+        {
+          "path": "runtime/kit/board.js",
+          "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+        },
+        {
+          "path": "runtime/kit/core.js",
+          "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+        },
+        {
+          "path": "runtime/kit/morph.js",
+          "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+        },
+        {
+          "path": "runtime/kit/score-head.js",
+          "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+        },
+        {
+          "path": "runtime/kit/score-tail.js",
+          "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+        },
+        {
+          "path": "runtime/styles/pixel/kit.js",
+          "sha256": "f5578749601de7b76c0572e65607d04e9233a7ae99ccd34d438d6dfd6b8806e2"
+        },
+        {
+          "path": "runtime/tools/build.mjs",
+          "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+        },
+        {
+          "path": "src/bridges.js",
+          "sha256": "7368810fe8c7f14bd5f10a2f803bbd3a67bc723fc36bf54a650d04030b9dfb95"
+        },
+        {
+          "path": "src/head.html",
+          "sha256": "34cc43e5f0844628c7a19d3f7f665ce1c6feb93b5d826f360d42d6802b5d2b75"
+        },
+        {
+          "path": "src/scenes.js",
+          "sha256": "e262ff298cae03bb706a017959fe1aa75ef8ae2eda168adb07927c8c14d196e9"
+        },
+        {
+          "path": "src/score.js",
+          "sha256": "c090864e79a91425e0ecefb71b86161a89f1257d3b34068f451e91ef9ab3c3c5"
+        }
+      ]
+    },
+    {
+      "id": "animate-cut-paper",
+      "title": "彩纸室内",
+      "kind": "source-demo",
+      "path": "assets/scenes/animate-cut-paper",
+      "source": "https://github.com/cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "license": "MIT",
+      "tags": [
+        "剪纸",
+        "彩纸",
+        "室内",
+        "cut-paper"
+      ],
+      "retained": "纸纹、剪纸边缘、分层物件与场景过渡",
+      "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+      "requiresThree": false,
+      "duration": 8.0,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-source-demo",
+      "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+      "preview": "assets/scenes/animate-cut-paper/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "3f7882a4cf8b6544d079460c5a1b73debcea1963eeb43ff897c995f1b71002f9"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        },
+        {
+          "path": "STYLE.md",
+          "sha256": "84a706921678d0288be4500efd5ca8170427333a4849b4848bf75ebad7603a6a"
+        },
+        {
+          "path": "adapter.html",
+          "sha256": "afa61ab79f6355e0d7cd060a298808d976d31d05015e7cfcc62e885a0202e037"
+        },
+        {
+          "path": "index.html",
+          "sha256": "afa61ab79f6355e0d7cd060a298808d976d31d05015e7cfcc62e885a0202e037"
+        },
+        {
+          "path": "original.html",
+          "sha256": "84669c5eca54612a69c65e8621ee0175d7e1d234dee03cd1db562169a7b7762e"
+        },
+        {
+          "path": "piece.json",
+          "sha256": "498b17360f27fd65a5cddd6513584c8f3e5e91a18a758f4d6f26eb6a7d9a3a3d"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "a4b3f4ef876cf6eefe0ec195e874d6ae429f2aa62100243e7008d82d17bcd3df"
+        },
+        {
+          "path": "rebuild.mjs",
+          "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+        },
+        {
+          "path": "runtime/kit/board.js",
+          "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+        },
+        {
+          "path": "runtime/kit/core.js",
+          "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+        },
+        {
+          "path": "runtime/kit/morph.js",
+          "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+        },
+        {
+          "path": "runtime/kit/score-head.js",
+          "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+        },
+        {
+          "path": "runtime/kit/score-tail.js",
+          "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+        },
+        {
+          "path": "runtime/styles/cut-paper/kit.js",
+          "sha256": "f5791c4b6481407d4eba0eab69eca35d227481816b384967f6adf86c1ccd1a1e"
+        },
+        {
+          "path": "runtime/tools/build.mjs",
+          "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+        },
+        {
+          "path": "src/bridges.js",
+          "sha256": "5b3ee1d625c8f165b069380bc5a32fef8a00b93783f881be37f97b4d31c0486a"
+        },
+        {
+          "path": "src/head.html",
+          "sha256": "2daa7df2a77528855a1bda2e9d3eb28066538cc55fd11cad6e5eb29e0d6b637f"
+        },
+        {
+          "path": "src/scenes.js",
+          "sha256": "17b3b6b938fc9d87cee6f558a8835f01bdefc17512d69b1e0d64e974fab9c831"
+        },
+        {
+          "path": "src/score.js",
+          "sha256": "5d2ef0d070179a0d72d1a16793179d920090e16f6d2e4ddd4584e62b18ee6454"
+        }
+      ]
+    },
+    {
+      "id": "animate-math",
+      "title": "数学演示",
+      "kind": "source-demo",
+      "path": "assets/scenes/animate-math",
+      "source": "https://github.com/cth9191/animate",
+      "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+      "license": "MIT",
+      "tags": [
+        "数学",
+        "几何",
+        "面积",
+        "教学",
+        "math"
+      ],
+      "retained": "数学图形、面积关系与逐步说明",
+      "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+      "requiresThree": false,
+      "duration": 6.0,
+      "width": 1080,
+      "height": 1920,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-source-demo",
+      "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+      "preview": "assets/scenes/animate-math/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "7a1211e36f4b3a25692f0779654bcbfa34d8b378364dc65c385068f719983277"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+        },
+        {
+          "path": "STYLE.md",
+          "sha256": "28814f02d829e504ceb9bdfcfad123067b764fcba05588a10bc3215d6ca11ba2"
+        },
+        {
+          "path": "adapter.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+        },
+        {
+          "path": "original.html",
+          "sha256": "2deaf58e5e511ef28181de62b3ffffd60e1647b67548fee9b035299fbdb3a9df"
+        },
+        {
+          "path": "piece.json",
+          "sha256": "941241e609880880383086637b704e7a1cd94387f064beea39299aaebc1daec7"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "d090f1cf90ca0eb9f4e08ea7aa8d0921656f4ea1b588507adeab3c0c3e9bd5c5"
+        },
+        {
+          "path": "rebuild.mjs",
+          "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+        },
+        {
+          "path": "runtime/kit/board.js",
+          "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+        },
+        {
+          "path": "runtime/kit/core.js",
+          "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+        },
+        {
+          "path": "runtime/kit/morph.js",
+          "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+        },
+        {
+          "path": "runtime/kit/score-head.js",
+          "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+        },
+        {
+          "path": "runtime/kit/score-tail.js",
+          "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+        },
+        {
+          "path": "runtime/styles/math/kit.js",
+          "sha256": "314522b839515ef2ef4f98d4576a85acf12a9e954b73b9cd73a5a0341f14860e"
+        },
+        {
+          "path": "runtime/tools/build.mjs",
+          "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+        },
+        {
+          "path": "src/bridges.js",
+          "sha256": "8c0dac6b99175c84462edffa9150c34840abca43cb27a62603eb4d392789ba10"
+        },
+        {
+          "path": "src/head.html",
+          "sha256": "b8435007c3b9217d622f0969604bb31d7b18bca7130163ff0393d50fbe068739"
+        },
+        {
+          "path": "src/scenes.js",
+          "sha256": "1be3ad658cc47827ae4f886d506b76551b51bcb96deb6d2be470b7cde8301034"
+        },
+        {
+          "path": "src/score.js",
+          "sha256": "18949ceb8efb7a2f1bb3f2d954241648968e05159fae2a4060b800b481929b62"
+        }
+      ]
+    },
+    {
+      "id": "lemo-midcentury-toon",
+      "title": "下班后的片刻",
+      "kind": "component-adaptation",
+      "path": "assets/scenes/lemo-midcentury-toon",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar",
+      "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+      "license": "MIT",
+      "tags": [
+        "人物",
+        "人物手绘",
+        "手机",
+        "关节",
+        "复古",
+        "midcentury"
+      ],
+      "retained": "原人物轮廓、手部关节、手机道具、纸张与墨线；新场景与收起手机动作。",
+      "edit": "编辑 film.js 的主体位置、镜头与时间线；upstream/ 保留原模块。新题目必须重写事件，不能只换标题。",
+      "requiresThree": false,
+      "duration": 12,
+      "width": 1280,
+      "height": 720,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-component-preview",
+      "boundary": "复用原角色/场景资产的适配样段，非从零生成；海岛保留原作事件。画面审美仍待用户判断。",
+      "preview": "assets/scenes/lemo-midcentury-toon/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "29ac88241b02704d609fd83ba1096741b70e545cea712498874c25f5e316a526"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756"
+        },
+        {
+          "path": "core/README.md",
+          "sha256": "0092f98f44a773b3d4a031b4fd9abab4d4d8abadd7b01c758821a4d8c01a3aa2"
+        },
+        {
+          "path": "core/assets/polyhaven/SOURCES.md",
+          "sha256": "407fee33eaf70cbec52dd165830d22b5b8a52d71f0d1067720a60c0d4f529609"
+        },
+        {
+          "path": "core/audio/INSTRUMENTS.md",
+          "sha256": "9038a4e010d699533c3a2534c9fbb338c7c3720b443b6f0af92a7180ffbae06e"
+        },
+        {
+          "path": "core/audio/pluck.py",
+          "sha256": "b3e5bc6d80da1f00abf57d2748315534a3b74c22739c90457c1e6f898073566e"
+        },
+        {
+          "path": "core/audio/sampler.py",
+          "sha256": "cdba4645a65214aa81e779dc723f98afa6a53c257f21f986f2932e08de70daa0"
+        },
+        {
+          "path": "core/audio/sfx.py",
+          "sha256": "7cef63ef913be0666b685aaba68efdfcddc951e37db235fe117bb8f38a346f54"
+        },
+        {
+          "path": "core/fonts/OFL.md",
+          "sha256": "e0ed9609f4ec312bfbc5b10d7fb74199bd4c836d1ebf34eae2ef3bd5e8267bc8"
+        },
+        {
+          "path": "core/fonts/fonts.css",
+          "sha256": "99eb8024569ac263e7e0f27ffd2c54dcf8f877ebeec4873ae59a3eb0fe4dacb0"
+        },
+        {
+          "path": "core/lib.js",
+          "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907"
+        },
+        {
+          "path": "core/post/crt.js",
+          "sha256": "c0009ae06f47ba63f9d66390ebdec2eec290454f09a47c6c59744d2a7539fdb1"
+        },
+        {
+          "path": "core/render/browser.mjs",
+          "sha256": "3ab7f7310b4280445239ca3de537654531ff2d8bcc362fdd444f0f524c7e8c73"
+        },
+        {
+          "path": "core/render/events.mjs",
+          "sha256": "3226d053a30a93ebcb581859799920185b0285721e20e565a036ce12281ce56b"
+        },
+        {
+          "path": "core/render/mux.sh",
+          "sha256": "d778884216041317afc629f710089b9fdd5fa1ee650fdc3de10f3d4c7f22867d"
+        },
+        {
+          "path": "core/render/page.mjs",
+          "sha256": "45796dc94e93fec177d3f162886e447292877971b695e6ebb0dbd6af43693d7a"
+        },
+        {
+          "path": "core/render/readcheck.mjs",
+          "sha256": "1b686a6734f5298242056034178148b40e200eceeb44b94218f57bb7d5e9382d"
+        },
+        {
+          "path": "core/render/serve.mjs",
+          "sha256": "4c8cd80108a6aaf3158a0eec06145e9010fc203ea9b0ab094b3c3ff4f030c900"
+        },
+        {
+          "path": "core/render/sheet.py",
+          "sha256": "a6507f8dac35e31a93d6af7c18f2b9e71fb637135fccd48f88dd86df2cf32d43"
+        },
+        {
+          "path": "core/render/slot.mjs",
+          "sha256": "d4505223645e430e822288e2bed85966a5e99959e039d6b59b4196654f97077e"
+        },
+        {
+          "path": "core/render/srt.py",
+          "sha256": "1ba264baae29927e6061cd8f301e2a7833e0c4117fa48a0bd0a0cf1f40866910"
+        },
+        {
+          "path": "core/render/still.mjs",
+          "sha256": "64028e6255d5488bbf72d4a3b01c93c41fd9e7523c1effdd15766ec588dcc679"
+        },
+        {
+          "path": "core/render/video.mjs",
+          "sha256": "1615965f62b1eac4696540171d6961bcae53feffd9922d90ce76358d06381755"
+        },
+        {
+          "path": "core/three/post.js",
+          "sha256": "8f378bf95c43fd8fd14366da146124df0952746b272e3bb99f5e80207047f3fb"
+        },
+        {
+          "path": "core/tts/asr_check.py",
+          "sha256": "3d6f07c1350c54d1e47fbb78023f706be37a35a18d75ccf5dde6acda3fdd7a9f"
+        },
+        {
+          "path": "core/tts/tts.py",
+          "sha256": "118f33891816f887667ce7005bbc007215e41b1b0a536c95f61471c292725e2d"
+        },
+        {
+          "path": "core/tts/tts_zh.py",
+          "sha256": "9af09a4ffd6fe57975d6863a9e33600e5d4fd3ff51997cc6d5e671b1f7645ef6"
+        },
+        {
+          "path": "film.js",
+          "sha256": "69917197d35af04610b30ed62330e66e82740ebad261af715f6601aaa7a0ff9a"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ab184aa2c7cb2f55b5e32e8c9c0aa52d881996334eee9ff55c1f4cdbbc2042ff"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "9e51f38d0e25bad13b2da8d5f07b67d08b431d2c3dd47e6b212762a4893da7a6"
+        },
+        {
+          "path": "score-base.js",
+          "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+        },
+        {
+          "path": "upstream/engine/chars.js",
+          "sha256": "ba0cc26c92935caaa5a64556e424e7ed5f0cdad616f644de276b365ed4c97d1a"
+        },
+        {
+          "path": "upstream/engine/icons.js",
+          "sha256": "812ea35cc2e5c8dcedf9aafb618c0aee13938c353eb6f904f93b285b4ffd74da"
+        },
+        {
+          "path": "upstream/engine/toon.js",
+          "sha256": "261c79fa7aff5489a98d9e44f91659eae10e90d3bcb13a6e23e84098b709b0bf"
+        },
+        {
+          "path": "upstream/film.js",
+          "sha256": "e2f17ee6dcd79440e3ba11e9e8d44f0121493d425359ccfb09b589362e276971"
+        },
+        {
+          "path": "upstream/main.js",
+          "sha256": "9457590fc7d528d7c51c22dac4b681d6ac0694e0aab853f419ba375cb8051c29"
+        },
+        {
+          "path": "upstream/sheet.js",
+          "sha256": "a76ac17ada11d4aa0ec8195dd86758a43e69331c54357266d13d6fafce21fc6c"
+        }
+      ]
+    },
+    {
+      "id": "lemo-scifi-toon",
+      "title": "最后一杯咖啡",
+      "kind": "component-adaptation",
+      "path": "assets/scenes/lemo-scifi-toon",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar",
+      "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+      "license": "MIT",
+      "tags": [
+        "卡通",
+        "咖啡",
+        "咖啡馆",
+        "店员",
+        "手绘",
+        "toon"
+      ],
+      "retained": "原咖啡馆、店员、杯子与线条抖动引擎；新 12 秒递杯时间线。",
+      "edit": "编辑 film.js 的主体位置、镜头与时间线；upstream/ 保留原模块。新题目必须重写事件，不能只换标题。",
+      "requiresThree": false,
+      "duration": 12,
+      "width": 1280,
+      "height": 720,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-component-preview",
+      "boundary": "复用原角色/场景资产的适配样段，非从零生成；海岛保留原作事件。画面审美仍待用户判断。",
+      "preview": "assets/scenes/lemo-scifi-toon/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "8f9d9a9879537c41a5170870fb2e635ef7d2fe4099f5b672386a7616022a93de"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756"
+        },
+        {
+          "path": "core/README.md",
+          "sha256": "0092f98f44a773b3d4a031b4fd9abab4d4d8abadd7b01c758821a4d8c01a3aa2"
+        },
+        {
+          "path": "core/assets/polyhaven/SOURCES.md",
+          "sha256": "407fee33eaf70cbec52dd165830d22b5b8a52d71f0d1067720a60c0d4f529609"
+        },
+        {
+          "path": "core/audio/INSTRUMENTS.md",
+          "sha256": "9038a4e010d699533c3a2534c9fbb338c7c3720b443b6f0af92a7180ffbae06e"
+        },
+        {
+          "path": "core/audio/pluck.py",
+          "sha256": "b3e5bc6d80da1f00abf57d2748315534a3b74c22739c90457c1e6f898073566e"
+        },
+        {
+          "path": "core/audio/sampler.py",
+          "sha256": "cdba4645a65214aa81e779dc723f98afa6a53c257f21f986f2932e08de70daa0"
+        },
+        {
+          "path": "core/audio/sfx.py",
+          "sha256": "7cef63ef913be0666b685aaba68efdfcddc951e37db235fe117bb8f38a346f54"
+        },
+        {
+          "path": "core/fonts/OFL.md",
+          "sha256": "e0ed9609f4ec312bfbc5b10d7fb74199bd4c836d1ebf34eae2ef3bd5e8267bc8"
+        },
+        {
+          "path": "core/fonts/fonts.css",
+          "sha256": "99eb8024569ac263e7e0f27ffd2c54dcf8f877ebeec4873ae59a3eb0fe4dacb0"
+        },
+        {
+          "path": "core/lib.js",
+          "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907"
+        },
+        {
+          "path": "core/post/crt.js",
+          "sha256": "c0009ae06f47ba63f9d66390ebdec2eec290454f09a47c6c59744d2a7539fdb1"
+        },
+        {
+          "path": "core/render/browser.mjs",
+          "sha256": "3ab7f7310b4280445239ca3de537654531ff2d8bcc362fdd444f0f524c7e8c73"
+        },
+        {
+          "path": "core/render/events.mjs",
+          "sha256": "3226d053a30a93ebcb581859799920185b0285721e20e565a036ce12281ce56b"
+        },
+        {
+          "path": "core/render/mux.sh",
+          "sha256": "d778884216041317afc629f710089b9fdd5fa1ee650fdc3de10f3d4c7f22867d"
+        },
+        {
+          "path": "core/render/page.mjs",
+          "sha256": "45796dc94e93fec177d3f162886e447292877971b695e6ebb0dbd6af43693d7a"
+        },
+        {
+          "path": "core/render/readcheck.mjs",
+          "sha256": "1b686a6734f5298242056034178148b40e200eceeb44b94218f57bb7d5e9382d"
+        },
+        {
+          "path": "core/render/serve.mjs",
+          "sha256": "4c8cd80108a6aaf3158a0eec06145e9010fc203ea9b0ab094b3c3ff4f030c900"
+        },
+        {
+          "path": "core/render/sheet.py",
+          "sha256": "a6507f8dac35e31a93d6af7c18f2b9e71fb637135fccd48f88dd86df2cf32d43"
+        },
+        {
+          "path": "core/render/slot.mjs",
+          "sha256": "d4505223645e430e822288e2bed85966a5e99959e039d6b59b4196654f97077e"
+        },
+        {
+          "path": "core/render/srt.py",
+          "sha256": "1ba264baae29927e6061cd8f301e2a7833e0c4117fa48a0bd0a0cf1f40866910"
+        },
+        {
+          "path": "core/render/still.mjs",
+          "sha256": "64028e6255d5488bbf72d4a3b01c93c41fd9e7523c1effdd15766ec588dcc679"
+        },
+        {
+          "path": "core/render/video.mjs",
+          "sha256": "1615965f62b1eac4696540171d6961bcae53feffd9922d90ce76358d06381755"
+        },
+        {
+          "path": "core/three/post.js",
+          "sha256": "8f378bf95c43fd8fd14366da146124df0952746b272e3bb99f5e80207047f3fb"
+        },
+        {
+          "path": "core/tts/asr_check.py",
+          "sha256": "3d6f07c1350c54d1e47fbb78023f706be37a35a18d75ccf5dde6acda3fdd7a9f"
+        },
+        {
+          "path": "core/tts/tts.py",
+          "sha256": "118f33891816f887667ce7005bbc007215e41b1b0a536c95f61471c292725e2d"
+        },
+        {
+          "path": "core/tts/tts_zh.py",
+          "sha256": "9af09a4ffd6fe57975d6863a9e33600e5d4fd3ff51997cc6d5e671b1f7645ef6"
+        },
+        {
+          "path": "film.js",
+          "sha256": "ed25225cddf84f34f7e0f976f613cf50c8034f7065d1bb5770022bb7130aa9c2"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ab184aa2c7cb2f55b5e32e8c9c0aa52d881996334eee9ff55c1f4cdbbc2042ff"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "f25c1bd7c7049cd85ae842f87f2f6eb6bc5b1dd98e4841ab2ba1a61642aba454"
+        },
+        {
+          "path": "score-base.js",
+          "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+        },
+        {
+          "path": "upstream/chars.js",
+          "sha256": "12d5c4d2eb970aa71a4eef58da0d44ac864c36f9e55f0847b0a0569c61517140"
+        },
+        {
+          "path": "upstream/main.js",
+          "sha256": "0db6cc9b18bd15fe785b8568b63aa419939aed048714e19a0bed20bae38b0e1c"
+        },
+        {
+          "path": "upstream/story.js",
+          "sha256": "b547213cdc3e000e8a8963137441380c9494838b97f83d2eada8ce3485582d0e"
+        },
+        {
+          "path": "upstream/toon.js",
+          "sha256": "e56c41d57dbe83c0e4d82d2efef670bfeea1a5ebdce285290bdef8594ce8ec2b"
+        },
+        {
+          "path": "upstream/worlds.js",
+          "sha256": "5ea519a7384f6b8d27af0fe190e2eac489286cefc16be36efecf3e40f866343b"
+        }
+      ]
+    },
+    {
+      "id": "lemo-paper-popup",
+      "title": "纸书里的飞行",
+      "kind": "component-adaptation",
+      "path": "assets/scenes/lemo-paper-popup",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar",
+      "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+      "license": "MIT",
+      "tags": [
+        "纸书",
+        "立体书",
+        "折叠",
+        "纸飞机",
+        "纸片",
+        "popup"
+      ],
+      "retained": "原实体书铰链、纸片谷弹出件和可折叠纸飞机；新 12 秒打开与起飞时间线。",
+      "edit": "编辑 film.js 的主体位置、镜头与时间线；upstream/ 保留原模块。新题目必须重写事件，不能只换标题。",
+      "requiresThree": true,
+      "duration": 12,
+      "width": 1280,
+      "height": 720,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-component-preview",
+      "boundary": "复用原角色/场景资产的适配样段，非从零生成；海岛保留原作事件。画面审美仍待用户判断。",
+      "preview": "assets/scenes/lemo-paper-popup/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "6ae2124cc5d13f59dbde1cfd3e336a01e4f45163592b4351e806bad056fa5100"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756"
+        },
+        {
+          "path": "core/README.md",
+          "sha256": "0092f98f44a773b3d4a031b4fd9abab4d4d8abadd7b01c758821a4d8c01a3aa2"
+        },
+        {
+          "path": "core/assets/polyhaven/SOURCES.md",
+          "sha256": "407fee33eaf70cbec52dd165830d22b5b8a52d71f0d1067720a60c0d4f529609"
+        },
+        {
+          "path": "core/audio/INSTRUMENTS.md",
+          "sha256": "9038a4e010d699533c3a2534c9fbb338c7c3720b443b6f0af92a7180ffbae06e"
+        },
+        {
+          "path": "core/audio/pluck.py",
+          "sha256": "b3e5bc6d80da1f00abf57d2748315534a3b74c22739c90457c1e6f898073566e"
+        },
+        {
+          "path": "core/audio/sampler.py",
+          "sha256": "cdba4645a65214aa81e779dc723f98afa6a53c257f21f986f2932e08de70daa0"
+        },
+        {
+          "path": "core/audio/sfx.py",
+          "sha256": "7cef63ef913be0666b685aaba68efdfcddc951e37db235fe117bb8f38a346f54"
+        },
+        {
+          "path": "core/fonts/OFL.md",
+          "sha256": "e0ed9609f4ec312bfbc5b10d7fb74199bd4c836d1ebf34eae2ef3bd5e8267bc8"
+        },
+        {
+          "path": "core/fonts/fonts.css",
+          "sha256": "99eb8024569ac263e7e0f27ffd2c54dcf8f877ebeec4873ae59a3eb0fe4dacb0"
+        },
+        {
+          "path": "core/lib.js",
+          "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907"
+        },
+        {
+          "path": "core/post/crt.js",
+          "sha256": "c0009ae06f47ba63f9d66390ebdec2eec290454f09a47c6c59744d2a7539fdb1"
+        },
+        {
+          "path": "core/render/browser.mjs",
+          "sha256": "3ab7f7310b4280445239ca3de537654531ff2d8bcc362fdd444f0f524c7e8c73"
+        },
+        {
+          "path": "core/render/events.mjs",
+          "sha256": "3226d053a30a93ebcb581859799920185b0285721e20e565a036ce12281ce56b"
+        },
+        {
+          "path": "core/render/mux.sh",
+          "sha256": "d778884216041317afc629f710089b9fdd5fa1ee650fdc3de10f3d4c7f22867d"
+        },
+        {
+          "path": "core/render/page.mjs",
+          "sha256": "45796dc94e93fec177d3f162886e447292877971b695e6ebb0dbd6af43693d7a"
+        },
+        {
+          "path": "core/render/readcheck.mjs",
+          "sha256": "1b686a6734f5298242056034178148b40e200eceeb44b94218f57bb7d5e9382d"
+        },
+        {
+          "path": "core/render/serve.mjs",
+          "sha256": "4c8cd80108a6aaf3158a0eec06145e9010fc203ea9b0ab094b3c3ff4f030c900"
+        },
+        {
+          "path": "core/render/sheet.py",
+          "sha256": "a6507f8dac35e31a93d6af7c18f2b9e71fb637135fccd48f88dd86df2cf32d43"
+        },
+        {
+          "path": "core/render/slot.mjs",
+          "sha256": "d4505223645e430e822288e2bed85966a5e99959e039d6b59b4196654f97077e"
+        },
+        {
+          "path": "core/render/srt.py",
+          "sha256": "1ba264baae29927e6061cd8f301e2a7833e0c4117fa48a0bd0a0cf1f40866910"
+        },
+        {
+          "path": "core/render/still.mjs",
+          "sha256": "64028e6255d5488bbf72d4a3b01c93c41fd9e7523c1effdd15766ec588dcc679"
+        },
+        {
+          "path": "core/render/video.mjs",
+          "sha256": "1615965f62b1eac4696540171d6961bcae53feffd9922d90ce76358d06381755"
+        },
+        {
+          "path": "core/three/post.js",
+          "sha256": "8f378bf95c43fd8fd14366da146124df0952746b272e3bb99f5e80207047f3fb"
+        },
+        {
+          "path": "core/tts/asr_check.py",
+          "sha256": "3d6f07c1350c54d1e47fbb78023f706be37a35a18d75ccf5dde6acda3fdd7a9f"
+        },
+        {
+          "path": "core/tts/tts.py",
+          "sha256": "118f33891816f887667ce7005bbc007215e41b1b0a536c95f61471c292725e2d"
+        },
+        {
+          "path": "core/tts/tts_zh.py",
+          "sha256": "9af09a4ffd6fe57975d6863a9e33600e5d4fd3ff51997cc6d5e671b1f7645ef6"
+        },
+        {
+          "path": "film.js",
+          "sha256": "4dce154ad49c761475112d346489418b03067e376174a23cb65b69edd8eb46a5"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ab184aa2c7cb2f55b5e32e8c9c0aa52d881996334eee9ff55c1f4cdbbc2042ff"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "1693de9927571ea5bf3309e50fe87fe2d509e29b56a2e64c28524bee992ec84f"
+        },
+        {
+          "path": "score-base.js",
+          "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+        },
+        {
+          "path": "upstream/actors.js",
+          "sha256": "59eafd237e95f07bda58691fe27d4049b83dbf01e397dac997bc4e760a77557c"
+        },
+        {
+          "path": "upstream/art.js",
+          "sha256": "92fb46255bd2cededac4d2fae4b653d9711a5c2d9f4b32696afbf2384119865f"
+        },
+        {
+          "path": "upstream/book.js",
+          "sha256": "55ab51807010a3bff6dddeceb9d4a97c2a06fb710ec407df8a58782a3e7a1121"
+        },
+        {
+          "path": "upstream/cutmesh.js",
+          "sha256": "317fa9849bff03b7abbff240125412872a6218d70ff11bd6ab1c4a129135889f"
+        },
+        {
+          "path": "upstream/hud.js",
+          "sha256": "3daf2d3d46b70391158d5a3e6e08a84b26b5fd4fa6c6f603757ed5e9c7527653"
+        },
+        {
+          "path": "upstream/lib.js",
+          "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907"
+        },
+        {
+          "path": "upstream/main.js",
+          "sha256": "81f29a147abfa410e69594a59bb63cd5fe5942acd5a451bfb43ff26e9c1eae8f"
+        },
+        {
+          "path": "upstream/paper.js",
+          "sha256": "dac9d62f8aa0261d5db397df9b8a57ed68c96634deed03fea47ddf476e95db10"
+        },
+        {
+          "path": "upstream/post.js",
+          "sha256": "47cbcf1357dba796d9aa35795f11b1b764c585f712b66a4a2fc67e9a13d880f5"
+        },
+        {
+          "path": "upstream/sets.js",
+          "sha256": "3d682b53aad68490bca80b3860641ee5db1270abd8f8628e6bac340337b53681"
+        },
+        {
+          "path": "upstream/story.js",
+          "sha256": "cb7c7a0a27904a554d96794c25b0c595d048bb0b5f58a7829f3d471dbee60af6"
+        }
+      ]
+    },
+    {
+      "id": "lemo-lowpoly-island",
+      "title": "海岛入夜",
+      "kind": "source-scene-excerpt",
+      "path": "assets/scenes/lemo-lowpoly-island",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar",
+      "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+      "license": "MIT",
+      "tags": [
+        "海岛",
+        "岛屿",
+        "低模",
+        "灯塔",
+        "海洋",
+        "港口",
+        "island"
+      ],
+      "retained": "原完整六边形海岛、房屋、海浪、灯塔和后期；保留原作第 28–40 秒的事件关系，重新设置镜头。",
+      "edit": "编辑 film.js 的主体位置、镜头与时间线；upstream/ 保留原模块。新题目必须重写事件，不能只换标题。",
+      "requiresThree": true,
+      "duration": 12,
+      "width": 1280,
+      "height": 720,
+      "audio": true,
+      "userApproved": false,
+      "status": "rendered-component-preview",
+      "boundary": "复用原角色/场景资产的适配样段，非从零生成；海岛保留原作事件。画面审美仍待用户判断。",
+      "preview": "assets/scenes/lemo-lowpoly-island/preview.png",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "3481bdd513406d48034eadb3d0dd4b62a435b81f12428b3c4796da0801244dd6"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756"
+        },
+        {
+          "path": "core/README.md",
+          "sha256": "0092f98f44a773b3d4a031b4fd9abab4d4d8abadd7b01c758821a4d8c01a3aa2"
+        },
+        {
+          "path": "core/assets/polyhaven/SOURCES.md",
+          "sha256": "407fee33eaf70cbec52dd165830d22b5b8a52d71f0d1067720a60c0d4f529609"
+        },
+        {
+          "path": "core/audio/INSTRUMENTS.md",
+          "sha256": "9038a4e010d699533c3a2534c9fbb338c7c3720b443b6f0af92a7180ffbae06e"
+        },
+        {
+          "path": "core/audio/pluck.py",
+          "sha256": "b3e5bc6d80da1f00abf57d2748315534a3b74c22739c90457c1e6f898073566e"
+        },
+        {
+          "path": "core/audio/sampler.py",
+          "sha256": "cdba4645a65214aa81e779dc723f98afa6a53c257f21f986f2932e08de70daa0"
+        },
+        {
+          "path": "core/audio/sfx.py",
+          "sha256": "7cef63ef913be0666b685aaba68efdfcddc951e37db235fe117bb8f38a346f54"
+        },
+        {
+          "path": "core/fonts/OFL.md",
+          "sha256": "e0ed9609f4ec312bfbc5b10d7fb74199bd4c836d1ebf34eae2ef3bd5e8267bc8"
+        },
+        {
+          "path": "core/fonts/fonts.css",
+          "sha256": "99eb8024569ac263e7e0f27ffd2c54dcf8f877ebeec4873ae59a3eb0fe4dacb0"
+        },
+        {
+          "path": "core/lib.js",
+          "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907"
+        },
+        {
+          "path": "core/post/crt.js",
+          "sha256": "c0009ae06f47ba63f9d66390ebdec2eec290454f09a47c6c59744d2a7539fdb1"
+        },
+        {
+          "path": "core/render/browser.mjs",
+          "sha256": "3ab7f7310b4280445239ca3de537654531ff2d8bcc362fdd444f0f524c7e8c73"
+        },
+        {
+          "path": "core/render/events.mjs",
+          "sha256": "3226d053a30a93ebcb581859799920185b0285721e20e565a036ce12281ce56b"
+        },
+        {
+          "path": "core/render/mux.sh",
+          "sha256": "d778884216041317afc629f710089b9fdd5fa1ee650fdc3de10f3d4c7f22867d"
+        },
+        {
+          "path": "core/render/page.mjs",
+          "sha256": "45796dc94e93fec177d3f162886e447292877971b695e6ebb0dbd6af43693d7a"
+        },
+        {
+          "path": "core/render/readcheck.mjs",
+          "sha256": "1b686a6734f5298242056034178148b40e200eceeb44b94218f57bb7d5e9382d"
+        },
+        {
+          "path": "core/render/serve.mjs",
+          "sha256": "4c8cd80108a6aaf3158a0eec06145e9010fc203ea9b0ab094b3c3ff4f030c900"
+        },
+        {
+          "path": "core/render/sheet.py",
+          "sha256": "a6507f8dac35e31a93d6af7c18f2b9e71fb637135fccd48f88dd86df2cf32d43"
+        },
+        {
+          "path": "core/render/slot.mjs",
+          "sha256": "d4505223645e430e822288e2bed85966a5e99959e039d6b59b4196654f97077e"
+        },
+        {
+          "path": "core/render/srt.py",
+          "sha256": "1ba264baae29927e6061cd8f301e2a7833e0c4117fa48a0bd0a0cf1f40866910"
+        },
+        {
+          "path": "core/render/still.mjs",
+          "sha256": "64028e6255d5488bbf72d4a3b01c93c41fd9e7523c1effdd15766ec588dcc679"
+        },
+        {
+          "path": "core/render/video.mjs",
+          "sha256": "1615965f62b1eac4696540171d6961bcae53feffd9922d90ce76358d06381755"
+        },
+        {
+          "path": "core/three/post.js",
+          "sha256": "8f378bf95c43fd8fd14366da146124df0952746b272e3bb99f5e80207047f3fb"
+        },
+        {
+          "path": "core/tts/asr_check.py",
+          "sha256": "3d6f07c1350c54d1e47fbb78023f706be37a35a18d75ccf5dde6acda3fdd7a9f"
+        },
+        {
+          "path": "core/tts/tts.py",
+          "sha256": "118f33891816f887667ce7005bbc007215e41b1b0a536c95f61471c292725e2d"
+        },
+        {
+          "path": "core/tts/tts_zh.py",
+          "sha256": "9af09a4ffd6fe57975d6863a9e33600e5d4fd3ff51997cc6d5e671b1f7645ef6"
+        },
+        {
+          "path": "film.js",
+          "sha256": "62d8c095e43affd2376db90949391a3c6b3259b36f2c9a197c1cc85e6c9f1df4"
+        },
+        {
+          "path": "index.html",
+          "sha256": "ab184aa2c7cb2f55b5e32e8c9c0aa52d881996334eee9ff55c1f4cdbbc2042ff"
+        },
+        {
+          "path": "preview.png",
+          "sha256": "66378bfbab8edf86426618c2e32169d0e8aefdb173b1975aee80cdad94a1ec5b"
+        },
+        {
+          "path": "score-base.js",
+          "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+        },
+        {
+          "path": "upstream/main.js",
+          "sha256": "7aa38605d6a496f8c500b2f1f4c4f3581a3ed5102bb8fd341e7f0016a6dff2dd"
+        },
+        {
+          "path": "upstream/post.js",
+          "sha256": "2a5890f4faa041bb0b05805bc00c69351038fa45e0f640a4ccf46a3c31033277"
+        },
+        {
+          "path": "upstream/sea.js",
+          "sha256": "c3e1439a2cd4b12baeab4b1fdad2d0997873a185d77803024b884b63ea2aa0ed"
+        },
+        {
+          "path": "upstream/story.js",
+          "sha256": "d72ff541ea94f2b80fd51c4412527e094493f337f75f1656ce445308414a2b63"
+        },
+        {
+          "path": "upstream/world.js",
+          "sha256": "0be485cb3e4f4e8aea465d9737a77bc50932e5e71596cf5f43c044361c068561"
+        }
+      ]
+    },
+    {
+      "id": "reading-room",
+      "title": "风翻过书页",
+      "tags": [
+        "室内",
+        "家具",
+        "书房",
+        "阅览室",
+        "interior",
+        "reading",
+        "room"
+      ],
+      "requiresThree": true,
+      "kind": "完整室内组件",
+      "path": "assets/scenes/reading-room",
+      "edit": "room-kit.js / film.js / assets/",
+      "boundary": "14 个 Kenney 家具原始资产随包保留；第二版实际调用 6 个，书柜、圆桌、完整窗体与书页为本地模型。书签有页面与桌面间隙检查；仍为风格化低模室内。",
+      "source": "Kenney CC0 assets; local MIT scene assembly",
+      "defaultEligible": false,
+      "status": "refined-v2-user-review-pending",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "bc9b394f2f0d5aef799ff1b5725b89bc9c7dee637ad0d50fc42d75a2bd6b0bd2"
+        },
+        {
+          "path": "ASSETS.json",
+          "sha256": "36188f9368923aba02d238d8f615cb0ecea1d50b89a757fce0f6eb626f2da0db"
+        },
+        {
+          "path": "KENNEY-LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d706aec39535b0a09e7a65772ea1a1f72a4669b63c983e9f372b62f2cbeefd1"
+        },
+        {
+          "path": "SOURCE.md",
+          "sha256": "b1056fe818a1fa7e213244b4d8460447dd41bc7a0162fc655d31222f12263b36"
+        },
+        {
+          "path": "assets/benchCushion.glb",
+          "sha256": "5186ad938f8b9eff255361fd1fdc48a81f08c318161cde27c93753ab95a2d354"
+        },
+        {
+          "path": "assets/bookcaseClosedWide.glb",
+          "sha256": "55b9903e9646dc407ed5237a1c41c1f0a14f9edc22e3392bdb9a4804d846af6a"
+        },
+        {
+          "path": "assets/books.glb",
+          "sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c"
+        },
+        {
+          "path": "assets/chairCushion.glb",
+          "sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc"
+        },
+        {
+          "path": "assets/coatRackStanding.glb",
+          "sha256": "d8231c22dab63ceb9fc8678f6c8ceafc62afa8726b51a73b4ce349043d3cdc91"
+        },
+        {
+          "path": "assets/lampRoundTable.glb",
+          "sha256": "75bb644caaa3da003b4fcad7a931722dd61cd2858aab70cf660021d5061fa1b2"
+        },
+        {
+          "path": "assets/lampWall.glb",
+          "sha256": "a9679ecd3be05731846f22ade97c37069598ca7a06dd9319f50230e63a1ea83c"
+        },
+        {
+          "path": "assets/pillow.glb",
+          "sha256": "6fae7c190d0b676ef3efd35e5178cef21dffb5c80e1257d8b537ad424da0e5f6"
+        },
+        {
+          "path": "assets/pottedPlant.glb",
+          "sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15"
+        },
+        {
+          "path": "assets/radio.glb",
+          "sha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed"
+        },
+        {
+          "path": "assets/rugRectangle.glb",
+          "sha256": "a989d2d59c04e3071e0c90388b113a9a8f339ce1814ef984c51cb6dcd7c8e0eb"
+        },
+        {
+          "path": "assets/sideTable.glb",
+          "sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472"
+        },
+        {
+          "path": "assets/tableRound.glb",
+          "sha256": "f8daea9124a542a00b7bdacfddac82dc468573d43e44d7b54dd6316e9695754b"
+        },
+        {
+          "path": "assets/wallWindow.glb",
+          "sha256": "166a10fddb8a78d942bc2791186913f7015dfee8501d20efd7a7b8f196fc5c3e"
+        },
+        {
+          "path": "film.js",
+          "sha256": "01a2da476fbd94e8f15846fbde38c21db7d79475b6635631b18525258a1f57ef"
+        },
+        {
+          "path": "index.html",
+          "sha256": "0d65d032438e4c5a129bdd42751df85273b0a0358af6f32be51192ccc4d312cd"
+        },
+        {
+          "path": "review-log.md",
+          "sha256": "774e5c78e1a3bbbac30bfc6b8e25880f689a87392eebceefc1f7430600789564"
+        },
+        {
+          "path": "room-kit.js",
+          "sha256": "6cff0bc6d57bf35151394e8f6c1cfebce2d6bd409966225615470b8aadf11d7a"
+        },
+        {
+          "path": "score.js",
+          "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+        }
+      ],
+      "preview": "assets/cases/previews/reading-room-v2.png",
+      "revision": 2,
+      "previewScope": "Still from the refined development film; not a general quality guarantee."
+    },
+    {
+      "id": "contact-workshop",
+      "title": "装回音乐盒齿轮",
+      "tags": [
+        "拿取",
+        "接触",
+        "抓取",
+        "机械臂",
+        "齿轮",
+        "pick",
+        "place",
+        "contact",
+        "robot"
+      ],
+      "requiresThree": true,
+      "kind": "接触动作组件",
+      "path": "assets/scenes/contact-workshop",
+      "edit": "contact-motion.js / film.js",
+      "boundary": "本地编写的解析两连杆 IK、夹爪闭合、抓取携带和释放；不是动物动作库，不是碰撞仿真。",
+      "source": "Local MIT implementation; Three.js MIT renderer",
+      "defaultEligible": false,
+      "status": "refined-v2-user-review-pending",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "d2c68826db6dd5ee1b940a98d21400afae5b0258c37329f26e8bbd083af1a5ce"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d706aec39535b0a09e7a65772ea1a1f72a4669b63c983e9f372b62f2cbeefd1"
+        },
+        {
+          "path": "SOURCE.md",
+          "sha256": "11389ae5f2b6a899037336c2ee1a134a1a39204262c79a1e65b9c9c8ba74a0a8"
+        },
+        {
+          "path": "contact-motion.js",
+          "sha256": "cfc2ca248cdd7d13e3db20f5ae2aa50c2914759d5eb4db2d358e03b65406bfef"
+        },
+        {
+          "path": "film.js",
+          "sha256": "abb5e30183c0efb8c1ae6833f1a67694e5abc7fa092231345cf323a7dbf79d85"
+        },
+        {
+          "path": "index.html",
+          "sha256": "0d65d032438e4c5a129bdd42751df85273b0a0358af6f32be51192ccc4d312cd"
+        },
+        {
+          "path": "review-log.md",
+          "sha256": "2c3407c340581685f1b5a0d0e1c00d3422def34db87ea667e1c78716181aed8e"
+        },
+        {
+          "path": "room-kit.js",
+          "sha256": "6cff0bc6d57bf35151394e8f6c1cfebce2d6bd409966225615470b8aadf11d7a"
+        },
+        {
+          "path": "score.js",
+          "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+        }
+      ],
+      "preview": "assets/cases/previews/contact-workshop-v2.png",
+      "revision": 2,
+      "previewScope": "Still from the refined development film; not a general quality guarantee."
+    },
+    {
+      "id": "botanical-ink",
+      "title": "蒲公英的远行",
+      "tags": [
+        "植物",
+        "墨线",
+        "自然",
+        "蒲公英",
+        "botanical",
+        "ink",
+        "seed"
+      ],
+      "requiresThree": false,
+      "kind": "二维植物绘制组件",
+      "path": "assets/scenes/botanical-ink",
+      "edit": "botanical-kit.js / film.js",
+      "boundary": "新接入 RoughJS 4.6.6；本地原创植物结构、叶脉、冠毛种子、漂移与萌芽时间轴，不是新增 Claude 源码案例。",
+      "source": "RoughJS 4.6.6 MIT; local MIT botanical geometry",
+      "defaultEligible": false,
+      "status": "refined-v2-user-review-pending",
+      "files": [
+        {
+          "path": "ADAPTATION.md",
+          "sha256": "bcc25b6b512a75e5e72b7cb187acca4df841a003af09425f646a3b1132a8ddf8"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d706aec39535b0a09e7a65772ea1a1f72a4669b63c983e9f372b62f2cbeefd1"
+        },
+        {
+          "path": "ROUGHJS-LICENSE",
+          "sha256": "dca9a392272606ac748ac0976a2a1133f14eef841c27beaa51a844d53c56a09d"
+        },
+        {
+          "path": "SOURCE.md",
+          "sha256": "55595574a25cd6f816b8136be247b61b4213895f85dbcc021fba1d9d138cfef9"
+        },
+        {
+          "path": "THIRD-PARTY-NOTICES.md",
+          "sha256": "2df78de9fcfbdcb4e80c81d49b1560e0fb71e2b0f9231b48cf6a268a75a3fb78"
+        },
+        {
+          "path": "botanical-kit.js",
+          "sha256": "f312b06f9560f27a446e34b65b8926cb118d1dd76220eab13c00041dc815fec6"
+        },
+        {
+          "path": "film.js",
+          "sha256": "49e209622ed286c1f6c8fae37f880123f32b5b793a60f882af2252d2680cafdd"
+        },
+        {
+          "path": "index.html",
+          "sha256": "0d65d032438e4c5a129bdd42751df85273b0a0358af6f32be51192ccc4d312cd"
+        },
+        {
+          "path": "review-log.md",
+          "sha256": "051200728a703aaf91116004fcf0e8e42743f1fa0e4954ba7bdd69862a5500ed"
+        },
+        {
+          "path": "rough.esm.js",
+          "sha256": "e921535f216ebc93d422489d614da955b5286812220b3149fc70978f4cb5bd45"
+        },
+        {
+          "path": "score.js",
+          "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+        }
+      ],
+      "preview": "assets/cases/previews/botanical-ink-v2.png",
+      "revision": 2,
+      "previewScope": "Still from the refined development film; not a general quality guarantee."
+    }
+  ],
+  "boundary": "11 runnable scene starters: 7 new source demos, 4 adapters for already indexed Lemo cases. Not 11 new source styles, not 11 original films. User quality review pending."
+}

@@ -1,0 +1,78 @@
+{
+  "id": "fox",
+  "title": "带骨骼的狐狸",
+  "kind": "third-party-gltf",
+  "modelOrigin": "非 Claude 作品；通用开源模型",
+  "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox",
+  "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+  "license": [
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "artist": "PixelMannen",
+      "year": "2014",
+      "owner": "Public",
+      "what": "Model",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    },
+    {
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "artist": "tomkranis",
+      "year": "2014",
+      "owner": "tomkranis",
+      "what": "Rigging & Animation",
+      "text": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    {
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "artist": "@AsoboStudio and @scurest",
+      "year": "2017",
+      "owner": "@AsoboStudio and @scurest",
+      "what": "Conversion to glTF",
+      "text": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "model.glb",
+      "sha256": "d97044e701822bac5a62696459b27d7b375aada5de8574ed4362edbba94771f7",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox/glTF-Binary/Fox.glb",
+      "bytes": 162852
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "cf767a7943b12f3af0ea14a1b18947a45ed7a03c3e722678df33854d97df0f88",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox/README.md",
+      "bytes": 1782
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "1d888d832b5eb2a32a461ae6d5e2bc00f925e3a571c1447842466d2061800604",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox/metadata.json",
+      "bytes": 1430
+    }
+  ],
+  "tags": [
+    "狐狸",
+    "动物",
+    "骨骼",
+    "行走",
+    "fox",
+    "animal"
+  ],
+  "path": "assets/models/fox",
+  "entry": "model.glb",
+  "animations": true,
+  "status": "independent-project-and-export-checked-review-pending",
+  "userApproved": false,
+  "preview": "assets/models/fox/preview.png",
+  "verification": "references/model-evidence.json"
+}

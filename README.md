@@ -1,29 +1,38 @@
-# Claude Motion · v0.1.0-beta.1
+# Claude Motion · v0.2.0-beta.1
 
-让 Agent 从真实的动画源码里选一种合适的表现方式，再改编成新短片。
+让 GPT 按题目查找可用的动画源码和物件，保留造型、材质与运动实现，再改编成新短片。
 
-这是一个 **案例辅助的代码动画 Skill**：按题目查找开源实现，保留其中的造型、笔触、材质和运动机制，重写故事与镜头，交付可编辑源码和 MP4。它探索更有“Claude 感”的视觉效果，不是模型训练，也不保证每个题目都优于直接生成。
+**这是一套案例辅助的代码动画 Skill。** 包含使用说明、绘图源码、模型、可编辑示例与 MP4 导出工具。默认不要求额外生图；没有训练或修改模型权重。
+
+[五组视频对照](https://hypeyolo.com/motion/) · [下载发布包](https://github.com/Hype-yolo/claude-motion-skill/releases/tag/v0.2.0-beta.1) · [完整制作逻辑](skills/claude-motion/references/how-it-works.md) · [Skill 入口](skills/claude-motion/SKILL.md) · [安装与导出](skills/claude-motion/references/installation.md) · [验证记录](VALIDATION.md)
 
 ## 包含什么
 
-- 47 套源码案例：43 套 Lemo Opuscar＋4 套 ReelMimic，来自 2 个导入仓库；不意味着 47 种完全不同的风格。
-- 36 套实际原例抽帧预览，其中 35 套使用字体回退；11 套仍有运行缺口。抽帧不代表完整原片已复现。
-- 案例检索、源码提取、来源与许可清单、确定性 MP4 导出。
-- 一支既有“谣言传播”影片的编排源码，可重现验证安装，无需再调用模型。
+| 内容 | 数量与状态 |
+| --- | --- |
+| 源码案例 | 47 条：Lemo 43、ReelMimic 4；36 个原例预览、11 个预览缺口 |
+| 制作系统 | 5 套、10 个可编辑开发示例 |
+| 场景入口 | 14 个：11 个既有入口、3 个实验组件；含 7 个 animate 来源示例 |
+| 物件包 | 30 条：27 个外部模型、1 套既有产品几何、2 个本地模型 |
+| 工具 | 检索、来源校验、工程创建、抽帧与 MP4 导出 |
 
-[查看 Skill](skills/claude-motion/SKILL.md) · [各案例状态与依赖](skills/claude-motion/references/case-status.md) · [安装到导出](skills/claude-motion/references/installation.md) · [验证记录](VALIDATION.md)
+分类存在重合，不能相加成风格总数。阅览室另含 14 个家具文件。模型资产具有自己的许可，不是全部 MIT，也不都由 Claude 生成。1,464 个导入源码文件有原始哈希；模型与场景另有文件清单。
 
-## 安装
+## 从输入到成片
 
-下载 Release 压缩包，或者：
+1. Agent 把题目拆成主体、动作和画面需求，用标签检索找到候选。
+2. 阅读候选源码和预览，确定整片的造型、材质和运动规则。
+3. 复制合适的实现或模型，重写新题目的场景、事件与镜头。
+4. 缺少对象时组合或新建结构，并协调风格；模型库不会自动消除穿模。
+5. 检查关键动作和代表片段，修正后导出 MP4 与可编辑源码。
 
-```sh
-git clone https://github.com/Hype-yolo/claude-motion-skill.git
-```
+检索排序不是美感评分，示例复制不是自动故事生成。Agent 仍需做选择、写代码、看画面和修改。
 
-将 `skills/claude-motion` 完整复制到宿主的 Skill 目录。Codex 默认是 `~/.codex/skills/claude-motion`。已有同名版本请先备份；不要直接合并覆盖。
+## 安装与使用
 
-准备 Node 22+、FFmpeg 与 ffprobe。在复制后的 Skill 目录运行：
+准备 Node.js 22+、FFmpeg、ffprobe。解压发布包，将整个 `skills/claude-motion` 放入 Agent 的 Skill 目录，例如 Codex 的 `~/.codex/skills/claude-motion`。已有同名版本先备份，不合并覆盖。
+
+在 Skill 目录依次运行：
 
 ```sh
 npm ci
@@ -37,31 +46,24 @@ npm run setup
 npm run check
 ```
 
-也可以先在仓库内的 `skills/claude-motion` 目录执行以上命令，再复制整个已安装文件夹。导出器优先解析 Skill 内安装的 Playwright，不要求创作目录另装一份。
-
-## 使用
+`status: passed` 表示包内文件校验通过。完整渲染复现见安装文档；当前只验证 macOS，不声称其他系统已经实机测试。
 
 向 Agent 输入：
 
-> 使用 $claude-motion：一只小狐狸在初雪前归还丢失的手套。做成可编辑短片并导出 MP4。
+> 使用 $claude-motion：守塔人修好卡住的灯塔透镜，让小船找到港口。做成 18 秒短片，交付 MP4 和可编辑源码。
 
-不指定画风时由 Agent 选择案例。可读取案例源码和现有预览，因此这不是“完全无参考”的生成。新增 AI 生图并非必需。导出器只读取本地资源；声音需要单独实现，无音频时影片就是无声。
+题目可以不同，风格也可指定。无 `audioWav()` 的工程不会自动有声音；不会因为中文对话就默认加中文字幕。
 
-## 已经观察到什么
+## 对照怎样解读
 
-早期三个题目的定性比较中，作者更认可或总体偏向 GPT＋Skill、不新增参考图的版本。这些反馈是在已接触条件说明后获得，不能称为严格盲评。
+目前选取五组作品展示。天文台与山顶包裹使用同题独立生成的有无 Skill 对照；阅览室是精修版本与后补独立版本，修改经历不同。灯塔与光圈比较同一 GPT 使用本包和 Lemo 官方 Skill，二者各自选择风格。同轮围巾没有明显偏好。
 
-随后五题、十支影片的隐藏条件比较中，作者认出了四组 Skill 版本，但认为沙漠与谣言两题没有明显改进，台灯的直接生成版本也很好。“认出来”不算质量胜出。两轮分别使用当时冻结的 Skill；不能把早期结果归因于后来增加的案例。
-
-当前未证明稳定增强 Claude 感或降低粗糙作品的比例。欢迎分别反馈风格偏好和完成度，允许两版都好、无明显区别或两版都不好。
+这五组是筛选后的作品，不能当作全部实验胜率或跨题材保证。当前资源包与各次实验冻结版本并不完全相同；没有把旧成片伪装成用新版重跑的结果。我们的库也复用了部分 Lemo 源码，对照不表示两套源码完全独立。视频展示单独交付，不包含在 Skill 安装包中。
 
 ## 来源与许可
 
-主要绘图实现归原作者：
+主要来源为 [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar)、[ReelMimic](https://github.com/edenfunf/reelmimic)、[animate](https://github.com/cth9191/animate)、[ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase)，以及 Khronos 示例资产、Kenney、Quaternius。
 
-- [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar)，固定提交 `c4bc370eb15d36c88e074fdba1b0248b62a8e419`，MIT 代码。
-- [ReelMimic](https://github.com/edenfunf/reelmimic)，固定提交 `73492b0dac349bb46a3ae8a8bf6fb2b34cf3b02e`，选定模板及渲染器沿用各自 MIT 署名。
+固定提交、来源与完整许可见 [第三方声明](skills/claude-motion/THIRD_PARTY_NOTICES.md) 和各资源清单。原创工具采用 MIT；外部字体、模型、绘图库沿用各自许可。分发包不包含私人研究记录、聊天、服务器信息或旧实验输入。
 
-1,362 个导入文件的原始哈希可通过 `npm run check` 检验。第三方素材保留各自许可；未捆绑外部音乐、字体、摄影、模型和纹理。[详细许可说明](skills/claude-motion/THIRD_PARTY_NOTICES.md)。研究索引中的其他仓库不等于已导入或已授权再分发的素材。
-
-这是独立社区项目，与 Anthropic/OpenAI 无隶属或背书关系。Claude/Opus 来源标签是上游作者声明，不是我们核验过的模型调用日志。
+独立社区项目，与 Anthropic、OpenAI 无隶属或背书关系。名称指希望接近的视觉方向；源码作者的模型归属声明未经独立 API 日志审计。

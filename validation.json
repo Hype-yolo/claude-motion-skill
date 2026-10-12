@@ -1,32 +1,51 @@
 {
-  "date": "2026-10-10",
-  "release": "v0.1.0-beta.1",
-  "os": "Darwin 26.6.2",
-  "arch": "arm64",
-  "node": "v26.0.0",
-  "playwright": "1.63.0",
-  "isolation": "Fresh copied package outside original checkout; fresh npm ci; separate downloaded Chromium directory; MOTION_PLAYWRIGHT_MODULE and NODE_PATH unset; existing system Node and FFmpeg reused. Not a clean OS or container.",
-  "sourceIntegrity": {
+  "version": "0.2.0-beta.1",
+  "date": "2026-10-12",
+  "status": "passed",
+  "packageCheck": {
     "cases": 47,
-    "previews": 36,
-    "upstreamFiles": 1362,
-    "status": "passed"
+    "concreteModels": 30,
+    "sceneStarters": 14,
+    "productionEngines": 5,
+    "productionExamples": 10,
+    "packagedPreviews": 36,
+    "upstreamFilesVerified": 1464,
+    "status": "passed",
+    "boundary": "File integrity and availability; not visual quality or full-case runtime verification."
   },
-  "skillStructure": "quick_validate.py passed",
-  "render": {
-    "width": 1280,
-    "height": 720,
-    "duration": 18,
-    "fps": 24,
-    "frames": 432,
-    "audio": false,
-    "decode": "passed",
-    "seekRepeat": "identical",
-    "errors": [],
-    "blocked": []
+  "cleanInstall": {
+    "source": "extracted release ZIP",
+    "npm": "npm ci from lockfile",
+    "chromium": "fresh dedicated download directory",
+    "NODE_PATH": "unset",
+    "MOTION_PLAYWRIGHT_MODULE": "unset"
   },
-  "distributionScan": "No symlinks, dependency directories, detected local user paths or credential markers in staged Skill files. Pattern checks do not constitute a security audit.",
-  "originalExampleSha256": "5706770a7499769a1a6d935d16595f6a59aacc1291b1439832bdaa940c163fd2",
-  "packagedExampleSha256": "5706770a7499769a1a6d935d16595f6a59aacc1291b1439832bdaa940c163fd2",
-  "platformBoundary": "macOS only; 47-case full-film playback and Windows/Linux unverified."
+  "renders": {
+    "demo-rumor": {
+      "duration": 18,
+      "frames": 432,
+      "audio": false,
+      "decode": "passed",
+      "seekRepeat": "identical",
+      "errors": [],
+      "blocked": [],
+      "sha256": "a5d803eaa4a7308fd4e7541bdca8ebbbfdf13506d9f1bfe712a342b9f4b510b7"
+    },
+    "demo-room": {
+      "duration": 18,
+      "frames": 432,
+      "audio": true,
+      "decode": "passed",
+      "seekRepeat": "identical",
+      "errors": [],
+      "blocked": [],
+      "sha256": "f205f61f0beb592657bb729e8c1cdcb7c081b32fce42b0f990e76fc1c3e59741"
+    }
+  },
+  "host": {
+    "os": "macOS",
+    "node": "v26.0.0",
+    "ffmpeg": "ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "limits": "Uses host Node/FFmpeg/system fonts; not a fresh OS. Windows/Linux untested. Visual quality not inferred from technical checks."
 }

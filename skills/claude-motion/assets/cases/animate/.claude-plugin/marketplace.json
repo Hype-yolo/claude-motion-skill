@@ -1,0 +1,14 @@
+{
+  "name": "animate",
+  "owner": {
+    "name": "cth9191"
+  },
+  "description": "Procedural animation in any style for Claude Code.",
+  "plugins": [
+    {
+      "name": "animate",
+      "source": "./plugins/animate",
+      "description": "Short procedural animations in any style — seven built in, or matched from your references — as single-file canvas videos, built through story, look and storyboard check-ins."
+    }
+  ]
+}

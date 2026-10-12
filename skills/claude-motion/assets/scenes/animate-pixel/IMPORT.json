@@ -1,0 +1,108 @@
+{
+  "id": "animate-pixel",
+  "title": "像素夜景",
+  "kind": "source-demo",
+  "path": "assets/scenes/animate-pixel",
+  "source": "https://github.com/cth9191/animate",
+  "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+  "license": "MIT",
+  "tags": [
+    "像素",
+    "夜景",
+    "游戏",
+    "pixel"
+  ],
+  "retained": "像素网格、抖色与角色动作",
+  "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+  "requiresThree": false,
+  "duration": 6.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": true,
+  "userApproved": false,
+  "status": "rendered-source-demo",
+  "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+  "preview": "assets/scenes/animate-pixel/preview.png",
+  "files": [
+    {
+      "path": "ADAPTATION.md",
+      "sha256": "c078057a88c3d81b72de3a1cf44b31ad70e402d441db5a54251d7af9560e9223"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+    },
+    {
+      "path": "STYLE.md",
+      "sha256": "58712dbbb7628e486d943fcb4ce6a89abd5de0e545e123e5483abeaf792395ca"
+    },
+    {
+      "path": "adapter.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "original.html",
+      "sha256": "bde5f588dc742d299218373ef2ab1afe78a4132ef896c3638275b453fdaed875"
+    },
+    {
+      "path": "piece.json",
+      "sha256": "ac47a6cdd3ae71ce76d7df737d7ee5f1d4d9b15b0591498184923a9c0a2b1c9e"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "7bde019240032ae14c5b432041a0d583a3e71307e2548830ac7d1978e3b75e01"
+    },
+    {
+      "path": "rebuild.mjs",
+      "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+    },
+    {
+      "path": "runtime/kit/board.js",
+      "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+    },
+    {
+      "path": "runtime/kit/core.js",
+      "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+    },
+    {
+      "path": "runtime/kit/morph.js",
+      "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+    },
+    {
+      "path": "runtime/kit/score-head.js",
+      "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+    },
+    {
+      "path": "runtime/kit/score-tail.js",
+      "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+    },
+    {
+      "path": "runtime/styles/pixel/kit.js",
+      "sha256": "f5578749601de7b76c0572e65607d04e9233a7ae99ccd34d438d6dfd6b8806e2"
+    },
+    {
+      "path": "runtime/tools/build.mjs",
+      "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+    },
+    {
+      "path": "src/bridges.js",
+      "sha256": "7368810fe8c7f14bd5f10a2f803bbd3a67bc723fc36bf54a650d04030b9dfb95"
+    },
+    {
+      "path": "src/head.html",
+      "sha256": "34cc43e5f0844628c7a19d3f7f665ce1c6feb93b5d826f360d42d6802b5d2b75"
+    },
+    {
+      "path": "src/scenes.js",
+      "sha256": "e262ff298cae03bb706a017959fe1aa75ef8ae2eda168adb07927c8c14d196e9"
+    },
+    {
+      "path": "src/score.js",
+      "sha256": "c090864e79a91425e0ecefb71b86161a89f1257d3b34068f451e91ef9ab3c3c5"
+    }
+  ]
+}

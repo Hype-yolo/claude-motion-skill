@@ -1,0 +1,59 @@
+{
+  "id": "kenney-rock-large-a",
+  "title": "大岩石",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-rock-large-a",
+  "source": "https://kenney.nl/assets/nature-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+      "bytes": 611
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "eb498cf6fa8992d018f6a276940b104550136bb40f3748c7b3830ac793d14757",
+      "bytes": 389
+    },
+    {
+      "path": "model.glb",
+      "sha256": "6dd15390fd96501dcd1454765a17ba61dbbd8d47705dfe5149c8dd92b353ce25",
+      "bytes": 7552
+    },
+    {
+      "path": "preview.png",
+      "sha256": "8a34573406e49d7b529ee8251046cb5f35fd0b46bea57210d3848f56b3336472",
+      "bytes": 22698,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "岩石",
+    "山地",
+    "rock"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "nature",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "archiveMember": "Models/GLTF format/rock_largeA.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-rock-large-a/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 2,
+    "triangles": 80,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

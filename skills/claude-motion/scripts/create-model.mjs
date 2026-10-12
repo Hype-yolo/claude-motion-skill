@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+import{readFile,writeFile,cp,access,mkdir}from'node:fs/promises';import{fileURLToPath}from'node:url';import path from'node:path';import{createHash}from'node:crypto';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),args=process.argv.slice(2),val=k=>args[args.indexOf(k)+1],cat=JSON.parse(await readFile(path.join(root,'references/model-catalog.json'),'utf8'));
+if(args.includes('--list')){console.log(JSON.stringify(cat,null,2));process.exit(0)}
+const item=cat.models.find(e=>e.id===val('--model'));if(!args.includes('--model')||!item||!args.includes('--out'))throw Error('Usage: create-model.mjs --model ID --out NEW_DIR | --list');const out=path.resolve(val('--out'));try{await access(out);throw Error('Output exists; choose a new directory')}catch(e){if(e.code!=='ENOENT')throw e}
+await access(path.join(root,'node_modules/three/build/three.module.js'));
+for(const f of item.files){const data=await readFile(path.join(root,item.path,f.path));if(createHash('sha256').update(data).digest('hex')!==f.sha256)throw Error('Source changed '+f.path)}
+await cp(path.join(root,'assets/model-viewer'),out,{recursive:true});await cp(path.join(root,item.path),path.join(out,'model'),{recursive:true});for(const d of ['build','examples/jsm'])await cp(path.join(root,'node_modules/three',d),path.join(out,'vendor/three',d),{recursive:true});
+await cp(path.join(root,'node_modules/three/LICENSE'),path.join(out,'vendor/three/LICENSE'));
+await writeFile(path.join(out,'asset.json'),JSON.stringify(item,null,2)+'\n');await writeFile(path.join(out,'ADAPTATION.md'),`# ${item.title}\n\nSource: ${item.source}\n\n${item.modelOrigin}\n\nOriginal files retained with hashes and licensing in model/IMPORT.json and model/UPSTREAM.md or LICENSE.\nThis is an 8-second silent model inspection, not a new Claude-style film. Camera/light/normalization added locally. Imported static meshes do not acquire rigging or semantic motion automatically.\n`);
+console.log(JSON.stringify({out,id:item.id,preview:'index.html',render:`node ${path.join(root,'scripts/render.mjs')} --root "${out}" --page index.html --out "${path.join(out,'film.mp4')}"`,boundary:'Geometry/rig starter; not an approved style result'},null,2));

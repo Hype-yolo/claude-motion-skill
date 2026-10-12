@@ -1,0 +1,34 @@
+{
+  "case": "lemo-papercut-red",
+  "files": [
+    {
+      "path": "engine/upstream/paper.js",
+      "sha256": "ef897323cf3043c96091c1d4b8d83d59be772ac99afb5d3c3973af66827fe837",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/upstream/motifs.js",
+      "sha256": "5da5a086d562ea5344caf2a893a97ae6d3e584efbe7be69da88a122c0b5f99b6",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/upstream/rig.js",
+      "sha256": "da6901a0e4efb008b561b07de6556dd405c78b676a65edbd8c630c6170d6948b",
+      "loaded": true,
+      "scope": "upstream file"
+    }
+  ],
+  "seekRepeat": "identical",
+  "features": [
+    {
+      "feature": "shadows",
+      "changedPixels": 59923,
+      "meanRGBDifference": 1.0462192563657406
+    }
+  ],
+  "fonts": "loaded",
+  "errors": [],
+  "boundary": "Module loading/integrity and rendered mechanism effects; does not establish style preference or improvement over no Skill."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "kenney-canoe",
+  "title": "独木舟",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-canoe",
+  "source": "https://kenney.nl/assets/nature-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+      "bytes": 611
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "bef670ef3cbe69cb705c90d4091359b52f17b7a11a54cea3b71712c4b6611ffe",
+      "bytes": 383
+    },
+    {
+      "path": "model.glb",
+      "sha256": "ad9c7a315f55accbce8d1ee3dc853f919f01f97ab4e3096bb235d1815aed6941",
+      "bytes": 15780
+    },
+    {
+      "path": "preview.png",
+      "sha256": "e1f2ead851a5ace2ec4bde01697e83d76b44f333f7a971a6be39e322e58f9e76",
+      "bytes": 23429,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "船",
+    "河流",
+    "划船",
+    "canoe"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "nature",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "archiveMember": "Models/GLTF format/canoe.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-canoe/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 2,
+    "triangles": 200,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

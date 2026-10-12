@@ -1,0 +1,35 @@
+{
+  "id": "expressive-robot",
+  "title": "表情与全身动作机器人",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Tomás Laulhé / Don McCurdy 模型，非 Claude 来源",
+  "path": "assets/models/expressive-robot",
+  "source": "https://github.com/mrdoob/three.js/tree/11738a9d55e502fb484cefffcea3a66dc44e9fe9/examples/models/gltf/RobotExpressive",
+  "commit": "11738a9d55e502fb484cefffcea3a66dc44e9fe9",
+  "entry": "model.glb",
+  "license": "CC0-1.0; credit Tomás Laulhé and Don McCurdy. See UPSTREAM.md",
+  "files": [
+    {
+      "path": "model.glb",
+      "sha256": "047f5e5fb3bb6d378bd1df16ca6137f2a596c99b3a1b5690b4020c05aaf6f319",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/11738a9d55e502fb484cefffcea3a66dc44e9fe9/examples/models/gltf/RobotExpressive/RobotExpressive.glb",
+      "bytes": 463988
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "14687ac4a51d5e013b0fbc5486dabc743f76c1e37b7ca872af74cfb93115b4b2",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/11738a9d55e502fb484cefffcea3a66dc44e9fe9/examples/models/gltf/RobotExpressive/README.md",
+      "bytes": 364
+    }
+  ],
+  "tags": [
+    "机器人",
+    "表情",
+    "动作",
+    "人物",
+    "robot",
+    "character"
+  ],
+  "status": "downloaded-runtime-pending",
+  "userApproved": false
+}

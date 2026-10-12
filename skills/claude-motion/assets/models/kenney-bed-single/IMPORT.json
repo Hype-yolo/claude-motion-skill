@@ -1,0 +1,59 @@
+{
+  "id": "kenney-bed-single",
+  "title": "单人床",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-bed-single",
+  "source": "https://kenney.nl/assets/furniture-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+      "bytes": 614
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "80643f942e4bb96a9d45f8b2184db323b1152cfc8b029563c9ca0e7e732cf481",
+      "bytes": 396
+    },
+    {
+      "path": "model.glb",
+      "sha256": "ca00c63f9a12da3138d902b2f5f18e0360fb6e8a5ac42ccb4bc3f185724b65d1",
+      "bytes": 18636
+    },
+    {
+      "path": "preview.png",
+      "sha256": "74ed562a6f6b8a05ac99cf2881fb74c11effabe262d8889ad16a5b0d53a00366",
+      "bytes": 24464,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "卧室",
+    "睡觉",
+    "bed"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "furniture",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+  "archiveMember": "Models/GLTF format/bedSingle.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-bed-single/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 6,
+    "triangles": 214,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

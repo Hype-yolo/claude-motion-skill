@@ -1,0 +1,68 @@
+{
+  "id": "delivery-truck",
+  "title": "送货卡车",
+  "kind": "third-party-gltf",
+  "modelOrigin": "通用开源模型，非 Claude 来源",
+  "path": "assets/models/delivery-truck",
+  "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck",
+  "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+  "entry": "model.glb",
+  "license": [
+    {
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "artist": "Cesium",
+      "year": "2017",
+      "owner": "Cesium",
+      "what": "Everything",
+      "text": "Creative Commons Attribution 4.0 International",
+      "spdx": "CC-BY-4.0",
+      "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    {
+      "license": "LicenseRef-LegalMark-Cesium",
+      "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Cesium.txt",
+      "artist": "Non-copyrightable logo",
+      "year": "2015",
+      "owner": "Cesium",
+      "what": "Cesium logo",
+      "text": "Cesium Trademark or Logo",
+      "icon": ""
+    }
+  ],
+  "files": [
+    {
+      "path": "model.glb",
+      "sha256": "09371b34608116de5842d23abe260bf11acf3e1554daf334a647eb566eee5c49",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb",
+      "bytes": 369980
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "72795225ebbbbd09138dfe0a911fadd7b9dbaeddaf134175cc3c9546383be1cb",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck/README.md",
+      "bytes": 1198
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "b0d01085de5700f3e1d4f5471143e17cb5898a9bc908a323e372d62b1f7f6559",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck/metadata.json",
+      "bytes": 1000
+    },
+    {
+      "path": "LicenseRef-LegalMark-Cesium.txt",
+      "sha256": "7bafc8dbff0b9d04297bced53a47809e3ab6721cb35b4a2d780533476b28ebd4",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/LICENSES/LicenseRef-LegalMark-Cesium.txt",
+      "bytes": 625
+    }
+  ],
+  "tags": [
+    "汽车",
+    "交通",
+    "卡车",
+    "运输",
+    "truck"
+  ],
+  "status": "downloaded-runtime-pending",
+  "userApproved": false
+}

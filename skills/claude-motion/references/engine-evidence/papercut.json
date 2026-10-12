@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "source": {
+    "repo": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+    "entry": "styles/papercut-red/demo/index.html",
+    "modelAttribution": "作者称使用 Claude Opus 5.5；未通过生成 API 日志独立核实",
+    "apiVerified": false,
+    "license": "MIT code; third-party assets retain separate licenses"
+  },
+  "byteIdenticalUpstreamModules": 3,
+  "loadedUpstreamModules": [
+    "engine/upstream/paper.js",
+    "engine/upstream/motifs.js",
+    "engine/upstream/rig.js"
+  ],
+  "differences": {
+    "shadows": {
+      "changedPixels": 36513,
+      "meanRGBDifference": 0.9281394675925926
+    }
+  },
+  "seekRepeat": true,
+  "engine": {
+    "interiorTransparentPixels": 3253,
+    "interiorOpaquePixels": 20427,
+    "modules": [
+      "paper.js: piece/finishPaper/cut/paperGrain",
+      "motifs.js: crescentRows/inset/cloudCut",
+      "rig.js: put/mul"
+    ]
+  },
+  "errors": [],
+  "boundary": "Module loading + real interior alpha holes + shadow-off image differences + deterministic seek. Visual preference still requires viewing; this is not a model comparison.",
+  "example": "paper-nocturne",
+  "fullFilm": {
+    "width": 1280,
+    "height": 720,
+    "duration": 18,
+    "fps": 24,
+    "frames": 432,
+    "seconds": 6.725,
+    "audio": true,
+    "decode": "passed",
+    "seekRepeat": "identical",
+    "errors": [],
+    "blocked": []
+  }
+}

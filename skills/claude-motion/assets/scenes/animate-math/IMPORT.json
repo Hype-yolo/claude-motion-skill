@@ -1,0 +1,109 @@
+{
+  "id": "animate-math",
+  "title": "数学演示",
+  "kind": "source-demo",
+  "path": "assets/scenes/animate-math",
+  "source": "https://github.com/cth9191/animate",
+  "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+  "license": "MIT",
+  "tags": [
+    "数学",
+    "几何",
+    "面积",
+    "教学",
+    "math"
+  ],
+  "retained": "数学图形、面积关系与逐步说明",
+  "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+  "requiresThree": false,
+  "duration": 6.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": true,
+  "userApproved": false,
+  "status": "rendered-source-demo",
+  "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+  "preview": "assets/scenes/animate-math/preview.png",
+  "files": [
+    {
+      "path": "ADAPTATION.md",
+      "sha256": "7a1211e36f4b3a25692f0779654bcbfa34d8b378364dc65c385068f719983277"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+    },
+    {
+      "path": "STYLE.md",
+      "sha256": "28814f02d829e504ceb9bdfcfad123067b764fcba05588a10bc3215d6ca11ba2"
+    },
+    {
+      "path": "adapter.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "original.html",
+      "sha256": "2deaf58e5e511ef28181de62b3ffffd60e1647b67548fee9b035299fbdb3a9df"
+    },
+    {
+      "path": "piece.json",
+      "sha256": "941241e609880880383086637b704e7a1cd94387f064beea39299aaebc1daec7"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "d090f1cf90ca0eb9f4e08ea7aa8d0921656f4ea1b588507adeab3c0c3e9bd5c5"
+    },
+    {
+      "path": "rebuild.mjs",
+      "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+    },
+    {
+      "path": "runtime/kit/board.js",
+      "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+    },
+    {
+      "path": "runtime/kit/core.js",
+      "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+    },
+    {
+      "path": "runtime/kit/morph.js",
+      "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+    },
+    {
+      "path": "runtime/kit/score-head.js",
+      "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+    },
+    {
+      "path": "runtime/kit/score-tail.js",
+      "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+    },
+    {
+      "path": "runtime/styles/math/kit.js",
+      "sha256": "314522b839515ef2ef4f98d4576a85acf12a9e954b73b9cd73a5a0341f14860e"
+    },
+    {
+      "path": "runtime/tools/build.mjs",
+      "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+    },
+    {
+      "path": "src/bridges.js",
+      "sha256": "8c0dac6b99175c84462edffa9150c34840abca43cb27a62603eb4d392789ba10"
+    },
+    {
+      "path": "src/head.html",
+      "sha256": "b8435007c3b9217d622f0969604bb31d7b18bca7130163ff0393d50fbe068739"
+    },
+    {
+      "path": "src/scenes.js",
+      "sha256": "1be3ad658cc47827ae4f886d506b76551b51bcb96deb6d2be470b7cde8301034"
+    },
+    {
+      "path": "src/score.js",
+      "sha256": "18949ceb8efb7a2f1bb3f2d954241648968e05159fae2a4060b800b481929b62"
+    }
+  ]
+}

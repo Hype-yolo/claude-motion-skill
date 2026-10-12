@@ -1,0 +1,51 @@
+{
+  "id": "avocado",
+  "title": "牛油果剖面",
+  "kind": "third-party-gltf",
+  "modelOrigin": "通用开源模型，非 Claude 来源",
+  "path": "assets/models/avocado",
+  "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado",
+  "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+  "entry": "model.glb",
+  "license": [
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "artist": "Microsoft",
+      "year": "2017",
+      "owner": "Public",
+      "what": "Everything",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "model.glb",
+      "sha256": "ccc9c3ce56423720b09399c2351537207cd5a65f859f9e6e2f30922762f3abd4",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado/glTF-Binary/Avocado.glb",
+      "bytes": 8110040
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "076b9fbb0bd7ccf39a3dcba838544331dfa71186014c24141929fbcb3e2a507e",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado/README.md",
+      "bytes": 969
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "fe72b92d850c2a8ed94c78e77d8bf40c655a695d8e59e3b3a68f0acdcf2f065c",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado/metadata.json",
+      "bytes": 629
+    }
+  ],
+  "tags": [
+    "水果",
+    "食物",
+    "牛油果",
+    "avocado"
+  ],
+  "status": "downloaded-runtime-pending",
+  "userApproved": false
+}

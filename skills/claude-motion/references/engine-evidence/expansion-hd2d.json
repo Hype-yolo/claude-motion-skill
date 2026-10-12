@@ -1,0 +1,56 @@
+{
+  "case": "lemo-hd-2d",
+  "files": [
+    {
+      "path": "engine/upstream/px.js",
+      "sha256": "36a295c950b9c7437252d7798b2494a673acc15f06255769d0906efc2dd4c2e9",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/upstream/kit.js",
+      "sha256": "568a227be3d5bbd80f84240fb3e7304097dd8dcf1ac8b56087dfbdd9ff196164",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/upstream/fx.js",
+      "sha256": "b64d201c4201f806e948b2562472bffb2b7ac5ce898eba8d371541fc7bd9e7a7",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/upstream/chars.js",
+      "sha256": "412c95ac2c9b00a3882a6aacff3ad6509fb80188665c9c58bc2ddab82e4140c6",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/upstream/post_ts.js",
+      "sha256": "3170c90d6651263f2a5c9038b873f9e090c8d1a0b2de704999a6587ec72d553e",
+      "loaded": true,
+      "scope": "upstream file"
+    }
+  ],
+  "seekRepeat": "identical",
+  "features": [
+    {
+      "feature": "lights",
+      "changedPixels": 893011,
+      "meanRGBDifference": 18.16731807002315
+    },
+    {
+      "feature": "shadows",
+      "changedPixels": 512427,
+      "meanRGBDifference": 6.7906293402777775
+    },
+    {
+      "feature": "dof",
+      "changedPixels": 482122,
+      "meanRGBDifference": 2.9151804832175925
+    }
+  ],
+  "fonts": "loaded",
+  "errors": [],
+  "boundary": "Module loading/integrity and rendered mechanism effects; does not establish style preference or improvement over no Skill."
+}

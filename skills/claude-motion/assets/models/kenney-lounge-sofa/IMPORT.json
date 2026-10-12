@@ -1,0 +1,59 @@
+{
+  "id": "kenney-lounge-sofa",
+  "title": "双人沙发",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-lounge-sofa",
+  "source": "https://kenney.nl/assets/furniture-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+      "bytes": 614
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "940e1ba982486cffb395d3037e271c0fcb6957ad7778405cf39e83a9dcb1da83",
+      "bytes": 400
+    },
+    {
+      "path": "model.glb",
+      "sha256": "1886b811c0d3ad0d8525a4fd43adf4112c497c8e0ed906f06877ca3517f4c7dd",
+      "bytes": 9644
+    },
+    {
+      "path": "preview.png",
+      "sha256": "8da71372329d52673a7ca9e49c0937993e52f1e4c3829be25449b8e2327fd4b7",
+      "bytes": 24464,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "沙发",
+    "客厅",
+    "sofa"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "furniture",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+  "archiveMember": "Models/GLTF format/loungeSofa.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-lounge-sofa/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 2,
+    "triangles": 128,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

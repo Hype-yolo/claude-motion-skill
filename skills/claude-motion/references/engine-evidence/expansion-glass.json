@@ -1,0 +1,44 @@
+{
+  "case": "lemo-glass-product",
+  "files": [
+    {
+      "path": "engine/studio.js",
+      "sha256": "4a9ee087d7c55eba5e1149961985144ee88a336528e33fb62650cb09623a17b2",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/product.js",
+      "sha256": "9c0c35d19ca58de4be21f4833c906c1bd6364db90cdb8731374fb6a7c2afd5a3",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/post.js",
+      "sha256": "8f378bf95c43fd8fd14366da146124df0952746b272e3bb99f5e80207047f3fb",
+      "loaded": true,
+      "scope": "upstream file"
+    }
+  ],
+  "seekRepeat": "identical",
+  "features": [
+    {
+      "feature": "sweep",
+      "changedPixels": 105960,
+      "meanRGBDifference": 1.199289279513889
+    },
+    {
+      "feature": "reflection",
+      "changedPixels": 250108,
+      "meanRGBDifference": 0.15592628761574073
+    },
+    {
+      "feature": "dof",
+      "changedPixels": 172871,
+      "meanRGBDifference": 0.521693431712963
+    }
+  ],
+  "fonts": "loaded",
+  "errors": [],
+  "boundary": "Module loading/integrity and rendered mechanism effects; does not establish style preference or improvement over no Skill."
+}

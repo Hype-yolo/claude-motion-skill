@@ -1,0 +1,61 @@
+{
+  "id": "toy-car",
+  "title": "玩具汽车",
+  "kind": "third-party-gltf",
+  "modelOrigin": "通用开源模型，非 Claude 来源",
+  "path": "assets/models/toy-car",
+  "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar",
+  "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+  "entry": "model.glb",
+  "license": [
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "artist": "Guido Odendahl",
+      "year": "2020",
+      "owner": "Public",
+      "what": "Initial car model",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    },
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "artist": "Eric Chadwick",
+      "year": "2020",
+      "owner": "Public",
+      "what": "Extensions and scene composition",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "model.glb",
+      "sha256": "01a60862de55cd4b9f3acfab0b0def86451800f9c42467fcd61052c16cb9838c",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar/glTF-Binary/ToyCar.glb",
+      "bytes": 5422412
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "aed216cda25deab59a115bdd6f486da0437fe4e1d9df11c34e496242dbf89fe2",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar/README.md",
+      "bytes": 2073
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "4ccccf4f019521aea50d462a8b20b876478aca456ab6adde17cd8e4a53110b73",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar/metadata.json",
+      "bytes": 1070
+    }
+  ],
+  "tags": [
+    "汽车",
+    "玩具",
+    "car"
+  ],
+  "status": "downloaded-runtime-pending",
+  "userApproved": false
+}

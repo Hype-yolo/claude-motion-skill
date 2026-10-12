@@ -2734,7 +2734,18 @@
           ],
           "role": "original upstream implementation"
         }
-      ]
+      ],
+      "productionEngine": {
+        "status": "old-adaptations-rejected",
+        "createScript": "scripts/create-engine.mjs",
+        "guide": "references/production-engines.md",
+        "template": "assets/production/glass",
+        "preview": "assets/cases/previews/expansion-glass.png",
+        "verification": "references/engine-evidence/expansion-glass.json",
+        "previewScope": "new-topic development film; user review pending",
+        "engineArgument": "glass",
+        "boundary": "Original source remains available. 7/8 adaptations rejected by user for shape/motion quality; use full source geometry or revised object catalog and inspect. No quality endorsement."
+      }
     },
     {
       "id": "lemo-halftone-dossier",
@@ -3262,7 +3273,17 @@
           ],
           "role": "original upstream implementation"
         }
-      ]
+      ],
+      "productionEngine": {
+        "status": "local-pilot",
+        "createScript": "scripts/create-hd2d.mjs",
+        "guide": "references/production-engines.md",
+        "template": "assets/engines/hd2d",
+        "boundary": "Verified new-topic engineering pilot; not a blind aesthetic test or all-upstream-features reproduction.",
+        "preview": "assets/cases/previews/pilot-hd2d.png",
+        "verification": "references/engine-evidence/hd2d.json",
+        "previewScope": "New adapted pilot, not an original demo preview."
+      }
     },
     {
       "id": "lemo-hologram-hud",
@@ -6354,7 +6375,17 @@
           ],
           "role": "original upstream implementation"
         }
-      ]
+      ],
+      "productionEngine": {
+        "status": "local-pilot",
+        "createScript": "scripts/create-papercut.mjs",
+        "guide": "references/production-engines.md",
+        "template": "assets/engines/papercut",
+        "boundary": "Verified new-topic engineering pilot; not a blind aesthetic test or all-upstream-features reproduction.",
+        "preview": "assets/cases/previews/pilot-papercut.png",
+        "verification": "references/engine-evidence/papercut.json",
+        "previewScope": "New adapted pilot, not an original demo preview."
+      }
     },
     {
       "id": "lemo-pictogram-motion",
@@ -8884,7 +8915,17 @@
           ],
           "role": "original upstream implementation"
         }
-      ]
+      ],
+      "productionEngine": {
+        "status": "runtime-checked-user-review-pending",
+        "createScript": "scripts/create-engine.mjs",
+        "guide": "references/production-engines.md",
+        "template": "assets/production/swiss",
+        "preview": "assets/cases/previews/expansion-swiss.png",
+        "verification": "references/engine-evidence/expansion-swiss.json",
+        "previewScope": "new-topic development film; user review pending",
+        "engineArgument": "swiss"
+      }
     },
     {
       "id": "lemo-tilt-shift",

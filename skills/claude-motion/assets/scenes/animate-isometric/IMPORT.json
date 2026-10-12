@@ -1,0 +1,109 @@
+{
+  "id": "animate-isometric",
+  "title": "等距线描",
+  "kind": "source-demo",
+  "path": "assets/scenes/animate-isometric",
+  "source": "https://github.com/cth9191/animate",
+  "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+  "license": "MIT",
+  "tags": [
+    "等距",
+    "线描",
+    "电脑",
+    "设备",
+    "isometric"
+  ],
+  "retained": "等距投影、电脑与设备的连贯形变",
+  "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+  "requiresThree": false,
+  "duration": 6.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": true,
+  "userApproved": false,
+  "status": "rendered-source-demo",
+  "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+  "preview": "assets/scenes/animate-isometric/preview.png",
+  "files": [
+    {
+      "path": "ADAPTATION.md",
+      "sha256": "980cdc65d1ee4b4caed75e3169be6c811039fd42eb4ec042d74e2955e3048c24"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+    },
+    {
+      "path": "STYLE.md",
+      "sha256": "ce4d7cfdb19620abf0dd63da2f7ff88c89987042da4950d87403189f4c411095"
+    },
+    {
+      "path": "adapter.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "original.html",
+      "sha256": "09df32dde750a424ec092987406662387e6df98350c477b7bee4b172e636ca3c"
+    },
+    {
+      "path": "piece.json",
+      "sha256": "32af19a37f7a93902f8cfbbdcb789f3158f1a274e8e2641784f3b9f741f272af"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "3d0ea904095d0e4e9b3e8e8a8644550f564b584c398308d56dd182f8d5d475ce"
+    },
+    {
+      "path": "rebuild.mjs",
+      "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+    },
+    {
+      "path": "runtime/kit/board.js",
+      "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+    },
+    {
+      "path": "runtime/kit/core.js",
+      "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+    },
+    {
+      "path": "runtime/kit/morph.js",
+      "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+    },
+    {
+      "path": "runtime/kit/score-head.js",
+      "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+    },
+    {
+      "path": "runtime/kit/score-tail.js",
+      "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+    },
+    {
+      "path": "runtime/styles/isometric/kit.js",
+      "sha256": "80de9daeec940abd0eb25a9fb865df328b477a41301099b6a61e50a5a4f7f37e"
+    },
+    {
+      "path": "runtime/tools/build.mjs",
+      "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+    },
+    {
+      "path": "src/bridges.js",
+      "sha256": "a05964cb61d668491cd1f7152c3ab29df31b519d88578752e90585b8db7107df"
+    },
+    {
+      "path": "src/head.html",
+      "sha256": "1ef884579bd8366cdeb36e0dbdead04433aba1d5a67a36d6fa2dc00863c08fe3"
+    },
+    {
+      "path": "src/scenes.js",
+      "sha256": "96aeb3f37611c1db78b6eda8064a5a20018224d7a53d105d3d1b9895668604a4"
+    },
+    {
+      "path": "src/score.js",
+      "sha256": "30b29803a36fedde86046c7b026ea20167f438349c54f6d1eb60a68bccd358f4"
+    }
+  ]
+}

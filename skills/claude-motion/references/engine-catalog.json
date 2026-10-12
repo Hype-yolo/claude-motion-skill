@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "scope": "5 runnable systems; technical verification is separate from user review. 2026-10-10 feedback rejects two glass examples and flags character/staging issues.",
+  "engines": [
+    {
+      "id": "hd2d",
+      "title": "像素三维",
+      "tags": [
+        "像素",
+        "微缩",
+        "小镇",
+        "森林",
+        "室内",
+        "hd2d",
+        "pixel"
+      ],
+      "nativePage": true,
+      "status": "scene-and-character-fit-required",
+      "userApproved": false,
+      "template": "assets/production/hd2d",
+      "examples": [
+        "clock-repair",
+        "fern-expedition"
+      ],
+      "preview": "assets/cases/previews/expansion-hd2d.png",
+      "createScript": "scripts/create-engine.mjs",
+      "guide": "references/production-engines.md",
+      "priorPilotUserApproved": true,
+      "verifyScript": "scripts/verify-engine.mjs",
+      "verification": "references/engine-evidence/expansion-hd2d.json",
+      "exportedExamples": 2,
+      "userReview": "clock blue void and forest sprite mismatch",
+      "defaultEligible": true
+    },
+    {
+      "id": "papercut",
+      "title": "纸片与镂空",
+      "tags": [
+        "剪纸",
+        "纸片",
+        "镂空",
+        "papercut"
+      ],
+      "nativePage": false,
+      "status": "runtime-checked-user-review-pending",
+      "userApproved": false,
+      "template": "assets/production/papercut",
+      "examples": [
+        "borrowed-umbrella",
+        "paper-orrery"
+      ],
+      "preview": "assets/cases/previews/expansion-papercut.png",
+      "createScript": "scripts/create-engine.mjs",
+      "guide": "references/production-engines.md",
+      "priorPilotUserApproved": true,
+      "verifyScript": "scripts/verify-engine.mjs",
+      "verification": "references/engine-evidence/expansion-papercut.json",
+      "exportedExamples": 2,
+      "userReview": "pending"
+    },
+    {
+      "id": "handdrawn",
+      "title": "手绘角色",
+      "tags": [
+        "手绘",
+        "角色",
+        "表情",
+        "绘本",
+        "handdrawn"
+      ],
+      "nativePage": true,
+      "status": "character-fit-required",
+      "userApproved": false,
+      "template": "assets/production/handdrawn",
+      "examples": [
+        "kite-mender",
+        "night-reader"
+      ],
+      "preview": "assets/cases/previews/expansion-handdrawn.png",
+      "createScript": "scripts/create-engine.mjs",
+      "guide": "references/production-engines.md",
+      "verifyScript": "scripts/verify-engine.mjs",
+      "verification": "references/engine-evidence/expansion-handdrawn.json",
+      "exportedExamples": 2,
+      "userReview": "Clawd presence is not Claude feel; do not default to mascot",
+      "defaultEligible": false
+    },
+    {
+      "id": "glass",
+      "title": "玻璃实体",
+      "tags": [
+        "玻璃",
+        "产品",
+        "透明",
+        "实体",
+        "glass",
+        "product"
+      ],
+      "nativePage": true,
+      "status": "revision-required",
+      "userApproved": false,
+      "template": "assets/production/glass",
+      "examples": [
+        "light-hourglass",
+        "clear-turntable"
+      ],
+      "preview": "assets/cases/previews/expansion-glass.png",
+      "createScript": "scripts/create-engine.mjs",
+      "guide": "references/production-engines.md",
+      "verifyScript": "scripts/verify-engine.mjs",
+      "verification": "references/engine-evidence/expansion-glass.json",
+      "exportedExamples": 2,
+      "userReview": "7/8 rejected for model/animation quality; new revisions are not yet approved",
+      "rejectedExamples": [
+        "light-hourglass",
+        "clear-turntable"
+      ],
+      "defaultEligible": false
+    },
+    {
+      "id": "swiss",
+      "title": "字体与图形",
+      "tags": [
+        "排版",
+        "字体",
+        "信息",
+        "抽象",
+        "图形",
+        "typography",
+        "swiss"
+      ],
+      "nativePage": false,
+      "status": "runtime-checked-user-review-pending",
+      "userApproved": false,
+      "template": "assets/production/swiss",
+      "examples": [
+        "room-to-breathe",
+        "one-to-many"
+      ],
+      "preview": "assets/cases/previews/expansion-swiss.png",
+      "createScript": "scripts/create-engine.mjs",
+      "guide": "references/production-engines.md",
+      "verifyScript": "scripts/verify-engine.mjs",
+      "verification": "references/engine-evidence/expansion-swiss.json",
+      "exportedExamples": 2,
+      "userReview": "pending"
+    }
+  ]
+}

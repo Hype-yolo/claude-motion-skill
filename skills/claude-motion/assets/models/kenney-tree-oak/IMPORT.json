@@ -1,0 +1,60 @@
+{
+  "id": "kenney-tree-oak",
+  "title": "橡树",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-tree-oak",
+  "source": "https://kenney.nl/assets/nature-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+      "bytes": 611
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "b63415447c21fcfda180ff3e0dcdd3422ac6b851e2bcc7a989a9b9e60ff61c82",
+      "bytes": 383
+    },
+    {
+      "path": "model.glb",
+      "sha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+      "bytes": 14644
+    },
+    {
+      "path": "preview.png",
+      "sha256": "4a3ea61d5c95ab78d5077e00a212811ab886892efefb6d8d6228ccb9842d4c40",
+      "bytes": 23019,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "树",
+    "森林",
+    "公园",
+    "tree"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "nature",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "archiveMember": "Models/GLTF format/tree_oak.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-tree-oak/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 2,
+    "triangles": 196,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

@@ -1,4 +1,4 @@
-# 安装与导出 · v0.1.0-beta.1
+# 安装与导出 · v0.2.0-beta.1
 
 下载公开仓库或 Release 压缩包，将整个 `skills/claude-motion` 文件夹放入你的 Agent 的 Skill 目录。Codex 默认目录为 `~/.codex/skills/claude-motion`；已有同名版本时先备份，不合并覆盖。宿主提供安装工具时，也可以让它安装仓库中的 `skills/claude-motion` 子目录。
 
@@ -63,3 +63,29 @@ node scripts/render.mjs --root demo-rumor --out demo-rumor/film.mp4 --fps 24
 原例预览与额外依赖见 [case-status.md](case-status.md)。11 套预览不可用的案例仍提供源码，使用前需要处理缺口。即使预览可用，也不能保证复制原网页就能完整播放；优先通过已检查的绘图模块改编。
 
 所有资源必须位于作品目录中；标准导出器禁止外部网络资源。额外字体、声音、模型和纹理需自行合法取得并放入本地。无 `audioWav()` 即无声，不自动生成配音、配乐或字幕。
+
+## 场景、模型与系统
+
+本版本包含 5 套制作系统、14 个场景入口和 30 个物件包；统计互有重合，不相加作为风格数量。先阅读 [工作原理](how-it-works.md)，再按题目选择。
+
+列出场景：
+
+```sh
+node scripts/route.mjs --scenes
+```
+
+创建阅览室修订示例，目录必须不存在：
+
+```sh
+node scripts/create-scene.mjs --scene reading-room --out demo-room
+```
+
+导出原生页面工程：
+
+```sh
+node scripts/render.mjs --root demo-room --page index.html --out demo-room/film.mp4 --fps 24
+```
+
+macOS WebGL 渲染较慢时可加 `--gpu metal`；其他平台保持默认。three、p5、p5.brush 通过 npm 锁文件安装；生成器按需复制依赖与许可进入工程。三个实验场景可以显式创建，默认题目检索不推荐，需要 `--include-experimental` 才纳入候选。
+
+场景创建是在复制可编辑示例，换题仍需改写故事与时间线。包内开发示例不等于都比直接生成更好。

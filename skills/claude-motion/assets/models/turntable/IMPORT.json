@@ -1,0 +1,31 @@
+{
+  "id": "turntable",
+  "title": "带落针机构的唱机",
+  "kind": "local-procedural",
+  "modelOrigin": "本项目修订的程序模型，非新增 Claude 来源",
+  "path": "assets/models/turntable",
+  "entry": "model.js",
+  "source": "local project",
+  "license": "MIT",
+  "tags": [
+    "唱机",
+    "唱片",
+    "唱臂",
+    "turntable",
+    "record"
+  ],
+  "status": "independent-project-and-export-checked-review-pending",
+  "userApproved": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "0d706aec39535b0a09e7a65772ea1a1f72a4669b63c983e9f372b62f2cbeefd1"
+    },
+    {
+      "path": "model.js",
+      "sha256": "ce3fddc41154d6d052153d9c80279ad20788013f62219328657b2673431c98d9"
+    }
+  ],
+  "preview": "assets/models/turntable/preview.png",
+  "verification": "references/model-evidence.json"
+}

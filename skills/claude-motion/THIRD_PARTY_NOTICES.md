@@ -28,3 +28,46 @@ The routing/extraction/export helpers, auxiliary runtime and original scene addi
 Playwright is installed separately from npm under Apache-2.0. Chromium and FFmpeg are external runtime dependencies with their respective licenses and notices; they are not redistributed in this package. System fonts are not bundled.
 
 Keep the upstream licenses and source attribution when redistributing an adaptation. Additional downloaded fonts, audio, textures and models require their own attribution/permission review.
+
+## Native HD-2D runtime dependency
+
+Three.js 0.170.0 (MIT), https://github.com/mrdoob/three. Installed through the package lock. The HD-2D generator copies its license alongside vendored runtime files. New engine starters retain byte-identical Lemo source modules and write source/commit/hash manifests.
+
+## Production systems
+
+`assets/production/handdrawn` includes the project's adapted ClaudeAnimationBase modules, originating at https://github.com/JohnHeibel/ClaudeAnimationBase commit 0ac8bf2b31942376cb6b8c4074715595d512acd2 (MIT). The Clawd character is reused, not our original character or a brand endorsement. Each example includes the full license and records hashes of the adapted modules.
+
+p5 2.3.3 is LGPL-2.1; p5.brush 2.2.3 is MIT. Both are installed through npm and copied without modification into generated projects with their license notices. Source distributions: https://www.npmjs.com/package/p5/v/2.3.3 and https://www.npmjs.com/package/p5.brush/v/2.2.3.
+
+Swiss examples bundle Archivo under SIL OFL 1.1, with the original notice in licenses/OFL-Archivo.txt. Font source: https://github.com/google/fonts/tree/main/ofl/archivo . New scores are authored procedural audio, without imported voice/music.
+
+## Concrete model assets added 2026-10-10
+
+KhronosGroup/glTF-Sample-Assets models Fox, BoomBox, Lantern are stored under assets/models with their original metadata, source commit and checksums. BoomBox (Microsoft) and Lantern (sbtron/Microsoft, Frank Galligan) are CC0. Fox model is PixelMannen CC0, rig/animation tomkranis CC-BY-4.0, glTF conversion AsoboStudio/scurest CC-BY-4.0. They are not Claude-generated source cases. The asset-specific legal URLs and attribution are retained in each UPSTREAM.md and metadata.json.
+
+The complete aura-bud/product.js is byte-identical to the previously imported Lemo MIT product.js; it now exposes original geometry and articulation, not only material helpers. Locally authored hourglass and turntable modules are MIT and are not attributed to Claude.
+
+
+## Scene and model expansion added 2026-10-11
+
+cth9191/animate, https://github.com/cth9191/animate, commit 7e5eb56feb2dd573f890e1b7b34748af43d58263, MIT. Exact imported source files and hashes reside in assets/cases/animate/IMPORT.json with the original LICENSE. Seven scene starters include the original demo sources, rendering/style kits, original procedural audio score and builder. Local parent-canvas capture adapters are added. These are source demos, not our original stories. Fonts use local fallbacks and are not redistributed.
+
+Four Lemo adapters reuse byte-identical modules from the existing pinned source snapshot: midcentury-toon, scifi-toon, paper-popup and lowpoly-island. The local timeline/camera adapters and procedural scores are MIT. Original characters, geometry and layouts remain attributable to Lemo, not claimed as new asset authorship. The island preview retains source events from seconds 28–40. Generated Three.js projects retain Three.js MIT LICENSE.
+
+Additional model assets, each with its own pinned commit, hashes and upstream notices in assets/models/<id>/IMPORT.json and UPSTREAM.md:
+- CesiumMilkTruck (delivery-truck): Cesium, CC-BY-4.0. The original Cesium legal-mark notice is retained; trademark rights are not granted by the code license.
+- ToyCar: Guido Odendahl; scene, extensions and assembly by Eric Chadwick; CC0-1.0. Includes display base and fabric, not just the car.
+- Avocado: Microsoft, CC0-1.0.
+- RobotExpressive: Tomás Laulhé (Quaternius); glTF conversion, materials and expressions by Don McCurdy; CC0-1.0. Hosted in three.js examples. Not attributed to Claude.
+
+## Subject library expansion 04 (2026-10-11)
+
+Kenney Furniture Kit and Nature Kit: https://kenney.nl/assets/furniture-kit and https://kenney.nl/assets/nature-kit . 16 selected GLBs retained byte-for-byte, CC0. Original package License.txt and archive URL/hash/member path retained per object.
+
+Quaternius Ultimate Animated Animal Pack: https://quaternius.com/packs/ultimateanimatedanimals.html . Deer, Horse, ShibaInu, Alpaca, CC0 as declared on official pack page. Original embedded glTF retained; generated GLB only moves the embedded binary buffer into a BIN chunk, preserving meshes, skins, textures and clips. Source download URLs and hashes in IMPORT.json/UPSTREAM.md. Neither source is claimed as Claude-generated.
+
+## Targeted components included in v0.2.0-beta.1
+
+The reading-room starter contains 14 additional Kenney Furniture Kit GLBs (CC0), with original source URLs, archive/member hashes in ASSETS.json and KENNEY-LICENSE.txt. These assets belong to the scene starter and are not 14 extra entries in the 30-object catalog.
+
+The botanical-ink starter bundles unmodified RoughJS 4.6.6 (MIT), https://github.com/rough-stuff/rough . Its complete notice is assets/scenes/botanical-ink/ROUGHJS-LICENSE. The botanical drawing composition and contact-workshop two-link motion helper are local MIT additions, not attributed to Claude or Lemo.

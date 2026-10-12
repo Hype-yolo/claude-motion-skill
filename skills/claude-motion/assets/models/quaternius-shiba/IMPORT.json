@@ -1,0 +1,163 @@
+{
+  "id": "quaternius-shiba",
+  "title": "柴犬",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+  "path": "assets/models/quaternius-shiba",
+  "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+      "bytes": 208
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "9e5ef8af7fd7847871f792d5a5cdfcc7e730b792548200a6a1699048e3618bc2",
+      "bytes": 580
+    },
+    {
+      "path": "model.glb",
+      "sha256": "8302af941f144185c1afbde4ad8cc79358b575311deea23be4fbcd3d367f50a8",
+      "bytes": 1752268
+    },
+    {
+      "path": "original.gltf",
+      "sha256": "3236979b94a840eb72d9ce091b1361da327a96f5ce068e666680297480f30f6b",
+      "bytes": 2894445
+    },
+    {
+      "path": "preview.png",
+      "sha256": "97fe9cc524ffe10df741fcc074a677047da0f5c3c9ab81b5cbe0049a5747c073",
+      "bytes": 47415,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "狗",
+    "柴犬",
+    "宠物",
+    "行走",
+    "dog",
+    "shiba"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "animal",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=1XWUVbmMbiG9E90OqrumueD_pBdnYdyHZ",
+  "capabilities": {
+    "animated": true,
+    "clips": [
+      {
+        "name": "Attack",
+        "channels": 138
+      },
+      {
+        "name": "Death",
+        "channels": 138
+      },
+      {
+        "name": "Eating",
+        "channels": 138
+      },
+      {
+        "name": "Gallop",
+        "channels": 138
+      },
+      {
+        "name": "Gallop_Jump",
+        "channels": 138
+      },
+      {
+        "name": "Idle",
+        "channels": 138
+      },
+      {
+        "name": "Idle_2",
+        "channels": 138
+      },
+      {
+        "name": "Idle_2_HeadLow",
+        "channels": 138
+      },
+      {
+        "name": "Idle_HitReact1",
+        "channels": 138
+      },
+      {
+        "name": "Idle_HitReact2",
+        "channels": 138
+      },
+      {
+        "name": "Jump_ToIdle",
+        "channels": 138
+      },
+      {
+        "name": "Walk",
+        "channels": 138
+      }
+    ],
+    "skins": 1
+  },
+  "previewClip": "Walk",
+  "preview": "assets/models/quaternius-shiba/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 6,
+    "triangles": 1950,
+    "animations": [
+      {
+        "name": "Attack",
+        "duration": 1.2000000476837158
+      },
+      {
+        "name": "Death",
+        "duration": 1.0666667222976685
+      },
+      {
+        "name": "Eating",
+        "duration": 2.6666667461395264
+      },
+      {
+        "name": "Gallop",
+        "duration": 0.5666666626930237
+      },
+      {
+        "name": "Gallop_Jump",
+        "duration": 0.9333333373069763
+      },
+      {
+        "name": "Idle",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_2",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_2_HeadLow",
+        "duration": 4
+      },
+      {
+        "name": "Idle_HitReact1",
+        "duration": 0.6666666865348816
+      },
+      {
+        "name": "Idle_HitReact2",
+        "duration": 0.6666666865348816
+      },
+      {
+        "name": "Jump_ToIdle",
+        "duration": 1.3333333730697632
+      },
+      {
+        "name": "Walk",
+        "duration": 1.0666667222976685
+      }
+    ],
+    "deterministicSeek": true,
+    "verifiedClipCount": 12
+  }
+}

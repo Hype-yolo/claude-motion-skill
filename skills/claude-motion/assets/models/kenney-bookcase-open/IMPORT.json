@@ -1,0 +1,59 @@
+{
+  "id": "kenney-bookcase-open",
+  "title": "开放书架",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-bookcase-open",
+  "source": "https://kenney.nl/assets/furniture-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+      "bytes": 614
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "673868bfd3a751697ff7bff8c95882673d3277ad42df0fed45edadc83fee0552",
+      "bytes": 402
+    },
+    {
+      "path": "model.glb",
+      "sha256": "750702218d68c062b15dfef6ab06a4014d1cfa8bd05f02e57c53b7e13bec157c",
+      "bytes": 18020
+    },
+    {
+      "path": "preview.png",
+      "sha256": "a09d03b17498b4eea6f09f5ee94f67a44cbd2c9dbb31af3c699b88b8a55710ec",
+      "bytes": 25905,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "书架",
+    "图书馆",
+    "bookcase"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "furniture",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+  "archiveMember": "Models/GLTF format/bookcaseOpen.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-bookcase-open/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 1,
+    "triangles": 320,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

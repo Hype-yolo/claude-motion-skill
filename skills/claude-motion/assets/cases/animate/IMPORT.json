@@ -1,0 +1,414 @@
+{
+  "repository": "cth9191/animate",
+  "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+  "files": [
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "b82a3ccc3caef94636fc54d570663b87dd5562d6761a2acbdd9690c20df0b56c"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a70aaa9cbcd8f464edf700aa211950b05e38f133d6b1bee158e31dacd4eaf3a4"
+    },
+    {
+      "path": "plugins/animate/.claude-plugin/plugin.json",
+      "sha256": "cd67961788d6058d17db1951adeee6f91095980526881cb7a609c8bc9114e762"
+    },
+    {
+      "path": "plugins/animate/skills/animate/SKILL.md",
+      "sha256": "1208ee4ab2458a4831a9816950cdba25d3869cbbd6a795c4fded995f88bc0761"
+    },
+    {
+      "path": "plugins/animate/skills/animate/craft.md",
+      "sha256": "7bf4ec7fc81316a5d7d7fb67d8dc025118dc38ae6eaadc57df8fd411bcffe27e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/examples/history-of-ai/brief.md",
+      "sha256": "c4f2b3d295aeed783fd753884fa0931cf53916d9a77a1fb358145759aeae271a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/examples/history-of-ai/piece.json",
+      "sha256": "9ae0bdce90e1c310022c24d3014ed7aaee2e1cf8a6ab7e6a2c5201d3370ebdc2"
+    },
+    {
+      "path": "plugins/animate/skills/animate/examples/history-of-ai/src/bridges.js",
+      "sha256": "157bafdd047fbc57630c6115542be693e76b6617706b873f0f9358c842a1cb8c"
+    },
+    {
+      "path": "plugins/animate/skills/animate/examples/history-of-ai/src/head.html",
+      "sha256": "fe07e4b3733782e16edefb96ecea4543c2255ea3d7c88e5de28a25a151edc1ba"
+    },
+    {
+      "path": "plugins/animate/skills/animate/examples/history-of-ai/src/scenes.js",
+      "sha256": "fee87f87f0d38277d039b4c35aaf8345a98d9215fc91de81a199d72d716dea96"
+    },
+    {
+      "path": "plugins/animate/skills/animate/examples/history-of-ai/src/score.js",
+      "sha256": "13dd29680a040b5eb18b3a4077a1e82d70fc0363cb8c28eaf3133b5b860ebf24"
+    },
+    {
+      "path": "plugins/animate/skills/animate/grammar/FORMATS.md",
+      "sha256": "a4d028dfe78e1dda89b9508a156c65582461379256ca959e277b58522f7bf328"
+    },
+    {
+      "path": "plugins/animate/skills/animate/grammar/FRAME.md",
+      "sha256": "54f27f1cc5b61b2c97210b75f059d523b5cfb35ce90ab09f70857a9d96577665"
+    },
+    {
+      "path": "plugins/animate/skills/animate/grammar/STORY.md",
+      "sha256": "33f8fa0d2f6da78e9df1825ecabc7186f5a01f676328c165bbfe1cacb3646772"
+    },
+    {
+      "path": "plugins/animate/skills/animate/intake.md",
+      "sha256": "a5408cce5e2117c899fef6b329e670d060d72f844c81883333d96fa9ca6917c7"
+    },
+    {
+      "path": "plugins/animate/skills/animate/kit/board.js",
+      "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+    },
+    {
+      "path": "plugins/animate/skills/animate/kit/core.js",
+      "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+    },
+    {
+      "path": "plugins/animate/skills/animate/kit/morph.js",
+      "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+    },
+    {
+      "path": "plugins/animate/skills/animate/kit/score-head.js",
+      "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+    },
+    {
+      "path": "plugins/animate/skills/animate/kit/score-tail.js",
+      "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/new-style.md",
+      "sha256": "4ef30cf187ff1b1b3f501670b663396c44ce283d026e1cea76ef44899d9f2d2c"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/README.md",
+      "sha256": "4211463f82c631d859ca304dc9c0d325835ba5ba479b761d6f02f03421142fb5"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/crosshatch/STYLE.md",
+      "sha256": "97a3cdfd418e9de66914708e9fd9b03cb20acb1b8ac0f327e46830f9b3937a82"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/crosshatch/demo/piece.json",
+      "sha256": "c21ae6c28b72374a9020d906297f4dbbc3be105f286f87f18fe894f3849e5c63"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/crosshatch/demo/src/bridges.js",
+      "sha256": "1cc6db03d883f917074f859eeedbb0fa76d9d3e3429c1d8b80b4dbddeb52f423"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/crosshatch/demo/src/head.html",
+      "sha256": "e514511bc44ea4e19e0845899a1129fe37e209d02aca8e26eddd63b9ddac010a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/crosshatch/demo/src/scenes.js",
+      "sha256": "98ec5309ab5b44ba31e503ccbe27d5960985f41d67db915e78ea0377646a199a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/crosshatch/demo/src/score.js",
+      "sha256": "b03ca36aa207cfbe330c1d1f2fea3b8c0bcc1c013a5ac62f93a3b780dec45ee7"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/crosshatch/kit.js",
+      "sha256": "a8c051c840e5a12c94984d37a9fa5db6be40938853197237d7f740312121822a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/cut-paper/STYLE.md",
+      "sha256": "84a706921678d0288be4500efd5ca8170427333a4849b4848bf75ebad7603a6a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/cut-paper/demo/piece.json",
+      "sha256": "498b17360f27fd65a5cddd6513584c8f3e5e91a18a758f4d6f26eb6a7d9a3a3d"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/cut-paper/demo/src/bridges.js",
+      "sha256": "5b3ee1d625c8f165b069380bc5a32fef8a00b93783f881be37f97b4d31c0486a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/cut-paper/demo/src/head.html",
+      "sha256": "2daa7df2a77528855a1bda2e9d3eb28066538cc55fd11cad6e5eb29e0d6b637f"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/cut-paper/demo/src/scenes.js",
+      "sha256": "17b3b6b938fc9d87cee6f558a8835f01bdefc17512d69b1e0d64e974fab9c831"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/cut-paper/demo/src/score.js",
+      "sha256": "5d2ef0d070179a0d72d1a16793179d920090e16f6d2e4ddd4584e62b18ee6454"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/cut-paper/kit.js",
+      "sha256": "f5791c4b6481407d4eba0eab69eca35d227481816b384967f6adf86c1ccd1a1e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/STYLE.md",
+      "sha256": "ce4d7cfdb19620abf0dd63da2f7ff88c89987042da4950d87403189f4c411095"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/demo-dark/dark.js",
+      "sha256": "b5e3027340ffbd34d908c086afad8941d8b9fa62513a9be032e1a3e2d7456c77"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/demo-dark/piece.json",
+      "sha256": "daaa90deabc1ed2e1d0dfeb857ec41ab970dc503e331e2e0a19203d7e61592e7"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/demo/piece.json",
+      "sha256": "32af19a37f7a93902f8cfbbdcb789f3158f1a274e8e2641784f3b9f741f272af"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/demo/src/bridges.js",
+      "sha256": "a05964cb61d668491cd1f7152c3ab29df31b519d88578752e90585b8db7107df"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/demo/src/head.html",
+      "sha256": "1ef884579bd8366cdeb36e0dbdead04433aba1d5a67a36d6fa2dc00863c08fe3"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/demo/src/scenes.js",
+      "sha256": "96aeb3f37611c1db78b6eda8064a5a20018224d7a53d105d3d1b9895668604a4"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/demo/src/score.js",
+      "sha256": "30b29803a36fedde86046c7b026ea20167f438349c54f6d1eb60a68bccd358f4"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/isometric/kit.js",
+      "sha256": "80de9daeec940abd0eb25a9fb865df328b477a41301099b6a61e50a5a4f7f37e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/math/STYLE.md",
+      "sha256": "28814f02d829e504ceb9bdfcfad123067b764fcba05588a10bc3215d6ca11ba2"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/math/demo/piece.json",
+      "sha256": "941241e609880880383086637b704e7a1cd94387f064beea39299aaebc1daec7"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/math/demo/src/bridges.js",
+      "sha256": "8c0dac6b99175c84462edffa9150c34840abca43cb27a62603eb4d392789ba10"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/math/demo/src/head.html",
+      "sha256": "b8435007c3b9217d622f0969604bb31d7b18bca7130163ff0393d50fbe068739"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/math/demo/src/scenes.js",
+      "sha256": "1be3ad658cc47827ae4f886d506b76551b51bcb96deb6d2be470b7cde8301034"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/math/demo/src/score.js",
+      "sha256": "18949ceb8efb7a2f1bb3f2d954241648968e05159fae2a4060b800b481929b62"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/math/kit.js",
+      "sha256": "314522b839515ef2ef4f98d4576a85acf12a9e954b73b9cd73a5a0341f14860e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/pixel/STYLE.md",
+      "sha256": "58712dbbb7628e486d943fcb4ce6a89abd5de0e545e123e5483abeaf792395ca"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/pixel/demo/piece.json",
+      "sha256": "ac47a6cdd3ae71ce76d7df737d7ee5f1d4d9b15b0591498184923a9c0a2b1c9e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/pixel/demo/src/bridges.js",
+      "sha256": "7368810fe8c7f14bd5f10a2f803bbd3a67bc723fc36bf54a650d04030b9dfb95"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/pixel/demo/src/head.html",
+      "sha256": "34cc43e5f0844628c7a19d3f7f665ce1c6feb93b5d826f360d42d6802b5d2b75"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/pixel/demo/src/scenes.js",
+      "sha256": "e262ff298cae03bb706a017959fe1aa75ef8ae2eda168adb07927c8c14d196e9"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/pixel/demo/src/score.js",
+      "sha256": "c090864e79a91425e0ecefb71b86161a89f1257d3b34068f451e91ef9ab3c3c5"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/pixel/kit.js",
+      "sha256": "f5578749601de7b76c0572e65607d04e9233a7ae99ccd34d438d6dfd6b8806e2"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/riso/STYLE.md",
+      "sha256": "89eaf579f69496e979e1b985a37fa9f52e0932a874b27cdc0cebec5d787947fe"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/riso/demo/piece.json",
+      "sha256": "1aea3bee103a28d182a113e039b66014797ea93c6a3418ce63acbcbb663c123a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/riso/demo/src/bridges.js",
+      "sha256": "4551788f7c5d3c1a82da4a8fe904ec3bf6d6df96fbb368f7418ce0c0f34661f7"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/riso/demo/src/head.html",
+      "sha256": "cc99611f91cfd8593a31cd224f748748a89cd827d8b25bb920a3d404b64f1473"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/riso/demo/src/scenes.js",
+      "sha256": "086510b88e417fc6a77fb8dd807956bd7424f3965bf3e376d89314afb80851ac"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/riso/demo/src/score.js",
+      "sha256": "8d254e04be626b5f5db548d011be43045c7f755bd3a9dd1f4687d7b247de45dc"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/riso/kit.js",
+      "sha256": "0786f5db98abb592bcb1249b3558a6ff69d1a41afa4005f7b4d185758744791b"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/sketchbook/STYLE.md",
+      "sha256": "3398e03719b6deb2ff68f6f1be52a47e370f1389f8b67be74af0887ad4ac9d5c"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/sketchbook/demo/piece.json",
+      "sha256": "c7b45b1673ecc228c16dd6d0f448a21c795c36737abdbc5463be269c778a9741"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/sketchbook/demo/src/bridges.js",
+      "sha256": "7924370bde0b4a3a08ccda806cfb686a2805146ca4d06abb849504179b381f29"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/sketchbook/demo/src/head.html",
+      "sha256": "769371c3cc878c5730234e7ef073cf176ba67575b6afb4145bc547f1dc05536b"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/sketchbook/demo/src/scenes.js",
+      "sha256": "2d671dc247896a4f10c0bf88de32995b5da52fce12d42741d0d72abf42a35f0c"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/sketchbook/demo/src/score.js",
+      "sha256": "2fd3653e0015b388999fb13169df18eae15cfc4cd2022f0944c6d245a3ea22c6"
+    },
+    {
+      "path": "plugins/animate/skills/animate/styles/sketchbook/kit.js",
+      "sha256": "02ff4694da28f267920ddd5d2b01a9d9314c0fd33d0af679b2a8a1e99c86aca3"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/beat-cut/piece.json",
+      "sha256": "392e33a9aaeec8180c40aeb421d001f8a39a2853eba8adbabc840133d82fe437"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/beat-cut/src/bridges.js",
+      "sha256": "50d0853f4f79968f1621adc1267baea70aeb461663d762fa05ac0070def89f56"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/beat-cut/src/head.html",
+      "sha256": "37952dc2395377e210ce91047343b3c5fa796df1b931c0e3d040ef4b176995ef"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/beat-cut/src/scenes.js",
+      "sha256": "cc5e8b8b3296d59867a885434059955a5f971949f3f7a3b916b0da5bcda3bf51"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/beat-cut/src/score.js",
+      "sha256": "1f88298b86e8ed28e42a69486c5f4c304b3197e613e5e0842818d1f49b946284"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/piece/LOG.md",
+      "sha256": "5aa996b921cc77c336bdab5bb9d58a6478c8df4e161d4e740f47bd56fec12985"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/piece/brief.md",
+      "sha256": "4c2a0fa85716b8ad56b178c5f98d03fd1227284973482507bcf270243a54d26f"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/piece/piece.json",
+      "sha256": "4f763beaf3deb651b79bc71cfc18ee966c4bb72ea7a8b4aea8dac7f9bf6a9fc2"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/piece/src/bridges.js",
+      "sha256": "0c958e758d88e9cbee315e26d208a203ec2bcf2c0f97b3fd2c93e1e9c2b2383b"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/piece/src/head.html",
+      "sha256": "787f874220e936456626cf38bec78073c53ecbb47551d64c002c5e4ce9bc6cd6"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/piece/src/scenes.js",
+      "sha256": "540ead100c55ce17a8a99209c6149084a8ef0dc291b72b59b32e02bc88c19549"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/piece/src/score.js",
+      "sha256": "5d2ef0d070179a0d72d1a16793179d920090e16f6d2e4ddd4584e62b18ee6454"
+    },
+    {
+      "path": "plugins/animate/skills/animate/templates/style/kit.js",
+      "sha256": "d350c393801d5f8a114393a9427f9d4871c97a9b3e7019d3294edead97f86a77"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/beats.mjs",
+      "sha256": "97ccfe3ab2547241d1facc90b43703a643a35cb9c89467c04984f55ff4b5582e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/build.mjs",
+      "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/capture.mjs",
+      "sha256": "801db97ec5f6c94e2988a05fa6e625f71d7cadd5eb28761745ea0fa4cf8bb3e1"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/compare.mjs",
+      "sha256": "2eaef479fd44f78ab75e29c9b2f01ea8861909e6b8294559d9b31c5d485f7e1a"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/export.mjs",
+      "sha256": "addf2fbe8a6c4ea1bb76544b76b824b4706fcbc04e1e5c251392d03c9f5a2e23"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/framehash.mjs",
+      "sha256": "ab2a2d1806ef115be08c7721ab0816eb2ea880fd2c5630bdfb1acf6ceb0f49ba"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/gallery.mjs",
+      "sha256": "620884b520b56be4e292b188949d4d99ddcdeda295d1af02091d69bb405ca293"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/gpu.mjs",
+      "sha256": "2ca101f6951be4a34519271d1c6166d9e55f385413b62d97e25782af3e73d280"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/measure/refs.mjs",
+      "sha256": "1ab59c2c2b3c10a014f178550826cc9348f8fa6b3b98f1e0137d7104beb1954e"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/review.mjs",
+      "sha256": "7e03d692cc647562c03bed715b06e6ec8a7661e74fc5f392a269b04774b2c6ee"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/still.mjs",
+      "sha256": "801a6db91d4a1aff99fd1aac7ff94e7c03b7a5f0aa114f719ea1bd7eac879b64"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/storyboard.mjs",
+      "sha256": "c8998cd90250c8aac67b5ba58a4ec124b494de61ae3d1273012b552a74875ed9"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/textcheck.mjs",
+      "sha256": "2462f31603f72f10e885bc921f11806f35bbf3bdebc12706fcd1f99f289ed991"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/tile.mjs",
+      "sha256": "a9e4bc642db7ba2ad48ab4a62583a12539d2450ade6fcfcc615dfb317038c5e9"
+    },
+    {
+      "path": "plugins/animate/skills/animate/tools/voice.mjs",
+      "sha256": "123159fdaf3bc587addab6e0166718b90388c71dfa9f1e0c31ecada465b3e81a"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "lemo-scifi-toon",
+  "title": "最后一杯咖啡",
+  "kind": "component-adaptation",
+  "path": "assets/scenes/lemo-scifi-toon",
+  "source": "https://github.com/lemomo-ai/lemo-opuscar",
+  "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+  "license": "MIT",
+  "tags": [
+    "卡通",
+    "咖啡",
+    "咖啡馆",
+    "店员",
+    "手绘",
+    "toon"
+  ],
+  "retained": "原咖啡馆、店员、杯子与线条抖动引擎；新 12 秒递杯时间线。",
+  "edit": "编辑 film.js 的主体位置、镜头与时间线；upstream/ 保留原模块。新题目必须重写事件，不能只换标题。",
+  "requiresThree": false,
+  "duration": 12,
+  "width": 1280,
+  "height": 720,
+  "audio": true,
+  "userApproved": false,
+  "status": "rendered-component-preview",
+  "boundary": "复用原角色/场景资产的适配样段，非从零生成；海岛保留原作事件。画面审美仍待用户判断。",
+  "preview": "assets/scenes/lemo-scifi-toon/preview.png",
+  "files": [
+    {
+      "path": "ADAPTATION.md",
+      "sha256": "8f9d9a9879537c41a5170870fb2e635ef7d2fe4099f5b672386a7616022a93de"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756"
+    },
+    {
+      "path": "core/README.md",
+      "sha256": "0092f98f44a773b3d4a031b4fd9abab4d4d8abadd7b01c758821a4d8c01a3aa2"
+    },
+    {
+      "path": "core/assets/polyhaven/SOURCES.md",
+      "sha256": "407fee33eaf70cbec52dd165830d22b5b8a52d71f0d1067720a60c0d4f529609"
+    },
+    {
+      "path": "core/audio/INSTRUMENTS.md",
+      "sha256": "9038a4e010d699533c3a2534c9fbb338c7c3720b443b6f0af92a7180ffbae06e"
+    },
+    {
+      "path": "core/audio/pluck.py",
+      "sha256": "b3e5bc6d80da1f00abf57d2748315534a3b74c22739c90457c1e6f898073566e"
+    },
+    {
+      "path": "core/audio/sampler.py",
+      "sha256": "cdba4645a65214aa81e779dc723f98afa6a53c257f21f986f2932e08de70daa0"
+    },
+    {
+      "path": "core/audio/sfx.py",
+      "sha256": "7cef63ef913be0666b685aaba68efdfcddc951e37db235fe117bb8f38a346f54"
+    },
+    {
+      "path": "core/fonts/OFL.md",
+      "sha256": "e0ed9609f4ec312bfbc5b10d7fb74199bd4c836d1ebf34eae2ef3bd5e8267bc8"
+    },
+    {
+      "path": "core/fonts/fonts.css",
+      "sha256": "99eb8024569ac263e7e0f27ffd2c54dcf8f877ebeec4873ae59a3eb0fe4dacb0"
+    },
+    {
+      "path": "core/lib.js",
+      "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907"
+    },
+    {
+      "path": "core/post/crt.js",
+      "sha256": "c0009ae06f47ba63f9d66390ebdec2eec290454f09a47c6c59744d2a7539fdb1"
+    },
+    {
+      "path": "core/render/browser.mjs",
+      "sha256": "3ab7f7310b4280445239ca3de537654531ff2d8bcc362fdd444f0f524c7e8c73"
+    },
+    {
+      "path": "core/render/events.mjs",
+      "sha256": "3226d053a30a93ebcb581859799920185b0285721e20e565a036ce12281ce56b"
+    },
+    {
+      "path": "core/render/mux.sh",
+      "sha256": "d778884216041317afc629f710089b9fdd5fa1ee650fdc3de10f3d4c7f22867d"
+    },
+    {
+      "path": "core/render/page.mjs",
+      "sha256": "45796dc94e93fec177d3f162886e447292877971b695e6ebb0dbd6af43693d7a"
+    },
+    {
+      "path": "core/render/readcheck.mjs",
+      "sha256": "1b686a6734f5298242056034178148b40e200eceeb44b94218f57bb7d5e9382d"
+    },
+    {
+      "path": "core/render/serve.mjs",
+      "sha256": "4c8cd80108a6aaf3158a0eec06145e9010fc203ea9b0ab094b3c3ff4f030c900"
+    },
+    {
+      "path": "core/render/sheet.py",
+      "sha256": "a6507f8dac35e31a93d6af7c18f2b9e71fb637135fccd48f88dd86df2cf32d43"
+    },
+    {
+      "path": "core/render/slot.mjs",
+      "sha256": "d4505223645e430e822288e2bed85966a5e99959e039d6b59b4196654f97077e"
+    },
+    {
+      "path": "core/render/srt.py",
+      "sha256": "1ba264baae29927e6061cd8f301e2a7833e0c4117fa48a0bd0a0cf1f40866910"
+    },
+    {
+      "path": "core/render/still.mjs",
+      "sha256": "64028e6255d5488bbf72d4a3b01c93c41fd9e7523c1effdd15766ec588dcc679"
+    },
+    {
+      "path": "core/render/video.mjs",
+      "sha256": "1615965f62b1eac4696540171d6961bcae53feffd9922d90ce76358d06381755"
+    },
+    {
+      "path": "core/three/post.js",
+      "sha256": "8f378bf95c43fd8fd14366da146124df0952746b272e3bb99f5e80207047f3fb"
+    },
+    {
+      "path": "core/tts/asr_check.py",
+      "sha256": "3d6f07c1350c54d1e47fbb78023f706be37a35a18d75ccf5dde6acda3fdd7a9f"
+    },
+    {
+      "path": "core/tts/tts.py",
+      "sha256": "118f33891816f887667ce7005bbc007215e41b1b0a536c95f61471c292725e2d"
+    },
+    {
+      "path": "core/tts/tts_zh.py",
+      "sha256": "9af09a4ffd6fe57975d6863a9e33600e5d4fd3ff51997cc6d5e671b1f7645ef6"
+    },
+    {
+      "path": "film.js",
+      "sha256": "ed25225cddf84f34f7e0f976f613cf50c8034f7065d1bb5770022bb7130aa9c2"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ab184aa2c7cb2f55b5e32e8c9c0aa52d881996334eee9ff55c1f4cdbbc2042ff"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "f25c1bd7c7049cd85ae842f87f2f6eb6bc5b1dd98e4841ab2ba1a61642aba454"
+    },
+    {
+      "path": "score-base.js",
+      "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+    },
+    {
+      "path": "upstream/chars.js",
+      "sha256": "12d5c4d2eb970aa71a4eef58da0d44ac864c36f9e55f0847b0a0569c61517140"
+    },
+    {
+      "path": "upstream/main.js",
+      "sha256": "0db6cc9b18bd15fe785b8568b63aa419939aed048714e19a0bed20bae38b0e1c"
+    },
+    {
+      "path": "upstream/story.js",
+      "sha256": "b547213cdc3e000e8a8963137441380c9494838b97f83d2eada8ce3485582d0e"
+    },
+    {
+      "path": "upstream/toon.js",
+      "sha256": "e56c41d57dbe83c0e4d82d2efef670bfeea1a5ebdce285290bdef8594ce8ec2b"
+    },
+    {
+      "path": "upstream/worlds.js",
+      "sha256": "5ea519a7384f6b8d27af0fe190e2eac489286cefc16be36efecf3e40f866343b"
+    }
+  ]
+}

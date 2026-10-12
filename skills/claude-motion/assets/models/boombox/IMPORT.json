@@ -1,0 +1,55 @@
+{
+  "id": "boombox",
+  "title": "收音机实体",
+  "kind": "third-party-gltf",
+  "modelOrigin": "非 Claude 作品；通用开源模型",
+  "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox",
+  "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+  "license": [
+    {
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "artist": "Microsoft",
+      "year": "2017",
+      "owner": "Public",
+      "what": "Everything",
+      "text": "Creative Commons Zero v1.0 Universal",
+      "spdx": "CC0-1.0",
+      "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "model.glb",
+      "sha256": "f8b918445ebdd006768232205a62f5182d2208ca57f84c6ccc084943c0bc8f15",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox/glTF-Binary/BoomBox.glb",
+      "bytes": 10614184
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "4a0ba4006d903b85dea52788053399d835b22ebb3ab4b1e305ccee103d7b2271",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox/README.md",
+      "bytes": 1000
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "6fdf2571e662907ba51b35ca303d616baca22ae5f8e689bfd2110ef06329236a",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox/metadata.json",
+      "bytes": 655
+    }
+  ],
+  "tags": [
+    "收音机",
+    "音响",
+    "产品",
+    "boombox",
+    "radio"
+  ],
+  "path": "assets/models/boombox",
+  "entry": "model.glb",
+  "animations": false,
+  "status": "independent-project-and-export-checked-review-pending",
+  "userApproved": false,
+  "preview": "assets/models/boombox/preview.png",
+  "verification": "references/model-evidence.json"
+}

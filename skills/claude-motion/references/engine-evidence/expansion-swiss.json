@@ -1,0 +1,22 @@
+{
+  "case": "lemo-swiss-motion",
+  "files": [
+    {
+      "path": "engine/ease.js",
+      "sha256": "c6b8aefb1b2f49d173a224fa74d1d49f2936dbe4b5f3ef340d520954139ee9c8",
+      "loaded": true,
+      "scope": "upstream file"
+    },
+    {
+      "path": "engine/source-film.js",
+      "sha256": "69da97cb7f8e7d8856a282af85daf0b6f1c825d02e8fe4e369bdac55efb0d4be",
+      "loaded": true,
+      "scope": "upstream file"
+    }
+  ],
+  "seekRepeat": "identical",
+  "features": [],
+  "fonts": "loaded",
+  "errors": [],
+  "boundary": "Module loading/integrity and rendered mechanism effects; does not establish style preference or improvement over no Skill."
+}

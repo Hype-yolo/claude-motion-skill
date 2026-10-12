@@ -1,0 +1,178 @@
+{
+  "id": "lemo-midcentury-toon",
+  "title": "下班后的片刻",
+  "kind": "component-adaptation",
+  "path": "assets/scenes/lemo-midcentury-toon",
+  "source": "https://github.com/lemomo-ai/lemo-opuscar",
+  "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+  "license": "MIT",
+  "tags": [
+    "人物",
+    "人物手绘",
+    "手机",
+    "关节",
+    "复古",
+    "midcentury"
+  ],
+  "retained": "原人物轮廓、手部关节、手机道具、纸张与墨线；新场景与收起手机动作。",
+  "edit": "编辑 film.js 的主体位置、镜头与时间线；upstream/ 保留原模块。新题目必须重写事件，不能只换标题。",
+  "requiresThree": false,
+  "duration": 12,
+  "width": 1280,
+  "height": 720,
+  "audio": true,
+  "userApproved": false,
+  "status": "rendered-component-preview",
+  "boundary": "复用原角色/场景资产的适配样段，非从零生成；海岛保留原作事件。画面审美仍待用户判断。",
+  "preview": "assets/scenes/lemo-midcentury-toon/preview.png",
+  "files": [
+    {
+      "path": "ADAPTATION.md",
+      "sha256": "29ac88241b02704d609fd83ba1096741b70e545cea712498874c25f5e316a526"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756"
+    },
+    {
+      "path": "core/README.md",
+      "sha256": "0092f98f44a773b3d4a031b4fd9abab4d4d8abadd7b01c758821a4d8c01a3aa2"
+    },
+    {
+      "path": "core/assets/polyhaven/SOURCES.md",
+      "sha256": "407fee33eaf70cbec52dd165830d22b5b8a52d71f0d1067720a60c0d4f529609"
+    },
+    {
+      "path": "core/audio/INSTRUMENTS.md",
+      "sha256": "9038a4e010d699533c3a2534c9fbb338c7c3720b443b6f0af92a7180ffbae06e"
+    },
+    {
+      "path": "core/audio/pluck.py",
+      "sha256": "b3e5bc6d80da1f00abf57d2748315534a3b74c22739c90457c1e6f898073566e"
+    },
+    {
+      "path": "core/audio/sampler.py",
+      "sha256": "cdba4645a65214aa81e779dc723f98afa6a53c257f21f986f2932e08de70daa0"
+    },
+    {
+      "path": "core/audio/sfx.py",
+      "sha256": "7cef63ef913be0666b685aaba68efdfcddc951e37db235fe117bb8f38a346f54"
+    },
+    {
+      "path": "core/fonts/OFL.md",
+      "sha256": "e0ed9609f4ec312bfbc5b10d7fb74199bd4c836d1ebf34eae2ef3bd5e8267bc8"
+    },
+    {
+      "path": "core/fonts/fonts.css",
+      "sha256": "99eb8024569ac263e7e0f27ffd2c54dcf8f877ebeec4873ae59a3eb0fe4dacb0"
+    },
+    {
+      "path": "core/lib.js",
+      "sha256": "770c8fde7c43e6a8aa9f69235869eb2a6ef5dc43453d0e56d4ff0da576c83907"
+    },
+    {
+      "path": "core/post/crt.js",
+      "sha256": "c0009ae06f47ba63f9d66390ebdec2eec290454f09a47c6c59744d2a7539fdb1"
+    },
+    {
+      "path": "core/render/browser.mjs",
+      "sha256": "3ab7f7310b4280445239ca3de537654531ff2d8bcc362fdd444f0f524c7e8c73"
+    },
+    {
+      "path": "core/render/events.mjs",
+      "sha256": "3226d053a30a93ebcb581859799920185b0285721e20e565a036ce12281ce56b"
+    },
+    {
+      "path": "core/render/mux.sh",
+      "sha256": "d778884216041317afc629f710089b9fdd5fa1ee650fdc3de10f3d4c7f22867d"
+    },
+    {
+      "path": "core/render/page.mjs",
+      "sha256": "45796dc94e93fec177d3f162886e447292877971b695e6ebb0dbd6af43693d7a"
+    },
+    {
+      "path": "core/render/readcheck.mjs",
+      "sha256": "1b686a6734f5298242056034178148b40e200eceeb44b94218f57bb7d5e9382d"
+    },
+    {
+      "path": "core/render/serve.mjs",
+      "sha256": "4c8cd80108a6aaf3158a0eec06145e9010fc203ea9b0ab094b3c3ff4f030c900"
+    },
+    {
+      "path": "core/render/sheet.py",
+      "sha256": "a6507f8dac35e31a93d6af7c18f2b9e71fb637135fccd48f88dd86df2cf32d43"
+    },
+    {
+      "path": "core/render/slot.mjs",
+      "sha256": "d4505223645e430e822288e2bed85966a5e99959e039d6b59b4196654f97077e"
+    },
+    {
+      "path": "core/render/srt.py",
+      "sha256": "1ba264baae29927e6061cd8f301e2a7833e0c4117fa48a0bd0a0cf1f40866910"
+    },
+    {
+      "path": "core/render/still.mjs",
+      "sha256": "64028e6255d5488bbf72d4a3b01c93c41fd9e7523c1effdd15766ec588dcc679"
+    },
+    {
+      "path": "core/render/video.mjs",
+      "sha256": "1615965f62b1eac4696540171d6961bcae53feffd9922d90ce76358d06381755"
+    },
+    {
+      "path": "core/three/post.js",
+      "sha256": "8f378bf95c43fd8fd14366da146124df0952746b272e3bb99f5e80207047f3fb"
+    },
+    {
+      "path": "core/tts/asr_check.py",
+      "sha256": "3d6f07c1350c54d1e47fbb78023f706be37a35a18d75ccf5dde6acda3fdd7a9f"
+    },
+    {
+      "path": "core/tts/tts.py",
+      "sha256": "118f33891816f887667ce7005bbc007215e41b1b0a536c95f61471c292725e2d"
+    },
+    {
+      "path": "core/tts/tts_zh.py",
+      "sha256": "9af09a4ffd6fe57975d6863a9e33600e5d4fd3ff51997cc6d5e671b1f7645ef6"
+    },
+    {
+      "path": "film.js",
+      "sha256": "69917197d35af04610b30ed62330e66e82740ebad261af715f6601aaa7a0ff9a"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ab184aa2c7cb2f55b5e32e8c9c0aa52d881996334eee9ff55c1f4cdbbc2042ff"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "9e51f38d0e25bad13b2da8d5f07b67d08b431d2c3dd47e6b212762a4893da7a6"
+    },
+    {
+      "path": "score-base.js",
+      "sha256": "8f861370da4db0eb801417f4287f51e2aed7ba1969c317a75d3b3b8fe7a31fe1"
+    },
+    {
+      "path": "upstream/engine/chars.js",
+      "sha256": "ba0cc26c92935caaa5a64556e424e7ed5f0cdad616f644de276b365ed4c97d1a"
+    },
+    {
+      "path": "upstream/engine/icons.js",
+      "sha256": "812ea35cc2e5c8dcedf9aafb618c0aee13938c353eb6f904f93b285b4ffd74da"
+    },
+    {
+      "path": "upstream/engine/toon.js",
+      "sha256": "261c79fa7aff5489a98d9e44f91659eae10e90d3bcb13a6e23e84098b709b0bf"
+    },
+    {
+      "path": "upstream/film.js",
+      "sha256": "e2f17ee6dcd79440e3ba11e9e8d44f0121493d425359ccfb09b589362e276971"
+    },
+    {
+      "path": "upstream/main.js",
+      "sha256": "9457590fc7d528d7c51c22dac4b681d6ac0694e0aab853f419ba375cb8051c29"
+    },
+    {
+      "path": "upstream/sheet.js",
+      "sha256": "a76ac17ada11d4aa0ec8195dd86758a43e69331c54357266d13d6fafce21fc6c"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "animate-riso",
+  "title": "孔版叠印",
+  "kind": "source-demo",
+  "path": "assets/scenes/animate-riso",
+  "source": "https://github.com/cth9191/animate",
+  "commit": "7e5eb56feb2dd573f890e1b7b34748af43d58263",
+  "license": "MIT",
+  "tags": [
+    "孔版",
+    "网点",
+    "叠印",
+    "城市",
+    "riso"
+  ],
+  "retained": "网点、套色与叠印合成，保留完整原绘图流程",
+  "edit": "编辑 src/scenes.js、src/bridges.js、src/score.js 与 piece.json 后运行 node rebuild.mjs；这是原例起点，必须按新题目改写事件与造型。",
+  "requiresThree": false,
+  "duration": 6.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": true,
+  "userApproved": false,
+  "status": "rendered-source-demo",
+  "boundary": "原作者示例，非本次原创成片；作者的 Claude 来源声明未审计。系统字体回退会影响排版。",
+  "preview": "assets/scenes/animate-riso/preview.png",
+  "files": [
+    {
+      "path": "ADAPTATION.md",
+      "sha256": "b66d565a46e828dfb7c3c89c8c67378007da90de76b65a8616bbc97bb7dfc4a6"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fe0cbecb2244c397885aae6962df8a0b7d43805d663ee9cda344d05b87bd8625"
+    },
+    {
+      "path": "STYLE.md",
+      "sha256": "89eaf579f69496e979e1b985a37fa9f52e0932a874b27cdc0cebec5d787947fe"
+    },
+    {
+      "path": "adapter.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ea459a7c0384099ae6dc1dcfa4f6ce6da586596f3e583c80ccaa96997b1cd462"
+    },
+    {
+      "path": "original.html",
+      "sha256": "6d974352e69e7228002dcd9893265e879f4c4121f0b1f519cf3f79c5efe52634"
+    },
+    {
+      "path": "piece.json",
+      "sha256": "1aea3bee103a28d182a113e039b66014797ea93c6a3418ce63acbcbb663c123a"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "34176c1fbfa0842f17266524fb9f21fc3bde837f138f92356f3bce480859e3ad"
+    },
+    {
+      "path": "rebuild.mjs",
+      "sha256": "0e3a97beb61fcd17a72063d9d56d218dfbd9eb71c6708332ae7d25b2da067a46"
+    },
+    {
+      "path": "runtime/kit/board.js",
+      "sha256": "b4245796208eba9d44dbdccae9af70d4857741631d6f0aeaef4ffb0674fb266b"
+    },
+    {
+      "path": "runtime/kit/core.js",
+      "sha256": "d791e21cdc1396d20bd7f1507a34693c64be9220a0d996cc4688149554967fc9"
+    },
+    {
+      "path": "runtime/kit/morph.js",
+      "sha256": "08d1427f6b2044dedcca4487d92cc6f67a176834b6e9d020aca146ef1813209d"
+    },
+    {
+      "path": "runtime/kit/score-head.js",
+      "sha256": "2dc73db24872366c7225f734761629712ab354edf5af5c1e8302e7fed47a0262"
+    },
+    {
+      "path": "runtime/kit/score-tail.js",
+      "sha256": "554c065624508bf23fcc0a55581c1ebf3a92df461b72a8ed115dd1defbca9f3e"
+    },
+    {
+      "path": "runtime/styles/riso/kit.js",
+      "sha256": "0786f5db98abb592bcb1249b3558a6ff69d1a41afa4005f7b4d185758744791b"
+    },
+    {
+      "path": "runtime/tools/build.mjs",
+      "sha256": "2209a54a41add2e4da103a0056fd60c994e07f06b2586eca901e0d051cfae202"
+    },
+    {
+      "path": "src/bridges.js",
+      "sha256": "4551788f7c5d3c1a82da4a8fe904ec3bf6d6df96fbb368f7418ce0c0f34661f7"
+    },
+    {
+      "path": "src/head.html",
+      "sha256": "cc99611f91cfd8593a31cd224f748748a89cd827d8b25bb920a3d404b64f1473"
+    },
+    {
+      "path": "src/scenes.js",
+      "sha256": "086510b88e417fc6a77fb8dd807956bd7424f3965bf3e376d89314afb80851ac"
+    },
+    {
+      "path": "src/score.js",
+      "sha256": "8d254e04be626b5f5db548d011be43045c7f755bd3a9dd1f4687d7b247de45dc"
+    }
+  ]
+}

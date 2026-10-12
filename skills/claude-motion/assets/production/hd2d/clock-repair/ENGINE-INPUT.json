@@ -1,0 +1,41 @@
+{
+  "case": "lemo-hd-2d",
+  "source": {
+    "repo": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+    "entry": "styles/hd-2d/demo/index.html",
+    "modelAttribution": "作者称使用 Claude Opus 5.5；未通过生成 API 日志独立核实",
+    "apiVerified": false,
+    "license": "MIT code; third-party assets retain separate licenses"
+  },
+  "three": "0.170.0",
+  "files": [
+    {
+      "path": "engine/upstream/px.js",
+      "source": "styles/hd-2d/demo/px.js",
+      "sha256": "36a295c950b9c7437252d7798b2494a673acc15f06255769d0906efc2dd4c2e9"
+    },
+    {
+      "path": "engine/upstream/kit.js",
+      "source": "styles/hd-2d/demo/kit.js",
+      "sha256": "568a227be3d5bbd80f84240fb3e7304097dd8dcf1ac8b56087dfbdd9ff196164"
+    },
+    {
+      "path": "engine/upstream/fx.js",
+      "source": "styles/hd-2d/demo/fx.js",
+      "sha256": "b64d201c4201f806e948b2562472bffb2b7ac5ce898eba8d371541fc7bd9e7a7"
+    },
+    {
+      "path": "engine/upstream/chars.js",
+      "source": "styles/hd-2d/demo/chars.js",
+      "sha256": "412c95ac2c9b00a3882a6aacff3ad6509fb80188665c9c58bc2ddab82e4140c6"
+    },
+    {
+      "path": "engine/upstream/post_ts.js",
+      "source": "styles/hd-2d/demo/post_ts.js",
+      "sha256": "3170c90d6651263f2a5c9038b873f9e090c8d1a0b2de704999a6587ec72d553e"
+    }
+  ],
+  "adaptation": "修钟铺、钟体、齿轮与钟摆、修理师图案和时间线"
+}

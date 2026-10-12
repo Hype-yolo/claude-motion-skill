@@ -1,0 +1,982 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "id": "kenney-desk",
+      "meshCount": 3,
+      "triangles": 198,
+      "animations": [],
+      "originalBounds": [
+        0.734475443,
+        0.38440755,
+        0.392299999
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-chair-desk",
+      "meshCount": 3,
+      "triangles": 588,
+      "animations": [],
+      "originalBounds": [
+        0.33495,
+        0.6075999759999999,
+        0.314299036
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-bookcase-open",
+      "meshCount": 1,
+      "triangles": 320,
+      "animations": [],
+      "originalBounds": [
+        0.4,
+        0.879999936,
+        0.25
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-lounge-sofa",
+      "meshCount": 2,
+      "triangles": 128,
+      "animations": [],
+      "originalBounds": [
+        0.979999959,
+        0.46,
+        0.410000026
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-lamp-round-floor",
+      "meshCount": 2,
+      "triangles": 76,
+      "animations": [],
+      "originalBounds": [
+        0.15203940999999999,
+        0.86,
+        0.1755599983
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-kitchen-coffee-machine",
+      "meshCount": 3,
+      "triangles": 166,
+      "animations": [],
+      "originalBounds": [
+        0.1895400078975,
+        0.17748899999999998,
+        0.24016705247925
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-kitchen-stove",
+      "meshCount": 6,
+      "triangles": 830,
+      "animations": [],
+      "originalBounds": [
+        0.43,
+        0.45,
+        0.45
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-bed-single",
+      "meshCount": 6,
+      "triangles": 214,
+      "animations": [],
+      "originalBounds": [
+        0.571000033326942,
+        0.37499999999996686,
+        1.125
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-tree-oak",
+      "meshCount": 2,
+      "triangles": 196,
+      "animations": [],
+      "originalBounds": [
+        0.6405540110000001,
+        1.22623992,
+        0.739648
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-tree-pine-tall-a-detailed",
+      "meshCount": 2,
+      "triangles": 134,
+      "animations": [],
+      "originalBounds": [
+        0.38627292199999996,
+        1.529606,
+        0.39195
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-bridge-wood",
+      "meshCount": 3,
+      "triangles": 220,
+      "animations": [],
+      "originalBounds": [
+        1.04,
+        0.4,
+        1.04
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-canoe",
+      "meshCount": 2,
+      "triangles": 200,
+      "animations": [],
+      "originalBounds": [
+        0.3,
+        0.1825,
+        1.15
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-tent-detailed-open",
+      "meshCount": 2,
+      "triangles": 232,
+      "animations": [],
+      "originalBounds": [
+        0.874928,
+        0.5611308000000003,
+        0.6664
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-rock-large-a",
+      "meshCount": 2,
+      "triangles": 80,
+      "animations": [],
+      "originalBounds": [
+        0.784906686,
+        0.2597759660000003,
+        1.0154614
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-flower-red-a",
+      "meshCount": 2,
+      "triangles": 76,
+      "animations": [],
+      "originalBounds": [
+        0.15909752,
+        0.2925,
+        0.18105906
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "kenney-campfire-logs",
+      "meshCount": 2,
+      "triangles": 112,
+      "animations": [],
+      "originalBounds": [
+        0.291852326,
+        0.06259983,
+        0.291852326
+      ],
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "repeat": true,
+      "clipsVerified": [],
+      "visibleSubjectMotion": "static mesh; no claimed subject motion"
+    },
+    {
+      "id": "quaternius-deer",
+      "meshCount": 7,
+      "triangles": 2098,
+      "animations": [
+        {
+          "name": "Attack_Headbutt",
+          "duration": 0.800000011920929
+        },
+        {
+          "name": "Attack_Kick",
+          "duration": 0.800000011920929
+        },
+        {
+          "name": "Death",
+          "duration": 0.8333333134651184
+        },
+        {
+          "name": "Eating",
+          "duration": 6
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.5333333611488342
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 1.399999976158142
+        },
+        {
+          "name": "Idle",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_2",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_Headlow",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.46666666865348816
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.5333333611488342
+        },
+        {
+          "name": "Jump_toIdle",
+          "duration": 1.5333333015441895
+        },
+        {
+          "name": "Walk",
+          "duration": 1.1666666269302368
+        }
+      ],
+      "originalBounds": [
+        1.4589805169426455,
+        4.274085380014454,
+        4.397315700036975
+      ],
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "selectedClip": "Walk",
+      "repeat": true,
+      "clipsVerified": [
+        {
+          "name": "Attack_Headbutt",
+          "duration": 0.800000011920929,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Attack_Kick",
+          "duration": 0.800000011920929,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Death",
+          "duration": 0.8333333134651184,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Eating",
+          "duration": 6,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.5333333611488342,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 1.399999976158142,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_2",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_Headlow",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.46666666865348816,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.5333333611488342,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Jump_toIdle",
+          "duration": 1.5333333015441895,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.1666666269302368,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        }
+      ],
+      "visibleSubjectMotion": "bone matrices and fixed-camera pixels changed"
+    },
+    {
+      "id": "quaternius-horse",
+      "meshCount": 8,
+      "triangles": 2182,
+      "animations": [
+        {
+          "name": "Attack_Headbutt",
+          "duration": 1.0333333015441895
+        },
+        {
+          "name": "Attack_Kick",
+          "duration": 1
+        },
+        {
+          "name": "Death",
+          "duration": 1
+        },
+        {
+          "name": "Eating",
+          "duration": 6
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.6000000238418579
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 1.4666666984558105
+        },
+        {
+          "name": "Idle",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_2",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_Headlow",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.6666666865348816
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.6666666865348816
+        },
+        {
+          "name": "Jump_toIdle",
+          "duration": 1.7333333492279053
+        },
+        {
+          "name": "Walk",
+          "duration": 1.1666666269302368
+        }
+      ],
+      "originalBounds": [
+        1.4114354776112161,
+        4.823949605308662,
+        5.676114197297382
+      ],
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "selectedClip": "Walk",
+      "repeat": true,
+      "clipsVerified": [
+        {
+          "name": "Attack_Headbutt",
+          "duration": 1.0333333015441895,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Attack_Kick",
+          "duration": 1,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Death",
+          "duration": 1,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Eating",
+          "duration": 6,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.6000000238418579,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 1.4666666984558105,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_2",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_Headlow",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.6666666865348816,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.6666666865348816,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Jump_toIdle",
+          "duration": 1.7333333492279053,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.1666666269302368,
+          "boneNumbers": 800,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        }
+      ],
+      "visibleSubjectMotion": "bone matrices and fixed-camera pixels changed"
+    },
+    {
+      "id": "quaternius-shiba",
+      "meshCount": 6,
+      "triangles": 1950,
+      "animations": [
+        {
+          "name": "Attack",
+          "duration": 1.2000000476837158
+        },
+        {
+          "name": "Death",
+          "duration": 1.0666667222976685
+        },
+        {
+          "name": "Eating",
+          "duration": 2.6666667461395264
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.5666666626930237
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 0.9333333373069763
+        },
+        {
+          "name": "Idle",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_2",
+          "duration": 3.3333332538604736
+        },
+        {
+          "name": "Idle_2_HeadLow",
+          "duration": 4
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.6666666865348816
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.6666666865348816
+        },
+        {
+          "name": "Jump_ToIdle",
+          "duration": 1.3333333730697632
+        },
+        {
+          "name": "Walk",
+          "duration": 1.0666667222976685
+        }
+      ],
+      "originalBounds": [
+        1.071018767064105,
+        3.0864839436125977,
+        4.161930340755581
+      ],
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "selectedClip": "Walk",
+      "repeat": true,
+      "clipsVerified": [
+        {
+          "name": "Attack",
+          "duration": 1.2000000476837158,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Death",
+          "duration": 1.0666667222976685,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Eating",
+          "duration": 2.6666667461395264,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.5666666626930237,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 0.9333333373069763,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_2",
+          "duration": 3.3333332538604736,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_2_HeadLow",
+          "duration": 4,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.6666666865348816,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.6666666865348816,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Jump_ToIdle",
+          "duration": 1.3333333730697632,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.0666667222976685,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        }
+      ],
+      "visibleSubjectMotion": "bone matrices and fixed-camera pixels changed"
+    },
+    {
+      "id": "quaternius-alpaca",
+      "meshCount": 7,
+      "triangles": 2060,
+      "animations": [
+        {
+          "name": "Attack_Headbutt",
+          "duration": 1
+        },
+        {
+          "name": "Attack_Kick",
+          "duration": 1
+        },
+        {
+          "name": "Death",
+          "duration": 1.0416666269302368
+        },
+        {
+          "name": "Eating",
+          "duration": 7.5
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.6666666865348816
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 1.75
+        },
+        {
+          "name": "Idle",
+          "duration": 4.166666507720947
+        },
+        {
+          "name": "Idle_2",
+          "duration": 4.166666507720947
+        },
+        {
+          "name": "Idle_Headlow",
+          "duration": 4.166666507720947
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.5833333134651184
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.6666666865348816
+        },
+        {
+          "name": "Jump_toIdle",
+          "duration": 1.9166666269302368
+        },
+        {
+          "name": "Walk",
+          "duration": 1.4583333730697632
+        }
+      ],
+      "originalBounds": [
+        1.267637594928526,
+        5.3061756940165,
+        4.335146441283847
+      ],
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "selectedClip": "Walk",
+      "repeat": true,
+      "clipsVerified": [
+        {
+          "name": "Attack_Headbutt",
+          "duration": 1,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Attack_Kick",
+          "duration": 1,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Death",
+          "duration": 1.0416666269302368,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Eating",
+          "duration": 7.5,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop",
+          "duration": 0.6666666865348816,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Gallop_Jump",
+          "duration": 1.75,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle",
+          "duration": 4.166666507720947,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_2",
+          "duration": 4.166666507720947,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_Headlow",
+          "duration": 4.166666507720947,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact1",
+          "duration": 0.5833333134651184,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Idle_HitReact2",
+          "duration": 0.6666666865348816,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Jump_toIdle",
+          "duration": 1.9166666269302368,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        },
+        {
+          "name": "Walk",
+          "duration": 1.4583333730697632,
+          "boneNumbers": 736,
+          "finite": true,
+          "poseChanged": true,
+          "pixelsChanged": true,
+          "repeat": true
+        }
+      ],
+      "visibleSubjectMotion": "bone matrices and fixed-camera pixels changed"
+    }
+  ],
+  "errors": [],
+  "scope": "20 independent create-model outputs loaded; deterministic time; 51 original clips tested for bone/pixel change with fixed camera. Not user aesthetic acceptance."
+}

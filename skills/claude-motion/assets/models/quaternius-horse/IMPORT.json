@@ -1,0 +1,170 @@
+{
+  "id": "quaternius-horse",
+  "title": "马",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+  "path": "assets/models/quaternius-horse",
+  "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+      "bytes": 208
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "95a5d56ab6b2033d29d218ea286c625eb32928c0e428c8f803b367afe96dd0de",
+      "bytes": 577
+    },
+    {
+      "path": "model.glb",
+      "sha256": "0588334842feae74a257dea69983db37088da2e97d76beb4a2ecbe6afdb81e26",
+      "bytes": 2215824
+    },
+    {
+      "path": "original.gltf",
+      "sha256": "3deb61550dff1d2786d04b6e8559d63ad3907d6ab606ba28ce0af074ed96341b",
+      "bytes": 3610082
+    },
+    {
+      "path": "preview.png",
+      "sha256": "77594762c8e4fba102d6b57f3b052cc9671883411a49b7b5ea85e6d70caa9b43",
+      "bytes": 47920,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "马",
+    "草原",
+    "动物",
+    "奔跑",
+    "horse"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "animal",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=1hbtY8kxnXiPdwYGVY7rWRgU0jl_-Q-LG",
+  "capabilities": {
+    "animated": true,
+    "clips": [
+      {
+        "name": "Attack_Headbutt",
+        "channels": 150
+      },
+      {
+        "name": "Attack_Kick",
+        "channels": 150
+      },
+      {
+        "name": "Death",
+        "channels": 150
+      },
+      {
+        "name": "Eating",
+        "channels": 150
+      },
+      {
+        "name": "Gallop",
+        "channels": 150
+      },
+      {
+        "name": "Gallop_Jump",
+        "channels": 150
+      },
+      {
+        "name": "Idle",
+        "channels": 150
+      },
+      {
+        "name": "Idle_2",
+        "channels": 150
+      },
+      {
+        "name": "Idle_Headlow",
+        "channels": 150
+      },
+      {
+        "name": "Idle_HitReact1",
+        "channels": 150
+      },
+      {
+        "name": "Idle_HitReact2",
+        "channels": 150
+      },
+      {
+        "name": "Jump_toIdle",
+        "channels": 150
+      },
+      {
+        "name": "Walk",
+        "channels": 150
+      }
+    ],
+    "skins": 1
+  },
+  "previewClip": "Walk",
+  "preview": "assets/models/quaternius-horse/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 8,
+    "triangles": 2182,
+    "animations": [
+      {
+        "name": "Attack_Headbutt",
+        "duration": 1.0333333015441895
+      },
+      {
+        "name": "Attack_Kick",
+        "duration": 1
+      },
+      {
+        "name": "Death",
+        "duration": 1
+      },
+      {
+        "name": "Eating",
+        "duration": 6
+      },
+      {
+        "name": "Gallop",
+        "duration": 0.6000000238418579
+      },
+      {
+        "name": "Gallop_Jump",
+        "duration": 1.4666666984558105
+      },
+      {
+        "name": "Idle",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_2",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_Headlow",
+        "duration": 3.3333332538604736
+      },
+      {
+        "name": "Idle_HitReact1",
+        "duration": 0.6666666865348816
+      },
+      {
+        "name": "Idle_HitReact2",
+        "duration": 0.6666666865348816
+      },
+      {
+        "name": "Jump_toIdle",
+        "duration": 1.7333333492279053
+      },
+      {
+        "name": "Walk",
+        "duration": 1.1666666269302368
+      }
+    ],
+    "deterministicSeek": true,
+    "verifiedClipCount": 13
+  }
+}

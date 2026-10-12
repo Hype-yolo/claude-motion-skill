@@ -1,0 +1,174 @@
+{
+  "models": [
+    {
+      "id": "fox",
+      "meshCount": 1,
+      "triangles": 576,
+      "animations": [
+        {
+          "name": "Survey",
+          "duration": 3.4166667461395264
+        },
+        {
+          "name": "Walk",
+          "duration": 0.7083333134651184
+        },
+        {
+          "name": "Run",
+          "duration": 1.1583333015441895
+        }
+      ],
+      "originalBounds": [
+        25.185436248792875,
+        79.02894183208898,
+        154.71986556468758
+      ],
+      "modelOrigin": "非 Claude 作品；通用开源模型",
+      "repeat": true
+    },
+    {
+      "id": "boombox",
+      "meshCount": 1,
+      "triangles": 6036,
+      "animations": [],
+      "originalBounds": [
+        0.019842308,
+        0.01954326,
+        0.0201524906
+      ],
+      "modelOrigin": "非 Claude 作品；通用开源模型",
+      "repeat": true
+    },
+    {
+      "id": "lantern",
+      "meshCount": 3,
+      "triangles": 5394,
+      "animations": [],
+      "originalBounds": [
+        15.49119854,
+        25.664219000000003,
+        4.63141966
+      ],
+      "modelOrigin": "非 Claude 作品；通用开源模型",
+      "repeat": true
+    },
+    {
+      "id": "aura-bud",
+      "meshCount": 34,
+      "triangles": 111696,
+      "animations": [],
+      "originalBounds": [
+        26.690150424373368,
+        40.602239246072976,
+        50.140358133507725
+      ],
+      "modelOrigin": "Lemomo 署名的 Claude Opus 5.5 案例；作者声明",
+      "repeat": true,
+      "caseCheck": {
+        "children": 9,
+        "hinge": true,
+        "cradles": 2
+      }
+    },
+    {
+      "id": "hourglass",
+      "meshCount": 18,
+      "triangles": 9216,
+      "animations": [],
+      "originalBounds": [
+        1.659999966621399,
+        2.879999996423721,
+        1.659999966621399
+      ],
+      "modelOrigin": "本项目修订的程序模型，非新增 Claude 来源",
+      "repeat": true
+    },
+    {
+      "id": "turntable",
+      "meshCount": 44,
+      "triangles": 22600,
+      "animations": [],
+      "originalBounds": [
+        3.799999952316284,
+        1.069582344106083,
+        2.799999952316284
+      ],
+      "modelOrigin": "本项目修订的程序模型，非新增 Claude 来源",
+      "repeat": true,
+      "contact": {
+        "tipY": 0.7444999999999999,
+        "recordY": 0.7445,
+        "radius": 0.8529170842824503
+      }
+    }
+  ],
+  "playback": [
+    {
+      "id": "clock-repair-v2",
+      "duration": 18,
+      "time": 10.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    },
+    {
+      "id": "fern-expedition-v2",
+      "duration": 18,
+      "time": 10.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    },
+    {
+      "id": "hourglass-v2",
+      "duration": 18,
+      "time": 10.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    },
+    {
+      "id": "turntable-v2",
+      "duration": 18,
+      "time": 10.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    },
+    {
+      "id": "asset-fox",
+      "duration": 8,
+      "time": 4.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    },
+    {
+      "id": "asset-boombox",
+      "duration": 8,
+      "time": 4.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    },
+    {
+      "id": "asset-lantern",
+      "duration": 8,
+      "time": 4.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    },
+    {
+      "id": "asset-aura-bud",
+      "duration": 8,
+      "time": 4.8,
+      "w": 1280,
+      "h": 720,
+      "painted": true
+    }
+  ],
+  "errors": [],
+  "mobileOverflow": false,
+  "userApproval": false
+}

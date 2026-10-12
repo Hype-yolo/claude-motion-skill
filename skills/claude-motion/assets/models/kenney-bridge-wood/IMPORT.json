@@ -1,0 +1,59 @@
+{
+  "id": "kenney-bridge-wood",
+  "title": "木桥",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-bridge-wood",
+  "source": "https://kenney.nl/assets/nature-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+      "bytes": 611
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "840174c404fb8d7c84cc0f94df31e9dd603ab95a07826b9c339f7be295c2ecc8",
+      "bytes": 386
+    },
+    {
+      "path": "model.glb",
+      "sha256": "3da4c208b0f72b7f2ba42db521b62ec4b0278050c75256a6982c40d21aab5701",
+      "bytes": 15692
+    },
+    {
+      "path": "preview.png",
+      "sha256": "09f1b5d80ec5333d66ecf464263f4fcd5b2f2216b94c3a619301064d350f9590",
+      "bytes": 32045,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "桥",
+    "河流",
+    "bridge"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "nature",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "archiveMember": "Models/GLTF format/bridge_wood.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-bridge-wood/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 3,
+    "triangles": 220,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

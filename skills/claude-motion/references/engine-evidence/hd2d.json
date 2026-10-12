@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "source": {
+    "repo": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+    "entry": "styles/hd-2d/demo/index.html",
+    "modelAttribution": "作者称使用 Claude Opus 5.5；未通过生成 API 日志独立核实",
+    "apiVerified": false,
+    "license": "MIT code; third-party assets retain separate licenses"
+  },
+  "byteIdenticalUpstreamModules": 5,
+  "loadedUpstreamModules": [
+    "engine/upstream/px.js",
+    "engine/upstream/kit.js",
+    "engine/upstream/fx.js",
+    "engine/upstream/chars.js",
+    "engine/upstream/post_ts.js"
+  ],
+  "differences": {
+    "lights": {
+      "changedPixels": 735036,
+      "meanRGBDifference": 14.598592303240741
+    },
+    "shadows": {
+      "changedPixels": 228214,
+      "meanRGBDifference": 4.299307725694445
+    },
+    "dof": {
+      "changedPixels": 353934,
+      "meanRGBDifference": 4.569480613425926
+    }
+  },
+  "seekRepeat": true,
+  "engine": {
+    "renderer": "WebKit WebGL",
+    "shadowMap": true,
+    "practicals": 11,
+    "shadowLights": 4,
+    "post": [
+      "upstream signed-depth DOF",
+      "upstream tilt-shift",
+      "UnrealBloom",
+      "upstream grade"
+    ],
+    "passenger": "new drawing via upstream atlas and lit billboard",
+    "camera": [
+      18.926852132000203,
+      16.926852132000203,
+      26.91640243657166
+    ],
+    "disabled": {
+      "lights": false,
+      "shadows": false,
+      "dof": false
+    },
+    "topLevelSceneObjects": 167
+  },
+  "errors": [],
+  "boundary": "Module loading + feature-off image differences + deterministic seek. Visual preference still requires viewing; this is not a model comparison.",
+  "example": "last-tram",
+  "fullFilm": {
+    "width": 1280,
+    "height": 720,
+    "duration": 24,
+    "fps": 24,
+    "frames": 576,
+    "seconds": 285.938,
+    "audio": true,
+    "decode": "passed",
+    "seekRepeat": "identical",
+    "errors": [],
+    "blocked": []
+  }
+}

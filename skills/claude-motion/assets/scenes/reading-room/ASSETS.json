@@ -1,0 +1,72 @@
+[
+  {
+    "id": "books",
+    "member": "Models/GLTF format/books.glb",
+    "sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c"
+  },
+  {
+    "id": "bookcaseClosedWide",
+    "member": "Models/GLTF format/bookcaseClosedWide.glb",
+    "sha256": "55b9903e9646dc407ed5237a1c41c1f0a14f9edc22e3392bdb9a4804d846af6a"
+  },
+  {
+    "id": "chairCushion",
+    "member": "Models/GLTF format/chairCushion.glb",
+    "sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc"
+  },
+  {
+    "id": "sideTable",
+    "member": "Models/GLTF format/sideTable.glb",
+    "sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472"
+  },
+  {
+    "id": "tableRound",
+    "member": "Models/GLTF format/tableRound.glb",
+    "sha256": "f8daea9124a542a00b7bdacfddac82dc468573d43e44d7b54dd6316e9695754b"
+  },
+  {
+    "id": "lampWall",
+    "member": "Models/GLTF format/lampWall.glb",
+    "sha256": "a9679ecd3be05731846f22ade97c37069598ca7a06dd9319f50230e63a1ea83c"
+  },
+  {
+    "id": "lampRoundTable",
+    "member": "Models/GLTF format/lampRoundTable.glb",
+    "sha256": "75bb644caaa3da003b4fcad7a931722dd61cd2858aab70cf660021d5061fa1b2"
+  },
+  {
+    "id": "pottedPlant",
+    "member": "Models/GLTF format/pottedPlant.glb",
+    "sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15"
+  },
+  {
+    "id": "rugRectangle",
+    "member": "Models/GLTF format/rugRectangle.glb",
+    "sha256": "a989d2d59c04e3071e0c90388b113a9a8f339ce1814ef984c51cb6dcd7c8e0eb"
+  },
+  {
+    "id": "wallWindow",
+    "member": "Models/GLTF format/wallWindow.glb",
+    "sha256": "166a10fddb8a78d942bc2791186913f7015dfee8501d20efd7a7b8f196fc5c3e"
+  },
+  {
+    "id": "coatRackStanding",
+    "member": "Models/GLTF format/coatRackStanding.glb",
+    "sha256": "d8231c22dab63ceb9fc8678f6c8ceafc62afa8726b51a73b4ce349043d3cdc91"
+  },
+  {
+    "id": "radio",
+    "member": "Models/GLTF format/radio.glb",
+    "sha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed"
+  },
+  {
+    "id": "pillow",
+    "member": "Models/GLTF format/pillow.glb",
+    "sha256": "6fae7c190d0b676ef3efd35e5178cef21dffb5c80e1257d8b537ad424da0e5f6"
+  },
+  {
+    "id": "benchCushion",
+    "member": "Models/GLTF format/benchCushion.glb",
+    "sha256": "5186ad938f8b9eff255361fd1fdc48a81f08c318161cde27c93753ab95a2d354"
+  }
+]

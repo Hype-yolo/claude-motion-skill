@@ -1,0 +1,59 @@
+{
+  "id": "kenney-lamp-round-floor",
+  "title": "落地灯",
+  "kind": "third-party-gltf",
+  "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+  "path": "assets/models/kenney-lamp-round-floor",
+  "source": "https://kenney.nl/assets/furniture-kit",
+  "entry": "model.glb",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+      "bytes": 614
+    },
+    {
+      "path": "UPSTREAM.md",
+      "sha256": "3177b1fd52cd4eb855e4553968de180a2a80ff91c3043d62088a0fa81a014420",
+      "bytes": 401
+    },
+    {
+      "path": "model.glb",
+      "sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+      "bytes": 6600
+    },
+    {
+      "path": "preview.png",
+      "sha256": "eba7bcb409f51f40509271a18d29c2ab66258664a2876e711dd0f49c32d3036d",
+      "bytes": 15550,
+      "origin": "local rendered inspection"
+    }
+  ],
+  "tags": [
+    "灯",
+    "客厅",
+    "lamp"
+  ],
+  "status": "runtime-verified-user-review-pending",
+  "userApproved": false,
+  "category": "furniture",
+  "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+  "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+  "archiveMember": "Models/GLTF format/lampRoundFloor.glb",
+  "capabilities": {
+    "animated": false,
+    "clips": []
+  },
+  "previewBackground": "#75898b",
+  "previewFloor": "#54696c",
+  "previewExposure": 0.62,
+  "preview": "assets/models/kenney-lamp-round-floor/preview.png",
+  "runtimeEvidence": {
+    "meshCount": 2,
+    "triangles": 76,
+    "animations": [],
+    "deterministicSeek": true,
+    "verifiedClipCount": 0
+  }
+}

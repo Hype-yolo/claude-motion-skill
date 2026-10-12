@@ -1,0 +1,30 @@
+{
+  "case": "lemo-papercut-red",
+  "source": {
+    "repo": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+    "entry": "styles/papercut-red/demo/index.html",
+    "modelAttribution": "作者称使用 Claude Opus 5.5；未通过生成 API 日志独立核实",
+    "apiVerified": false,
+    "license": "MIT code; third-party assets retain separate licenses"
+  },
+  "files": [
+    {
+      "path": "engine/upstream/paper.js",
+      "source": "styles/papercut-red/demo/paper.js",
+      "sha256": "ef897323cf3043c96091c1d4b8d83d59be772ac99afb5d3c3973af66827fe837"
+    },
+    {
+      "path": "engine/upstream/motifs.js",
+      "source": "styles/papercut-red/demo/motifs.js",
+      "sha256": "5da5a086d562ea5344caf2a893a97ae6d3e584efbe7be69da88a122c0b5f99b6"
+    },
+    {
+      "path": "engine/upstream/rig.js",
+      "source": "styles/papercut-red/demo/rig.js",
+      "sha256": "da6901a0e4efb008b561b07de6556dd405c78b676a65edbd8c630c6170d6948b"
+    }
+  ],
+  "adaptation": "齿轮、曲柄、轨道和星球模型，按齿数关联转速"
+}

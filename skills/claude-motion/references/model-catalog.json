@@ -1,0 +1,2146 @@
+{
+  "schemaVersion": 1,
+  "boundary": "Models and rigs, not new Claude style cases; provenance and review status are separate.",
+  "models": [
+    {
+      "id": "fox",
+      "title": "带骨骼的狐狸",
+      "kind": "third-party-gltf",
+      "modelOrigin": "非 Claude 作品；通用开源模型",
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox",
+      "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+      "license": [
+        {
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "artist": "PixelMannen",
+          "year": "2014",
+          "owner": "Public",
+          "what": "Model",
+          "text": "Creative Commons Zero v1.0 Universal",
+          "spdx": "CC0-1.0",
+          "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "artist": "tomkranis",
+          "year": "2014",
+          "owner": "tomkranis",
+          "what": "Rigging & Animation",
+          "text": "Creative Commons Attribution 4.0 International",
+          "spdx": "CC-BY-4.0",
+          "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        },
+        {
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "artist": "@AsoboStudio and @scurest",
+          "year": "2017",
+          "owner": "@AsoboStudio and @scurest",
+          "what": "Conversion to glTF",
+          "text": "Creative Commons Attribution 4.0 International",
+          "spdx": "CC-BY-4.0",
+          "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        }
+      ],
+      "files": [
+        {
+          "path": "model.glb",
+          "sha256": "d97044e701822bac5a62696459b27d7b375aada5de8574ed4362edbba94771f7",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox/glTF-Binary/Fox.glb",
+          "bytes": 162852
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "cf767a7943b12f3af0ea14a1b18947a45ed7a03c3e722678df33854d97df0f88",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox/README.md",
+          "bytes": 1782
+        },
+        {
+          "path": "metadata.json",
+          "sha256": "1d888d832b5eb2a32a461ae6d5e2bc00f925e3a571c1447842466d2061800604",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Fox/metadata.json",
+          "bytes": 1430
+        }
+      ],
+      "tags": [
+        "狐狸",
+        "动物",
+        "骨骼",
+        "行走",
+        "fox",
+        "animal"
+      ],
+      "path": "assets/models/fox",
+      "entry": "model.glb",
+      "animations": true,
+      "status": "independent-project-and-export-checked-review-pending",
+      "userApproved": false,
+      "preview": "assets/models/fox/preview.png",
+      "verification": "references/model-evidence.json"
+    },
+    {
+      "id": "boombox",
+      "title": "收音机实体",
+      "kind": "third-party-gltf",
+      "modelOrigin": "非 Claude 作品；通用开源模型",
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox",
+      "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+      "license": [
+        {
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "artist": "Microsoft",
+          "year": "2017",
+          "owner": "Public",
+          "what": "Everything",
+          "text": "Creative Commons Zero v1.0 Universal",
+          "spdx": "CC0-1.0",
+          "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+      ],
+      "files": [
+        {
+          "path": "model.glb",
+          "sha256": "f8b918445ebdd006768232205a62f5182d2208ca57f84c6ccc084943c0bc8f15",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox/glTF-Binary/BoomBox.glb",
+          "bytes": 10614184
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "4a0ba4006d903b85dea52788053399d835b22ebb3ab4b1e305ccee103d7b2271",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox/README.md",
+          "bytes": 1000
+        },
+        {
+          "path": "metadata.json",
+          "sha256": "6fdf2571e662907ba51b35ca303d616baca22ae5f8e689bfd2110ef06329236a",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/BoomBox/metadata.json",
+          "bytes": 655
+        }
+      ],
+      "tags": [
+        "收音机",
+        "音响",
+        "产品",
+        "boombox",
+        "radio"
+      ],
+      "path": "assets/models/boombox",
+      "entry": "model.glb",
+      "animations": false,
+      "status": "independent-project-and-export-checked-review-pending",
+      "userApproved": false,
+      "preview": "assets/models/boombox/preview.png",
+      "verification": "references/model-evidence.json"
+    },
+    {
+      "id": "lantern",
+      "title": "木制提灯",
+      "kind": "third-party-gltf",
+      "modelOrigin": "非 Claude 作品；通用开源模型",
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern",
+      "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+      "license": [
+        {
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "artist": "sbtron",
+          "year": "2017",
+          "owner": "Microsoft",
+          "what": "Initial version",
+          "text": "Creative Commons Zero v1.0 Universal",
+          "spdx": "CC0-1.0",
+          "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "artist": "Frank Galligan",
+          "year": "2018",
+          "owner": "Frank Galligan",
+          "what": "Draco compression",
+          "text": "Creative Commons Zero v1.0 Universal",
+          "spdx": "CC0-1.0",
+          "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+      ],
+      "files": [
+        {
+          "path": "model.glb",
+          "sha256": "a79458c4b02d695187a952f23a63b8bf278e7bc3d316a3c2a314f2d6974181f1",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern/glTF-Binary/Lantern.glb",
+          "bytes": 9564264
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "58a4903ae9c0bbb7d3f6ff1b9263b3b480edb7ca82109afdb06723275835a6c7",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern/README.md",
+          "bytes": 1080
+        },
+        {
+          "path": "metadata.json",
+          "sha256": "89f9dfb00347fbfd36ef4592d32d8493abb74ba000cd7c620e491bfc264a81ad",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Lantern/metadata.json",
+          "bytes": 1006
+        }
+      ],
+      "tags": [
+        "灯笼",
+        "提灯",
+        "道具",
+        "lantern",
+        "light"
+      ],
+      "path": "assets/models/lantern",
+      "entry": "model.glb",
+      "animations": false,
+      "status": "independent-project-and-export-checked-review-pending",
+      "userApproved": false,
+      "preview": "assets/models/lantern/preview.png",
+      "verification": "references/model-evidence.json"
+    },
+    {
+      "id": "aura-bud",
+      "title": "完整耳机与充电盒",
+      "kind": "source-procedural",
+      "modelOrigin": "Lemomo 署名的 Claude Opus 5.5 案例；作者声明",
+      "source": "https://github.com/lemomo-ai/lemo-opuscar",
+      "license": "MIT",
+      "path": "assets/models/aura-bud",
+      "entry": "product.js",
+      "tags": [
+        "耳机",
+        "充电盒",
+        "产品",
+        "爆炸图",
+        "earbud",
+        "product"
+      ],
+      "exports": [
+        "makeBud",
+        "explode",
+        "makeCase",
+        "setPulses"
+      ],
+      "status": "independent-project-and-export-checked-review-pending",
+      "userApproved": false,
+      "files": [
+        {
+          "path": "product.js",
+          "sha256": "9c0c35d19ca58de4be21f4833c906c1bd6364db90cdb8731374fb6a7c2afd5a3"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "f6d14d5ea5f60387eff5e7916f490e9d743986be48138d9ce187d69cbe536756"
+        }
+      ],
+      "preview": "assets/models/aura-bud/preview.png",
+      "verification": "references/model-evidence.json",
+      "commit": "c4bc370eb15d36c88e074fdba1b0248b62a8e419",
+      "sourceFile": "styles/glass-product/demo/product.js"
+    },
+    {
+      "id": "hourglass",
+      "title": "体积关联的沙漏",
+      "kind": "local-procedural",
+      "modelOrigin": "本项目修订的程序模型，非新增 Claude 来源",
+      "path": "assets/models/hourglass",
+      "entry": "model.js",
+      "source": "local project",
+      "license": "MIT",
+      "tags": [
+        "沙漏",
+        "计时",
+        "沙子",
+        "hourglass"
+      ],
+      "status": "independent-project-and-export-checked-review-pending",
+      "userApproved": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "0d706aec39535b0a09e7a65772ea1a1f72a4669b63c983e9f372b62f2cbeefd1"
+        },
+        {
+          "path": "model.js",
+          "sha256": "8e2a910329a663139f640f2700d77ecfe268a9773e1c24e58ab09684e8c1cafb"
+        }
+      ],
+      "preview": "assets/models/hourglass/preview.png",
+      "verification": "references/model-evidence.json"
+    },
+    {
+      "id": "turntable",
+      "title": "带落针机构的唱机",
+      "kind": "local-procedural",
+      "modelOrigin": "本项目修订的程序模型，非新增 Claude 来源",
+      "path": "assets/models/turntable",
+      "entry": "model.js",
+      "source": "local project",
+      "license": "MIT",
+      "tags": [
+        "唱机",
+        "唱片",
+        "唱臂",
+        "turntable",
+        "record"
+      ],
+      "status": "independent-project-and-export-checked-review-pending",
+      "userApproved": false,
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "0d706aec39535b0a09e7a65772ea1a1f72a4669b63c983e9f372b62f2cbeefd1"
+        },
+        {
+          "path": "model.js",
+          "sha256": "ce3fddc41154d6d052153d9c80279ad20788013f62219328657b2673431c98d9"
+        }
+      ],
+      "preview": "assets/models/turntable/preview.png",
+      "verification": "references/model-evidence.json"
+    },
+    {
+      "id": "delivery-truck",
+      "title": "送货卡车",
+      "kind": "third-party-gltf",
+      "modelOrigin": "通用开源模型，非 Claude 来源",
+      "path": "assets/models/delivery-truck",
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck",
+      "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+      "entry": "model.glb",
+      "license": [
+        {
+          "license": "CC-BY-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "artist": "Cesium",
+          "year": "2017",
+          "owner": "Cesium",
+          "what": "Everything",
+          "text": "Creative Commons Attribution 4.0 International",
+          "spdx": "CC-BY-4.0",
+          "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+        },
+        {
+          "license": "LicenseRef-LegalMark-Cesium",
+          "licenseUrl": "../../LICENSES/LicenseRef-LegalMark-Cesium.txt",
+          "artist": "Non-copyrightable logo",
+          "year": "2015",
+          "owner": "Cesium",
+          "what": "Cesium logo",
+          "text": "Cesium Trademark or Logo",
+          "icon": ""
+        }
+      ],
+      "files": [
+        {
+          "path": "model.glb",
+          "sha256": "09371b34608116de5842d23abe260bf11acf3e1554daf334a647eb566eee5c49",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb",
+          "bytes": 369980
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "72795225ebbbbd09138dfe0a911fadd7b9dbaeddaf134175cc3c9546383be1cb",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck/README.md",
+          "bytes": 1198
+        },
+        {
+          "path": "metadata.json",
+          "sha256": "b0d01085de5700f3e1d4f5471143e17cb5898a9bc908a323e372d62b1f7f6559",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/CesiumMilkTruck/metadata.json",
+          "bytes": 1000
+        },
+        {
+          "path": "LicenseRef-LegalMark-Cesium.txt",
+          "sha256": "7bafc8dbff0b9d04297bced53a47809e3ab6721cb35b4a2d780533476b28ebd4",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/LICENSES/LicenseRef-LegalMark-Cesium.txt",
+          "bytes": 625
+        }
+      ],
+      "tags": [
+        "汽车",
+        "交通",
+        "卡车",
+        "运输",
+        "truck"
+      ],
+      "status": "rendered-model-inspection",
+      "userApproved": false,
+      "preview": "assets/models/delivery-truck/preview.png"
+    },
+    {
+      "id": "toy-car",
+      "title": "玩具汽车",
+      "kind": "third-party-gltf",
+      "modelOrigin": "通用开源模型，非 Claude 来源",
+      "path": "assets/models/toy-car",
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar",
+      "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+      "entry": "model.glb",
+      "license": [
+        {
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "artist": "Guido Odendahl",
+          "year": "2020",
+          "owner": "Public",
+          "what": "Initial car model",
+          "text": "Creative Commons Zero v1.0 Universal",
+          "spdx": "CC0-1.0",
+          "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        },
+        {
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "artist": "Eric Chadwick",
+          "year": "2020",
+          "owner": "Public",
+          "what": "Extensions and scene composition",
+          "text": "Creative Commons Zero v1.0 Universal",
+          "spdx": "CC0-1.0",
+          "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+      ],
+      "files": [
+        {
+          "path": "model.glb",
+          "sha256": "01a60862de55cd4b9f3acfab0b0def86451800f9c42467fcd61052c16cb9838c",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar/glTF-Binary/ToyCar.glb",
+          "bytes": 5422412
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "aed216cda25deab59a115bdd6f486da0437fe4e1d9df11c34e496242dbf89fe2",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar/README.md",
+          "bytes": 2073
+        },
+        {
+          "path": "metadata.json",
+          "sha256": "4ccccf4f019521aea50d462a8b20b876478aca456ab6adde17cd8e4a53110b73",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/ToyCar/metadata.json",
+          "bytes": 1070
+        }
+      ],
+      "tags": [
+        "汽车",
+        "玩具",
+        "car"
+      ],
+      "status": "rendered-model-inspection",
+      "userApproved": false,
+      "preview": "assets/models/toy-car/preview.png",
+      "notes": "原场景含汽车、底座与红色织物；不是已经拆好的单独车辆。"
+    },
+    {
+      "id": "avocado",
+      "title": "牛油果剖面",
+      "kind": "third-party-gltf",
+      "modelOrigin": "通用开源模型，非 Claude 来源",
+      "path": "assets/models/avocado",
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado",
+      "commit": "edc7c9e67c639d230715049ee31f9a96a6babbbe",
+      "entry": "model.glb",
+      "license": [
+        {
+          "license": "CC0-1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "artist": "Microsoft",
+          "year": "2017",
+          "owner": "Public",
+          "what": "Everything",
+          "text": "Creative Commons Zero v1.0 Universal",
+          "spdx": "CC0-1.0",
+          "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        }
+      ],
+      "files": [
+        {
+          "path": "model.glb",
+          "sha256": "ccc9c3ce56423720b09399c2351537207cd5a65f859f9e6e2f30922762f3abd4",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado/glTF-Binary/Avocado.glb",
+          "bytes": 8110040
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "076b9fbb0bd7ccf39a3dcba838544331dfa71186014c24141929fbcb3e2a507e",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado/README.md",
+          "bytes": 969
+        },
+        {
+          "path": "metadata.json",
+          "sha256": "fe72b92d850c2a8ed94c78e77d8bf40c655a695d8e59e3b3a68f0acdcf2f065c",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/edc7c9e67c639d230715049ee31f9a96a6babbbe/Models/Avocado/metadata.json",
+          "bytes": 629
+        }
+      ],
+      "tags": [
+        "水果",
+        "食物",
+        "牛油果",
+        "avocado"
+      ],
+      "status": "rendered-model-inspection",
+      "userApproved": false,
+      "preview": "assets/models/avocado/preview.png"
+    },
+    {
+      "id": "expressive-robot",
+      "title": "表情与全身动作机器人",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Tomás Laulhé / Don McCurdy 模型，非 Claude 来源",
+      "path": "assets/models/expressive-robot",
+      "source": "https://github.com/mrdoob/three.js/tree/11738a9d55e502fb484cefffcea3a66dc44e9fe9/examples/models/gltf/RobotExpressive",
+      "commit": "11738a9d55e502fb484cefffcea3a66dc44e9fe9",
+      "entry": "model.glb",
+      "license": "CC0-1.0; credit Tomás Laulhé and Don McCurdy. See UPSTREAM.md",
+      "files": [
+        {
+          "path": "model.glb",
+          "sha256": "047f5e5fb3bb6d378bd1df16ca6137f2a596c99b3a1b5690b4020c05aaf6f319",
+          "url": "https://raw.githubusercontent.com/mrdoob/three.js/11738a9d55e502fb484cefffcea3a66dc44e9fe9/examples/models/gltf/RobotExpressive/RobotExpressive.glb",
+          "bytes": 463988
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "14687ac4a51d5e013b0fbc5486dabc743f76c1e37b7ca872af74cfb93115b4b2",
+          "url": "https://raw.githubusercontent.com/mrdoob/three.js/11738a9d55e502fb484cefffcea3a66dc44e9fe9/examples/models/gltf/RobotExpressive/README.md",
+          "bytes": 364
+        }
+      ],
+      "tags": [
+        "机器人",
+        "表情",
+        "动作",
+        "人物",
+        "robot",
+        "character"
+      ],
+      "status": "rendered-model-inspection",
+      "userApproved": false,
+      "preview": "assets/models/expressive-robot/preview.png"
+    },
+    {
+      "id": "kenney-desk",
+      "title": "写字桌",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-desk",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "bd982704882022ad8fee9ebd8fb5e1773e30e7d49f3c8b691757ab85c4dc8620",
+          "bytes": 391
+        },
+        {
+          "path": "model.glb",
+          "sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+          "bytes": 15048
+        },
+        {
+          "path": "preview.png",
+          "sha256": "38e7344390027b56d8a10367dfbbfc3f6b1a7d91d41c8547094df106faaee2b7",
+          "bytes": 23605,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "书房",
+        "工作室",
+        "桌子",
+        "desk"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/desk.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-desk/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 3,
+        "triangles": 198,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-chair-desk",
+      "title": "书桌椅",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-chair-desk",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "db6c730f540e062efb4eccc70717124982a78e1df646f10d103a1448c040e10e",
+          "bytes": 396
+        },
+        {
+          "path": "model.glb",
+          "sha256": "46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6",
+          "bytes": 39016
+        },
+        {
+          "path": "preview.png",
+          "sha256": "5490aaa1dfcd5e1502c23d5f74096763bdca4366ad343d563aff9ddcc319d0b1",
+          "bytes": 31344,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "椅子",
+        "书房",
+        "chair"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/chairDesk.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-chair-desk/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 3,
+        "triangles": 588,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-bookcase-open",
+      "title": "开放书架",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-bookcase-open",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "673868bfd3a751697ff7bff8c95882673d3277ad42df0fed45edadc83fee0552",
+          "bytes": 402
+        },
+        {
+          "path": "model.glb",
+          "sha256": "750702218d68c062b15dfef6ab06a4014d1cfa8bd05f02e57c53b7e13bec157c",
+          "bytes": 18020
+        },
+        {
+          "path": "preview.png",
+          "sha256": "a09d03b17498b4eea6f09f5ee94f67a44cbd2c9dbb31af3c699b88b8a55710ec",
+          "bytes": 25905,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "书架",
+        "图书馆",
+        "bookcase"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/bookcaseOpen.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-bookcase-open/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 1,
+        "triangles": 320,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-lounge-sofa",
+      "title": "双人沙发",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-lounge-sofa",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "940e1ba982486cffb395d3037e271c0fcb6957ad7778405cf39e83a9dcb1da83",
+          "bytes": 400
+        },
+        {
+          "path": "model.glb",
+          "sha256": "1886b811c0d3ad0d8525a4fd43adf4112c497c8e0ed906f06877ca3517f4c7dd",
+          "bytes": 9644
+        },
+        {
+          "path": "preview.png",
+          "sha256": "8da71372329d52673a7ca9e49c0937993e52f1e4c3829be25449b8e2327fd4b7",
+          "bytes": 24464,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "沙发",
+        "客厅",
+        "sofa"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/loungeSofa.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-lounge-sofa/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 128,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-lamp-round-floor",
+      "title": "落地灯",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-lamp-round-floor",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "3177b1fd52cd4eb855e4553968de180a2a80ff91c3043d62088a0fa81a014420",
+          "bytes": 401
+        },
+        {
+          "path": "model.glb",
+          "sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+          "bytes": 6600
+        },
+        {
+          "path": "preview.png",
+          "sha256": "eba7bcb409f51f40509271a18d29c2ab66258664a2876e711dd0f49c32d3036d",
+          "bytes": 15550,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "灯",
+        "客厅",
+        "lamp"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/lampRoundFloor.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-lamp-round-floor/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 76,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-kitchen-coffee-machine",
+      "title": "咖啡机",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-kitchen-coffee-machine",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "9eac84dbc0e4e14a317f02b561f44814ed6417b6d3da4439df84594e54afaca2",
+          "bytes": 407
+        },
+        {
+          "path": "model.glb",
+          "sha256": "063f582c6fa0f00a9f24e3393dac2295491c4becdaf5513c893ab1a2826b6ec3",
+          "bytes": 13332
+        },
+        {
+          "path": "preview.png",
+          "sha256": "d85e9f265a3a848544217938d5ffe839db3e863a490a8a6285a7cda74f52c4af",
+          "bytes": 23855,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "咖啡",
+        "咖啡馆",
+        "coffee"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/kitchenCoffeeMachine.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-kitchen-coffee-machine/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 3,
+        "triangles": 166,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-kitchen-stove",
+      "title": "厨房炉灶",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-kitchen-stove",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "e39abc6eae0ad154d63f829a4212b46482779bf693e5ccbb2d6145d9b5a3d025",
+          "bytes": 402
+        },
+        {
+          "path": "model.glb",
+          "sha256": "3239edb36295dfca9530a9b9a6ad0aff98ce62e7cf8d13ca2a5a1a6b2a904656",
+          "bytes": 54324
+        },
+        {
+          "path": "preview.png",
+          "sha256": "ecc56a9a95376dee93d3c16315240605ce2202e0e63fb6d0d331d9c4a7df63f8",
+          "bytes": 38154,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "厨房",
+        "做饭",
+        "stove"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/kitchenStove.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-kitchen-stove/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 6,
+        "triangles": 830,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-bed-single",
+      "title": "单人床",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-bed-single",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc0de1a0742cb490f9ed4bae0bd284286ebb27e23149b9917c7d8c0d590b8b29",
+          "bytes": 614
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "80643f942e4bb96a9d45f8b2184db323b1152cfc8b029563c9ca0e7e732cf481",
+          "bytes": 396
+        },
+        {
+          "path": "model.glb",
+          "sha256": "ca00c63f9a12da3138d902b2f5f18e0360fb6e8a5ac42ccb4bc3f185724b65d1",
+          "bytes": 18636
+        },
+        {
+          "path": "preview.png",
+          "sha256": "74ed562a6f6b8a05ac99cf2881fb74c11effabe262d8889ad16a5b0d53a00366",
+          "bytes": 24464,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "卧室",
+        "睡觉",
+        "bed"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "furniture",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+      "archiveMember": "Models/GLTF format/bedSingle.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-bed-single/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 6,
+        "triangles": 214,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-tree-oak",
+      "title": "橡树",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-tree-oak",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "b63415447c21fcfda180ff3e0dcdd3422ac6b851e2bcc7a989a9b9e60ff61c82",
+          "bytes": 383
+        },
+        {
+          "path": "model.glb",
+          "sha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+          "bytes": 14644
+        },
+        {
+          "path": "preview.png",
+          "sha256": "4a3ea61d5c95ab78d5077e00a212811ab886892efefb6d8d6228ccb9842d4c40",
+          "bytes": 23019,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "树",
+        "森林",
+        "公园",
+        "tree"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/tree_oak.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-tree-oak/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 196,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-tree-pine-tall-a-detailed",
+      "title": "高松树",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-tree-pine-tall-a-detailed",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "a79a0e43ffa13e3f128cda8300ffe1329f941ad15ab0db3290b92932b1c38795",
+          "bytes": 401
+        },
+        {
+          "path": "model.glb",
+          "sha256": "9ba6337460e718b8baf165b23c02f39455e3d5757b1911505410c46bc88a86b5",
+          "bytes": 10708
+        },
+        {
+          "path": "preview.png",
+          "sha256": "ea927e858e167d43300fb837436be60abeeb769323147067932485596d7d3169",
+          "bytes": 20516,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "松树",
+        "森林",
+        "山路",
+        "pine"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/tree_pineTallA_detailed.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-tree-pine-tall-a-detailed/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 134,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-bridge-wood",
+      "title": "木桥",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-bridge-wood",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "840174c404fb8d7c84cc0f94df31e9dd603ab95a07826b9c339f7be295c2ecc8",
+          "bytes": 386
+        },
+        {
+          "path": "model.glb",
+          "sha256": "3da4c208b0f72b7f2ba42db521b62ec4b0278050c75256a6982c40d21aab5701",
+          "bytes": 15692
+        },
+        {
+          "path": "preview.png",
+          "sha256": "09f1b5d80ec5333d66ecf464263f4fcd5b2f2216b94c3a619301064d350f9590",
+          "bytes": 32045,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "桥",
+        "河流",
+        "bridge"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/bridge_wood.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-bridge-wood/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 3,
+        "triangles": 220,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-canoe",
+      "title": "独木舟",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-canoe",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "bef670ef3cbe69cb705c90d4091359b52f17b7a11a54cea3b71712c4b6611ffe",
+          "bytes": 383
+        },
+        {
+          "path": "model.glb",
+          "sha256": "ad9c7a315f55accbce8d1ee3dc853f919f01f97ab4e3096bb235d1815aed6941",
+          "bytes": 15780
+        },
+        {
+          "path": "preview.png",
+          "sha256": "e1f2ead851a5ace2ec4bde01697e83d76b44f333f7a971a6be39e322e58f9e76",
+          "bytes": 23429,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "船",
+        "河流",
+        "划船",
+        "canoe"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/canoe.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-canoe/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 200,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-tent-detailed-open",
+      "title": "敞开帐篷",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-tent-detailed-open",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "bef81f47ca8855f663007134ad55e588fecd815fd3598f84fea425a33ffe9fc5",
+          "bytes": 398
+        },
+        {
+          "path": "model.glb",
+          "sha256": "d54d9665d07e0ff9680e56731c9f5338fc25d93788504d63b8375f54e6444193",
+          "bytes": 15324
+        },
+        {
+          "path": "preview.png",
+          "sha256": "b33a0ea27be30eab624c75da3908ace02c60e2fda33e45014a91ffd9e2b8550b",
+          "bytes": 40797,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "帐篷",
+        "露营",
+        "tent"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/tent_detailedOpen.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-tent-detailed-open/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 232,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-rock-large-a",
+      "title": "大岩石",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-rock-large-a",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "eb498cf6fa8992d018f6a276940b104550136bb40f3748c7b3830ac793d14757",
+          "bytes": 389
+        },
+        {
+          "path": "model.glb",
+          "sha256": "6dd15390fd96501dcd1454765a17ba61dbbd8d47705dfe5149c8dd92b353ce25",
+          "bytes": 7552
+        },
+        {
+          "path": "preview.png",
+          "sha256": "8a34573406e49d7b529ee8251046cb5f35fd0b46bea57210d3848f56b3336472",
+          "bytes": 22698,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "岩石",
+        "山地",
+        "rock"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/rock_largeA.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-rock-large-a/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 80,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-flower-red-a",
+      "title": "红花",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-flower-red-a",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "16f19ef0d2874887cc61ddc42d6afa9d5fcb6468d2ddd7bb043dde93ab88eb29",
+          "bytes": 386
+        },
+        {
+          "path": "model.glb",
+          "sha256": "171930b7789ddbf735af3745576b5393750beb9133b9ff4a444bb6bb2986c020",
+          "bytes": 7104
+        },
+        {
+          "path": "preview.png",
+          "sha256": "18adfeccb665a563dc38b218f987c26939946a0df49148c10718ad1fe433b2d3",
+          "bytes": 23655,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "花",
+        "花园",
+        "flower"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/flower_redA.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-flower-red-a/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 76,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "kenney-campfire-logs",
+      "title": "篝火木堆",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Kenney 通用模型，非 Claude 作品",
+      "path": "assets/models/kenney-campfire-logs",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "cb96b75e3560ac78d7a53ce6f083f4cdb5c53faea6141b62d63458dcfe1e4b9d",
+          "bytes": 611
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "78bca03bdb0d79b3823bdc423f258f39e41b2f9d553becebf11ef58384943937",
+          "bytes": 394
+        },
+        {
+          "path": "model.glb",
+          "sha256": "98d87cdcf9095b94fd348d0946e911dd4ca6c0956bac3318cfd2b0030b86055a",
+          "bytes": 9284
+        },
+        {
+          "path": "preview.png",
+          "sha256": "29efb6c04d5fb808d24a0645db6942c0f5dc81b17508ac06fe18b7ffbb4a07f5",
+          "bytes": 23047,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "篝火",
+        "露营",
+        "campfire"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "nature",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 静态模型，不自带开门、煮咖啡、生长等语义动作。",
+      "archiveUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+      "archiveMember": "Models/GLTF format/campfire_logs.glb",
+      "capabilities": {
+        "animated": false,
+        "clips": []
+      },
+      "previewBackground": "#75898b",
+      "previewFloor": "#54696c",
+      "previewExposure": 0.62,
+      "preview": "assets/models/kenney-campfire-logs/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 2,
+        "triangles": 112,
+        "animations": [],
+        "deterministicSeek": true,
+        "verifiedClipCount": 0
+      }
+    },
+    {
+      "id": "quaternius-deer",
+      "title": "鹿",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "path": "assets/models/quaternius-deer",
+      "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+          "bytes": 208
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "19a6d17de955e59af823072262c62f3d263908de2fb3f836114500ac6dd5c161",
+          "bytes": 577
+        },
+        {
+          "path": "model.glb",
+          "sha256": "19a3ee311cbec9f0dfb5fc5038c1c49455c7d76a14e7678c61978672e3bddf25",
+          "bytes": 2013688
+        },
+        {
+          "path": "original.gltf",
+          "sha256": "b8afd0647e7a74332ce802c8326dfefe1a2b76da67ab925a631aaddb5ae9bdd4",
+          "bytes": 3288813
+        },
+        {
+          "path": "preview.png",
+          "sha256": "8b53abd7a8fd91994e156534627901f50410274b451576d92f1a7c46452e6df8",
+          "bytes": 51351,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "鹿",
+        "森林",
+        "动物",
+        "奔跑",
+        "deer"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "animal",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1iGpXKrqYGyZCPGHPPSuDAoKnOXLhXJ0q",
+      "capabilities": {
+        "animated": true,
+        "clips": [
+          {
+            "name": "Attack_Headbutt",
+            "channels": 138
+          },
+          {
+            "name": "Attack_Kick",
+            "channels": 138
+          },
+          {
+            "name": "Death",
+            "channels": 138
+          },
+          {
+            "name": "Eating",
+            "channels": 138
+          },
+          {
+            "name": "Gallop",
+            "channels": 138
+          },
+          {
+            "name": "Gallop_Jump",
+            "channels": 138
+          },
+          {
+            "name": "Idle",
+            "channels": 138
+          },
+          {
+            "name": "Idle_2",
+            "channels": 138
+          },
+          {
+            "name": "Idle_Headlow",
+            "channels": 138
+          },
+          {
+            "name": "Idle_HitReact1",
+            "channels": 138
+          },
+          {
+            "name": "Idle_HitReact2",
+            "channels": 138
+          },
+          {
+            "name": "Jump_toIdle",
+            "channels": 138
+          },
+          {
+            "name": "Walk",
+            "channels": 138
+          }
+        ],
+        "skins": 1
+      },
+      "previewClip": "Walk",
+      "preview": "assets/models/quaternius-deer/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 7,
+        "triangles": 2098,
+        "animations": [
+          {
+            "name": "Attack_Headbutt",
+            "duration": 0.800000011920929
+          },
+          {
+            "name": "Attack_Kick",
+            "duration": 0.800000011920929
+          },
+          {
+            "name": "Death",
+            "duration": 0.8333333134651184
+          },
+          {
+            "name": "Eating",
+            "duration": 6
+          },
+          {
+            "name": "Gallop",
+            "duration": 0.5333333611488342
+          },
+          {
+            "name": "Gallop_Jump",
+            "duration": 1.399999976158142
+          },
+          {
+            "name": "Idle",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_2",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_Headlow",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_HitReact1",
+            "duration": 0.46666666865348816
+          },
+          {
+            "name": "Idle_HitReact2",
+            "duration": 0.5333333611488342
+          },
+          {
+            "name": "Jump_toIdle",
+            "duration": 1.5333333015441895
+          },
+          {
+            "name": "Walk",
+            "duration": 1.1666666269302368
+          }
+        ],
+        "deterministicSeek": true,
+        "verifiedClipCount": 13
+      }
+    },
+    {
+      "id": "quaternius-horse",
+      "title": "马",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "path": "assets/models/quaternius-horse",
+      "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+          "bytes": 208
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "95a5d56ab6b2033d29d218ea286c625eb32928c0e428c8f803b367afe96dd0de",
+          "bytes": 577
+        },
+        {
+          "path": "model.glb",
+          "sha256": "0588334842feae74a257dea69983db37088da2e97d76beb4a2ecbe6afdb81e26",
+          "bytes": 2215824
+        },
+        {
+          "path": "original.gltf",
+          "sha256": "3deb61550dff1d2786d04b6e8559d63ad3907d6ab606ba28ce0af074ed96341b",
+          "bytes": 3610082
+        },
+        {
+          "path": "preview.png",
+          "sha256": "77594762c8e4fba102d6b57f3b052cc9671883411a49b7b5ea85e6d70caa9b43",
+          "bytes": 47920,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "马",
+        "草原",
+        "动物",
+        "奔跑",
+        "horse"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "animal",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1hbtY8kxnXiPdwYGVY7rWRgU0jl_-Q-LG",
+      "capabilities": {
+        "animated": true,
+        "clips": [
+          {
+            "name": "Attack_Headbutt",
+            "channels": 150
+          },
+          {
+            "name": "Attack_Kick",
+            "channels": 150
+          },
+          {
+            "name": "Death",
+            "channels": 150
+          },
+          {
+            "name": "Eating",
+            "channels": 150
+          },
+          {
+            "name": "Gallop",
+            "channels": 150
+          },
+          {
+            "name": "Gallop_Jump",
+            "channels": 150
+          },
+          {
+            "name": "Idle",
+            "channels": 150
+          },
+          {
+            "name": "Idle_2",
+            "channels": 150
+          },
+          {
+            "name": "Idle_Headlow",
+            "channels": 150
+          },
+          {
+            "name": "Idle_HitReact1",
+            "channels": 150
+          },
+          {
+            "name": "Idle_HitReact2",
+            "channels": 150
+          },
+          {
+            "name": "Jump_toIdle",
+            "channels": 150
+          },
+          {
+            "name": "Walk",
+            "channels": 150
+          }
+        ],
+        "skins": 1
+      },
+      "previewClip": "Walk",
+      "preview": "assets/models/quaternius-horse/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 8,
+        "triangles": 2182,
+        "animations": [
+          {
+            "name": "Attack_Headbutt",
+            "duration": 1.0333333015441895
+          },
+          {
+            "name": "Attack_Kick",
+            "duration": 1
+          },
+          {
+            "name": "Death",
+            "duration": 1
+          },
+          {
+            "name": "Eating",
+            "duration": 6
+          },
+          {
+            "name": "Gallop",
+            "duration": 0.6000000238418579
+          },
+          {
+            "name": "Gallop_Jump",
+            "duration": 1.4666666984558105
+          },
+          {
+            "name": "Idle",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_2",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_Headlow",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_HitReact1",
+            "duration": 0.6666666865348816
+          },
+          {
+            "name": "Idle_HitReact2",
+            "duration": 0.6666666865348816
+          },
+          {
+            "name": "Jump_toIdle",
+            "duration": 1.7333333492279053
+          },
+          {
+            "name": "Walk",
+            "duration": 1.1666666269302368
+          }
+        ],
+        "deterministicSeek": true,
+        "verifiedClipCount": 13
+      }
+    },
+    {
+      "id": "quaternius-shiba",
+      "title": "柴犬",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "path": "assets/models/quaternius-shiba",
+      "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+          "bytes": 208
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "9e5ef8af7fd7847871f792d5a5cdfcc7e730b792548200a6a1699048e3618bc2",
+          "bytes": 580
+        },
+        {
+          "path": "model.glb",
+          "sha256": "8302af941f144185c1afbde4ad8cc79358b575311deea23be4fbcd3d367f50a8",
+          "bytes": 1752268
+        },
+        {
+          "path": "original.gltf",
+          "sha256": "3236979b94a840eb72d9ce091b1361da327a96f5ce068e666680297480f30f6b",
+          "bytes": 2894445
+        },
+        {
+          "path": "preview.png",
+          "sha256": "97fe9cc524ffe10df741fcc074a677047da0f5c3c9ab81b5cbe0049a5747c073",
+          "bytes": 47415,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "狗",
+        "柴犬",
+        "宠物",
+        "行走",
+        "dog",
+        "shiba"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "animal",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1XWUVbmMbiG9E90OqrumueD_pBdnYdyHZ",
+      "capabilities": {
+        "animated": true,
+        "clips": [
+          {
+            "name": "Attack",
+            "channels": 138
+          },
+          {
+            "name": "Death",
+            "channels": 138
+          },
+          {
+            "name": "Eating",
+            "channels": 138
+          },
+          {
+            "name": "Gallop",
+            "channels": 138
+          },
+          {
+            "name": "Gallop_Jump",
+            "channels": 138
+          },
+          {
+            "name": "Idle",
+            "channels": 138
+          },
+          {
+            "name": "Idle_2",
+            "channels": 138
+          },
+          {
+            "name": "Idle_2_HeadLow",
+            "channels": 138
+          },
+          {
+            "name": "Idle_HitReact1",
+            "channels": 138
+          },
+          {
+            "name": "Idle_HitReact2",
+            "channels": 138
+          },
+          {
+            "name": "Jump_ToIdle",
+            "channels": 138
+          },
+          {
+            "name": "Walk",
+            "channels": 138
+          }
+        ],
+        "skins": 1
+      },
+      "previewClip": "Walk",
+      "preview": "assets/models/quaternius-shiba/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 6,
+        "triangles": 1950,
+        "animations": [
+          {
+            "name": "Attack",
+            "duration": 1.2000000476837158
+          },
+          {
+            "name": "Death",
+            "duration": 1.0666667222976685
+          },
+          {
+            "name": "Eating",
+            "duration": 2.6666667461395264
+          },
+          {
+            "name": "Gallop",
+            "duration": 0.5666666626930237
+          },
+          {
+            "name": "Gallop_Jump",
+            "duration": 0.9333333373069763
+          },
+          {
+            "name": "Idle",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_2",
+            "duration": 3.3333332538604736
+          },
+          {
+            "name": "Idle_2_HeadLow",
+            "duration": 4
+          },
+          {
+            "name": "Idle_HitReact1",
+            "duration": 0.6666666865348816
+          },
+          {
+            "name": "Idle_HitReact2",
+            "duration": 0.6666666865348816
+          },
+          {
+            "name": "Jump_ToIdle",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "Walk",
+            "duration": 1.0666667222976685
+          }
+        ],
+        "deterministicSeek": true,
+        "verifiedClipCount": 12
+      }
+    },
+    {
+      "id": "quaternius-alpaca",
+      "title": "羊驼",
+      "kind": "third-party-gltf",
+      "modelOrigin": "Quaternius 通用带骨骼动物，非 Claude 作品",
+      "path": "assets/models/quaternius-alpaca",
+      "source": "https://quaternius.com/packs/ultimateanimatedanimals.html",
+      "entry": "model.glb",
+      "license": "CC0-1.0",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "09958eb883b89b37ab46b2c775367fcfec3bc59deb2c4e448b0195150b296942",
+          "bytes": 208
+        },
+        {
+          "path": "UPSTREAM.md",
+          "sha256": "981362539376a4f9005aaa9e17ee70ae8f9ec86954d31666b6053ac8e6f4435e",
+          "bytes": 580
+        },
+        {
+          "path": "model.glb",
+          "sha256": "52b84a93cafb5c51baea724524f3e124f1e2609ae46f6cfcb11419706b0e0871",
+          "bytes": 783988
+        },
+        {
+          "path": "original.gltf",
+          "sha256": "5009bfa756c7b7af5e02263d47a6d9088cadaada2240b41b4e87f31327b0e063",
+          "bytes": 1435679
+        },
+        {
+          "path": "preview.png",
+          "sha256": "91e8b7e192798427da043d9539213d1dfa42a82cd05bd039dfdabe83b370b07f",
+          "bytes": 43980,
+          "origin": "local rendered inspection"
+        }
+      ],
+      "tags": [
+        "羊驼",
+        "动物",
+        "农场",
+        "alpaca"
+      ],
+      "status": "runtime-verified-user-review-pending",
+      "userApproved": false,
+      "category": "animal",
+      "limitations": "低模通用素材；造型与动作可复用，不代表新影片已具备 Claude 感。 跑步/跳跃片段不含新场景导航与接地编排。",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=13dxCPosR1tVx24LKXr6gN44sIOY4hZgo",
+      "capabilities": {
+        "animated": true,
+        "clips": [
+          {
+            "name": "Attack_Headbutt",
+            "channels": 86
+          },
+          {
+            "name": "Attack_Kick",
+            "channels": 86
+          },
+          {
+            "name": "Death",
+            "channels": 86
+          },
+          {
+            "name": "Eating",
+            "channels": 86
+          },
+          {
+            "name": "Gallop",
+            "channels": 86
+          },
+          {
+            "name": "Gallop_Jump",
+            "channels": 92
+          },
+          {
+            "name": "Idle",
+            "channels": 86
+          },
+          {
+            "name": "Idle_2",
+            "channels": 86
+          },
+          {
+            "name": "Idle_Headlow",
+            "channels": 86
+          },
+          {
+            "name": "Idle_HitReact1",
+            "channels": 86
+          },
+          {
+            "name": "Idle_HitReact2",
+            "channels": 86
+          },
+          {
+            "name": "Jump_toIdle",
+            "channels": 92
+          },
+          {
+            "name": "Walk",
+            "channels": 86
+          }
+        ],
+        "skins": 1
+      },
+      "previewClip": "Walk",
+      "preview": "assets/models/quaternius-alpaca/preview.png",
+      "runtimeEvidence": {
+        "meshCount": 7,
+        "triangles": 2060,
+        "animations": [
+          {
+            "name": "Attack_Headbutt",
+            "duration": 1
+          },
+          {
+            "name": "Attack_Kick",
+            "duration": 1
+          },
+          {
+            "name": "Death",
+            "duration": 1.0416666269302368
+          },
+          {
+            "name": "Eating",
+            "duration": 7.5
+          },
+          {
+            "name": "Gallop",
+            "duration": 0.6666666865348816
+          },
+          {
+            "name": "Gallop_Jump",
+            "duration": 1.75
+          },
+          {
+            "name": "Idle",
+            "duration": 4.166666507720947
+          },
+          {
+            "name": "Idle_2",
+            "duration": 4.166666507720947
+          },
+          {
+            "name": "Idle_Headlow",
+            "duration": 4.166666507720947
+          },
+          {
+            "name": "Idle_HitReact1",
+            "duration": 0.5833333134651184
+          },
+          {
+            "name": "Idle_HitReact2",
+            "duration": 0.6666666865348816
+          },
+          {
+            "name": "Jump_toIdle",
+            "duration": 1.9166666269302368
+          },
+          {
+            "name": "Walk",
+            "duration": 1.4583333730697632
+          }
+        ],
+        "deterministicSeek": true,
+        "verifiedClipCount": 13
+      }
+    }
+  ]
+}

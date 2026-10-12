@@ -1,0 +1,29 @@
+{
+  "case": "claude-animation-base",
+  "source": {
+    "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+    "commit": "0ac8bf2b31942376cb6b8c4074715595d512acd2"
+  },
+  "files": [
+    {
+      "path": "engine/core.js",
+      "source": "src/engine/core.js",
+      "sha256": "38b240271f13c898f3aa03d4d520a6b3a386e4c208eae65c51bd1dfd8df26969",
+      "scope": "project adapted module; not byte-identical upstream"
+    },
+    {
+      "path": "engine/clawd.js",
+      "source": "src/engine/clawd.js",
+      "sha256": "578fbd46d21cdcc92b14806f3cc8c7b1b9e9f7ea53ddda7b1c150afa9f3c512a",
+      "scope": "project adapted module; not byte-identical upstream"
+    },
+    {
+      "path": "engine/timeline.js",
+      "source": "src/engine/timeline.js",
+      "sha256": "93d455142bf642355cb77cce64ad1a8397996be4f23e121bd18d6fce52bc1503",
+      "scope": "project adapted module; not byte-identical upstream"
+    }
+  ],
+  "reusedAsset": "original Clawd character; new props, scenery and story",
+  "adaptation": "风筝、尾带、补丁、道具位置与故事表演"
+}
