@@ -1,71 +1,65 @@
 {
-  "version": "0.3.0-beta.1",
-  "date": "2026-10-13",
-  "status": "passed",
+  "version": "0.4.0-beta.1",
+  "platform": "macOS",
+  "node": "26.0.0",
+  "ffmpeg": "8.1.1",
+  "install": "Fresh ZIP extraction and npm ci; cleared NODE_PATH and MOTION_PLAYWRIGHT_MODULE. npm run setup succeeded with existing matching Chromium cache. Not a fresh OS.",
   "packageCheck": {
     "cases": 47,
-    "sourceExtensions": 17,
-    "extensionFilesVerified": 502,
+    "sourceExtensions": 20,
+    "extensionFilesVerified": 1002,
     "concreteModels": 30,
     "sceneStarters": 14,
     "productionEngines": 5,
     "productionExamples": 10,
     "packagedPreviews": 36,
     "upstreamFilesVerified": 1464,
-    "status": "passed",
-    "boundary": "File integrity and availability; not visual quality or full-case runtime verification."
+    "status": "passed"
   },
-  "cleanInstall": {
-    "source": "extracted release ZIP",
-    "npm": "npm ci from lockfile",
-    "chromium": "fresh dedicated download directory",
-    "NODE_PATH": "unset",
-    "MOTION_PLAYWRIGHT_MODULE": "unset"
-  },
+  "skillFormat": "passed",
   "renders": {
-    "bee-colony": {
+    "instrument": {
+      "width": 1280,
+      "height": 720,
       "duration": 18,
       "fps": 24,
       "frames": 432,
+      "gpu": "default",
       "audio": false,
       "decode": "passed",
       "seekRepeat": "identical",
       "errors": [],
       "blocked": [],
-      "width": 1280,
-      "height": 720,
-      "sha256": "62de57907a1986403f9a9570534e85c86e7395ab75912e61752d78622fc29eaf"
+      "mp4Sha256": "810abe9913838d65afb9f35cb8d116ee8f237ed0f30380c60184ae5d0007d213"
     },
-    "workspace": {
+    "fox": {
+      "width": 1280,
+      "height": 720,
       "duration": 18,
       "fps": 24,
       "frames": 432,
+      "gpu": "metal",
       "audio": false,
       "decode": "passed",
       "seekRepeat": "identical",
       "errors": [],
       "blocked": [],
-      "width": 1280,
-      "height": 720,
-      "sha256": "95f292c69593cf9637d682f001f02cc5de4434e2552400c35d53b74d6697d125"
+      "mp4Sha256": "8d88c41b84722f8830f54300ebb777af2f45bffab348fa6bf7357c6dfc77fba4"
     },
-    "launch-graphics": {
+    "paper": {
+      "width": 1280,
+      "height": 720,
       "duration": 18,
       "fps": 24,
       "frames": 432,
+      "gpu": "default",
       "audio": false,
       "decode": "passed",
       "seekRepeat": "identical",
       "errors": [],
       "blocked": [],
-      "width": 1280,
-      "height": 720,
-      "sha256": "bd2ee42092e5e8f63a603f1f716033bbd63a0012ba27162704a52b3ae554f5a5"
+      "mp4Sha256": "05fb9f02ea5bf7fd01de57488d37cad9327c9edee596453f2b64508563b57118"
     }
   },
-  "host": {
-    "os": "macOS",
-    "node": "v26.0.0"
-  },
-  "limits": "Uses host Node/FFmpeg/system fonts, not a fresh OS. Windows/Linux untested. Render demos validate distribution, not new isolated creative experiments. Technical results do not imply aesthetic superiority."
+  "boundary": "Installation/export checks of bundled editable examples, not new-topic quality experiments. Windows and Linux not tested."
 }

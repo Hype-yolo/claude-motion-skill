@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/wheresryan22/anatomy",
+  "commit": "689dcf966e63d92be10a5d593c6e19e10acd4422",
+  "license": "MIT",
+  "retained": [
+    {
+      "upstream": "kit/iso-kit.mjs",
+      "local": "vendor/iso-kit.mjs",
+      "sha256": "6d3ecc725d30c3b0346da309cf61dfa5a65017c23620bbd4093009d4fb104018"
+    }
+  ],
+  "adaptations": "Local Canvas Path2D adapter uses actual upstream projected solid fills, face shading, bevels, outlines and surface paths. Example is a development fixture, not the original video."
+}

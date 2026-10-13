@@ -1,0 +1,4 @@
+- Procedural Animals: Majid Manzarpour and procedural-animals contributors, MIT; https://github.com/majidmanzarpour/threejs-procedural-animals ; commit c95ae49346aa8e140a924376cec6cf0073d99512. `upstream/src` unchanged. Copyright and permission text in LICENSE.
+- Three.js 0.186.0: three.js authors, MIT; https://github.com/mrdoob/three.js/tree/r186 ; official npm package files `build/three.module.js`, `build/three.core.js`, `examples/jsm/objects/Reflector.js`. Copyright and permission text in vendor/LICENSE.three.
+- New timeline adapter, creek environment and story: Hype, MIT; see LICENSE.adapter.
+- No downloaded models, raster textures, fonts, music or voice assets are used. Environment geometry and texture noise are generated locally in code. Source author's AI provenance has not been independently audited.

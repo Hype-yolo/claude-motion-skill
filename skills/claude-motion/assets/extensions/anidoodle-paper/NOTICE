@@ -1,0 +1,38 @@
+anidoodle
+Copyright 2026 Alex Greenshpun
+
+This product includes software developed as an original work,
+licensed under the Apache License, Version 2.0.
+
+Third-party material
+
+The optional anidoodle sound pack (not part of this repository; installed by
+skills/anidoodle/engine/tools/soundfetch.mjs)
+
+  Instruments: recordings from the Versilian Community Sample Library (VCSL),
+  https://github.com/sgossner/VCSL, CC0 1.0 Universal (public domain). Grand Piano
+  Steinway B, Upright Piano Knight, Concert Harp, Marimba, Vibraphone, Glockenspiel,
+  Tubular Bells 1, Timpani 2. No attribution is required.
+
+  Rooms: recorded impulse responses from OpenAIR, the Open Acoustic Impulse Response
+  library, Audio Lab, University of York, https://www.openair.hosted.york.ac.uk/,
+  Creative Commons Attribution 4.0 International (CC BY 4.0). Attribution is required and
+  is given above: OpenAIR, Audio Lab, University of York, CC BY 4.0, with each room's
+  own URL. Arthur Sykes Rymer Auditorium (small-room),
+  https://www.openair.hosted.york.ac.uk/?page_id=425; Jack Lyons Concert Hall
+  (recital-hall), https://www.openair.hosted.york.ac.uk/?page_id=571; Genesis 6 Studio
+  live room (live-room), https://www.openair.hosted.york.ac.uk/?page_id=483. The
+  B-format (W X Y Z) recordings were decoded to stereo as L = W + Y, R = W - Y.
+
+  Full provenance: skills/anidoodle/references/music/sounds-licenses.md. Redistribution
+  must carry the CC BY 4.0 attribution above.
+
+skills/anidoodle/engine/assets/refs/vangogh-almond-blossom.jpg
+  Vincent van Gogh, Almond Blossom (1890), Van Gogh Museum, Amsterdam.
+  Public domain (the author died in 1890; a faithful reproduction of a two-dimensional
+  public-domain work). Downloaded from Wikimedia Commons:
+  https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg
+  Kept byte-identical to the download (sha256
+  6f640dcd79def4223bf16569fd29ca5e37ee9d6cde2670958636e259e2a1c9d0). Full provenance:
+  skills/anidoodle/engine/assets/refs/PROVENANCE.json. It is not covered by the Apache
+  License grant above; it carries no copyright.

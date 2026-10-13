@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0-beta.1",
+  "version": "0.4.0-beta.1",
   "files": [
     {
       "path": "LICENSE",
@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5216,
-      "sha256": "b5430b9fcedda3475c80459c16d594de7a7688cd4dcb3f93ee769ac90e1683f3"
+      "bytes": 6138,
+      "sha256": "24d6e34398b02fcd7b67729c97ab4e5c00127d08ceb2bb8a6f910e9701652185"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 2029,
-      "sha256": "5274fc360f3f56dcd1945d89c66a5b58494e73c65625f255ccc1f0d59cc84f37"
+      "bytes": 1395,
+      "sha256": "a8cfa7e3e4d23666cea6a82f7e784c4892aaf73165254dd4d24055b75d33a10f"
     },
     {
       "path": "skills/claude-motion/LICENSE",
@@ -28,13 +28,13 @@
     },
     {
       "path": "skills/claude-motion/SKILL.md",
-      "bytes": 11025,
-      "sha256": "cfddc6c12459c17782f309bc09bf5aa9e03803826f114dacbb191c9ab9800b15"
+      "bytes": 12097,
+      "sha256": "680733a6c03d443157fe6479d95c5fa0dfe1b47190a2fbf479c74673052d2f11"
     },
     {
       "path": "skills/claude-motion/THIRD_PARTY_NOTICES.md",
-      "bytes": 12942,
-      "sha256": "7654a5b29ba6217767880e78ad162da26cbc3db6e5b6a682331209ae0dd41d47"
+      "bytes": 13698,
+      "sha256": "ef65f974e7cfac419ce1d7c4add3a1f8e82c1dd68e84bcac5b0e82d6ec5c9664"
     },
     {
       "path": "skills/claude-motion/agents/openai.yaml",
@@ -7657,6 +7657,201 @@
       "sha256": "5706770a7499769a1a6d935d16595f6a59aacc1291b1439832bdaa940c163fd2"
     },
     {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/LICENSE.anatomy",
+      "bytes": 1061,
+      "sha256": "87c078ab9d90a3044f359e6b563d4e6afea7aa060897cf4f21618687b3856796"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/README.md",
+      "bytes": 1485,
+      "sha256": "eff91bddaad40fcfbedd76c9ebad94545794d7061096f8d665d76975040759e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/SOURCE.json",
+      "bytes": 524,
+      "sha256": "610430a72799a568da828990eea8ae103fac5bd8c06e3196e863fcb91e75d9cd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/create-project.mjs",
+      "bytes": 846,
+      "sha256": "e2f044071a13865c3f1bfffb6742f975dd286c2479e9666cff36b01117f4cf83"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/examples/anemograph/ADAPTATION.md",
+      "bytes": 2173,
+      "sha256": "0af6504dbd809b106c09dd24933c1d15933b1430c65930bbaa87ed3bbe180a26"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/examples/anemograph/index.html",
+      "bytes": 529,
+      "sha256": "14b75909813a82cff4424742eac94cafe389672e73424f5dadf2a41d95f05255"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/examples/anemograph/scene.js",
+      "bytes": 11310,
+      "sha256": "69854f7d7150e5b9373b339afba4e3ecf0993aa41b73f02d291bd11bd2da4e80"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/examples/mechanism-study/index.html",
+      "bytes": 529,
+      "sha256": "14b75909813a82cff4424742eac94cafe389672e73424f5dadf2a41d95f05255"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/examples/mechanism-study/scene.js",
+      "bytes": 661,
+      "sha256": "24f7bb0a37e25cf11952833657cf325c9fa7f6dc5c52cc72e8c8c9296dc1fb55"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/mechanisms.js",
+      "bytes": 3002,
+      "sha256": "cf0cc03cf13d10aa76e672b5cd7f153ad62e6138fbe1f22758c081b7faa26fb7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/preview.png",
+      "bytes": 1335734,
+      "sha256": "4e66bfdb196f054503e5841d4ac6720ac067fac38f092c7bea26333cd6852c05"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anatomy-mechanisms/vendor/iso-kit.mjs",
+      "bytes": 35175,
+      "sha256": "6d3ecc725d30c3b0346da309cf61dfa5a65017c23620bbd4093009d4fb104018"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/LICENSE",
+      "bytes": 11390,
+      "sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/NOTICE",
+      "bytes": 2111,
+      "sha256": "a64251fc9012656f4d335dadf3c7182794981235d11f4a5c77161830b1ac7a2e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/README.md",
+      "bytes": 2788,
+      "sha256": "294603627bcd4c768739e86c9c2064d112e23d35cc6f13b4d19e7a66301edb8e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/SOURCE.json",
+      "bytes": 2372,
+      "sha256": "3cbbe8a738eb1addf97d846d84b94c82a1ff41ea6489b34830ffe45d274f5847"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/catalog-entry.json",
+      "bytes": 5666,
+      "sha256": "6280fd8d8afafa4e7e3c340a2419f1c0b73c9ff5eec1c70dc25fc2e3644dd692"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/create-project.mjs",
+      "bytes": 1069,
+      "sha256": "2b217903f953d44f43d64c46b5c530a123467374243b113b841287053d890cbb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/ADAPTATION.md",
+      "bytes": 3252,
+      "sha256": "e094e93f9fa7581f958ee103ccc11385ab7d9c11a9d8895e54b90379507f0050"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/LICENSE",
+      "bytes": 11390,
+      "sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/NOTICE",
+      "bytes": 2111,
+      "sha256": "a64251fc9012656f4d335dadf3c7182794981235d11f4a5c77161830b1ac7a2e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/SOURCE.json",
+      "bytes": 2350,
+      "sha256": "2987447d0d618c5cbfd0068e14be30473bad1b860209c8cb3d8ca840fb149d1a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/build.mjs",
+      "bytes": 160,
+      "sha256": "6584c18cdd5cd8ecc8967c379cc21095044673e65d5d85018e8fde9f84803233"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/index.html",
+      "bytes": 1284,
+      "sha256": "5a1a82f3d9d4f7dbf91987d763716dfd80143cb02873214c67c0fa445596e8e1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/lib/paper-materials.js",
+      "bytes": 8913,
+      "sha256": "54b3bfbda36dc86fa571813d05d7792273db648b03a08bdfa4ec2450a3250db8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/package.json",
+      "bytes": 321,
+      "sha256": "230b497320e99b32fd80e7fb8ed534a83ec0dff8533dd8456461649b0684f113"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/scene.js",
+      "bytes": 11615,
+      "sha256": "b90915e295ee38f1df230e7f255de615fde3510acde744c81746a7d52bbaf6b8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/src/paper-materials.ts",
+      "bytes": 9712,
+      "sha256": "1ebb3938beceabfde20f249d9a4042483c53c687226293fd6a1f34c36c643b7c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/upstream/core.ts",
+      "bytes": 30497,
+      "sha256": "330a832b0b7cc15c694c78fb48fb64b389a0f190b54d3d61d7fd48c3fe89d0cc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/upstream/gallery.ts",
+      "bytes": 9720,
+      "sha256": "60e465c52d6f47e72b438da9f57da44769794a2502729c52df9dd62491584244"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/upstream/paperCraft.ts",
+      "bytes": 36621,
+      "sha256": "dfc0bbed4edfe2a397dbb6d5e2f82fe3f931ced875efa558b303b21f3f52d0be"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/examples/paper-harbor/upstream/scrapbookKit.ts",
+      "bytes": 18850,
+      "sha256": "6e62aaf114e02609bdca35835b3fd158b69031864af900ac6f90cb575b08fd8d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/preview.png",
+      "bytes": 1349050,
+      "sha256": "33eb3608843e3d0ea3ec9d6bef95e34f1cd62ab24cb61ffc01aadd0fb24b0530"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/src/paper-materials.ts",
+      "bytes": 9712,
+      "sha256": "1ebb3938beceabfde20f249d9a4042483c53c687226293fd6a1f34c36c643b7c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/upstream/core.ts",
+      "bytes": 30497,
+      "sha256": "330a832b0b7cc15c694c78fb48fb64b389a0f190b54d3d61d7fd48c3fe89d0cc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/upstream/gallery.ts",
+      "bytes": 9720,
+      "sha256": "60e465c52d6f47e72b438da9f57da44769794a2502729c52df9dd62491584244"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/upstream/paperCraft.ts",
+      "bytes": 36621,
+      "sha256": "dfc0bbed4edfe2a397dbb6d5e2f82fe3f931ced875efa558b303b21f3f52d0be"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/anidoodle-paper/upstream/scrapbookKit.ts",
+      "bytes": 18850,
+      "sha256": "6e62aaf114e02609bdca35835b3fd158b69031864af900ac6f90cb575b08fd8d"
+    },
+    {
       "path": "skills/claude-motion/assets/extensions/bee-colony/README.md",
       "bytes": 1035,
       "sha256": "66a7800eab5b8074b09e237704bea3a6614e9d5a977560a48b07de75ddc750b7"
@@ -9055,6 +9250,2321 @@
       "path": "skills/claude-motion/assets/extensions/pixel-birds/upstream/kakapo-party.html",
       "bytes": 45823,
       "sha256": "7e847f6f8b2ad4624fdb08d5bfd49f71a302b79021f24963dcf988d81a0e9b20"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/LICENSE",
+      "bytes": 1109,
+      "sha256": "37dcca0fd958c3b95682005f1be4123f186bc4ce9829212605fec386b18d5d85"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/LICENSE.adapter",
+      "bytes": 1061,
+      "sha256": "4edbbec3041cfc7d37acca61dac78b206e533c33f0774e9a79a9b7e1c80eb6fe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/README.md",
+      "bytes": 2275,
+      "sha256": "570ea7805554267b02c881ec990a0641606e6ef9ae64310ef69ccd0c01882b2b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/SOURCE.json",
+      "bytes": 33358,
+      "sha256": "0d99b142daf89a86135ff28267327d3bcb493c896b2536063853094eeb373677"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/THIRD_PARTY_NOTICES.md",
+      "bytes": 820,
+      "sha256": "573d6c0b2a65510c06bf00332e5e8a9207031592f9d2975d5059175ecc4fcd1a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/catalog-entry.json",
+      "bytes": 74414,
+      "sha256": "97b87f81fbdc5ff516ed5c26b92dc83bcfcf4ed304b47ee155f68d9af8a34e78"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/create-project.mjs",
+      "bytes": 880,
+      "sha256": "604d7095fec5b25d7d2285d599aaeef952c9a8e33bbd4e72c3997c82324f72a9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/ADAPTATION.md",
+      "bytes": 3942,
+      "sha256": "a4fad74a96b6f8e61064a2b5cfe2f7e297664c26c772e39ad029f738ceb61240"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/LICENSE",
+      "bytes": 1109,
+      "sha256": "37dcca0fd958c3b95682005f1be4123f186bc4ce9829212605fec386b18d5d85"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/LICENSE.adapter",
+      "bytes": 1061,
+      "sha256": "4edbbec3041cfc7d37acca61dac78b206e533c33f0774e9a79a9b7e1c80eb6fe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/README.md",
+      "bytes": 1004,
+      "sha256": "8699bceb55d7d11bdac519ce4c4ef5587aa2a2fce1246d1803f815e189ed135d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/SOURCE.json",
+      "bytes": 33358,
+      "sha256": "0d99b142daf89a86135ff28267327d3bcb493c896b2536063853094eeb373677"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/THIRD_PARTY_NOTICES.md",
+      "bytes": 820,
+      "sha256": "573d6c0b2a65510c06bf00332e5e8a9207031592f9d2975d5059175ecc4fcd1a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/index.html",
+      "bytes": 389,
+      "sha256": "942ba95318027e04e1447241e5258e14e178d36624465c72043446189a063fe3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/package.json",
+      "bytes": 223,
+      "sha256": "d9b9d4acf3f7fc66e8cc0d263a6a6d8883e5694eeafc840102c80010b135254b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/preview.mjs",
+      "bytes": 754,
+      "sha256": "968d2c481e11d3cf99c6843f5fe8f98364051f100a36bc0800c830705fe45832"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/procedural-animals.js",
+      "bytes": 2200,
+      "sha256": "d18b548de9c3a964c537bbbc3c5d818744e00fcd57815a8a4c3ce127e66f5cdd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/render.mjs",
+      "bytes": 7717,
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/scene.js",
+      "bytes": 8472,
+      "sha256": "2b8fdbd981496f512e11f63ebd454ee6561a7210a79dc08f82c012a36aa09ac9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/animal.js",
+      "bytes": 6295,
+      "sha256": "04fd1a8013aeda15ca8b2f929f3f5f00c0da5f25a12acbb5cf7552e68bb9439e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/bake.js",
+      "bytes": 2327,
+      "sha256": "5959ae36909a1147d4740a6a61357c1349b830f26b056cb64a3e66e3bc540f60"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/build.js",
+      "bytes": 3072,
+      "sha256": "c486e87669c2716565f2e2e611698bc35ce63cfe0132ed9bc6d2736655ccee42"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/coatKit.js",
+      "bytes": 5105,
+      "sha256": "bed32060b994e4e83399194652890fb434c4584bcdd1ba14e51364dce25796e6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/featherCards.js",
+      "bytes": 10320,
+      "sha256": "43e354c399fbc2a397ad6fd88dd6fdc1a8edf80c656abe31d86a394c6214dfa5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/finEdges.js",
+      "bytes": 4985,
+      "sha256": "bcff4198503ca4cf37b8f6ccd8858d5f5b5c56437b759b6547009d580272f280"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/furSlope.js",
+      "bytes": 5740,
+      "sha256": "b25ba1d47add784170ea0865fd61a787ee0aafb5508de5e004372afa9b528257"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/mesh.js",
+      "bytes": 3683,
+      "sha256": "07d9d45b51993db94af819a000dec7d4213fb2282e3b41a831a0a7e0b16f648c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/pipeline.js",
+      "bytes": 14862,
+      "sha256": "4b9bf498d3804c52c3783355acb589c61dd2b94fc40aa86a478586ff5a15b17d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/seams.js",
+      "bytes": 10922,
+      "sha256": "f0bc8828aa671d310361d2a261ba0cc2c0c67c8288dba74cffef7b52e9a191e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/warp.js",
+      "bytes": 5737,
+      "sha256": "f497cbb3ea2a2a69477e1bb5187f8b2e9be30f7b22e0a57933a44eeefaaceeb2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/build/weights.js",
+      "bytes": 17686,
+      "sha256": "a3a7067378edeedf214efa425b4be1b09dffaf81a78d64dae46fb14f35e8c130"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/math/vec.js",
+      "bytes": 3127,
+      "sha256": "b2f74305db9a2ab5d7babb79831770c576aa8d9107d580f70301b8c97115cf87"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/actions.js",
+      "bytes": 47032,
+      "sha256": "ba766d925fa304d49965864c873fb169fc13adf71e2bcd87cbb2fad18338020b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/bird.js",
+      "bytes": 183076,
+      "sha256": "c1f32942d83638386ac8087e7abd58e0fb4c0154519ccf68297c3907c6cb5600"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/birdActions.js",
+      "bytes": 62644,
+      "sha256": "d5a143ecf7ee7f01cb7b357b69ace3c008cfd7fdf11580bf90b72009c294a58f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/common.js",
+      "bytes": 7231,
+      "sha256": "ebe086b0293add1ab49c07f14507d9b0e6748fcee37b9bace2e2c5e69542aa13"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/index.js",
+      "bytes": 743,
+      "sha256": "50965e71f9189c30b572eb5b1665fed5594f43b44f8a2f9f79e0eae455474ef2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/quadruped.js",
+      "bytes": 177306,
+      "sha256": "16ea23e0c7093028c7bc01606817ac0a326b5b341c025578270a62857b4113e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/snake.js",
+      "bytes": 79592,
+      "sha256": "aa91d16d600d4743fe33fe7a556d9ac83d48e00c6c1003739351de08979994bf"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/spider.js",
+      "bytes": 100770,
+      "sha256": "11ed2e67dca071467781ac59d91d12f54cdfc86ddade3c7b75a952c33c17e4fb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/swimmer.js",
+      "bytes": 58662,
+      "sha256": "734ef22b2741982b3bcf9a4726ac0a82445736ebee66fd4f488034736a4ce70d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/motion/swimmerActions.js",
+      "bytes": 32198,
+      "sha256": "4df5951a640d82e8b77c0d7a865a0d3db11fa6e97e86b75bb4e36b01a9e5705e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/render/animalObject.js",
+      "bytes": 13991,
+      "sha256": "1a0511c47218fe61954000badeeacc2cb342d3aff5926394864af3f8dbf876ca"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/render/coatMaterial.js",
+      "bytes": 70977,
+      "sha256": "62950789cee7f812809e2d6e0121ea206d31d173d11419bbf1a9eb1ed07da780"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/render/dqs.js",
+      "bytes": 8280,
+      "sha256": "53d97be7e26d154665c3a1f9a546ff8ddbf2477e84258b478598b5047621f334"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/render/eyes.js",
+      "bytes": 37361,
+      "sha256": "65b233980d8f6b2a929b68051c8c0b1e82e6166773bda542125b6cd1af3f3ddc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/render/membranes.js",
+      "bytes": 3312,
+      "sha256": "a0d4242a0baa4f42a1f77ffb412258f201d55d695dfc9c0c785e885d4da6e0b8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/render/skeleton.js",
+      "bytes": 1764,
+      "sha256": "6cf7d20986c07288468389835c434e1a1e07ce8ddda457bf428bc613f2efea33"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/rig/bird.js",
+      "bytes": 19385,
+      "sha256": "2a2016454335bbcfb601574ba7a6f2942cb4e081011b20d349977db9d3dd6894"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/rig/quadruped.js",
+      "bytes": 4283,
+      "sha256": "b00b76e05683d2a286689a8249be681433adf7acbd04351b64c20fd4a9be799f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/rig/rig.js",
+      "bytes": 3835,
+      "sha256": "744e05d7cd4b3de15d38eeb4cb08637997322279d13d25f041294ea40e686631"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/rig/snake.js",
+      "bytes": 3705,
+      "sha256": "8274ce4267e6e25da86b74d939d4f9ce6223f555125f2a384ae4995ef4b2abb9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/rig/spider.js",
+      "bytes": 5487,
+      "sha256": "36bb8ced4132b4dd1c5c437eb66e0f572aa336f2161b28a3942f209f6bb6b3b5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/rig/swimmer.js",
+      "bytes": 9353,
+      "sha256": "0b9b77d69853074e07d86023f9ad7bd2b92dd9d784e1e816385a0f5b50c502d9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/sdf/eyeSocket.js",
+      "bytes": 3367,
+      "sha256": "bf14353edd1ade3040251acfbea9a63090a78bb8b6ade748f8522c86c4d42b57"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/sdf/mesher.js",
+      "bytes": 11166,
+      "sha256": "a109bc13b97c8c3e1dbfdefdfb6810e22cd01b860d37f30739b31685fb2b684d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/core/sdf/sdf.js",
+      "bytes": 10377,
+      "sha256": "aa83dc80b7aff5cec688cea6438570fc47ee800bc7fd188703693662cacea78b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/index.d.ts",
+      "bytes": 4929,
+      "sha256": "ba5084f0c665df5605b50fb7aeea4f8eadfbb89770ac31e218c35c4e7a7c80a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/index.js",
+      "bytes": 1426,
+      "sha256": "18d8e26ff3fc81cbee0313a3976d9950bb52d888dcbbc946a5828605771148b9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/registry.js",
+      "bytes": 2182,
+      "sha256": "e2d22401df6c7ef04aeabba011dde8106664d2e6ed0077f3ab8a3fa03e5ef2ca"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/behaviour.js",
+      "bytes": 25966,
+      "sha256": "f8647694e180c4a8bba265ebc3679280785949ee375537f84d5bd928db859555"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/claws.js",
+      "bytes": 8575,
+      "sha256": "1e96a9ecf9ed35044f386f125893e2f9d9a1a486d62cb0db7e6cb338726c03d2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/coat.js",
+      "bytes": 51682,
+      "sha256": "bff1d0c6fc4888886b66f1b35ebb22bd6c2a0e35c1dc3c01a57d3d6080753cdd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/index.js",
+      "bytes": 8108,
+      "sha256": "0cd9439c6292bb0cfeab1570b2af69c4f685628aa94302db46f785a3d6c80f98"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/motion.js",
+      "bytes": 8588,
+      "sha256": "60bbf56bf3b9d3ae151cf6a090b23e224d555a28934ed53b0480494994d07cc3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/regions.js",
+      "bytes": 5046,
+      "sha256": "3cdcf15b27413c43d5b694404641f26940b02b2f5d9e612e1f5cf92758c4e7f9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/rig.js",
+      "bytes": 6343,
+      "sha256": "9826d408049dc1641b78612962e4ad8b0cedeb6ed18e306a635aaf6bea1bc8a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/bear/sculpt.js",
+      "bytes": 23139,
+      "sha256": "f30174b110d184c9a53a38977f663281d5b958ff971b8aab9b274169e63daaf2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/boar/behaviour.js",
+      "bytes": 16267,
+      "sha256": "95a8a5004eeffed9d3964ca5963fe6dab457a6e9661146b32b924fa967ce5735"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/boar/coat.js",
+      "bytes": 20663,
+      "sha256": "67278e4a010d283670ccd7f07ca4ee154892c3a5ffa7e21e5739ad00e1ea2572"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/boar/index.js",
+      "bytes": 5876,
+      "sha256": "e51623566d39793158f3732a771983f3c9f83fb57a5c61a139912ba8e334718f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/boar/motion.js",
+      "bytes": 5187,
+      "sha256": "ffe51dfbf1e061fc6071f8d28d8f118629ff64ca9a94ce7284b157cb31934fe9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/boar/regions.js",
+      "bytes": 4964,
+      "sha256": "c956d15749e13f94b56f37242b30f8f805691a8156997b628e884dc1b1ea0eb4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/boar/rig.js",
+      "bytes": 5437,
+      "sha256": "e5bfd0981837b3d772e2deb915dceb4606c07be16903eb697151a68e44a1dbe8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/boar/sculpt.js",
+      "bytes": 20272,
+      "sha256": "68b9b6746ad8b8766a4b68823f01ce490ce684e2170a4749bce2306e0676c205"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/behaviour.js",
+      "bytes": 28478,
+      "sha256": "52622fbb48503084d96bdaec1c0e3ef8bbb55d878349e1d0a5df5f04b918722c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/coat.js",
+      "bytes": 57431,
+      "sha256": "a334d41bec7ab407daa2d2c253c30a577ee9924727d6a9c71d6e638298c79266"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/index.js",
+      "bytes": 11883,
+      "sha256": "4a3d07bd59dadd9989b2d99310089d3fb277fdddbff9f01e6f6490980360a317"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/motion.js",
+      "bytes": 7443,
+      "sha256": "831ec438463e376cd67cea887b8920d58fb28f883179b59f50d0a99d7dea88e4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/regions.js",
+      "bytes": 5826,
+      "sha256": "c9ac210701ba3ff3496ed01d72a309c8935fab1e119476cb48ce99b9888ed790"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/rig.js",
+      "bytes": 6148,
+      "sha256": "8eae77ad14dc3acb06d8657eb06a67910e866720bef37ed48ef18622e667eb43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/sculpt.js",
+      "bytes": 22070,
+      "sha256": "e2d3635e360d4131d98cec3f73f1f229efb691f66ca7e4abe9712b2ebb9edf90"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cat/whiskers.js",
+      "bytes": 4900,
+      "sha256": "6a5a01b3d8f3a91743aba5fd5da7cd4d02c23460a501884ea0dee0dbc3e4dcfb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cheetah/coat.js",
+      "bytes": 20592,
+      "sha256": "ab1260d49e91d836b8281d6720a6a68c878687efbf338aacaf7a2be9ab3c52e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cheetah/index.js",
+      "bytes": 1987,
+      "sha256": "b5a5473cc570b5abe596c93f567ad20b6444a249e8789ca871e8aafb25041830"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cheetah/joints.js",
+      "bytes": 178,
+      "sha256": "0f2161e5f04ac04102aeb38fdcd5d59ac0d6b7cefb61f4cf2fb04b2de2377a1f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cheetah/motion.js",
+      "bytes": 4679,
+      "sha256": "a731f835f392f5e9434ca3b0c4a599459e00114e4d72c8e909361c613c916b5a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cheetah/regions.js",
+      "bytes": 5712,
+      "sha256": "f7c4dc142c4af79aaaf128a7ae1b743a5306f94127d4ad957c961b9d61c51673"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cheetah/rig.js",
+      "bytes": 2734,
+      "sha256": "9e6d9f9b0aa0db149937dad1a11abb8f369eea1b5e679a27a358e8e4b42751ae"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cheetah/sculpt.js",
+      "bytes": 12781,
+      "sha256": "7dd11c8f71c373baf7b5b9485978af2700c5e28eae02b272401af9fd8e6c3751"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/coat.js",
+      "bytes": 22942,
+      "sha256": "9f2488143c88cc675ec164078f9314748e3237efee6a49505976b90773db1bb9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/coverts.js",
+      "bytes": 19375,
+      "sha256": "f9ef26391c81dc45ff6a1994245ba3e9fdd21acc3357ababcaf9568ddf98d25f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/index.js",
+      "bytes": 6230,
+      "sha256": "191127e5d65d223b1326c80672b4115ddf895fb9c8e66e4b44320c0310110fbc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/motion.js",
+      "bytes": 12397,
+      "sha256": "85b66a3211a2f7a3b220aae78e90cc96f195e199bd85a68f723180686df3c83a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/regions.js",
+      "bytes": 3327,
+      "sha256": "c0a4e671017d25bd75d3bcefb4304658642abfa1bea4501f7618bcb446bcd127"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/rig.js",
+      "bytes": 6819,
+      "sha256": "bd1038e4bea8797feb2807d33da44e6b8551b347255b5bfaa0e908c077e1c836"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/sculpt.js",
+      "bytes": 25967,
+      "sha256": "e0b693449ecd327d20896bb820672e34c2c22977d784f4387d3f2e1f7bccbcc1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/wingLook.js",
+      "bytes": 3224,
+      "sha256": "a4d60701d6921b4f9617cc8aa339fe868bc4bb0fbf8ef7dc6ad92fda49cb8861"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/chicken/wingStack.js",
+      "bytes": 7185,
+      "sha256": "15df76ef51385c330637e3cb8c0d54397717a1346db2c735e290651bd8cd22a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cow/behaviour.js",
+      "bytes": 26404,
+      "sha256": "4a4d3f898e4bd4f74e347820fcde387bdeac6d17b05dd83529ebffe97940af8e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cow/coat.js",
+      "bytes": 26614,
+      "sha256": "575050e827bbe5bb8bb3cb7555d107aaffd3adf2d2a236d9b269180ce0122201"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cow/index.js",
+      "bytes": 6848,
+      "sha256": "b51b93a5af8b8fb6a233cf48e9f267acf87bc409c17c885078ad1669999e6bdc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cow/motion.js",
+      "bytes": 5160,
+      "sha256": "9051d276f2525aa2f79aa0c1a3bfcd1cc5bdfd2fbf7989fd19599b2b5b118bd2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cow/regions.js",
+      "bytes": 6069,
+      "sha256": "37295170a5b61b9ce9da7cb943e874feec447566836f070620c9510fd0618e8c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cow/rig.js",
+      "bytes": 5983,
+      "sha256": "1dc25b82f38c102d0dbbc5df3afec2ee8572c8b5d30ab29cf55ed1d838d9b34e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/cow/sculpt.js",
+      "bytes": 25305,
+      "sha256": "94e694d670e79208d6277704a69bc56a3435a73302512cb12357c15afcd41335"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/crow/coat.js",
+      "bytes": 8802,
+      "sha256": "ab4ac3f3c518133480d3290e68a07639bbafec32ec0a3e6324dbdac3e77fc0cc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/crow/index.js",
+      "bytes": 3605,
+      "sha256": "761fe3d271bd303471fce1de57c574862e492293812d2f535bb5d74ad6287cb4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/crow/joints.js",
+      "bytes": 169,
+      "sha256": "21ad26797c3e15a5e66b4cf35b528cac7872087d4f0ec601fc9085e69b838264"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/crow/motion.js",
+      "bytes": 6041,
+      "sha256": "9ec693616fe0bd572250d2d6de59d5b5ecf764e1811a4c51db7759cd6127c743"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/crow/regions.js",
+      "bytes": 2541,
+      "sha256": "7ef9308389d5db9f2cccbe203855970b4f502b7abd483918f4045b43b45b2dc1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/crow/rig.js",
+      "bytes": 4060,
+      "sha256": "aa9dcea8f88f00e5a28ff6f8d21dca471b1c4d2489840a284e1397d10368a055"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/crow/sculpt.js",
+      "bytes": 8517,
+      "sha256": "fb882f2cb41d7bda6199b7b3852e39f0e20be4b9460cf1b76c893ec0ae5ff74c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/deer/behaviour.js",
+      "bytes": 24982,
+      "sha256": "19d1fee32216f737d7150a39e438aea831d38ff5dd75f7883f83248a953bfbac"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/deer/coat.js",
+      "bytes": 21443,
+      "sha256": "791c0729f54a49d134c888dc0a51f4fa125e85118f6d65b39c1c1bfa0dc1e4ab"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/deer/index.js",
+      "bytes": 5596,
+      "sha256": "0551d308012b31a51a0f344822c6325a3832d6e0cae93e322099a5e84b850cc1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/deer/motion.js",
+      "bytes": 6504,
+      "sha256": "ced44b79c6012fe29b29840d832c1e905158f7cd2c5a28960df8ef28e4c98453"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/deer/regions.js",
+      "bytes": 3235,
+      "sha256": "f0bdb4b8ebcab32840ca5efec2c0491a1ec7d992484d7021c4ae8a701efc36c7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/deer/rig.js",
+      "bytes": 6627,
+      "sha256": "173d4755388fde135c638bb28d4da08c34539eb361294ba40883175843f44cc5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/deer/sculpt.js",
+      "bytes": 20554,
+      "sha256": "f498340ab2151bf68061b6513b243f859858822d41546dbc0da71139017430fa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/dog/behaviour.js",
+      "bytes": 27220,
+      "sha256": "9aa0531f41021fd48e10bda6d8fb205701152459f12bc30835a69169b9bb7a7c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/dog/coat.js",
+      "bytes": 28129,
+      "sha256": "633693c0a604141220283364db97cd6a1541516701feba4948e6510cec756979"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/dog/index.js",
+      "bytes": 7644,
+      "sha256": "ba4ba3b9e24e8f265fa698b57395c20ed19ef2564af73cce9ae9841164994eed"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/dog/motion.js",
+      "bytes": 6887,
+      "sha256": "e2c77eecd8efe5798afbdb27722b9f7bc88d46c8b3adcb5cd6384375aecf45bd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/dog/regions.js",
+      "bytes": 3452,
+      "sha256": "b5e725351266760fc84192c5fe6ccd73dba1dbba32397a91a434252117d4bf0a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/dog/rig.js",
+      "bytes": 7207,
+      "sha256": "ed9913853de080effdde05c72550b56e8f6b8fae4045da73500e84ae6a2c6127"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/dog/sculpt.js",
+      "bytes": 21235,
+      "sha256": "78f86e673d9f8f2d0407cacd3bd232f3f92c7268ddccd7846dc422660952a6e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/eagle/coat.js",
+      "bytes": 15481,
+      "sha256": "7e65335d74bd1762b65f280ace6dfde06028a23a6c21d92c94086c5f2e4cf760"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/eagle/index.js",
+      "bytes": 4041,
+      "sha256": "8bf53fa2e4fa29395fae086facb8c5ae92b30bee75b3b8837fdc17fa14973b0b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/eagle/joints.js",
+      "bytes": 172,
+      "sha256": "6f6ae3ab82f1bfad49ae15b966980d399cade8fcd3322d64d44acd975096f5fa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/eagle/motion.js",
+      "bytes": 8991,
+      "sha256": "2808af8ea18b9eaf74e70a9845c81aac8b6445a5f42f35f74119a5e5c49e633b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/eagle/regions.js",
+      "bytes": 3139,
+      "sha256": "92b0b46f23dcb85305b55ba64eb99143608586da07a969297b287a84383a50a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/eagle/rig.js",
+      "bytes": 5469,
+      "sha256": "1892628f4ef49865ef7a25d496c96f655259f4f89c9d4521f85de85b7ca48a1e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/eagle/sculpt.js",
+      "bytes": 10255,
+      "sha256": "99aa7cc1504a3dd3820064829cf9192f08098d2acd9c66417073d67445a731aa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fish/coat.js",
+      "bytes": 13988,
+      "sha256": "b5ce7080e2e9ce49b6af93065790a5dd5a61d6576d9dbd38aa79dc9cdbe11d17"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fish/index.js",
+      "bytes": 4417,
+      "sha256": "cd47ba2faf07093a91ae6806a4ad869e7f11aa960ab71edaebbc08e7fb756ec7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fish/motion.js",
+      "bytes": 3963,
+      "sha256": "1dc0841219deefb7972baf9949ec7381c9341c16d2cdfdfe9edb222d0f510799"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fish/regions.js",
+      "bytes": 1469,
+      "sha256": "15cbd8cf52baa94685845b09d1d442ba77481da7880c9e59b703631f801ee156"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fish/rig.js",
+      "bytes": 6298,
+      "sha256": "0edf5831ee9df8c7e67bf868c4a09a846fd0d3d074116e8c7f4543ddfd9e75b7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fish/sculpt.js",
+      "bytes": 12216,
+      "sha256": "68310b30f6c49049b8ec93bbd5e371b35a2489e4028e73e17e2bd842c1a14af9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fish/variants.js",
+      "bytes": 7504,
+      "sha256": "ee6d261f1323c44fee5d7af99c77d2ab9f242d8682529bd6d171423bf6e1ab4a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fox/behaviour.js",
+      "bytes": 16204,
+      "sha256": "22a1d443a5ad766a541a044cbde46141c0301cafab822687cb1decf28ffd0191"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fox/coat.js",
+      "bytes": 25012,
+      "sha256": "46fad53357f36dc0c94d42749affbafa5d7920978e0ff7334f797ad70a0990c0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fox/index.js",
+      "bytes": 5520,
+      "sha256": "084a4188e13948c697bcb9448fdbf7b2065de92aa436122299a92d10b595e875"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fox/motion.js",
+      "bytes": 5188,
+      "sha256": "2a7eae85fec7123d3a29cf468b8ff89fddab97e9bf87f0907750b3f5441d9efa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fox/regions.js",
+      "bytes": 3057,
+      "sha256": "1155c897dfe5544ead464dea6619f5493317e36a40e7b745cef95c79b79227b4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fox/rig.js",
+      "bytes": 4787,
+      "sha256": "5d6b13e7ee93ed9573d269b2ace590de1d6de32a9c6dae5bff1503de74c74094"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/fox/sculpt.js",
+      "bytes": 17709,
+      "sha256": "65281dc850346815b90762a09698a38152f33e518d532531e7a9c4ab1a7ef586"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/frog/behaviour.js",
+      "bytes": 30289,
+      "sha256": "17ce977e08b50ad5f5b7e28ad5bbe507f535bb8785e9fdc7fb851f26c57842d5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/frog/coat.js",
+      "bytes": 16291,
+      "sha256": "42595c986b6339ae8e336418b3a7a9f9bf4abd09dd64548254de44516ee777b5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/frog/index.js",
+      "bytes": 4807,
+      "sha256": "c4edee9a26ba121847ccd2b3329e7edf1c13d6832af884ef6f8180c641800118"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/frog/motion.js",
+      "bytes": 3730,
+      "sha256": "272e8baf086a26c822c6cc645949a198177977c67f000dcc9fd14e7d276628d8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/frog/regions.js",
+      "bytes": 2405,
+      "sha256": "7ab7c2505ca003d7ec4ea4d1b22d3545431e9c74f691188b34cf300c3810ab32"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/frog/rig.js",
+      "bytes": 8492,
+      "sha256": "6adf7f888d1ab7137e8c957b7f1061ba8ff9bf38dd46d79b2896222972651eff"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/frog/sculpt.js",
+      "bytes": 16670,
+      "sha256": "00d6f86c0f64ff46132d1e8a6f0bd77bf7eee0ff83a4d0dbc5ba97c461dd6ed6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/goat/behaviour.js",
+      "bytes": 28636,
+      "sha256": "3a532d6c94986e7717af526a63b68952805b3e67afced5b495bed2704052ad96"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/goat/coat.js",
+      "bytes": 39708,
+      "sha256": "f3ee9250dfa948b137a470d920a7d96c2b7b2500d07aee2271f07d3f4dffe4f1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/goat/index.js",
+      "bytes": 9487,
+      "sha256": "a7fc63e0c65f9c4965dba00c85e172dab727a5fd31f6ce7197c56e01341821c9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/goat/motion.js",
+      "bytes": 6030,
+      "sha256": "4e37a4d6a0ca152f2b1703ecb31f6b88d9971f45a2fd6d729c8db50ad027746d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/goat/regions.js",
+      "bytes": 6905,
+      "sha256": "8fef5a0d9ccfb506b0e410195d4fafea71299b178cd42479aa726a4c6344ce0e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/goat/rig.js",
+      "bytes": 11726,
+      "sha256": "04aa61895059ec99c5f7fb5b8e7d7cc0e847849b47878969f6e54dc3f06c6959"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/goat/sculpt.js",
+      "bytes": 42704,
+      "sha256": "5b234152d5969f65a064cc8163e77b23e4767447fe9c2747572fef2dc9ef75cd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/coat.js",
+      "bytes": 20521,
+      "sha256": "d67b4c8593a69037bb9b7265fd87dadc7e0cb83487572e79cd89c411ac9e35ce"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/coatSeam.js",
+      "bytes": 6593,
+      "sha256": "bcaff38d5261cea2b3accae7accf800653ecb270816298c74f4f6e616406850f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/index.js",
+      "bytes": 4013,
+      "sha256": "712316432d1342b422fb3ff2a363aeaa8949b701c7a0b52e2f0db19f82e264d2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/motion.js",
+      "bytes": 14371,
+      "sha256": "fe62a263a75ded87c2cdf58070950d94429a2516f465433619a3bc6e04b29c9d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/regions.js",
+      "bytes": 3379,
+      "sha256": "c50ca4761650ffbbdc0a70b6de6a717e638aeed76c0b415b8666cd34425d0b0e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/rig.js",
+      "bytes": 6388,
+      "sha256": "531d27028e219ee8ed6ea1643c7ce887609e513e8e51c2ee35fef2fcef681a74"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/sculpt.js",
+      "bytes": 23259,
+      "sha256": "c2274a7c8625fb666882ac2faaa6463e1206a5d100dae4e62e2f401a6d12733e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/horse/seamWeights.js",
+      "bytes": 15388,
+      "sha256": "3a33e05740a4346e02e5c629bf526eca3980530321741ea21ded2e0972c6cb2c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/behaviour.js",
+      "bytes": 27707,
+      "sha256": "2da55b8ffa463bc799f0dd85fd3110999e0cb6dac779bd9c4c63dd355732a29e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/coat.js",
+      "bytes": 79569,
+      "sha256": "dec3157834266535e675f82a76164459dcba6502b49a14a225022d7fedd4a523"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/index.js",
+      "bytes": 6427,
+      "sha256": "e4fb1d2ea1951a73e939b4dfe4ac19b8c07b46b060ffd8e6485f0d48d591b9a9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/motion.js",
+      "bytes": 5817,
+      "sha256": "b38f6c4582a6d4bba7c4957d78eeba969f4fc9fca8dee8ea6adcd61a0bae7df8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/regions.js",
+      "bytes": 6830,
+      "sha256": "f5dc27f508e63652eab943c283ffcc284b3673a6480b98447c10952247065b68"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/rig.js",
+      "bytes": 6837,
+      "sha256": "fe44117ef7ef4ea7553ad6f0e4e28f9c3321a73c78475e3763b48b99fe64a509"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/sculpt.js",
+      "bytes": 36020,
+      "sha256": "12017a0d7847b64c39de65704bb01915b6b0d24888b62e5dc7a990e0ad580d84"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/lion/whiskers.js",
+      "bytes": 6381,
+      "sha256": "da66bc13c665a1cad444eb68daa71bfe376f731ee1b1c970b88d145310f61ff9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/behaviour.js",
+      "bytes": 31985,
+      "sha256": "9bbf37eeabb7caab9a9ffd3958a3cf2ef1daaba1d4790a730125b703c708e30e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/coat.js",
+      "bytes": 51238,
+      "sha256": "f33a154ba170736d331fb78bdd21a69b794cd401bd75ad63eff88b6abfcf7ac2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/ears.js",
+      "bytes": 16155,
+      "sha256": "c4b99aaafdbe8fcc1154f91f3c01acc565fe0f33eb6d7c1b022975759c45f134"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/index.js",
+      "bytes": 10849,
+      "sha256": "fd3d3c59f16b5a1a0be314014f33fe07e98678459abe050b07b26845f5678481"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/motion.js",
+      "bytes": 6209,
+      "sha256": "4d8f458c3f904138592037f38e2b24a866aca8eca21e954d3e6e95da8345c270"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/regions.js",
+      "bytes": 6660,
+      "sha256": "7e2a97de11f3efd773618e6eb121e708a7ce4a8b84a3ad3a21716af985722ba8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/rig.js",
+      "bytes": 7992,
+      "sha256": "d9751afd7e85f6cc1555b5f869e56fc653ec4d6f2189b2e791ca0bdb090acf3a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/pig/sculpt.js",
+      "bytes": 29461,
+      "sha256": "5b454aa9b787eb0dfba6d57ed0c57ca7437c00a37badba229e05b60f42a67a3c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rabbit/behaviour.js",
+      "bytes": 32532,
+      "sha256": "c5407f8d786d4e911c6f7fd6efbf892660eb6a12fe3070d2efb437eb0cb80c56"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rabbit/coat.js",
+      "bytes": 15083,
+      "sha256": "ef10817bec5178d94771f6232c90e6e1a93deb5484f04c469a98c5d125b9f4f9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rabbit/index.js",
+      "bytes": 4259,
+      "sha256": "7615ec64a6126af149c9c76c2b50d4d9d00767e74657e889de7726bfc0ee5525"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rabbit/motion.js",
+      "bytes": 5025,
+      "sha256": "1a7a9f0cefa122c4fa4a10049724501cce5e446c25e1655c41d4c85da7ccf9ff"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rabbit/regions.js",
+      "bytes": 2424,
+      "sha256": "0399b12b39147b5fddb0a9b779a55a085dc8b7cc09e6a05c774e472c6065ba48"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rabbit/rig.js",
+      "bytes": 4811,
+      "sha256": "637993835aa37a1daa18aff5b628c96700caaab6e0d301c0869b861abb840693"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rabbit/sculpt.js",
+      "bytes": 11193,
+      "sha256": "89602b1fa735a92736777a36573f89e826b1ee1698964beaf89974f029b2d550"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/behaviour.js",
+      "bytes": 26999,
+      "sha256": "b1efee8e3e9c6cedd27bbea1f47063fd0c7f00d4a168041b1126d6b4fc545796"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/coat.js",
+      "bytes": 19595,
+      "sha256": "eca177e34c87f079b7e2adead08aff4c4cb2ad7e45913f0f6b7fa5b013422763"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/index.js",
+      "bytes": 5206,
+      "sha256": "dae478a3eed53e5d2fc3bade528175772f3137980518ec91be0ff7888729888b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/motion.js",
+      "bytes": 5623,
+      "sha256": "0d4ea249653fd5c71023f05e3f8d160cfc1368ff382e9ebe2133079b764b8fe8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/regions.js",
+      "bytes": 4719,
+      "sha256": "7db058e82af379f2faeabc33869c1749f5fcc8f02b3eb1197b09485c2b34efaa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/rig.js",
+      "bytes": 5902,
+      "sha256": "38c5f908c14b38d72db137682e763b3a9ff1742234a657806a0ba39789ea1b16"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/sculpt.js",
+      "bytes": 13054,
+      "sha256": "37f6da9477ea44a72f0f0dfb4e9f10a122c8f922d54c1df56def4068866b5965"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/rat/whiskers.js",
+      "bytes": 5568,
+      "sha256": "d909ab033bd6f7b2c124c699fc1fc808edb83a2f98a14777a5a550cf04f3c175"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/shark/coat.js",
+      "bytes": 19943,
+      "sha256": "973b07e6d4dbea90b5a7cc2f59610da7d223d9b7cffbefd1a27960c80ee382f7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/shark/index.js",
+      "bytes": 4737,
+      "sha256": "1103711fdba87c5df0ac9ebdb5fe810136f3d4894f4d322033ed9a45b3c2822d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/shark/motion.js",
+      "bytes": 3513,
+      "sha256": "5231f161a12712d7df92217d7e0a926ab00d9205353517ff8ff650ae6138b960"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/shark/regions.js",
+      "bytes": 1964,
+      "sha256": "43bc1c9ae6c07f02eae5f756c66877e89eb059f38c54e2d30c8e42e7e4f350a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/shark/rig.js",
+      "bytes": 9139,
+      "sha256": "3b0760b5c1a4a85b2fcbceffb45bb40fe808b40a794244a1d52551377c18794c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/shark/sculpt.js",
+      "bytes": 19298,
+      "sha256": "e625e0cca8b35f025b20c6559e469591cc46fae02e73d04dd355035340f83150"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/shark/variants.js",
+      "bytes": 7100,
+      "sha256": "a03df0ce39aacfff34fed15ad1f5b73ff28b61d8399e1f841340d46d5665863a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/behaviour.js",
+      "bytes": 27603,
+      "sha256": "6ecc34218648af972d83280f3cafa79f4cbfb5234a0ede00f97e14a44f57b0e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/coat.js",
+      "bytes": 32965,
+      "sha256": "90a5354580ebe9b98080c1ef3c23cb9a2b658c83558b25c236307b2ddeed59eb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/index.js",
+      "bytes": 8875,
+      "sha256": "70c763b2ff175ec152da39e49b03bb7a994c37374ea7d1c30780f0eb8786ca6c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/motion.js",
+      "bytes": 5385,
+      "sha256": "21cedcba0685038215c1e50725a69c2933988475cb4786159d0412f923275dc2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/neck.js",
+      "bytes": 1872,
+      "sha256": "5dad7550ef01ca4666b8b9beeb0b74ff688523318193145f5f304a3ecbe18bc7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/regions.js",
+      "bytes": 3439,
+      "sha256": "a94b6a71733f2c2fe9df76dc815fac7b13c13759f516d8c907fe69888eba699b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/rig.js",
+      "bytes": 9325,
+      "sha256": "e10aa125364c78b961998cef703ee174445a5fe7694bfa943bbfd3b00355afbe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/sheep/sculpt.js",
+      "bytes": 38984,
+      "sha256": "a5c84736f723ac02e3c7a0fc145c8b586fcf9e27940cc762b8c4a3aae11547d5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/snake/coat.js",
+      "bytes": 18366,
+      "sha256": "a1bd1d0016bc700d10e5d8cd48be59c1e4f26ff8c1dfd1b2b00a287d117ee299"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/snake/index.js",
+      "bytes": 3589,
+      "sha256": "9488599c89e8a39f39d5356ed94e4db276cb5c60e6399d6babd58673f3ea43c2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/snake/motion.js",
+      "bytes": 2876,
+      "sha256": "f0a7628d26dbb91fd4122e04e4c9d3a4470a4a84bfab1f8fb634e95587c4bdb0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/snake/regions.js",
+      "bytes": 2818,
+      "sha256": "f0d1ed46e340bf89818b831a41049512ab78d860c6bf84c4900b4dbe660792cb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/snake/rig.js",
+      "bytes": 5190,
+      "sha256": "e59c816743534d07ab8886346e9d71177773affd5b280971c4845894b8e38112"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/snake/sculpt.js",
+      "bytes": 9015,
+      "sha256": "368c49a5d479d849b0547c83562866f7f8c8d51feb3c16fabb3cd462c99009ba"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/spider/coat.js",
+      "bytes": 16626,
+      "sha256": "12748a8d5f0c4cb164ba18a5220e9b81af632b5d41bee86b68009d25b336b88a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/spider/index.js",
+      "bytes": 3445,
+      "sha256": "c38d73754dd5c8db97fc1a83db2340c5ddddfab531510ac5037153798ac0322f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/spider/motion.js",
+      "bytes": 3849,
+      "sha256": "1e03421849bb6be642129b6750f774c973a29bcacc527eb6d4600ded964a4823"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/spider/regions.js",
+      "bytes": 4429,
+      "sha256": "762ea53bd3ed5505db4aa537979634085b4e9add66c494a9a353e5fbfd6154b0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/spider/rig.js",
+      "bytes": 5895,
+      "sha256": "f244a3222b7031d8bf8423bc1f41e1f12e7467f851d8195d7cdaa8f352a78219"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/spider/sculpt.js",
+      "bytes": 11881,
+      "sha256": "d8893f0017032cdff596bb57a2f09339d96e4f27db1b6effa266cb61ca507634"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/wolf/behaviour.js",
+      "bytes": 10062,
+      "sha256": "4df40ea13cfc2776651c9dd8bed0e88acb0cb03b7d62020c72b17af9a95f6e12"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/wolf/coat.js",
+      "bytes": 48307,
+      "sha256": "688a785a02cf0502b983ad7894e6be2ab64c248dd81d5ee21c5437e07657fd21"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/wolf/index.js",
+      "bytes": 5031,
+      "sha256": "421d951a80c190e01de671aa437b825fd3801b18b64417431393535326f82799"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/wolf/motion.js",
+      "bytes": 5062,
+      "sha256": "349e1653f2f8862b4d2580ad5f87d30b2fbaa78a66c54efaf967b1b5c7877879"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/wolf/regions.js",
+      "bytes": 3117,
+      "sha256": "abcf4597cb76e88b9fbfcd8443298e5ba25e084b61000ea624e67cfad6501b49"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/wolf/rig.js",
+      "bytes": 4688,
+      "sha256": "bb703a12d64026119a900060bc6598b75a76d4c19c7dfba9e344e8c4a3fea5a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/species/wolf/sculpt.js",
+      "bytes": 28973,
+      "sha256": "91b873f06943e66c8259a88dff58c66bb7e40c631a6b59085854875fd2cb84ec"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/upstream/src/worker.js",
+      "bytes": 1422,
+      "sha256": "e6ab6307ace215a5bf9175da3e33e6740837b84c3b9885d6102caa36d052bf96"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/vendor/LICENSE.three",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/vendor/Reflector.js",
+      "bytes": 10943,
+      "sha256": "57836df976f02a474b2dcfbb6609bca8bde0ccc6e77159ad8e418fa11c065d3b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/vendor/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/examples/fox-creek/vendor/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/preview.png",
+      "bytes": 640826,
+      "sha256": "3e1e4297d9abc60492952ccc18a1b923d21bf1fd4523e1a4efb7ac3e3098905f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/procedural-animals.js",
+      "bytes": 2200,
+      "sha256": "d18b548de9c3a964c537bbbc3c5d818744e00fcd57815a8a4c3ce127e66f5cdd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/animal.js",
+      "bytes": 6295,
+      "sha256": "04fd1a8013aeda15ca8b2f929f3f5f00c0da5f25a12acbb5cf7552e68bb9439e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/bake.js",
+      "bytes": 2327,
+      "sha256": "5959ae36909a1147d4740a6a61357c1349b830f26b056cb64a3e66e3bc540f60"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/build.js",
+      "bytes": 3072,
+      "sha256": "c486e87669c2716565f2e2e611698bc35ce63cfe0132ed9bc6d2736655ccee42"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/coatKit.js",
+      "bytes": 5105,
+      "sha256": "bed32060b994e4e83399194652890fb434c4584bcdd1ba14e51364dce25796e6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/featherCards.js",
+      "bytes": 10320,
+      "sha256": "43e354c399fbc2a397ad6fd88dd6fdc1a8edf80c656abe31d86a394c6214dfa5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/finEdges.js",
+      "bytes": 4985,
+      "sha256": "bcff4198503ca4cf37b8f6ccd8858d5f5b5c56437b759b6547009d580272f280"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/furSlope.js",
+      "bytes": 5740,
+      "sha256": "b25ba1d47add784170ea0865fd61a787ee0aafb5508de5e004372afa9b528257"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/mesh.js",
+      "bytes": 3683,
+      "sha256": "07d9d45b51993db94af819a000dec7d4213fb2282e3b41a831a0a7e0b16f648c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/pipeline.js",
+      "bytes": 14862,
+      "sha256": "4b9bf498d3804c52c3783355acb589c61dd2b94fc40aa86a478586ff5a15b17d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/seams.js",
+      "bytes": 10922,
+      "sha256": "f0bc8828aa671d310361d2a261ba0cc2c0c67c8288dba74cffef7b52e9a191e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/warp.js",
+      "bytes": 5737,
+      "sha256": "f497cbb3ea2a2a69477e1bb5187f8b2e9be30f7b22e0a57933a44eeefaaceeb2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/build/weights.js",
+      "bytes": 17686,
+      "sha256": "a3a7067378edeedf214efa425b4be1b09dffaf81a78d64dae46fb14f35e8c130"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/math/vec.js",
+      "bytes": 3127,
+      "sha256": "b2f74305db9a2ab5d7babb79831770c576aa8d9107d580f70301b8c97115cf87"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/actions.js",
+      "bytes": 47032,
+      "sha256": "ba766d925fa304d49965864c873fb169fc13adf71e2bcd87cbb2fad18338020b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/bird.js",
+      "bytes": 183076,
+      "sha256": "c1f32942d83638386ac8087e7abd58e0fb4c0154519ccf68297c3907c6cb5600"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/birdActions.js",
+      "bytes": 62644,
+      "sha256": "d5a143ecf7ee7f01cb7b357b69ace3c008cfd7fdf11580bf90b72009c294a58f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/common.js",
+      "bytes": 7231,
+      "sha256": "ebe086b0293add1ab49c07f14507d9b0e6748fcee37b9bace2e2c5e69542aa13"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/index.js",
+      "bytes": 743,
+      "sha256": "50965e71f9189c30b572eb5b1665fed5594f43b44f8a2f9f79e0eae455474ef2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/quadruped.js",
+      "bytes": 177306,
+      "sha256": "16ea23e0c7093028c7bc01606817ac0a326b5b341c025578270a62857b4113e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/snake.js",
+      "bytes": 79592,
+      "sha256": "aa91d16d600d4743fe33fe7a556d9ac83d48e00c6c1003739351de08979994bf"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/spider.js",
+      "bytes": 100770,
+      "sha256": "11ed2e67dca071467781ac59d91d12f54cdfc86ddade3c7b75a952c33c17e4fb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/swimmer.js",
+      "bytes": 58662,
+      "sha256": "734ef22b2741982b3bcf9a4726ac0a82445736ebee66fd4f488034736a4ce70d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/motion/swimmerActions.js",
+      "bytes": 32198,
+      "sha256": "4df5951a640d82e8b77c0d7a865a0d3db11fa6e97e86b75bb4e36b01a9e5705e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/render/animalObject.js",
+      "bytes": 13991,
+      "sha256": "1a0511c47218fe61954000badeeacc2cb342d3aff5926394864af3f8dbf876ca"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/render/coatMaterial.js",
+      "bytes": 70977,
+      "sha256": "62950789cee7f812809e2d6e0121ea206d31d173d11419bbf1a9eb1ed07da780"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/render/dqs.js",
+      "bytes": 8280,
+      "sha256": "53d97be7e26d154665c3a1f9a546ff8ddbf2477e84258b478598b5047621f334"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/render/eyes.js",
+      "bytes": 37361,
+      "sha256": "65b233980d8f6b2a929b68051c8c0b1e82e6166773bda542125b6cd1af3f3ddc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/render/membranes.js",
+      "bytes": 3312,
+      "sha256": "a0d4242a0baa4f42a1f77ffb412258f201d55d695dfc9c0c785e885d4da6e0b8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/render/skeleton.js",
+      "bytes": 1764,
+      "sha256": "6cf7d20986c07288468389835c434e1a1e07ce8ddda457bf428bc613f2efea33"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/rig/bird.js",
+      "bytes": 19385,
+      "sha256": "2a2016454335bbcfb601574ba7a6f2942cb4e081011b20d349977db9d3dd6894"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/rig/quadruped.js",
+      "bytes": 4283,
+      "sha256": "b00b76e05683d2a286689a8249be681433adf7acbd04351b64c20fd4a9be799f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/rig/rig.js",
+      "bytes": 3835,
+      "sha256": "744e05d7cd4b3de15d38eeb4cb08637997322279d13d25f041294ea40e686631"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/rig/snake.js",
+      "bytes": 3705,
+      "sha256": "8274ce4267e6e25da86b74d939d4f9ce6223f555125f2a384ae4995ef4b2abb9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/rig/spider.js",
+      "bytes": 5487,
+      "sha256": "36bb8ced4132b4dd1c5c437eb66e0f572aa336f2161b28a3942f209f6bb6b3b5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/rig/swimmer.js",
+      "bytes": 9353,
+      "sha256": "0b9b77d69853074e07d86023f9ad7bd2b92dd9d784e1e816385a0f5b50c502d9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/sdf/eyeSocket.js",
+      "bytes": 3367,
+      "sha256": "bf14353edd1ade3040251acfbea9a63090a78bb8b6ade748f8522c86c4d42b57"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/sdf/mesher.js",
+      "bytes": 11166,
+      "sha256": "a109bc13b97c8c3e1dbfdefdfb6810e22cd01b860d37f30739b31685fb2b684d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/core/sdf/sdf.js",
+      "bytes": 10377,
+      "sha256": "aa83dc80b7aff5cec688cea6438570fc47ee800bc7fd188703693662cacea78b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/index.d.ts",
+      "bytes": 4929,
+      "sha256": "ba5084f0c665df5605b50fb7aeea4f8eadfbb89770ac31e218c35c4e7a7c80a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/index.js",
+      "bytes": 1426,
+      "sha256": "18d8e26ff3fc81cbee0313a3976d9950bb52d888dcbbc946a5828605771148b9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/registry.js",
+      "bytes": 2182,
+      "sha256": "e2d22401df6c7ef04aeabba011dde8106664d2e6ed0077f3ab8a3fa03e5ef2ca"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/behaviour.js",
+      "bytes": 25966,
+      "sha256": "f8647694e180c4a8bba265ebc3679280785949ee375537f84d5bd928db859555"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/claws.js",
+      "bytes": 8575,
+      "sha256": "1e96a9ecf9ed35044f386f125893e2f9d9a1a486d62cb0db7e6cb338726c03d2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/coat.js",
+      "bytes": 51682,
+      "sha256": "bff1d0c6fc4888886b66f1b35ebb22bd6c2a0e35c1dc3c01a57d3d6080753cdd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/index.js",
+      "bytes": 8108,
+      "sha256": "0cd9439c6292bb0cfeab1570b2af69c4f685628aa94302db46f785a3d6c80f98"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/motion.js",
+      "bytes": 8588,
+      "sha256": "60bbf56bf3b9d3ae151cf6a090b23e224d555a28934ed53b0480494994d07cc3"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/regions.js",
+      "bytes": 5046,
+      "sha256": "3cdcf15b27413c43d5b694404641f26940b02b2f5d9e612e1f5cf92758c4e7f9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/rig.js",
+      "bytes": 6343,
+      "sha256": "9826d408049dc1641b78612962e4ad8b0cedeb6ed18e306a635aaf6bea1bc8a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/bear/sculpt.js",
+      "bytes": 23139,
+      "sha256": "f30174b110d184c9a53a38977f663281d5b958ff971b8aab9b274169e63daaf2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/boar/behaviour.js",
+      "bytes": 16267,
+      "sha256": "95a8a5004eeffed9d3964ca5963fe6dab457a6e9661146b32b924fa967ce5735"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/boar/coat.js",
+      "bytes": 20663,
+      "sha256": "67278e4a010d283670ccd7f07ca4ee154892c3a5ffa7e21e5739ad00e1ea2572"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/boar/index.js",
+      "bytes": 5876,
+      "sha256": "e51623566d39793158f3732a771983f3c9f83fb57a5c61a139912ba8e334718f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/boar/motion.js",
+      "bytes": 5187,
+      "sha256": "ffe51dfbf1e061fc6071f8d28d8f118629ff64ca9a94ce7284b157cb31934fe9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/boar/regions.js",
+      "bytes": 4964,
+      "sha256": "c956d15749e13f94b56f37242b30f8f805691a8156997b628e884dc1b1ea0eb4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/boar/rig.js",
+      "bytes": 5437,
+      "sha256": "e5bfd0981837b3d772e2deb915dceb4606c07be16903eb697151a68e44a1dbe8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/boar/sculpt.js",
+      "bytes": 20272,
+      "sha256": "68b9b6746ad8b8766a4b68823f01ce490ce684e2170a4749bce2306e0676c205"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/behaviour.js",
+      "bytes": 28478,
+      "sha256": "52622fbb48503084d96bdaec1c0e3ef8bbb55d878349e1d0a5df5f04b918722c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/coat.js",
+      "bytes": 57431,
+      "sha256": "a334d41bec7ab407daa2d2c253c30a577ee9924727d6a9c71d6e638298c79266"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/index.js",
+      "bytes": 11883,
+      "sha256": "4a3d07bd59dadd9989b2d99310089d3fb277fdddbff9f01e6f6490980360a317"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/motion.js",
+      "bytes": 7443,
+      "sha256": "831ec438463e376cd67cea887b8920d58fb28f883179b59f50d0a99d7dea88e4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/regions.js",
+      "bytes": 5826,
+      "sha256": "c9ac210701ba3ff3496ed01d72a309c8935fab1e119476cb48ce99b9888ed790"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/rig.js",
+      "bytes": 6148,
+      "sha256": "8eae77ad14dc3acb06d8657eb06a67910e866720bef37ed48ef18622e667eb43"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/sculpt.js",
+      "bytes": 22070,
+      "sha256": "e2d3635e360d4131d98cec3f73f1f229efb691f66ca7e4abe9712b2ebb9edf90"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cat/whiskers.js",
+      "bytes": 4900,
+      "sha256": "6a5a01b3d8f3a91743aba5fd5da7cd4d02c23460a501884ea0dee0dbc3e4dcfb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cheetah/coat.js",
+      "bytes": 20592,
+      "sha256": "ab1260d49e91d836b8281d6720a6a68c878687efbf338aacaf7a2be9ab3c52e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cheetah/index.js",
+      "bytes": 1987,
+      "sha256": "b5a5473cc570b5abe596c93f567ad20b6444a249e8789ca871e8aafb25041830"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cheetah/joints.js",
+      "bytes": 178,
+      "sha256": "0f2161e5f04ac04102aeb38fdcd5d59ac0d6b7cefb61f4cf2fb04b2de2377a1f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cheetah/motion.js",
+      "bytes": 4679,
+      "sha256": "a731f835f392f5e9434ca3b0c4a599459e00114e4d72c8e909361c613c916b5a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cheetah/regions.js",
+      "bytes": 5712,
+      "sha256": "f7c4dc142c4af79aaaf128a7ae1b743a5306f94127d4ad957c961b9d61c51673"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cheetah/rig.js",
+      "bytes": 2734,
+      "sha256": "9e6d9f9b0aa0db149937dad1a11abb8f369eea1b5e679a27a358e8e4b42751ae"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cheetah/sculpt.js",
+      "bytes": 12781,
+      "sha256": "7dd11c8f71c373baf7b5b9485978af2700c5e28eae02b272401af9fd8e6c3751"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/coat.js",
+      "bytes": 22942,
+      "sha256": "9f2488143c88cc675ec164078f9314748e3237efee6a49505976b90773db1bb9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/coverts.js",
+      "bytes": 19375,
+      "sha256": "f9ef26391c81dc45ff6a1994245ba3e9fdd21acc3357ababcaf9568ddf98d25f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/index.js",
+      "bytes": 6230,
+      "sha256": "191127e5d65d223b1326c80672b4115ddf895fb9c8e66e4b44320c0310110fbc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/motion.js",
+      "bytes": 12397,
+      "sha256": "85b66a3211a2f7a3b220aae78e90cc96f195e199bd85a68f723180686df3c83a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/regions.js",
+      "bytes": 3327,
+      "sha256": "c0a4e671017d25bd75d3bcefb4304658642abfa1bea4501f7618bcb446bcd127"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/rig.js",
+      "bytes": 6819,
+      "sha256": "bd1038e4bea8797feb2807d33da44e6b8551b347255b5bfaa0e908c077e1c836"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/sculpt.js",
+      "bytes": 25967,
+      "sha256": "e0b693449ecd327d20896bb820672e34c2c22977d784f4387d3f2e1f7bccbcc1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/wingLook.js",
+      "bytes": 3224,
+      "sha256": "a4d60701d6921b4f9617cc8aa339fe868bc4bb0fbf8ef7dc6ad92fda49cb8861"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/chicken/wingStack.js",
+      "bytes": 7185,
+      "sha256": "15df76ef51385c330637e3cb8c0d54397717a1346db2c735e290651bd8cd22a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cow/behaviour.js",
+      "bytes": 26404,
+      "sha256": "4a4d3f898e4bd4f74e347820fcde387bdeac6d17b05dd83529ebffe97940af8e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cow/coat.js",
+      "bytes": 26614,
+      "sha256": "575050e827bbe5bb8bb3cb7555d107aaffd3adf2d2a236d9b269180ce0122201"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cow/index.js",
+      "bytes": 6848,
+      "sha256": "b51b93a5af8b8fb6a233cf48e9f267acf87bc409c17c885078ad1669999e6bdc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cow/motion.js",
+      "bytes": 5160,
+      "sha256": "9051d276f2525aa2f79aa0c1a3bfcd1cc5bdfd2fbf7989fd19599b2b5b118bd2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cow/regions.js",
+      "bytes": 6069,
+      "sha256": "37295170a5b61b9ce9da7cb943e874feec447566836f070620c9510fd0618e8c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cow/rig.js",
+      "bytes": 5983,
+      "sha256": "1dc25b82f38c102d0dbbc5df3afec2ee8572c8b5d30ab29cf55ed1d838d9b34e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/cow/sculpt.js",
+      "bytes": 25305,
+      "sha256": "94e694d670e79208d6277704a69bc56a3435a73302512cb12357c15afcd41335"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/crow/coat.js",
+      "bytes": 8802,
+      "sha256": "ab4ac3f3c518133480d3290e68a07639bbafec32ec0a3e6324dbdac3e77fc0cc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/crow/index.js",
+      "bytes": 3605,
+      "sha256": "761fe3d271bd303471fce1de57c574862e492293812d2f535bb5d74ad6287cb4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/crow/joints.js",
+      "bytes": 169,
+      "sha256": "21ad26797c3e15a5e66b4cf35b528cac7872087d4f0ec601fc9085e69b838264"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/crow/motion.js",
+      "bytes": 6041,
+      "sha256": "9ec693616fe0bd572250d2d6de59d5b5ecf764e1811a4c51db7759cd6127c743"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/crow/regions.js",
+      "bytes": 2541,
+      "sha256": "7ef9308389d5db9f2cccbe203855970b4f502b7abd483918f4045b43b45b2dc1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/crow/rig.js",
+      "bytes": 4060,
+      "sha256": "aa9dcea8f88f00e5a28ff6f8d21dca471b1c4d2489840a284e1397d10368a055"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/crow/sculpt.js",
+      "bytes": 8517,
+      "sha256": "fb882f2cb41d7bda6199b7b3852e39f0e20be4b9460cf1b76c893ec0ae5ff74c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/deer/behaviour.js",
+      "bytes": 24982,
+      "sha256": "19d1fee32216f737d7150a39e438aea831d38ff5dd75f7883f83248a953bfbac"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/deer/coat.js",
+      "bytes": 21443,
+      "sha256": "791c0729f54a49d134c888dc0a51f4fa125e85118f6d65b39c1c1bfa0dc1e4ab"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/deer/index.js",
+      "bytes": 5596,
+      "sha256": "0551d308012b31a51a0f344822c6325a3832d6e0cae93e322099a5e84b850cc1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/deer/motion.js",
+      "bytes": 6504,
+      "sha256": "ced44b79c6012fe29b29840d832c1e905158f7cd2c5a28960df8ef28e4c98453"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/deer/regions.js",
+      "bytes": 3235,
+      "sha256": "f0bdb4b8ebcab32840ca5efec2c0491a1ec7d992484d7021c4ae8a701efc36c7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/deer/rig.js",
+      "bytes": 6627,
+      "sha256": "173d4755388fde135c638bb28d4da08c34539eb361294ba40883175843f44cc5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/deer/sculpt.js",
+      "bytes": 20554,
+      "sha256": "f498340ab2151bf68061b6513b243f859858822d41546dbc0da71139017430fa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/dog/behaviour.js",
+      "bytes": 27220,
+      "sha256": "9aa0531f41021fd48e10bda6d8fb205701152459f12bc30835a69169b9bb7a7c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/dog/coat.js",
+      "bytes": 28129,
+      "sha256": "633693c0a604141220283364db97cd6a1541516701feba4948e6510cec756979"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/dog/index.js",
+      "bytes": 7644,
+      "sha256": "ba4ba3b9e24e8f265fa698b57395c20ed19ef2564af73cce9ae9841164994eed"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/dog/motion.js",
+      "bytes": 6887,
+      "sha256": "e2c77eecd8efe5798afbdb27722b9f7bc88d46c8b3adcb5cd6384375aecf45bd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/dog/regions.js",
+      "bytes": 3452,
+      "sha256": "b5e725351266760fc84192c5fe6ccd73dba1dbba32397a91a434252117d4bf0a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/dog/rig.js",
+      "bytes": 7207,
+      "sha256": "ed9913853de080effdde05c72550b56e8f6b8fae4045da73500e84ae6a2c6127"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/dog/sculpt.js",
+      "bytes": 21235,
+      "sha256": "78f86e673d9f8f2d0407cacd3bd232f3f92c7268ddccd7846dc422660952a6e0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/eagle/coat.js",
+      "bytes": 15481,
+      "sha256": "7e65335d74bd1762b65f280ace6dfde06028a23a6c21d92c94086c5f2e4cf760"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/eagle/index.js",
+      "bytes": 4041,
+      "sha256": "8bf53fa2e4fa29395fae086facb8c5ae92b30bee75b3b8837fdc17fa14973b0b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/eagle/joints.js",
+      "bytes": 172,
+      "sha256": "6f6ae3ab82f1bfad49ae15b966980d399cade8fcd3322d64d44acd975096f5fa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/eagle/motion.js",
+      "bytes": 8991,
+      "sha256": "2808af8ea18b9eaf74e70a9845c81aac8b6445a5f42f35f74119a5e5c49e633b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/eagle/regions.js",
+      "bytes": 3139,
+      "sha256": "92b0b46f23dcb85305b55ba64eb99143608586da07a969297b287a84383a50a4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/eagle/rig.js",
+      "bytes": 5469,
+      "sha256": "1892628f4ef49865ef7a25d496c96f655259f4f89c9d4521f85de85b7ca48a1e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/eagle/sculpt.js",
+      "bytes": 10255,
+      "sha256": "99aa7cc1504a3dd3820064829cf9192f08098d2acd9c66417073d67445a731aa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fish/coat.js",
+      "bytes": 13988,
+      "sha256": "b5ce7080e2e9ce49b6af93065790a5dd5a61d6576d9dbd38aa79dc9cdbe11d17"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fish/index.js",
+      "bytes": 4417,
+      "sha256": "cd47ba2faf07093a91ae6806a4ad869e7f11aa960ab71edaebbc08e7fb756ec7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fish/motion.js",
+      "bytes": 3963,
+      "sha256": "1dc0841219deefb7972baf9949ec7381c9341c16d2cdfdfe9edb222d0f510799"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fish/regions.js",
+      "bytes": 1469,
+      "sha256": "15cbd8cf52baa94685845b09d1d442ba77481da7880c9e59b703631f801ee156"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fish/rig.js",
+      "bytes": 6298,
+      "sha256": "0edf5831ee9df8c7e67bf868c4a09a846fd0d3d074116e8c7f4543ddfd9e75b7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fish/sculpt.js",
+      "bytes": 12216,
+      "sha256": "68310b30f6c49049b8ec93bbd5e371b35a2489e4028e73e17e2bd842c1a14af9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fish/variants.js",
+      "bytes": 7504,
+      "sha256": "ee6d261f1323c44fee5d7af99c77d2ab9f242d8682529bd6d171423bf6e1ab4a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fox/behaviour.js",
+      "bytes": 16204,
+      "sha256": "22a1d443a5ad766a541a044cbde46141c0301cafab822687cb1decf28ffd0191"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fox/coat.js",
+      "bytes": 25012,
+      "sha256": "46fad53357f36dc0c94d42749affbafa5d7920978e0ff7334f797ad70a0990c0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fox/index.js",
+      "bytes": 5520,
+      "sha256": "084a4188e13948c697bcb9448fdbf7b2065de92aa436122299a92d10b595e875"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fox/motion.js",
+      "bytes": 5188,
+      "sha256": "2a7eae85fec7123d3a29cf468b8ff89fddab97e9bf87f0907750b3f5441d9efa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fox/regions.js",
+      "bytes": 3057,
+      "sha256": "1155c897dfe5544ead464dea6619f5493317e36a40e7b745cef95c79b79227b4"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fox/rig.js",
+      "bytes": 4787,
+      "sha256": "5d6b13e7ee93ed9573d269b2ace590de1d6de32a9c6dae5bff1503de74c74094"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/fox/sculpt.js",
+      "bytes": 17709,
+      "sha256": "65281dc850346815b90762a09698a38152f33e518d532531e7a9c4ab1a7ef586"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/frog/behaviour.js",
+      "bytes": 30289,
+      "sha256": "17ce977e08b50ad5f5b7e28ad5bbe507f535bb8785e9fdc7fb851f26c57842d5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/frog/coat.js",
+      "bytes": 16291,
+      "sha256": "42595c986b6339ae8e336418b3a7a9f9bf4abd09dd64548254de44516ee777b5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/frog/index.js",
+      "bytes": 4807,
+      "sha256": "c4edee9a26ba121847ccd2b3329e7edf1c13d6832af884ef6f8180c641800118"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/frog/motion.js",
+      "bytes": 3730,
+      "sha256": "272e8baf086a26c822c6cc645949a198177977c67f000dcc9fd14e7d276628d8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/frog/regions.js",
+      "bytes": 2405,
+      "sha256": "7ab7c2505ca003d7ec4ea4d1b22d3545431e9c74f691188b34cf300c3810ab32"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/frog/rig.js",
+      "bytes": 8492,
+      "sha256": "6adf7f888d1ab7137e8c957b7f1061ba8ff9bf38dd46d79b2896222972651eff"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/frog/sculpt.js",
+      "bytes": 16670,
+      "sha256": "00d6f86c0f64ff46132d1e8a6f0bd77bf7eee0ff83a4d0dbc5ba97c461dd6ed6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/goat/behaviour.js",
+      "bytes": 28636,
+      "sha256": "3a532d6c94986e7717af526a63b68952805b3e67afced5b495bed2704052ad96"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/goat/coat.js",
+      "bytes": 39708,
+      "sha256": "f3ee9250dfa948b137a470d920a7d96c2b7b2500d07aee2271f07d3f4dffe4f1"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/goat/index.js",
+      "bytes": 9487,
+      "sha256": "a7fc63e0c65f9c4965dba00c85e172dab727a5fd31f6ce7197c56e01341821c9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/goat/motion.js",
+      "bytes": 6030,
+      "sha256": "4e37a4d6a0ca152f2b1703ecb31f6b88d9971f45a2fd6d729c8db50ad027746d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/goat/regions.js",
+      "bytes": 6905,
+      "sha256": "8fef5a0d9ccfb506b0e410195d4fafea71299b178cd42479aa726a4c6344ce0e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/goat/rig.js",
+      "bytes": 11726,
+      "sha256": "04aa61895059ec99c5f7fb5b8e7d7cc0e847849b47878969f6e54dc3f06c6959"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/goat/sculpt.js",
+      "bytes": 42704,
+      "sha256": "5b234152d5969f65a064cc8163e77b23e4767447fe9c2747572fef2dc9ef75cd"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/coat.js",
+      "bytes": 20521,
+      "sha256": "d67b4c8593a69037bb9b7265fd87dadc7e0cb83487572e79cd89c411ac9e35ce"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/coatSeam.js",
+      "bytes": 6593,
+      "sha256": "bcaff38d5261cea2b3accae7accf800653ecb270816298c74f4f6e616406850f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/index.js",
+      "bytes": 4013,
+      "sha256": "712316432d1342b422fb3ff2a363aeaa8949b701c7a0b52e2f0db19f82e264d2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/motion.js",
+      "bytes": 14371,
+      "sha256": "fe62a263a75ded87c2cdf58070950d94429a2516f465433619a3bc6e04b29c9d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/regions.js",
+      "bytes": 3379,
+      "sha256": "c50ca4761650ffbbdc0a70b6de6a717e638aeed76c0b415b8666cd34425d0b0e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/rig.js",
+      "bytes": 6388,
+      "sha256": "531d27028e219ee8ed6ea1643c7ce887609e513e8e51c2ee35fef2fcef681a74"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/sculpt.js",
+      "bytes": 23259,
+      "sha256": "c2274a7c8625fb666882ac2faaa6463e1206a5d100dae4e62e2f401a6d12733e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/horse/seamWeights.js",
+      "bytes": 15388,
+      "sha256": "3a33e05740a4346e02e5c629bf526eca3980530321741ea21ded2e0972c6cb2c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/behaviour.js",
+      "bytes": 27707,
+      "sha256": "2da55b8ffa463bc799f0dd85fd3110999e0cb6dac779bd9c4c63dd355732a29e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/coat.js",
+      "bytes": 79569,
+      "sha256": "dec3157834266535e675f82a76164459dcba6502b49a14a225022d7fedd4a523"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/index.js",
+      "bytes": 6427,
+      "sha256": "e4fb1d2ea1951a73e939b4dfe4ac19b8c07b46b060ffd8e6485f0d48d591b9a9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/motion.js",
+      "bytes": 5817,
+      "sha256": "b38f6c4582a6d4bba7c4957d78eeba969f4fc9fca8dee8ea6adcd61a0bae7df8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/regions.js",
+      "bytes": 6830,
+      "sha256": "f5dc27f508e63652eab943c283ffcc284b3673a6480b98447c10952247065b68"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/rig.js",
+      "bytes": 6837,
+      "sha256": "fe44117ef7ef4ea7553ad6f0e4e28f9c3321a73c78475e3763b48b99fe64a509"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/sculpt.js",
+      "bytes": 36020,
+      "sha256": "12017a0d7847b64c39de65704bb01915b6b0d24888b62e5dc7a990e0ad580d84"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/lion/whiskers.js",
+      "bytes": 6381,
+      "sha256": "da66bc13c665a1cad444eb68daa71bfe376f731ee1b1c970b88d145310f61ff9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/behaviour.js",
+      "bytes": 31985,
+      "sha256": "9bbf37eeabb7caab9a9ffd3958a3cf2ef1daaba1d4790a730125b703c708e30e"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/coat.js",
+      "bytes": 51238,
+      "sha256": "f33a154ba170736d331fb78bdd21a69b794cd401bd75ad63eff88b6abfcf7ac2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/ears.js",
+      "bytes": 16155,
+      "sha256": "c4b99aaafdbe8fcc1154f91f3c01acc565fe0f33eb6d7c1b022975759c45f134"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/index.js",
+      "bytes": 10849,
+      "sha256": "fd3d3c59f16b5a1a0be314014f33fe07e98678459abe050b07b26845f5678481"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/motion.js",
+      "bytes": 6209,
+      "sha256": "4d8f458c3f904138592037f38e2b24a866aca8eca21e954d3e6e95da8345c270"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/regions.js",
+      "bytes": 6660,
+      "sha256": "7e2a97de11f3efd773618e6eb121e708a7ce4a8b84a3ad3a21716af985722ba8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/rig.js",
+      "bytes": 7992,
+      "sha256": "d9751afd7e85f6cc1555b5f869e56fc653ec4d6f2189b2e791ca0bdb090acf3a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/pig/sculpt.js",
+      "bytes": 29461,
+      "sha256": "5b454aa9b787eb0dfba6d57ed0c57ca7437c00a37badba229e05b60f42a67a3c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rabbit/behaviour.js",
+      "bytes": 32532,
+      "sha256": "c5407f8d786d4e911c6f7fd6efbf892660eb6a12fe3070d2efb437eb0cb80c56"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rabbit/coat.js",
+      "bytes": 15083,
+      "sha256": "ef10817bec5178d94771f6232c90e6e1a93deb5484f04c469a98c5d125b9f4f9"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rabbit/index.js",
+      "bytes": 4259,
+      "sha256": "7615ec64a6126af149c9c76c2b50d4d9d00767e74657e889de7726bfc0ee5525"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rabbit/motion.js",
+      "bytes": 5025,
+      "sha256": "1a7a9f0cefa122c4fa4a10049724501cce5e446c25e1655c41d4c85da7ccf9ff"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rabbit/regions.js",
+      "bytes": 2424,
+      "sha256": "0399b12b39147b5fddb0a9b779a55a085dc8b7cc09e6a05c774e472c6065ba48"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rabbit/rig.js",
+      "bytes": 4811,
+      "sha256": "637993835aa37a1daa18aff5b628c96700caaab6e0d301c0869b861abb840693"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rabbit/sculpt.js",
+      "bytes": 11193,
+      "sha256": "89602b1fa735a92736777a36573f89e826b1ee1698964beaf89974f029b2d550"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/behaviour.js",
+      "bytes": 26999,
+      "sha256": "b1efee8e3e9c6cedd27bbea1f47063fd0c7f00d4a168041b1126d6b4fc545796"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/coat.js",
+      "bytes": 19595,
+      "sha256": "eca177e34c87f079b7e2adead08aff4c4cb2ad7e45913f0f6b7fa5b013422763"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/index.js",
+      "bytes": 5206,
+      "sha256": "dae478a3eed53e5d2fc3bade528175772f3137980518ec91be0ff7888729888b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/motion.js",
+      "bytes": 5623,
+      "sha256": "0d4ea249653fd5c71023f05e3f8d160cfc1368ff382e9ebe2133079b764b8fe8"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/regions.js",
+      "bytes": 4719,
+      "sha256": "7db058e82af379f2faeabc33869c1749f5fcc8f02b3eb1197b09485c2b34efaa"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/rig.js",
+      "bytes": 5902,
+      "sha256": "38c5f908c14b38d72db137682e763b3a9ff1742234a657806a0ba39789ea1b16"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/sculpt.js",
+      "bytes": 13054,
+      "sha256": "37f6da9477ea44a72f0f0dfb4e9f10a122c8f922d54c1df56def4068866b5965"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/rat/whiskers.js",
+      "bytes": 5568,
+      "sha256": "d909ab033bd6f7b2c124c699fc1fc808edb83a2f98a14777a5a550cf04f3c175"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/shark/coat.js",
+      "bytes": 19943,
+      "sha256": "973b07e6d4dbea90b5a7cc2f59610da7d223d9b7cffbefd1a27960c80ee382f7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/shark/index.js",
+      "bytes": 4737,
+      "sha256": "1103711fdba87c5df0ac9ebdb5fe810136f3d4894f4d322033ed9a45b3c2822d"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/shark/motion.js",
+      "bytes": 3513,
+      "sha256": "5231f161a12712d7df92217d7e0a926ab00d9205353517ff8ff650ae6138b960"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/shark/regions.js",
+      "bytes": 1964,
+      "sha256": "43bc1c9ae6c07f02eae5f756c66877e89eb059f38c54e2d30c8e42e7e4f350a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/shark/rig.js",
+      "bytes": 9139,
+      "sha256": "3b0760b5c1a4a85b2fcbceffb45bb40fe808b40a794244a1d52551377c18794c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/shark/sculpt.js",
+      "bytes": 19298,
+      "sha256": "e625e0cca8b35f025b20c6559e469591cc46fae02e73d04dd355035340f83150"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/shark/variants.js",
+      "bytes": 7100,
+      "sha256": "a03df0ce39aacfff34fed15ad1f5b73ff28b61d8399e1f841340d46d5665863a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/behaviour.js",
+      "bytes": 27603,
+      "sha256": "6ecc34218648af972d83280f3cafa79f4cbfb5234a0ede00f97e14a44f57b0e7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/coat.js",
+      "bytes": 32965,
+      "sha256": "90a5354580ebe9b98080c1ef3c23cb9a2b658c83558b25c236307b2ddeed59eb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/index.js",
+      "bytes": 8875,
+      "sha256": "70c763b2ff175ec152da39e49b03bb7a994c37374ea7d1c30780f0eb8786ca6c"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/motion.js",
+      "bytes": 5385,
+      "sha256": "21cedcba0685038215c1e50725a69c2933988475cb4786159d0412f923275dc2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/neck.js",
+      "bytes": 1872,
+      "sha256": "5dad7550ef01ca4666b8b9beeb0b74ff688523318193145f5f304a3ecbe18bc7"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/regions.js",
+      "bytes": 3439,
+      "sha256": "a94b6a71733f2c2fe9df76dc815fac7b13c13759f516d8c907fe69888eba699b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/rig.js",
+      "bytes": 9325,
+      "sha256": "e10aa125364c78b961998cef703ee174445a5fe7694bfa943bbfd3b00355afbe"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/sheep/sculpt.js",
+      "bytes": 38984,
+      "sha256": "a5c84736f723ac02e3c7a0fc145c8b586fcf9e27940cc762b8c4a3aae11547d5"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/snake/coat.js",
+      "bytes": 18366,
+      "sha256": "a1bd1d0016bc700d10e5d8cd48be59c1e4f26ff8c1dfd1b2b00a287d117ee299"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/snake/index.js",
+      "bytes": 3589,
+      "sha256": "9488599c89e8a39f39d5356ed94e4db276cb5c60e6399d6babd58673f3ea43c2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/snake/motion.js",
+      "bytes": 2876,
+      "sha256": "f0a7628d26dbb91fd4122e04e4c9d3a4470a4a84bfab1f8fb634e95587c4bdb0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/snake/regions.js",
+      "bytes": 2818,
+      "sha256": "f0d1ed46e340bf89818b831a41049512ab78d860c6bf84c4900b4dbe660792cb"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/snake/rig.js",
+      "bytes": 5190,
+      "sha256": "e59c816743534d07ab8886346e9d71177773affd5b280971c4845894b8e38112"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/snake/sculpt.js",
+      "bytes": 9015,
+      "sha256": "368c49a5d479d849b0547c83562866f7f8c8d51feb3c16fabb3cd462c99009ba"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/spider/coat.js",
+      "bytes": 16626,
+      "sha256": "12748a8d5f0c4cb164ba18a5220e9b81af632b5d41bee86b68009d25b336b88a"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/spider/index.js",
+      "bytes": 3445,
+      "sha256": "c38d73754dd5c8db97fc1a83db2340c5ddddfab531510ac5037153798ac0322f"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/spider/motion.js",
+      "bytes": 3849,
+      "sha256": "1e03421849bb6be642129b6750f774c973a29bcacc527eb6d4600ded964a4823"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/spider/regions.js",
+      "bytes": 4429,
+      "sha256": "762ea53bd3ed5505db4aa537979634085b4e9add66c494a9a353e5fbfd6154b0"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/spider/rig.js",
+      "bytes": 5895,
+      "sha256": "f244a3222b7031d8bf8423bc1f41e1f12e7467f851d8195d7cdaa8f352a78219"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/spider/sculpt.js",
+      "bytes": 11881,
+      "sha256": "d8893f0017032cdff596bb57a2f09339d96e4f27db1b6effa266cb61ca507634"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/wolf/behaviour.js",
+      "bytes": 10062,
+      "sha256": "4df40ea13cfc2776651c9dd8bed0e88acb0cb03b7d62020c72b17af9a95f6e12"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/wolf/coat.js",
+      "bytes": 48307,
+      "sha256": "688a785a02cf0502b983ad7894e6be2ab64c248dd81d5ee21c5437e07657fd21"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/wolf/index.js",
+      "bytes": 5031,
+      "sha256": "421d951a80c190e01de671aa437b825fd3801b18b64417431393535326f82799"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/wolf/motion.js",
+      "bytes": 5062,
+      "sha256": "349e1653f2f8862b4d2580ad5f87d30b2fbaa78a66c54efaf967b1b5c7877879"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/wolf/regions.js",
+      "bytes": 3117,
+      "sha256": "abcf4597cb76e88b9fbfcd8443298e5ba25e084b61000ea624e67cfad6501b49"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/wolf/rig.js",
+      "bytes": 4688,
+      "sha256": "bb703a12d64026119a900060bc6598b75a76d4c19c7dfba9e344e8c4a3fea5a2"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/species/wolf/sculpt.js",
+      "bytes": 28973,
+      "sha256": "91b873f06943e66c8259a88dff58c66bb7e40c631a6b59085854875fd2cb84ec"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/upstream/src/worker.js",
+      "bytes": 1422,
+      "sha256": "e6ab6307ace215a5bf9175da3e33e6740837b84c3b9885d6102caa36d052bf96"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/vendor/LICENSE.three",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/vendor/Reflector.js",
+      "bytes": 10943,
+      "sha256": "57836df976f02a474b2dcfbb6609bca8bde0ccc6e77159ad8e418fa11c065d3b"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/vendor/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "skills/claude-motion/assets/extensions/procedural-animals/vendor/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
     },
     {
       "path": "skills/claude-motion/assets/extensions/procedural-buildings/README.md",
@@ -13254,12 +15764,12 @@
     {
       "path": "skills/claude-motion/package-lock.json",
       "bytes": 9875,
-      "sha256": "849061d0a0ab5e8eb60d4049705354e99d390143dadd0b9e43c385176e5e8798"
+      "sha256": "4826f43b6b0f5c5a6ca48125b6aa014883e5e04af14c7a2cbefabdf5fb29ed11"
     },
     {
       "path": "skills/claude-motion/package.json",
       "bytes": 532,
-      "sha256": "3f609659c330ee5bd6efe8a01d72233511f82e42fa58f3c5f1909ad610c29041"
+      "sha256": "9aa69002113410369047a274d7793e5b3e036eca200fd5c11a10b3fdb6b4869c"
     },
     {
       "path": "skills/claude-motion/references/case-catalog.json",
@@ -13318,18 +15828,18 @@
     },
     {
       "path": "skills/claude-motion/references/extension-catalog.json",
-      "bytes": 110375,
-      "sha256": "91ae3e221edfa2966e27c53c0bf44998270e366a4bcdb5031b5cc20394a51007"
+      "bytes": 202445,
+      "sha256": "5454bebb284fc3d6d898210aa87bcdd2fa975a7028f463a870ae3b5c82edc6c6"
     },
     {
       "path": "skills/claude-motion/references/how-it-works.md",
-      "bytes": 6578,
-      "sha256": "d25a4fdc8f73bd2098e16979d11255e4fec5cfa3c6029d535bad32290e1d45ca"
+      "bytes": 6616,
+      "sha256": "0b515b9626923609ec8e656bfe658a7fefd596a4ffad414e0623a58eaccb0796"
     },
     {
       "path": "skills/claude-motion/references/installation.md",
-      "bytes": 4953,
-      "sha256": "e77bc27ad2410a4dfa3299a43335ba80ae19e35d4418f4ea30c4f8ce5175797a"
+      "bytes": 5973,
+      "sha256": "322c3f32407be9bfc092f48b4abc9baea5dc75e62c34369417c7388f0e072c5d"
     },
     {
       "path": "skills/claude-motion/references/model-catalog.json",
@@ -13353,8 +15863,8 @@
     },
     {
       "path": "skills/claude-motion/references/observed-feedback.md",
-      "bytes": 1216,
-      "sha256": "89a737294b79cdb38104041f24c59f8486bd38165c6dc4a63f0af81c521cbc0e"
+      "bytes": 1766,
+      "sha256": "ebc399daaa178f48b4857e4c4cc357d03e663cbf2ce9610c23ee69f6748306d5"
     },
     {
       "path": "skills/claude-motion/references/production-engines.md",
@@ -13382,9 +15892,14 @@
       "sha256": "03f62e3b8faa2ce7f4f6ccdce6f77d0e0beed1b8c0870208aba05d64b711b97f"
     },
     {
+      "path": "skills/claude-motion/references/source-expansion-15.md",
+      "bytes": 3990,
+      "sha256": "c6e76c4a660775bc0b235891e0c05065e58c41ee4363f7cc59956de874fd1eb7"
+    },
+    {
       "path": "skills/claude-motion/references/source-extensions.md",
-      "bytes": 6661,
-      "sha256": "eee0619f6bc971147292f831cfe8c8154a447944025d3249ecd7e48a1ee028f7"
+      "bytes": 7249,
+      "sha256": "569656ce585a2b784b655f95e73484a08c557e10a416cfc98644fda5632b16a7"
     },
     {
       "path": "skills/claude-motion/references/source-index.json",
@@ -13443,8 +15958,8 @@
     },
     {
       "path": "skills/claude-motion/scripts/route.mjs",
-      "bytes": 6573,
-      "sha256": "a7d1a54a93937d719e40eaef12b6041b96182d6f415399278440857725eb3fde"
+      "bytes": 6593,
+      "sha256": "dbf202d91115ffe388025be98e3ca013ddbf93354352a4ad953e489ed3e6b373"
     },
     {
       "path": "skills/claude-motion/scripts/verify-engine.mjs",
@@ -13463,8 +15978,8 @@
     },
     {
       "path": "validation.json",
-      "bytes": 2006,
-      "sha256": "4cdeb66edfaa1436d5896c1e3cbbcc3abb10038f764257f0a8e399921d9ab074"
+      "bytes": 1827,
+      "sha256": "772775802184b35abccebf3f3cd80ad593fd5bc849cab2bb63ea8b06612f5c8d"
     }
   ]
 }

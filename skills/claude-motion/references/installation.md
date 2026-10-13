@@ -1,4 +1,4 @@
-# 安装与导出 · v0.3.0-beta.1
+# 安装与导出 · v0.4.0-beta.1
 
 下载公开仓库或 Release 压缩包，将整个 `skills/claude-motion` 文件夹放入你的 Agent 的 Skill 目录。Codex 默认目录为 `~/.codex/skills/claude-motion`；已有同名版本时先备份，不合并覆盖。宿主提供安装工具时，也可以让它安装仓库中的 `skills/claude-motion` 子目录。
 
@@ -66,7 +66,7 @@ node scripts/render.mjs --root demo-rumor --out demo-rumor/film.mp4 --fps 24
 
 ## 场景、模型与系统
 
-本版本包含 17 个源码组件、5 套制作系统、14 个场景入口和 30 个物件包；统计互有重合，不相加作为风格数量。先阅读 [工作原理](how-it-works.md)，再按题目选择。
+本版本包含 20 个源码组件、5 套制作系统、14 个场景入口和 30 个物件包；统计互有重合，不相加作为风格数量。先阅读 [工作原理](how-it-works.md)，再按题目选择。
 
 列出场景：
 
@@ -93,9 +93,9 @@ macOS WebGL 渲染较慢时可加 `--gpu metal`；其他平台保持默认。thr
 
 ## 新接通的源码组件
 
-用 `node scripts/route.mjs --extensions` 列出17个创建入口；接口、实际保留机制、依赖和许可见 [source-extensions.md](source-extensions.md)。组件创建是可编辑示例起点，换题要改写主体、事件和镜头。
+用 `node scripts/route.mjs --extensions` 列出20个创建入口；接口、实际保留机制、依赖和许可见 [source-extensions.md](source-extensions.md)。组件创建是可编辑示例起点，换题要改写主体、事件和镜头。
 
-例如创建本版用于安装检查的二维蜜蜂示例：
+例如创建既有的二维蜜蜂示例：
 
 ```sh
 node scripts/create-extension.mjs --extension bee-colony --out demo-bees
@@ -110,3 +110,18 @@ node scripts/render.mjs --root demo-studio --page index.html --out demo-studio/f
 ```
 
 macOS可使用 `--gpu metal`；Clearwater导出保持默认软件后端以确保重复寻帧一致。应用发布组件返回独立 `export.mjs` 命令，不直接套通用Canvas接口。独立导出器工程带自己的 `package.json`；在该新工程目录先运行 `npm install`，安装其固定Playwright版本，再按返回的命令导出。浏览器下载可复用已安装的同版本Chromium。它所用Remotion4依赖按个人/公司许可，不属于MIT。安装与技术检查不等于每个题材都优于无Skill。
+
+## 本版三个新入口
+
+以下命令在 Skill 目录执行，作品输出到新的目录，复用本目录安装的导出器依赖：
+
+```sh
+node scripts/create-extension.mjs --extension anatomy-mechanisms --out demo-instrument
+node scripts/render.mjs --root demo-instrument --out demo-instrument/film.mp4 --fps 24
+node scripts/create-extension.mjs --extension procedural-animals --out demo-fox
+node scripts/render.mjs --root demo-fox --page index.html --out demo-fox/film.mp4 --fps 24
+node scripts/create-extension.mjs --extension anidoodle-paper --out demo-paper
+node scripts/render.mjs --root demo-paper --out demo-paper/film.mp4 --fps 24
+```
+
+macOS 的狐狸 WebGL 导出可加 `--gpu metal`；其他平台保持默认。动物工程已自带固定 Three.js 0.186.0，不与 Skill 原有0.170.0混用。纸艺的绘图模块已编译，单纯导出无需安装 TypeScript 构建依赖；修改材质 TS 时再到新工程目录安装依赖并运行 `npm run build`。这些是随包示例的复现，不是新题材生成实测。

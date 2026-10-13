@@ -1,0 +1,11 @@
+{
+  "name": "fox-creek",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs --root . --page index.html --out film.mp4 --fps 24"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

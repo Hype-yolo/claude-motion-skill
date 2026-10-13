@@ -98,3 +98,9 @@ These components preserve attribution and enable adaptation; author statements o
 - stefanomainardi/omacrt @ 8a643fdeffc79f7cf965e68c5699caa0e1280771: MIT; selected implementation and unmodified license notices in `assets/extensions/people-gait`; complete source/asset boundaries in SOURCE.json and README.md.
 
 Remotion 4 is a separately licensed dependency (personal/company terms), not covered by the launch project MIT license. All original license notices are preserved. Rapier Apache-2.0, Three.js MIT and other bundled runtime notices remain separate. Original recordings/lyrics, Collect excluded car models, unlicensed article image atlases and unclear-license source projects are not redistributed. Author model claims are not verified generation logs.
+
+## Additions in v0.4.0-beta.1
+
+- wheresryan22/anatomy @ 689dcf966e63d92be10a5d593c6e19e10acd4422: MIT. Unmodified iso-kit retained under assets/extensions/anatomy-mechanisms/vendor; local Canvas bridge and new film identified separately.
+- majidmanzarpour/threejs-procedural-animals @ c95ae49346aa8e140a924376cec6cf0073d99512: MIT. Full retained source, bundled Three.js 0.186.0 MIT and exact runtime details are in assets/extensions/procedural-animals/SOURCE.json and vendor notices.
+- alexgreensh/anidoodle @ 06f8be2bef0faa94e7eb6009ef23b36a0ae7b8a8: Apache-2.0. LICENSE and NOTICE retained in assets/extensions/anidoodle-paper; selected drawing code adapted with original TS retained. Optional audio packs and example reference media are not included.

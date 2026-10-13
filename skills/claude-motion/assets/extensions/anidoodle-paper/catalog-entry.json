@@ -1,0 +1,158 @@
+{
+  "id": "anidoodle-paper",
+  "title": "Anidoodle 水粉纸艺与折页",
+  "tags": [
+    "纸艺",
+    "水粉",
+    "paper",
+    "gouache",
+    "collage",
+    "折纸",
+    "书店",
+    "帆船",
+    "桥洞",
+    "夜晚",
+    "手绘",
+    "绘图机制"
+  ],
+  "nativePage": false,
+  "status": "rendered-new-adaptation",
+  "userApproved": false,
+  "template": "assets/extensions/anidoodle-paper/examples",
+  "examples": [
+    "paper-harbor"
+  ],
+  "preview": "assets/extensions/anidoodle-paper/preview.png",
+  "createScript": "assets/extensions/anidoodle-paper/create-project.mjs",
+  "guide": "assets/extensions/anidoodle-paper/README.md",
+  "verification": "assets/extensions/anidoodle-paper/SOURCE.json",
+  "exportedExamples": 1,
+  "defaultEligible": true,
+  "source": "https://github.com/alexgreensh/anidoodle",
+  "commit": "06f8be2bef0faa94e7eb6009ef23b36a0ae7b8a8",
+  "license": "Apache-2.0",
+  "boundary": "实际抽取水粉/印刷/纸纤维/剪刀边绘图实现，非新画风数量统计。新船折叠是艺术化铰链与顶点动画；桥为2D负形遮挡，无物理仿真。原例外媒体未带入。技术通过，不代表用户审美认可。",
+  "path": "assets/extensions/anidoodle-paper",
+  "edit": "scene.js 改书店、船面、折叠、河道、桥与相机；src/paper-materials.ts 可重建上游实际绘图函数",
+  "runtime": "canvas-scene",
+  "renderCommand": "node <out>/render.mjs --root <out> --out <out>/film.mp4 --fps 24",
+  "retained": [
+    "paperCraft gouache, cutPath, wavePrint, newsPrint, woodPrint, stonePrint",
+    "scrapbookKit fibres, scissor, path",
+    "original folded-boat facet proportions adapted with new hinge timeline",
+    "seeded color and geometric helpers"
+  ],
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "a64251fc9012656f4d335dadf3c7182794981235d11f4a5c77161830b1ac7a2e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "294603627bcd4c768739e86c9c2064d112e23d35cc6f13b4d19e7a66301edb8e"
+    },
+    {
+      "path": "SOURCE.json",
+      "sha256": "3cbbe8a738eb1addf97d846d84b94c82a1ff41ea6489b34830ffe45d274f5847"
+    },
+    {
+      "path": "create-project.mjs",
+      "sha256": "2b217903f953d44f43d64c46b5c530a123467374243b113b841287053d890cbb"
+    },
+    {
+      "path": "examples/paper-harbor/ADAPTATION.md",
+      "sha256": "e094e93f9fa7581f958ee103ccc11385ab7d9c11a9d8895e54b90379507f0050"
+    },
+    {
+      "path": "examples/paper-harbor/LICENSE",
+      "sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0"
+    },
+    {
+      "path": "examples/paper-harbor/NOTICE",
+      "sha256": "a64251fc9012656f4d335dadf3c7182794981235d11f4a5c77161830b1ac7a2e"
+    },
+    {
+      "path": "examples/paper-harbor/SOURCE.json",
+      "sha256": "2987447d0d618c5cbfd0068e14be30473bad1b860209c8cb3d8ca840fb149d1a"
+    },
+    {
+      "path": "examples/paper-harbor/build.mjs",
+      "sha256": "6584c18cdd5cd8ecc8967c379cc21095044673e65d5d85018e8fde9f84803233"
+    },
+    {
+      "path": "examples/paper-harbor/index.html",
+      "sha256": "5a1a82f3d9d4f7dbf91987d763716dfd80143cb02873214c67c0fa445596e8e1"
+    },
+    {
+      "path": "examples/paper-harbor/lib/paper-materials.js",
+      "sha256": "54b3bfbda36dc86fa571813d05d7792273db648b03a08bdfa4ec2450a3250db8"
+    },
+    {
+      "path": "examples/paper-harbor/package.json",
+      "sha256": "230b497320e99b32fd80e7fb8ed534a83ec0dff8533dd8456461649b0684f113"
+    },
+    {
+      "path": "examples/paper-harbor/render.mjs",
+      "sha256": "9d864011815217e75baa3e376dcecee047960a73af0d55b0c814559f98684f45"
+    },
+    {
+      "path": "examples/paper-harbor/scene.js",
+      "sha256": "b90915e295ee38f1df230e7f255de615fde3510acde744c81746a7d52bbaf6b8"
+    },
+    {
+      "path": "examples/paper-harbor/src/paper-materials.ts",
+      "sha256": "1ebb3938beceabfde20f249d9a4042483c53c687226293fd6a1f34c36c643b7c"
+    },
+    {
+      "path": "examples/paper-harbor/upstream/core.ts",
+      "sha256": "330a832b0b7cc15c694c78fb48fb64b389a0f190b54d3d61d7fd48c3fe89d0cc"
+    },
+    {
+      "path": "examples/paper-harbor/upstream/gallery.ts",
+      "sha256": "60e465c52d6f47e72b438da9f57da44769794a2502729c52df9dd62491584244"
+    },
+    {
+      "path": "examples/paper-harbor/upstream/paperCraft.ts",
+      "sha256": "dfc0bbed4edfe2a397dbb6d5e2f82fe3f931ced875efa558b303b21f3f52d0be"
+    },
+    {
+      "path": "examples/paper-harbor/upstream/scrapbookKit.ts",
+      "sha256": "6e62aaf114e02609bdca35835b3fd158b69031864af900ac6f90cb575b08fd8d"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "33eb3608843e3d0ea3ec9d6bef95e34f1cd62ab24cb61ffc01aadd0fb24b0530"
+    },
+    {
+      "path": "src/paper-materials.ts",
+      "sha256": "1ebb3938beceabfde20f249d9a4042483c53c687226293fd6a1f34c36c643b7c"
+    },
+    {
+      "path": "upstream/core.ts",
+      "sha256": "330a832b0b7cc15c694c78fb48fb64b389a0f190b54d3d61d7fd48c3fe89d0cc"
+    },
+    {
+      "path": "upstream/gallery.ts",
+      "sha256": "60e465c52d6f47e72b438da9f57da44769794a2502729c52df9dd62491584244"
+    },
+    {
+      "path": "upstream/paperCraft.ts",
+      "sha256": "dfc0bbed4edfe2a397dbb6d5e2f82fe3f931ced875efa558b303b21f3f52d0be"
+    },
+    {
+      "path": "upstream/scrapbookKit.ts",
+      "sha256": "6e62aaf114e02609bdca35835b3fd158b69031864af900ac6f90cb575b08fd8d"
+    }
+  ],
+  "feedback": {
+    "experiment": "ab-test-15",
+    "date": "2026-10-13",
+    "outcome": "no-demonstrated-benefit-different-2d-3d",
+    "scope": "Specific new-topic film only; not a general component success rate."
+  },
+  "release": "0.4.0-beta.1"
+}

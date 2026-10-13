@@ -1,0 +1,14 @@
+{
+  "name": "anidoodle-paper-harbor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "render": "node render.mjs --root . --out film.mp4 --fps 24",
+    "preview": "python3 -m http.server 8815"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11",
+    "playwright": "1.63.0"
+  }
+}

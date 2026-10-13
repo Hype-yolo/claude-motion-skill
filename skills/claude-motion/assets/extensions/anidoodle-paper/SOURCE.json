@@ -1,0 +1,63 @@
+{
+  "repo": "alexgreensh/anidoodle",
+  "source": "https://github.com/alexgreensh/anidoodle",
+  "commit": "06f8be2bef0faa94e7eb6009ef23b36a0ae7b8a8",
+  "license": "Apache-2.0",
+  "upstreamCopyright": "2026 Alex Greenshpun",
+  "adaptationDate": "2026-10-13",
+  "retained": [
+    "paperCraft.ts: gouache, shadeSide, wavePrint, newsPrint, woodPrint, stonePrint, cutPath; boat four-facet silhouette proportions",
+    "scrapbookKit.ts: fibres, scissor, path",
+    "gallery.ts: bounds, mix, resample and their scalar helpers",
+    "core.ts: seeded rng"
+  ],
+  "modifications": [
+    "Selected functions isolated in src/paper-materials.ts, imports removed, private routines exported, browser ESM compiled with esbuild 0.25.11",
+    "New bookstore, book and river geometry, bridge evenodd masking, lamp, folding articulation, absolute-time travel, camera",
+    "No original toy-theatre composition, houses, gull, sea-row timeline or original media included in rendered scene"
+  ],
+  "excludedAssets": [
+    "sound pack",
+    "reference paintings",
+    "all upstream raster images/audio/video/fonts"
+  ],
+  "dependencies": {
+    "runtime": "Browser Canvas 2D, no package dependency in scene",
+    "build": "esbuild 0.25.11",
+    "export": "playwright 1.63.0 and external ffmpeg/ffprobe"
+  },
+  "files": [
+    {
+      "path": "upstream/core.ts",
+      "sha256": "330a832b0b7cc15c694c78fb48fb64b389a0f190b54d3d61d7fd48c3fe89d0cc"
+    },
+    {
+      "path": "upstream/gallery.ts",
+      "sha256": "60e465c52d6f47e72b438da9f57da44769794a2502729c52df9dd62491584244"
+    },
+    {
+      "path": "upstream/paperCraft.ts",
+      "sha256": "dfc0bbed4edfe2a397dbb6d5e2f82fe3f931ced875efa558b303b21f3f52d0be"
+    },
+    {
+      "path": "upstream/scrapbookKit.ts",
+      "sha256": "6e62aaf114e02609bdca35835b3fd158b69031864af900ac6f90cb575b08fd8d"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "aa7ba36133bb07559b8f2f96eb4d7e2e95003432238973b31b6727517bd6c0a0"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "a64251fc9012656f4d335dadf3c7182794981235d11f4a5c77161830b1ac7a2e"
+    },
+    {
+      "path": "src/paper-materials.ts",
+      "sha256": "1ebb3938beceabfde20f249d9a4042483c53c687226293fd6a1f34c36c643b7c"
+    },
+    {
+      "path": "examples/paper-harbor/lib/paper-materials.js",
+      "sha256": "54b3bfbda36dc86fa571813d05d7792273db648b03a08bdfa4ec2450a3250db8"
+    }
+  ]
+}
